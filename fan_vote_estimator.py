@@ -249,7 +249,7 @@ class FanVoteEstimator:
             combined_ranks = judge_ranks + fan_ranks
             eliminated_combined = combined_ranks[eliminated_idx]
             # 被淘汰选手的综合排名应该大于等于所有其他选手
-            return min(combined_ranks) - eliminated_combined  # 应该 <= 0
+            return eliminated_combined - np.max(combined_ranks)
         
         # 边界：粉丝排名在 [1, n_contestants] 之间
         bounds = [(1, n_contestants)] * n_contestants
@@ -346,7 +346,7 @@ class FanVoteEstimator:
         def constraint_eliminated(fan_percents):
             combined_percents = judge_percents + fan_percents
             eliminated_combined = combined_percents[eliminated_idx]
-            return eliminated_combined - min(combined_percents)  # 应该 <= 0
+            return np.min(combined_percents) - eliminated_combined
         
         # 边界：每个选手的粉丝百分比在 [0, 100] 之间
         bounds = [(0, 100)] * n_contestants
