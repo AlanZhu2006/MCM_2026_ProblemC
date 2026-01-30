@@ -12,8 +12,17 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
+# 多初值优化：随机种子数量
+N_RESTARTS = 8
+# 全局优化失败时是否尝试 differential_evolution（较慢）
+USE_DIFFERENTIAL_EVOLUTION = True
+# 约束 margin：要求被淘汰者比第二名差至少这么多（排名法为排名差，百分比法为百分比差）
+CONSTRAINT_MARGIN_RANK = 0.1
+CONSTRAINT_MARGIN_PERCENT = 0.1
+
+
 class FanVoteEstimator:
-    """粉丝投票估计器"""
+    """粉丝投票估计器（含多初值 SLSQP、全局优化回退、约束保证）"""
     
     def __init__(self, df: pd.DataFrame):
         """
@@ -262,49 +271,75 @@ class FanVoteEstimator:
         # --- 模型优化结束 ---
 
         def objective(fan_ranks):
-            """
-            目标函数：最小化粉丝排名与基于特征的预期排名之间的差异
-            """
             return np.sum((fan_ranks - expected_fan_ranks) ** 2)
 
         def constraint_eliminated(fan_ranks):
-            """
-            约束：被淘汰选手的（评委排名 + 粉丝排名）应该最大
-            """
+            """约束：被淘汰选手的综合排名应最大（最差），并带 margin。"""
             combined_ranks = judge_ranks + fan_ranks
             eliminated_combined = combined_ranks[eliminated_idx]
-            return eliminated_combined - np.max(combined_ranks)
-        
+            if n_contestants < 2:
+                return 0.0
+            second_worst = np.partition(combined_ranks.copy(), -2)[-2]
+            return eliminated_combined - second_worst - CONSTRAINT_MARGIN_RANK
+
         bounds = [(1, n_contestants)] * n_contestants
-        
-        x0 = expected_fan_ranks.copy() + np.random.normal(0, 0.5, n_contestants)
-        x0 = np.clip(x0, 1, n_contestants)
-        
         constraints = [{'type': 'ineq', 'fun': constraint_eliminated}]
-        
-        result = minimize(
-            objective,
-            x0,
-            method='SLSQP',
-            bounds=bounds,
-            constraints=constraints,
-            options={'maxiter': 1000}
-        )
-        
-        if result.success:
-            fan_ranks = result.x
+
+        best_result = None
+        best_obj = np.inf
+
+        # 多初值 SLSQP
+        for seed in range(N_RESTARTS):
+            np.random.seed(seed)
+            x0 = expected_fan_ranks.copy() + np.random.normal(0, 0.5, n_contestants)
+            x0 = np.clip(x0, 1, n_contestants)
+            result = minimize(
+                objective, x0, method='SLSQP', bounds=bounds,
+                constraints=constraints, options={'maxiter': 1000}
+            )
+            if result.success and constraint_eliminated(result.x) >= 0 and result.fun < best_obj:
+                best_obj = result.fun
+                best_result = result
+
+        if best_result is not None:
+            fan_ranks = best_result.x
+            opt_success = True
+        elif USE_DIFFERENTIAL_EVOLUTION and n_contestants <= 12:
+            # 全局优化（惩罚约束违反）
+            def obj_penalty(x):
+                f = objective(x)
+                c = constraint_eliminated(x)
+                return f + 1e6 * max(0, -c) ** 2
+
+            try:
+                res_de = differential_evolution(
+                    obj_penalty, bounds, maxiter=300, popsize=15, seed=42,
+                    polish=True, atol=1e-6, tol=1e-6, disp=False
+                )
+                if constraint_eliminated(res_de.x) >= 0:
+                    fan_ranks = np.clip(res_de.x, 1, n_contestants)
+                    opt_success = True
+                else:
+                    fan_ranks = self._heuristic_fan_ranks(judge_ranks, eliminated_idx, n_contestants, seed=42)
+                    opt_success = False
+            except Exception:
+                fan_ranks = self._heuristic_fan_ranks(judge_ranks, eliminated_idx, n_contestants, seed=42)
+                opt_success = False
         else:
-            # 如果优化失败，使用启发式方法
-            fan_ranks = self._heuristic_fan_ranks(judge_ranks, eliminated_idx, n_contestants)
-        
-        fan_votes = (n_contestants + 1 - fan_ranks) * 1000  # 缩放因子
-        
+            fan_ranks = self._heuristic_fan_ranks(judge_ranks, eliminated_idx, n_contestants, seed=42)
+            opt_success = False
+
+        fan_ranks = self._ensure_eliminated_worst_rank(
+            fan_ranks, judge_ranks, eliminated_idx, n_contestants
+        )
+        fan_votes = (n_contestants + 1 - fan_ranks) * 1000
+
         return {
             'fan_ranks': fan_ranks,
             'fan_votes': fan_votes,
             'combined_ranks': judge_ranks + fan_ranks,
             'eliminated_idx': eliminated_idx,
-            'optimization_success': result.success if 'result' in locals() else False
+            'optimization_success': opt_success
         }
     
     def estimate_fan_votes_percent_method(
@@ -397,33 +432,66 @@ class FanVoteEstimator:
         def constraint_eliminated(fan_percents):
             combined_percents = judge_percents + fan_percents
             eliminated_combined = combined_percents[eliminated_idx]
-            return np.min(combined_percents) - eliminated_combined
-        
+            if n_contestants < 2:
+                return 0.0
+            second_best = np.partition(combined_percents.copy(), 1)[1]
+            return second_best - eliminated_combined - CONSTRAINT_MARGIN_PERCENT
+
         bounds = [(0, 100)] * n_contestants
-        
-        x0 = expected_fan_percents.copy()
-        x0 = x0 / np.sum(x0) * 100  # 归一化到100
-        
         constraints = [
             {'type': 'eq', 'fun': constraint_sum},
             {'type': 'ineq', 'fun': constraint_eliminated}
         ]
-        
-        result = minimize(
-            objective,
-            x0,
-            method='SLSQP',
-            bounds=bounds,
-            constraints=constraints,
-            options={'maxiter': 1000}
-        )
-        
-        if result.success:
-            fan_percents = result.x
+
+        best_result = None
+        best_obj = np.inf
+
+        for seed in range(N_RESTARTS):
+            np.random.seed(seed)
+            x0 = expected_fan_percents.copy() + np.random.uniform(-2, 2, n_contestants)
+            x0 = np.maximum(x0, 0.1)
+            x0 = x0 / np.sum(x0) * 100
+            result = minimize(
+                objective, x0, method='SLSQP', bounds=bounds,
+                constraints=constraints, options={'maxiter': 1000}
+            )
+            if result.success and constraint_eliminated(result.x) >= 0 and result.fun < best_obj:
+                best_obj = result.fun
+                best_result = result
+
+        if best_result is not None:
+            fan_percents = best_result.x
+            opt_success = True
+        elif USE_DIFFERENTIAL_EVOLUTION and n_contestants <= 12:
+            def obj_penalty(x):
+                f = objective(x)
+                s = constraint_sum(x)
+                c = constraint_eliminated(x)
+                return f + 1e6 * s ** 2 + 1e6 * max(0, -c) ** 2
+
+            try:
+                res_de = differential_evolution(
+                    obj_penalty, bounds, maxiter=300, popsize=15, seed=42,
+                    polish=True, atol=1e-6, tol=1e-6, disp=False
+                )
+                x = np.clip(res_de.x, 0, 100)
+                x = x / np.sum(x) * 100
+                if constraint_eliminated(x) >= 0:
+                    fan_percents = x
+                    opt_success = True
+                else:
+                    fan_percents = self._heuristic_fan_percents(judge_percents, eliminated_idx, n_contestants)
+                    opt_success = False
+            except Exception:
+                fan_percents = self._heuristic_fan_percents(judge_percents, eliminated_idx, n_contestants)
+                opt_success = False
         else:
-            # 启发式方法
             fan_percents = self._heuristic_fan_percents(judge_percents, eliminated_idx, n_contestants)
-        
+            opt_success = False
+
+        fan_percents = self._ensure_eliminated_worst_percent(
+            fan_percents, judge_percents, eliminated_idx, n_contestants
+        )
         total_votes = 10_000_000
         fan_votes = fan_percents / 100 * total_votes
         return {
@@ -431,33 +499,64 @@ class FanVoteEstimator:
             'fan_votes': fan_votes,
             'combined_percents': judge_percents + fan_percents,
             'eliminated_idx': eliminated_idx,
-            'optimization_success': result.success if 'result' in locals() else False
+            'optimization_success': opt_success
         }
     
     def _heuristic_fan_ranks(
-        self, 
-        judge_ranks: np.ndarray, 
-        eliminated_idx: int, 
-        n_contestants: int
+        self,
+        judge_ranks: np.ndarray,
+        eliminated_idx: int,
+        n_contestants: int,
+        seed: Optional[int] = 42
     ) -> np.ndarray:
         """
-        启发式方法：当优化失败时使用
+        启发式方法：保证被淘汰者综合排名最差（确定性，无随机）。
         """
-        # 简单启发式：粉丝排名与评委排名相关，但被淘汰选手的粉丝排名应该较高（不受欢迎）
-        fan_ranks = judge_ranks.copy()
-        
-        # 被淘汰选手的粉丝排名设为最高（最不受欢迎）
-        fan_ranks[eliminated_idx] = n_contestants
-        
-        # 其他选手的粉丝排名基于评委排名，但加入一些随机性
+        if seed is not None:
+            np.random.seed(seed)
+        fan_ranks = judge_ranks.copy().astype(float)
+        fan_ranks[eliminated_idx] = float(n_contestants)
+        # 其他人：评委排名越好，粉丝排名越好，保证 combined 严格小于被淘汰者
+        target_combined_elim = judge_ranks[eliminated_idx] + n_contestants
         for i in range(n_contestants):
-            if i != eliminated_idx:
-                # 评委排名好的，粉丝排名也相对好
-                fan_ranks[i] = judge_ranks[i] * 0.8 + np.random.uniform(0.5, 2)
-        
+            if i == eliminated_idx:
+                continue
+            # 希望 judge_ranks[i] + fan_ranks[i] < target_combined_elim
+            max_fan = target_combined_elim - judge_ranks[i] - 0.5
+            max_fan = min(max_fan, n_contestants)
+            fan_ranks[i] = max(1.0, judge_ranks[i] * 0.7 + 0.5)
+            fan_ranks[i] = min(fan_ranks[i], max_fan)
         fan_ranks = np.clip(fan_ranks, 1, n_contestants)
-        return fan_ranks
-    
+        # 再次保证被淘汰者综合最高
+        combined = judge_ranks + fan_ranks
+        if np.argmax(combined) != eliminated_idx:
+            others = [j for j in range(n_contestants) if j != eliminated_idx]
+            worst_other = others[np.argmax(combined[others])]
+            fan_ranks[worst_other] = max(1, fan_ranks[worst_other] - 0.5)
+            fan_ranks[eliminated_idx] = min(n_contestants, fan_ranks[eliminated_idx] + 0.5)
+        return np.clip(fan_ranks, 1, n_contestants)
+
+    def _ensure_eliminated_worst_rank(
+        self,
+        fan_ranks: np.ndarray,
+        judge_ranks: np.ndarray,
+        eliminated_idx: int,
+        n_contestants: int
+    ) -> np.ndarray:
+        """后处理：确保被淘汰者综合排名严格最大。"""
+        combined = judge_ranks + fan_ranks
+        if np.argmax(combined) == eliminated_idx:
+            return fan_ranks
+        out = fan_ranks.copy()
+        elim_combined = combined[eliminated_idx]
+        second_idx = np.argmax(combined)
+        gap = elim_combined - combined[second_idx]
+        if gap >= 0.5:
+            return fan_ranks
+        out[eliminated_idx] = min(n_contestants, out[eliminated_idx] + (0.5 - gap))
+        out[second_idx] = max(1, out[second_idx] - (0.5 - gap))
+        return np.clip(out, 1, n_contestants)
+
     def _heuristic_fan_percents(
         self,
         judge_percents: np.ndarray,
@@ -465,16 +564,52 @@ class FanVoteEstimator:
         n_contestants: int
     ) -> np.ndarray:
         """
-        启发式方法：当优化失败时使用
+        启发式方法：保证被淘汰者综合百分比最低，且总和为 100。
         """
         fan_percents = judge_percents.copy() * 0.7
-        
-        # 被淘汰选手的粉丝百分比设为最低
-        fan_percents[eliminated_idx] = max(5, 100 / n_contestants * 0.5)
-        
-        # 归一化到100
+        fan_percents[eliminated_idx] = max(0.5, 100 / n_contestants * 0.4)
+        fan_percents = np.maximum(fan_percents, 0.1)
         fan_percents = fan_percents / np.sum(fan_percents) * 100
+        combined = judge_percents + fan_percents
+        if np.argmin(combined) != eliminated_idx:
+            fan_percents[eliminated_idx] = max(0.5, 100 / n_contestants * 0.35)
+            rest = 100 - fan_percents[eliminated_idx]
+            other_judge_sum = np.sum(judge_percents) - judge_percents[eliminated_idx]
+            if other_judge_sum > 1e-9:
+                for i in range(n_contestants):
+                    if i != eliminated_idx:
+                        fan_percents[i] = rest * judge_percents[i] / other_judge_sum
+            else:
+                fan_percents = np.full(n_contestants, 100 / n_contestants)
+                fan_percents[eliminated_idx] = max(0.5, 100 / n_contestants * 0.35)
+                fan_percents = fan_percents / np.sum(fan_percents) * 100
+            fan_percents = np.maximum(fan_percents, 0.1)
+            fan_percents = fan_percents / np.sum(fan_percents) * 100
         return fan_percents
+
+    def _ensure_eliminated_worst_percent(
+        self,
+        fan_percents: np.ndarray,
+        judge_percents: np.ndarray,
+        eliminated_idx: int,
+        n_contestants: int
+    ) -> np.ndarray:
+        """后处理：确保被淘汰者综合百分比严格最低。"""
+        combined = judge_percents + fan_percents
+        if np.argmin(combined) == eliminated_idx:
+            return fan_percents
+        out = fan_percents.copy()
+        elim_combined = combined[eliminated_idx]
+        second_idx = np.argmin(combined)
+        gap = combined[second_idx] - elim_combined
+        if gap >= CONSTRAINT_MARGIN_PERCENT:
+            return fan_percents
+        need = CONSTRAINT_MARGIN_PERCENT - gap
+        out[eliminated_idx] = max(0.1, out[eliminated_idx] - need * 0.5)
+        out[second_idx] = out[second_idx] + need * 0.5
+        out = np.maximum(out, 0.1)
+        out = out / np.sum(out) * 100
+        return out
     
     def estimate_all_weeks(self, seasons: Optional[List[int]] = None) -> pd.DataFrame:
         """
