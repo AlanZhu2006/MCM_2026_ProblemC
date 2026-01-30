@@ -19,27 +19,27 @@
 1,5,Joey McIntyre,2000.0,22.5,rank,True,advanced_ensemble_rank
 1,6,John O'Hurley,2000.0,27.0,rank,True,advanced_ensemble_rank
 1,6,Kelly Monaco,2000.0,27.5,rank,False,advanced_ensemble_rank
-2,1,Tatum O'Neal,9000.0,23.0,rank,False,advanced_ensemble_rank
-2,1,Tia Carrere,5000.0,20.0,rank,False,advanced_ensemble_rank
-2,1,George Hamilton,3000.0,18.0,rank,False,advanced_ensemble_rank
-2,1,Lisa Rinna,4000.0,19.0,rank,False,advanced_ensemble_rank
+2,1,Tatum O'Neal,10000.0,23.0,rank,False,advanced_ensemble_rank
+2,1,Tia Carrere,6000.0,20.0,rank,False,advanced_ensemble_rank
+2,1,George Hamilton,4000.0,18.0,rank,False,advanced_ensemble_rank
+2,1,Lisa Rinna,5000.0,19.0,rank,False,advanced_ensemble_rank
 2,1,Stacy Keibler,8000.0,22.0,rank,False,advanced_ensemble_rank
 2,1,Jerry Rice,7000.0,21.0,rank,False,advanced_ensemble_rank
-2,1,Giselle Fernandez,9000.0,23.0,rank,False,advanced_ensemble_rank
+2,1,Giselle Fernandez,10000.0,23.0,rank,False,advanced_ensemble_rank
 2,1,Master P,3000.0,12.0,rank,False,advanced_ensemble_rank
 2,1,Drew Lachey,10000.0,24.0,rank,False,advanced_ensemble_rank
 2,1,Kenny Mayne,2000.0,13.0,rank,True,advanced_ensemble_rank
 2,2,Tatum O'Neal,3000.0,17.0,rank,True,advanced_ensemble_rank
-2,2,Tia Carrere,6000.0,22.0,rank,False,advanced_ensemble_rank
+2,2,Tia Carrere,5000.0,22.0,rank,False,advanced_ensemble_rank
 2,2,George Hamilton,5000.0,22.0,rank,False,advanced_ensemble_rank
-2,2,Lisa Rinna,4000.0,20.0,rank,False,advanced_ensemble_rank
+2,2,Lisa Rinna,3000.0,20.0,rank,False,advanced_ensemble_rank
 2,2,Stacy Keibler,9000.0,29.0,rank,False,advanced_ensemble_rank
 2,2,Jerry Rice,6000.0,23.0,rank,False,advanced_ensemble_rank
 2,2,Giselle Fernandez,8000.0,24.0,rank,False,advanced_ensemble_rank
 2,2,Master P,4000.0,16.0,rank,False,advanced_ensemble_rank
 2,2,Drew Lachey,9000.0,27.0,rank,False,advanced_ensemble_rank
 2,3,Tia Carrere,7000.0,26.0,rank,False,advanced_ensemble_rank
-2,3,George Hamilton,4000.0,22.0,rank,False,advanced_ensemble_rank
+2,3,George Hamilton,5000.0,22.0,rank,False,advanced_ensemble_rank
 2,3,Lisa Rinna,6000.0,25.0,rank,False,advanced_ensemble_rank
 2,3,Stacy Keibler,8000.0,27.0,rank,False,advanced_ensemble_rank
 2,3,Jerry Rice,4000.0,19.0,rank,False,advanced_ensemble_rank
@@ -71,17 +71,17 @@
 2,8,Stacy Keibler,2000.0,28.6665,rank,True,advanced_ensemble_rank
 2,8,Jerry Rice,3000.0,26.666600000000003,rank,False,advanced_ensemble_rank
 2,8,Drew Lachey,3000.0,28.9998,rank,False,advanced_ensemble_rank
-3,1,Harry Hamlin,699660.7513389024,17.0,percent,False,advanced_ensemble_percent
-3,1,Vivica A. Fox,1206563.7693249723,22.0,percent,False,advanced_ensemble_percent
-3,1,Monique Coleman,830993.3959360849,19.0,percent,False,advanced_ensemble_percent
-3,1,Joey Lawrence,962326.0305991601,21.0,percent,False,advanced_ensemble_percent
-3,1,Mario Lopez,1651456.4085689017,55.6666,percent,False,advanced_ensemble_percent
-3,1,Emmitt Smith,1520123.7739058263,53.6666,percent,False,advanced_ensemble_percent
-3,1,Shanna Moakler,705803.2582276459,18.0,percent,False,advanced_ensemble_percent
-3,1,Willa Ford,1206563.7693249723,22.0,percent,False,advanced_ensemble_percent
-3,1,Sara Evans,449280.49579023896,15.0,percent,False,advanced_ensemble_percent
-3,1,Jerry Springer,455423.0026789825,16.0,percent,False,advanced_ensemble_percent
-3,1,Tucker Carlson,311805.34430431307,12.0,percent,True,advanced_ensemble_percent
+3,1,Harry Hamlin,691277.1136835945,17.0,percent,False,advanced_ensemble_percent
+3,1,Vivica A. Fox,1191473.2336822452,22.0,percent,False,advanced_ensemble_percent
+3,1,Monique Coleman,820933.0214262183,19.0,percent,False,advanced_ensemble_percent
+3,1,Joey Lawrence,950588.9391029498,21.0,percent,False,advanced_ensemble_percent
+3,1,Mario Lopez,1633012.421455849,55.6666,percent,False,advanced_ensemble_percent
+3,1,Emmitt Smith,1503356.5037791175,53.6666,percent,False,advanced_ensemble_percent
+3,1,Shanna Moakler,697419.6305863527,18.0,percent,False,advanced_ensemble_percent
+3,1,Willa Ford,1191473.2336822452,22.0,percent,False,advanced_ensemble_percent
+3,1,Sara Evans,444250.31213564804,15.0,percent,False,advanced_ensemble_percent
+3,1,Jerry Springer,567763.7029755139,16.0,percent,False,advanced_ensemble_percent
+3,1,Tucker Carlson,308451.8874902659,12.0,percent,True,advanced_ensemble_percent
 3,2,Harry Hamlin,717145.6717331468,21.0,percent,False,advanced_ensemble_percent
 3,2,Vivica A. Fox,1162613.6076305301,24.0,percent,False,advanced_ensemble_percent
 3,2,Monique Coleman,1318349.3047170835,26.0,percent,False,advanced_ensemble_percent
@@ -92,15 +92,15 @@
 3,2,Willa Ford,872881.348951485,23.0,percent,False,advanced_ensemble_percent
 3,2,Sara Evans,575902.7250198962,21.0,percent,False,advanced_ensemble_percent
 3,2,Jerry Springer,561409.9746465933,19.0,percent,False,advanced_ensemble_percent
-3,3,Harry Hamlin,510466.98960515065,22.0,percent,True,advanced_ensemble_percent
-3,3,Vivica A. Fox,1717391.2978864205,27.0,percent,False,advanced_ensemble_percent
-3,3,Monique Coleman,1550724.6383196055,27.0,percent,False,advanced_ensemble_percent
-3,3,Joey Lawrence,1010466.9881738105,22.0,percent,False,advanced_ensemble_percent
-3,3,Mario Lopez,1343800.3271756556,22.0,percent,False,advanced_ensemble_percent
-3,3,Emmitt Smith,1152979.0647416308,19.0,percent,False,advanced_ensemble_percent
-3,3,Willa Ford,843800.3186728882,22.0,percent,False,advanced_ensemble_percent
-3,3,Sara Evans,1201288.2506078354,25.0,percent,False,advanced_ensemble_percent
-3,3,Jerry Springer,669082.1248170031,21.0,percent,False,advanced_ensemble_percent
+3,3,Harry Hamlin,503931.0397651462,22.0,percent,True,advanced_ensemble_percent
+3,3,Vivica A. Fox,1687979.5427639007,27.0,percent,False,advanced_ensemble_percent
+3,3,Monique Coleman,1524580.8385874103,27.0,percent,False,advanced_ensemble_percent
+3,3,Joey Lawrence,994127.1125581866,22.0,percent,False,advanced_ensemble_percent
+3,3,Mario Lopez,1484323.1952853345,22.0,percent,False,advanced_ensemble_percent
+3,3,Emmitt Smith,1133371.2327402527,19.0,percent,False,advanced_ensemble_percent
+3,3,Willa Ford,830728.4381840191,22.0,percent,False,advanced_ensemble_percent
+3,3,Sara Evans,1181680.4007291007,25.0,percent,False,advanced_ensemble_percent
+3,3,Jerry Springer,659278.199386649,21.0,percent,False,advanced_ensemble_percent
 3,4,Vivica A. Fox,811776.2985495115,24.0,percent,True,advanced_ensemble_percent
 3,4,Monique Coleman,1015028.3102952798,24.0,percent,False,advanced_ensemble_percent
 3,4,Joey Lawrence,1446784.9250046897,27.0,percent,False,advanced_ensemble_percent
@@ -109,13 +109,13 @@
 3,4,Willa Ford,1658454.4788020763,28.0,percent,False,advanced_ensemble_percent
 3,4,Sara Evans,778106.2748904119,20.0,percent,False,advanced_ensemble_percent
 3,4,Jerry Springer,794941.2891196865,22.0,percent,False,advanced_ensemble_percent
-3,5,Monique Coleman,1637507.6863421458,27.0,percent,False,advanced_ensemble_percent
-3,5,Joey Lawrence,1341313.6908988045,25.0,percent,False,advanced_ensemble_percent
-3,5,Mario Lopez,2193063.2253276506,27.0,percent,False,advanced_ensemble_percent
-3,5,Emmitt Smith,1915285.4359666833,27.0,percent,False,advanced_ensemble_percent
-3,5,Willa Ford,1081952.1140959542,27.0,percent,True,advanced_ensemble_percent
-3,5,Sara Evans,776550.0290038974,24.0,percent,False,advanced_ensemble_percent
-3,5,Jerry Springer,1054327.818364865,24.0,percent,False,advanced_ensemble_percent
+3,5,Monique Coleman,1592704.7736607653,27.0,percent,False,advanced_ensemble_percent
+3,5,Joey Lawrence,1305471.3895707373,25.0,percent,False,advanced_ensemble_percent
+3,5,Mario Lopez,2130339.2086384953,27.0,percent,False,advanced_ensemble_percent
+3,5,Emmitt Smith,2130339.2086384953,27.0,percent,False,advanced_ensemble_percent
+3,5,Willa Ford,1055070.3799449315,27.0,percent,True,advanced_ensemble_percent
+3,5,Sara Evans,758628.9110288562,24.0,percent,False,advanced_ensemble_percent
+3,5,Jerry Springer,1027446.1285177207,24.0,percent,False,advanced_ensemble_percent
 3,7,Monique Coleman,1259259.249666654,27.0,percent,False,advanced_ensemble_percent
 3,7,Joey Lawrence,2203703.686027974,28.5,percent,False,advanced_ensemble_percent
 3,7,Mario Lopez,2660493.843695337,28.0,percent,False,advanced_ensemble_percent
@@ -141,16 +141,16 @@
 4,2,Billy Ray Cyrus,721560.8396268535,21.0,percent,False,advanced_ensemble_percent
 4,2,Joey Fatone,1320672.720873972,24.0,percent,False,advanced_ensemble_percent
 4,2,Leeza Gibbons,721560.8396268535,21.0,percent,False,advanced_ensemble_percent
-4,3,John Ratzenberger,708460.7648776327,20.0,percent,False,advanced_ensemble_percent
-4,3,Ian Ziering,1294597.3373864258,24.0,percent,False,advanced_ensemble_percent
-4,3,Clyde Drexler,400101.9399243225,16.0,percent,False,advanced_ensemble_percent
-4,3,Laila Ali,1271661.569074486,21.0,percent,False,advanced_ensemble_percent
-4,3,Apolo Anton Ohno,1425840.9716170328,23.0,percent,False,advanced_ensemble_percent
-4,3,Shandi Finnessey,438328.23457736813,21.0,percent,True,advanced_ensemble_percent
-4,3,Heather Mills,1155708.4536745765,24.0,percent,False,advanced_ensemble_percent
-4,3,Billy Ray Cyrus,716106.0143588743,21.0,percent,False,advanced_ensemble_percent
-4,3,Joey Fatone,1572375.144546554,24.0,percent,False,advanced_ensemble_percent
-4,3,Leeza Gibbons,1016819.5699627276,24.0,percent,False,advanced_ensemble_percent
+4,3,John Ratzenberger,569571.8716654,20.0,percent,False,advanced_ensemble_percent
+4,3,Ian Ziering,1294597.3710780584,24.0,percent,False,advanced_ensemble_percent
+4,3,Clyde Drexler,400101.9303921764,16.0,percent,False,advanced_ensemble_percent
+4,3,Laila Ali,1271661.5835160478,21.0,percent,False,advanced_ensemble_percent
+4,3,Apolo Anton Ohno,1425840.9666342398,23.0,percent,False,advanced_ensemble_percent
+4,3,Shandi Finnessey,438328.23744436493,21.0,percent,True,advanced_ensemble_percent
+4,3,Heather Mills,1155708.4467738236,24.0,percent,False,advanced_ensemble_percent
+4,3,Billy Ray Cyrus,854994.909944418,21.0,percent,False,advanced_ensemble_percent
+4,3,Joey Fatone,1572375.1203454528,24.0,percent,False,advanced_ensemble_percent
+4,3,Leeza Gibbons,1016819.5622060187,24.0,percent,False,advanced_ensemble_percent
 4,4,John Ratzenberger,650554.9594814907,16.0,percent,False,advanced_ensemble_percent
 4,4,Ian Ziering,1401002.5098668449,24.0,percent,False,advanced_ensemble_percent
 4,4,Clyde Drexler,471714.99824303034,15.0,percent,False,advanced_ensemble_percent
@@ -168,13 +168,13 @@
 4,5,Heather Mills,1053564.4938731054,21.0,percent,False,advanced_ensemble_percent
 4,5,Billy Ray Cyrus,802010.491187867,17.0,percent,False,advanced_ensemble_percent
 4,5,Joey Fatone,1732468.9229569125,25.0,percent,False,advanced_ensemble_percent
-4,6,John Ratzenberger,967524.5197546654,19.0,percent,False,advanced_ensemble_percent
-4,6,Ian Ziering,1276960.7913665306,24.0,percent,False,advanced_ensemble_percent
-4,6,Laila Ali,2097426.466280851,28.0,percent,False,advanced_ensemble_percent
-4,6,Apolo Anton Ohno,2097426.466280851,28.0,percent,False,advanced_ensemble_percent
-4,6,Heather Mills,746323.5263800119,23.0,percent,True,advanced_ensemble_percent
-4,6,Billy Ray Cyrus,987132.3417022992,21.0,percent,False,advanced_ensemble_percent
-4,6,Joey Fatone,1827205.8882347904,27.0,percent,False,advanced_ensemble_percent
+4,6,John Ratzenberger,992726.1147828441,19.0,percent,False,advanced_ensemble_percent
+4,6,Ian Ziering,1310562.9309029852,24.0,percent,False,advanced_ensemble_percent
+4,6,Laila Ali,2156230.239835423,28.0,percent,False,advanced_ensemble_percent
+4,6,Apolo Anton Ohno,2156230.239835423,28.0,percent,False,advanced_ensemble_percent
+4,6,Heather Mills,763124.6128373538,23.0,percent,True,advanced_ensemble_percent
+4,6,Billy Ray Cyrus,743516.7546383691,21.0,percent,False,advanced_ensemble_percent
+4,6,Joey Fatone,1877609.1071676014,27.0,percent,False,advanced_ensemble_percent
 4,7,John Ratzenberger,909385.1079914671,22.5,percent,True,advanced_ensemble_percent
 4,7,Ian Ziering,1624595.4641968021,27.0,percent,False,advanced_ensemble_percent
 4,7,Laila Ali,2318230.8430434675,29.5,percent,False,advanced_ensemble_percent
@@ -226,15 +226,15 @@
 5,3,Wayne Newton,408008.8794602551,18.0,percent,True,advanced_ensemble_percent
 5,3,Marie Osmond,1452497.455571185,26.0,percent,False,advanced_ensemble_percent
 5,3,Mark Cuban,421955.88993670105,20.0,percent,False,advanced_ensemble_percent
-5,4,Cameron Mathison,993589.7432958822,27.0,percent,False,advanced_ensemble_percent
-5,4,Jane Seymour,826210.8382900467,26.0,percent,False,advanced_ensemble_percent
-5,4,Sabrina Bryan,1655982.9060788832,30.0,percent,False,advanced_ensemble_percent
-5,4,Jennie Garth,1153846.1513249467,27.0,percent,False,advanced_ensemble_percent
-5,4,Floyd Mayweather Jr. ,484330.4780943651,23.0,percent,True,advanced_ensemble_percent
-5,4,Helio Castroneves,1634615.375412141,27.0,percent,False,advanced_ensemble_percent
-5,4,Mel B,1467236.4704063057,26.0,percent,False,advanced_ensemble_percent
-5,4,Marie Osmond,1306980.062377241,26.0,percent,False,advanced_ensemble_percent
-5,4,Mark Cuban,477207.9747201888,22.0,percent,False,advanced_ensemble_percent
+5,4,Cameron Mathison,1009301.1658024519,27.0,percent,False,advanced_ensemble_percent
+5,4,Jane Seymour,838779.970019643,26.0,percent,False,advanced_ensemble_percent
+5,4,Sabrina Bryan,1684263.4519783817,30.0,percent,False,advanced_ensemble_percent
+5,4,Jennie Garth,1172699.8447617383,27.0,percent,False,advanced_ensemble_percent
+5,4,Floyd Mayweather Jr. ,490615.0477233448,23.0,percent,True,advanced_ensemble_percent
+5,4,Helio Castroneves,1662895.9213760279,27.0,percent,False,advanced_ensemble_percent
+5,4,Mel B,1492374.7255932188,26.0,percent,False,advanced_ensemble_percent
+5,4,Marie Osmond,1165577.3478064307,26.0,percent,False,advanced_ensemble_percent
+5,4,Mark Cuban,483492.5249387633,22.0,percent,False,advanced_ensemble_percent
 5,5,Cameron Mathison,1234015.6095659963,26.0,percent,False,advanced_ensemble_percent
 5,5,Jane Seymour,1234015.6095659963,26.0,percent,False,advanced_ensemble_percent
 5,5,Sabrina Bryan,1657270.0877818188,28.0,percent,False,advanced_ensemble_percent
@@ -243,13 +243,13 @@
 5,5,Mel B,1868897.3268897296,29.0,percent,False,advanced_ensemble_percent
 5,5,Marie Osmond,988887.5202300895,21.0,percent,False,advanced_ensemble_percent
 5,5,Mark Cuban,582383.4571941575,21.0,percent,True,advanced_ensemble_percent
-5,6,Cameron Mathison,1037933.0886140509,25.0,percent,False,advanced_ensemble_percent
-5,6,Jane Seymour,1010155.3175888184,22.0,percent,False,advanced_ensemble_percent
-5,6,Sabrina Bryan,769115.8923935683,25.0,percent,True,advanced_ensemble_percent
-5,6,Jennie Garth,1594086.0281855287,27.0,percent,False,advanced_ensemble_percent
-5,6,Helio Castroneves,2140979.6842576424,28.0,percent,False,advanced_ensemble_percent
-5,6,Mel B,2159498.2115199408,30.0,percent,False,advanced_ensemble_percent
-5,6,Marie Osmond,1288231.7774404497,23.0,percent,False,advanced_ensemble_percent
+5,6,Cameron Mathison,1012731.4887510533,25.0,percent,False,advanced_ensemble_percent
+5,6,Jane Seymour,984953.6990775337,22.0,percent,False,advanced_ensemble_percent
+5,6,Sabrina Bryan,1012731.4833314577,25.0,percent,True,advanced_ensemble_percent
+5,6,Jennie Garth,1552083.340274231,27.0,percent,False,advanced_ensemble_percent
+5,6,Helio Castroneves,2082175.9285729015,28.0,percent,False,advanced_ensemble_percent
+5,6,Mel B,2100694.435153701,30.0,percent,False,advanced_ensemble_percent
+5,6,Marie Osmond,1254629.6248391222,23.0,percent,False,advanced_ensemble_percent
 5,7,Cameron Mathison,997073.5817175473,25.5,percent,False,advanced_ensemble_percent
 5,7,Jane Seymour,991731.6942903849,25.0,percent,True,advanced_ensemble_percent
 5,7,Jennie Garth,1732395.0338206307,26.5,percent,False,advanced_ensemble_percent
@@ -268,37 +268,37 @@
 5,10,Helio Castroneves,2969187.304320422,27.999900000000004,percent,True,advanced_ensemble_percent
 5,10,Mel B,4166665.6221123156,28.3332,percent,False,advanced_ensemble_percent
 5,10,Marie Osmond,2864147.0735672624,23.0,percent,False,advanced_ensemble_percent
-6,2,Cristian de la Fuente,1033316.1402811467,20.0,percent,False,advanced_ensemble_percent
-6,2,Steve Guttenberg,404966.1602242023,16.0,percent,False,advanced_ensemble_percent
-6,2,Priscilla Presley,838998.0140090953,21.0,percent,False,advanced_ensemble_percent
-6,2,Marlee Matlin,958854.8777655155,24.0,percent,False,advanced_ensemble_percent
-6,2,Shannon Elizabeth,958854.8777655155,24.0,percent,False,advanced_ensemble_percent
-6,2,Marissa Jaret Winokur,638194.8032646602,21.0,percent,False,advanced_ensemble_percent
-6,2,Jason Taylor,1379916.552671535,27.0,percent,False,advanced_ensemble_percent
-6,2,Kristi Yamaguchi,1379916.552671535,27.0,percent,False,advanced_ensemble_percent
-6,2,Monica Seles,298079.4753466553,15.0,percent,True,advanced_ensemble_percent
-6,2,Penn Jillette,411451.25463069254,17.0,percent,False,advanced_ensemble_percent
-6,2,Adam Carolla,524823.03391473,19.0,percent,False,advanced_ensemble_percent
-6,2,Mario,1172628.2574547168,26.0,percent,False,advanced_ensemble_percent
-6,3,Cristian de la Fuente,1453934.9869176035,25.0,percent,False,advanced_ensemble_percent
-6,3,Steve Guttenberg,435994.65258551267,21.0,percent,True,advanced_ensemble_percent
-6,3,Priscilla Presley,1178759.0360048576,26.0,percent,False,advanced_ensemble_percent
-6,3,Marlee Matlin,859723.4642875557,21.0,percent,False,advanced_ensemble_percent
-6,3,Shannon Elizabeth,1022896.2218579556,24.0,percent,False,advanced_ensemble_percent
-6,3,Marissa Jaret Winokur,562617.7029725319,19.0,percent,False,advanced_ensemble_percent
-6,3,Jason Taylor,1439315.090136501,23.0,percent,False,advanced_ensemble_percent
-6,3,Kristi Yamaguchi,1609797.801064505,27.0,percent,False,advanced_ensemble_percent
-6,3,Adam Carolla,577237.5798854197,21.0,percent,False,advanced_ensemble_percent
-6,3,Mario,859723.4642875557,21.0,percent,False,advanced_ensemble_percent
-6,4,Cristian de la Fuente,1525925.9189812487,26.0,percent,False,advanced_ensemble_percent
-6,4,Priscilla Presley,496296.29494875297,22.0,percent,False,advanced_ensemble_percent
-6,4,Marlee Matlin,844444.4444168496,24.0,percent,False,advanced_ensemble_percent
-6,4,Shannon Elizabeth,1374074.0758378385,28.0,percent,False,advanced_ensemble_percent
-6,4,Marissa Jaret Winokur,844444.4444168496,24.0,percent,False,advanced_ensemble_percent
-6,4,Jason Taylor,1714814.8180870914,29.0,percent,False,advanced_ensemble_percent
-6,4,Kristi Yamaguchi,1714814.8180870914,29.0,percent,False,advanced_ensemble_percent
-6,4,Adam Carolla,474074.073292223,19.0,percent,True,advanced_ensemble_percent
-6,4,Mario,1011111.1119320547,24.0,percent,False,advanced_ensemble_percent
+6,2,Cristian de la Fuente,1022558.8335875978,20.0,percent,False,advanced_ensemble_percent
+6,2,Steve Guttenberg,401380.3908735922,16.0,percent,False,advanced_ensemble_percent
+6,2,Priscilla Presley,830631.2092329866,21.0,percent,False,advanced_ensemble_percent
+6,2,Marlee Matlin,949292.8136859593,24.0,percent,False,advanced_ensemble_percent
+6,2,Shannon Elizabeth,949292.8136859593,24.0,percent,False,advanced_ensemble_percent
+6,2,Marissa Jaret Winokur,731424.8645265431,21.0,percent,False,advanced_ensemble_percent
+6,2,Jason Taylor,1365573.4671594244,27.0,percent,False,advanced_ensemble_percent
+6,2,Kristi Yamaguchi,1365573.4671594244,27.0,percent,False,advanced_ensemble_percent
+6,2,Monica Seles,295688.9662077108,15.0,percent,True,advanced_ensemble_percent
+6,2,Penn Jillette,407865.4807671378,17.0,percent,False,advanced_ensemble_percent
+6,2,Adam Carolla,520042.00526067254,19.0,percent,False,advanced_ensemble_percent
+6,2,Mario,1160675.6878529915,26.0,percent,False,advanced_ensemble_percent
+6,3,Cristian de la Fuente,1475851.980315453,25.0,percent,False,advanced_ensemble_percent
+6,3,Steve Guttenberg,440865.09229847306,21.0,percent,True,advanced_ensemble_percent
+6,3,Priscilla Presley,1195805.6043005576,26.0,percent,False,advanced_ensemble_percent
+6,3,Marlee Matlin,871899.5766742502,21.0,percent,False,advanced_ensemble_percent
+6,3,Shannon Elizabeth,1037507.562282864,24.0,percent,False,advanced_ensemble_percent
+6,3,Marissa Jaret Winokur,569923.3698865946,19.0,percent,False,advanced_ensemble_percent
+6,3,Jason Taylor,1317553.9482318664,23.0,percent,False,advanced_ensemble_percent
+6,3,Kristi Yamaguchi,1634150.0322672548,27.0,percent,False,advanced_ensemble_percent
+6,3,Adam Carolla,584543.2570684347,21.0,percent,False,advanced_ensemble_percent
+6,3,Mario,871899.5766742502,21.0,percent,False,advanced_ensemble_percent
+6,4,Cristian de la Fuente,1525925.9297891897,26.0,percent,False,advanced_ensemble_percent
+6,4,Priscilla Presley,496296.2885145792,22.0,percent,False,advanced_ensemble_percent
+6,4,Marlee Matlin,1011111.1041848311,24.0,percent,False,advanced_ensemble_percent
+6,4,Shannon Elizabeth,1207407.4108843447,28.0,percent,False,advanced_ensemble_percent
+6,4,Marissa Jaret Winokur,844444.4531643827,24.0,percent,False,advanced_ensemble_percent
+6,4,Jason Taylor,1714814.8101513037,29.0,percent,False,advanced_ensemble_percent
+6,4,Kristi Yamaguchi,1714814.8101513037,29.0,percent,False,advanced_ensemble_percent
+6,4,Adam Carolla,474074.07904112746,19.0,percent,True,advanced_ensemble_percent
+6,4,Mario,1011111.114118938,24.0,percent,False,advanced_ensemble_percent
 6,5,Cristian de la Fuente,1292069.458351053,23.0,percent,False,advanced_ensemble_percent
 6,5,Priscilla Presley,617167.918051189,21.0,percent,True,advanced_ensemble_percent
 6,5,Marlee Matlin,625671.3250226041,22.0,percent,False,advanced_ensemble_percent
@@ -332,30 +332,30 @@
 6,10,Cristian de la Fuente,2893772.8953602402,26.0,percent,True,advanced_ensemble_percent
 6,10,Jason Taylor,2943082.5569695598,28.5,percent,False,advanced_ensemble_percent
 6,10,Kristi Yamaguchi,4163144.547670199,30.0,percent,False,advanced_ensemble_percent
-7,1,Ted McGinley,431629.6229726437,18.5,percent,True,advanced_ensemble_percent
-7,1,Cloris Leachman,334231.6193518735,16.0,percent,False,advanced_ensemble_percent
-7,1,Susan Lucci,601697.658018598,18.5,percent,False,advanced_ensemble_percent
-7,1,Cody Linley,866690.8886835786,20.5,percent,False,advanced_ensemble_percent
-7,1,Misty May-Treanor,784129.6706417002,21.0,percent,False,advanced_ensemble_percent
-7,1,Maurice Greene,691677.2702633848,19.5,percent,False,advanced_ensemble_percent
-7,1,Warren Sapp,1262742.4864720318,49.0,percent,False,advanced_ensemble_percent
-7,1,Jeffrey Ross,399483.24098619056,12.0,percent,False,advanced_ensemble_percent
-7,1,Toni Braxton,961616.0970636377,22.5,percent,False,advanced_ensemble_percent
-7,1,Lance Bass,1262742.4864720318,49.0,percent,False,advanced_ensemble_percent
-7,1,Kim Kardashian,601697.6480844903,18.5,percent,False,advanced_ensemble_percent
-7,1,Rocco DiSpirito,426684.01973018894,17.5,percent,False,advanced_ensemble_percent
-7,1,Brooke Burke,1374977.291259652,54.5,percent,False,advanced_ensemble_percent
-7,2,Cloris Leachman,582605.7558088129,15.0,percent,False,advanced_ensemble_percent
-7,2,Susan Lucci,979967.3077444365,21.0,percent,False,advanced_ensemble_percent
-7,2,Cody Linley,979967.3077444365,21.0,percent,False,advanced_ensemble_percent
-7,2,Misty May-Treanor,510483.7226125013,21.0,percent,True,advanced_ensemble_percent
-7,2,Maurice Greene,730142.548865413,19.0,percent,False,advanced_ensemble_percent
-7,2,Warren Sapp,1472075.2880694035,24.0,percent,False,advanced_ensemble_percent
-7,2,Toni Braxton,1229792.0268870299,23.0,percent,False,advanced_ensemble_percent
-7,2,Lance Bass,1207167.573533511,20.0,percent,False,advanced_ensemble_percent
-7,2,Kim Kardashian,362946.8883753118,17.0,percent,False,advanced_ensemble_percent
-7,2,Rocco DiSpirito,472776.2922897393,16.0,percent,False,advanced_ensemble_percent
-7,2,Brooke Burke,1472075.2880694035,24.0,percent,False,advanced_ensemble_percent
+7,1,Ted McGinley,428193.9061082754,18.5,percent,True,advanced_ensemble_percent
+7,1,Cloris Leachman,331654.8259627476,16.0,percent,False,advanced_ensemble_percent
+7,1,Susan Lucci,596544.0775322871,18.5,percent,False,advanced_ensemble_percent
+7,1,Cody Linley,858960.5211350019,20.5,percent,False,advanced_ensemble_percent
+7,1,Misty May-Treanor,777258.2419665095,21.0,percent,False,advanced_ensemble_percent
+7,1,Maurice Greene,769839.8379342495,19.5,percent,False,advanced_ensemble_percent
+7,1,Warren Sapp,1252435.3300104951,49.0,percent,False,advanced_ensemble_percent
+7,1,Jeffrey Ross,396047.51890221774,12.0,percent,False,advanced_ensemble_percent
+7,1,Toni Braxton,953026.8103352967,22.5,percent,False,advanced_ensemble_percent
+7,1,Lance Bass,1252435.3300104951,49.0,percent,False,advanced_ensemble_percent
+7,1,Kim Kardashian,596544.0675981798,18.5,percent,False,advanced_ensemble_percent
+7,1,Rocco DiSpirito,423248.31713032495,17.5,percent,False,advanced_ensemble_percent
+7,1,Brooke Burke,1363811.21537392,54.5,percent,False,advanced_ensemble_percent
+7,2,Cloris Leachman,576085.131406874,15.0,percent,False,advanced_ensemble_percent
+7,2,Susan Lucci,968556.2182316331,21.0,percent,False,advanced_ensemble_percent
+7,2,Cody Linley,968556.2182316331,21.0,percent,False,advanced_ensemble_percent
+7,2,Misty May-Treanor,505593.26964670216,21.0,percent,True,advanced_ensemble_percent
+7,2,Maurice Greene,721991.776037929,19.0,percent,False,advanced_ensemble_percent
+7,2,Warren Sapp,1454143.6247962702,24.0,percent,False,advanced_ensemble_percent
+7,2,Toni Braxton,1215120.6802935519,23.0,percent,False,advanced_ensemble_percent
+7,2,Lance Bass,1192496.246825241,20.0,percent,False,advanced_ensemble_percent
+7,2,Kim Kardashian,475427.33384422516,17.0,percent,False,advanced_ensemble_percent
+7,2,Rocco DiSpirito,467885.8758896702,16.0,percent,False,advanced_ensemble_percent
+7,2,Brooke Burke,1454143.6247962702,24.0,percent,False,advanced_ensemble_percent
 7,4,Cloris Leachman,847290.641151076,22.0,percent,False,advanced_ensemble_percent
 7,4,Susan Lucci,1197044.3325825047,24.0,percent,False,advanced_ensemble_percent
 7,4,Cody Linley,1188834.1602741668,23.0,percent,False,advanced_ensemble_percent
@@ -365,14 +365,14 @@
 7,4,Lance Bass,1713464.6924542564,26.0,percent,False,advanced_ensemble_percent
 7,4,Rocco DiSpirito,481116.5852347568,18.0,percent,True,advanced_ensemble_percent
 7,4,Brooke Burke,1713464.7023883637,26.0,percent,False,advanced_ensemble_percent
-7,5,Cloris Leachman,618083.6600620657,21.0,percent,False,advanced_ensemble_percent
-7,5,Susan Lucci,845928.9134984413,22.0,percent,False,advanced_ensemble_percent
-7,5,Cody Linley,1774403.9629759241,28.0,percent,False,advanced_ensemble_percent
-7,5,Maurice Greene,1327260.4441668428,27.0,percent,False,advanced_ensemble_percent
-7,5,Warren Sapp,1748762.9391802733,25.0,percent,False,advanced_ensemble_percent
-7,5,Toni Braxton,626630.6927648889,22.0,percent,True,advanced_ensemble_percent
-7,5,Lance Bass,1056680.1709392641,21.0,percent,False,advanced_ensemble_percent
-7,5,Brooke Burke,2002249.2164122993,29.0,percent,False,advanced_ensemble_percent
+7,5,Cloris Leachman,606837.6127593962,21.0,percent,False,advanced_ensemble_percent
+7,5,Susan Lucci,829059.832438752,22.0,percent,False,advanced_ensemble_percent
+7,5,Cody Linley,1735042.7273174885,28.0,percent,False,advanced_ensemble_percent
+7,5,Maurice Greene,1299145.2960394325,27.0,percent,False,advanced_ensemble_percent
+7,5,Warren Sapp,1709401.7229437344,25.0,percent,False,advanced_ensemble_percent
+7,5,Toni Braxton,829059.8255475569,22.0,percent,True,advanced_ensemble_percent
+7,5,Lance Bass,1034188.0359567953,21.0,percent,False,advanced_ensemble_percent
+7,5,Brooke Burke,1957264.9469968441,29.0,percent,False,advanced_ensemble_percent
 7,6,Cloris Leachman,661300.5070582866,15.0,percent,True,advanced_ensemble_percent
 7,6,Susan Lucci,1249684.343096645,23.0,percent,False,advanced_ensemble_percent
 7,6,Cody Linley,1249684.343096645,23.0,percent,False,advanced_ensemble_percent
@@ -386,31 +386,31 @@
 7,7,Warren Sapp,1374458.873540695,21.0,percent,False,advanced_ensemble_percent
 7,7,Lance Bass,2177386.100680544,25.0,percent,False,advanced_ensemble_percent
 7,7,Brooke Burke,2612863.3340621307,30.0,percent,False,advanced_ensemble_percent
-7,8,Cody Linley,1294117.648749517,24.0,percent,False,advanced_ensemble_percent
-7,8,Maurice Greene,1294117.648749517,24.0,percent,True,advanced_ensemble_percent
-7,8,Warren Sapp,2313725.4856588705,27.0,percent,False,advanced_ensemble_percent
-7,8,Lance Bass,2287581.6970825833,25.0,percent,False,advanced_ensemble_percent
-7,8,Brooke Burke,2810457.5197595116,27.5,percent,False,advanced_ensemble_percent
-7,9,Cody Linley,1663477.4841220768,23.0,percent,True,advanced_ensemble_percent
-7,9,Warren Sapp,2329378.7447367976,24.5,percent,False,advanced_ensemble_percent
-7,9,Lance Bass,3036739.3865785273,28.5,percent,False,advanced_ensemble_percent
-7,9,Brooke Burke,2970404.384562598,24.5,percent,False,advanced_ensemble_percent
+7,8,Cody Linley,1355392.1633700388,24.0,percent,False,advanced_ensemble_percent
+7,8,Maurice Greene,1355392.1633700388,24.0,percent,True,advanced_ensemble_percent
+7,8,Warren Sapp,2436274.4982916345,27.0,percent,False,advanced_ensemble_percent
+7,8,Lance Bass,1889297.3737356644,25.0,percent,False,advanced_ensemble_percent
+7,8,Brooke Burke,2963643.8012326234,27.5,percent,False,advanced_ensemble_percent
+7,9,Cody Linley,1770315.091733182,23.0,percent,True,advanced_ensemble_percent
+7,9,Warren Sapp,2489635.157244996,24.5,percent,False,advanced_ensemble_percent
+7,9,Lance Bass,3250414.5937768263,28.5,percent,False,advanced_ensemble_percent
+7,9,Brooke Burke,2489635.157244996,24.5,percent,False,advanced_ensemble_percent
 7,10,Warren Sapp,2920168.0671526864,27.5,percent,True,advanced_ensemble_percent
 7,10,Lance Bass,2920168.0671526864,27.5,percent,False,advanced_ensemble_percent
 7,10,Brooke Burke,4159663.8656946267,30.0,percent,False,advanced_ensemble_percent
-8,1,Gilles Marini,1419836.0996083869,83.0,percent,False,advanced_ensemble_percent
-8,1,Denise Richards,578385.8985814204,18.0,percent,False,advanced_ensemble_percent
-8,1,David Alan Grier,667207.7959435603,19.0,percent,False,advanced_ensemble_percent
-8,1,Lawrence Taylor,400742.10385714035,16.0,percent,False,advanced_ensemble_percent
-8,1,Ty Murray,994279.5220072248,38.0,percent,True,advanced_ensemble_percent
-8,1,Shawn Johnson,1327226.3668008447,81.0,percent,False,advanced_ensemble_percent
-8,1,Steve Wozniak,219310.47368745785,13.0,percent,False,advanced_ensemble_percent
-8,1,Belinda Carlisle,404530.0187754024,17.0,percent,False,advanced_ensemble_percent
-8,1,Chuck Wicks,756029.6138328408,20.0,percent,False,advanced_ensemble_percent
-8,1,Lil' Kim,844851.5906678407,21.0,percent,False,advanced_ensemble_percent
-8,1,Steve-O,489564.00121928036,17.0,percent,False,advanced_ensemble_percent
-8,1,Holly Madison,578385.8985814204,18.0,percent,False,advanced_ensemble_percent
-8,1,Melissa Rycroft,1319650.6164371802,79.0,percent,False,advanced_ensemble_percent
+8,1,Gilles Marini,1408670.0235231933,83.0,percent,False,advanced_ensemble_percent
+8,1,Denise Richards,573232.3367342631,18.0,percent,False,advanced_ensemble_percent
+8,1,David Alan Grier,661195.2569162076,19.0,percent,False,advanced_ensemble_percent
+8,1,Lawrence Taylor,397306.41689751187,16.0,percent,False,advanced_ensemble_percent
+8,1,Ty Murray,985690.234315032,38.0,percent,True,advanced_ensemble_percent
+8,1,Shawn Johnson,1316919.1882827801,81.0,percent,False,advanced_ensemble_percent
+8,1,Steve Wozniak,217592.58200229215,13.0,percent,False,advanced_ensemble_percent
+8,1,Belinda Carlisle,401094.25248311745,17.0,percent,False,advanced_ensemble_percent
+8,1,Chuck Wicks,833333.3411673536,20.0,percent,False,advanced_ensemble_percent
+8,1,Lil' Kim,837121.2562258218,21.0,percent,False,advanced_ensemble_percent
+8,1,Steve-O,485269.33707945613,17.0,percent,False,advanced_ensemble_percent
+8,1,Holly Madison,573232.3367342631,18.0,percent,False,advanced_ensemble_percent
+8,1,Melissa Rycroft,1309343.437638706,79.0,percent,False,advanced_ensemble_percent
 8,2,Gilles Marini,1275253.4973893773,27.0,percent,False,advanced_ensemble_percent
 8,2,Denise Richards,812347.5768737156,21.0,percent,False,advanced_ensemble_percent
 8,2,David Alan Grier,447054.29480533977,17.0,percent,False,advanced_ensemble_percent
@@ -486,36 +486,36 @@
 8,10,Ty Murray,1754185.6923450588,24.0,percent,True,advanced_ensemble_percent
 8,10,Shawn Johnson,2509512.938383584,28.0,percent,False,advanced_ensemble_percent
 8,10,Melissa Rycroft,2501902.5876767165,27.5,percent,False,advanced_ensemble_percent
-9,1,Ashley Hamiliton,182187.73103934884,18.9999,percent,True,advanced_ensemble_percent
-9,1,Debi Mazar,485849.59459505277,22.0,percent,False,advanced_ensemble_percent
-9,1,Melissa Joan Hart,551357.9007114286,24.0,percent,False,advanced_ensemble_percent
-9,1,Mark Dacascos,744470.7064807628,28.9998,percent,False,advanced_ensemble_percent
-9,1,Chuck Liddell,485849.59459505277,22.0,percent,False,advanced_ensemble_percent
-9,1,Natalie Coughlin,678962.4003643871,26.9998,percent,False,advanced_ensemble_percent
-9,1,Louie Vito,678962.4053314409,26.9998,percent,False,advanced_ensemble_percent
-9,1,Michael Irvin,299558.96507564874,19.0,percent,False,advanced_ensemble_percent
-9,1,Joanna Krupa,878899.0960171819,33.9999,percent,False,advanced_ensemble_percent
-9,1,Kathy Ireland,361655.4988554108,19.9999,percent,False,advanced_ensemble_percent
-9,1,Tom DeLay,361655.4988554108,19.9999,percent,False,advanced_ensemble_percent
-9,1,Macy Gray,182187.73103934884,18.9999,percent,False,advanced_ensemble_percent
-9,1,Aaron Carter,813390.7874172791,31.9999,percent,False,advanced_ensemble_percent
-9,1,Mya,1141377.882229289,59.3331,percent,False,advanced_ensemble_percent
-9,1,Donny Osmond,1140240.5163364117,58.9997,percent,False,advanced_ensemble_percent
-9,1,Kelly Osbourne,1013393.6910565457,56.222,percent,False,advanced_ensemble_percent
-9,2,Debi Mazar,649350.6465757706,21.0,percent,False,advanced_ensemble_percent
-9,2,Melissa Joan Hart,486497.6291053753,19.0,percent,False,advanced_ensemble_percent
-9,2,Mark Dacascos,876623.3785935197,21.0,percent,False,advanced_ensemble_percent
-9,2,Chuck Liddell,410740.0484547565,19.0,percent,False,advanced_ensemble_percent
-9,2,Natalie Coughlin,800865.7979429008,21.0,percent,False,advanced_ensemble_percent
-9,2,Louie Vito,562255.2097559939,19.0,percent,False,advanced_ensemble_percent
-9,2,Michael Irvin,492166.5671240615,20.0,percent,False,advanced_ensemble_percent
-9,2,Joanna Krupa,795196.869858322,20.0,percent,False,advanced_ensemble_percent
-9,2,Kathy Ireland,253555.96900304727,18.0,percent,True,advanced_ensemble_percent
-9,2,Tom DeLay,253555.9690030474,18.0,percent,False,advanced_ensemble_percent
-9,2,Aaron Carter,1062152.1282704454,27.0,percent,False,advanced_ensemble_percent
-9,2,Mya,1213667.289571683,27.0,percent,False,advanced_ensemble_percent
-9,2,Donny Osmond,1202329.4135343104,25.0,percent,False,advanced_ensemble_percent
-9,2,Kelly Osbourne,941043.083206766,19.0,percent,False,advanced_ensemble_percent
+9,1,Ashley Hamiliton,183020.14930691454,18.9999,percent,True,advanced_ensemble_percent
+9,1,Debi Mazar,488763.05597838224,22.0,percent,False,advanced_ensemble_percent
+9,1,Melissa Joan Hart,554687.57003783,24.0,percent,False,advanced_ensemble_percent
+9,1,Mark Dacascos,749049.0047344448,28.9998,percent,False,advanced_ensemble_percent
+9,1,Chuck Liddell,488763.05597838224,22.0,percent,False,advanced_ensemble_percent
+9,1,Natalie Coughlin,683124.4906749969,26.9998,percent,False,advanced_ensemble_percent
+9,1,Louie Vito,683124.4906749969,26.9998,percent,False,advanced_ensemble_percent
+9,1,Michael Irvin,301223.7972697556,19.0,percent,False,advanced_ensemble_percent
+9,1,Joanna Krupa,884309.8100260103,33.9999,percent,False,advanced_ensemble_percent
+9,1,Kathy Ireland,363736.5465741674,19.9999,percent,False,advanced_ensemble_percent
+9,1,Tom DeLay,363736.5465741674,19.9999,percent,False,advanced_ensemble_percent
+9,1,Macy Gray,183020.14930691454,18.9999,percent,False,advanced_ensemble_percent
+9,1,Aaron Carter,818385.2934830358,31.9999,percent,False,advanced_ensemble_percent
+9,1,Mya,1148037.22498557,59.3331,percent,False,advanced_ensemble_percent
+9,1,Donny Osmond,1087798.1990677083,58.9997,percent,False,advanced_ensemble_percent
+9,1,Kelly Osbourne,1019220.615326724,56.222,percent,False,advanced_ensemble_percent
+9,2,Debi Mazar,644573.1408242607,21.0,percent,False,advanced_ensemble_percent
+9,2,Melissa Joan Hart,483085.1266648525,19.0,percent,False,advanced_ensemble_percent
+9,2,Mark Dacascos,869798.3720479672,21.0,percent,False,advanced_ensemble_percent
+9,2,Chuck Liddell,408010.05290165305,19.0,percent,False,advanced_ensemble_percent
+9,2,Natalie Coughlin,794723.2982847677,21.0,percent,False,advanced_ensemble_percent
+9,2,Louie Vito,558160.200428052,19.0,percent,False,advanced_ensemble_percent
+9,2,Michael Irvin,563829.1287775027,20.0,percent,False,advanced_ensemble_percent
+9,2,Joanna Krupa,789054.3600012094,20.0,percent,False,advanced_ensemble_percent
+9,2,Kathy Ireland,252190.9670916955,18.0,percent,True,advanced_ensemble_percent
+9,2,Tom DeLay,252190.9670916955,18.0,percent,False,advanced_ensemble_percent
+9,2,Aaron Carter,1053962.129407501,27.0,percent,False,advanced_ensemble_percent
+9,2,Mya,1204112.2669997923,27.0,percent,False,advanced_ensemble_percent
+9,2,Donny Osmond,1192774.4103008911,25.0,percent,False,advanced_ensemble_percent
+9,2,Kelly Osbourne,933535.5791781578,19.0,percent,False,advanced_ensemble_percent
 9,3,Debi Mazar,287124.08586768515,17.0,percent,True,advanced_ensemble_percent
 9,3,Melissa Joan Hart,566001.4291259074,19.0,percent,False,advanced_ensemble_percent
 9,3,Mark Dacascos,648193.9606524395,18.0,percent,False,advanced_ensemble_percent
@@ -578,17 +578,17 @@
 9,10,Mya,2952957.533932528,28.3332,percent,True,advanced_ensemble_percent
 9,10,Donny Osmond,4156891.3805600326,28.9998,percent,False,advanced_ensemble_percent
 9,10,Kelly Osbourne,2890151.08550744,25.2222,percent,False,advanced_ensemble_percent
-10,2,Aiden Turner,730793.8578266641,19.0,percent,False,advanced_ensemble_percent
-10,2,Shannen Doherty,503627.82179847546,20.0,percent,True,advanced_ensemble_percent
-10,2,Niecy Nash,980687.1625273915,21.0,percent,False,advanced_ensemble_percent
-10,2,Buzz Aldrin,560392.6632692517,12.0,percent,False,advanced_ensemble_percent
-10,2,Chad Ochocinco,473324.80271416693,16.0,percent,False,advanced_ensemble_percent
-10,2,Evan Lysacek,1472897.9817806468,24.0,percent,False,advanced_ensemble_percent
-10,2,Pamela Anderson,1105633.7950095406,22.0,percent,False,advanced_ensemble_percent
-10,2,Nicole Scherzinger,1503201.023164156,28.0,percent,False,advanced_ensemble_percent
-10,2,Erin Andrews,1347951.3492984981,23.0,percent,False,advanced_ensemble_percent
-10,2,Kate Gosselin,465749.05230239715,15.0,percent,False,advanced_ensemble_percent
-10,2,Jake Pavelka,855740.490308813,20.0,percent,False,advanced_ensemble_percent
+10,2,Aiden Turner,739177.4841732669,19.0,percent,False,advanced_ensemble_percent
+10,2,Shannen Doherty,389610.3899409537,20.0,percent,True,advanced_ensemble_percent
+10,2,Niecy Nash,992424.2430755843,21.0,percent,False,advanced_ensemble_percent
+10,2,Buzz Aldrin,567099.5732774098,12.0,percent,False,advanced_ensemble_percent
+10,2,Chad Ochocinco,478354.98493132764,16.0,percent,False,advanced_ensemble_percent
+10,2,Evan Lysacek,1491341.9907382748,24.0,percent,False,advanced_ensemble_percent
+10,2,Pamela Anderson,1119047.622526743,22.0,percent,False,advanced_ensemble_percent
+10,2,Nicole Scherzinger,1521645.0216355147,28.0,percent,False,advanced_ensemble_percent
+10,2,Erin Andrews,1364718.611287116,23.0,percent,False,advanced_ensemble_percent
+10,2,Kate Gosselin,470779.2147893836,15.0,percent,False,advanced_ensemble_percent
+10,2,Jake Pavelka,865800.8636244257,20.0,percent,False,advanced_ensemble_percent
 10,3,Aiden Turner,710651.7063524192,20.0,percent,False,advanced_ensemble_percent
 10,3,Niecy Nash,992085.9189272098,21.0,percent,False,advanced_ensemble_percent
 10,3,Buzz Aldrin,379956.39176492667,13.0,percent,True,advanced_ensemble_percent
@@ -691,13 +691,13 @@
 11,5,Brandy,1873269.0075420165,27.0,percent,False,advanced_ensemble_percent
 11,5,Audrina Patridge,1226882.8695760206,23.0,percent,False,advanced_ensemble_percent
 11,5,Bristol Palin,774591.2638599797,18.0,percent,False,advanced_ensemble_percent
-11,6,Kyle Massey,1585631.9471720273,29.9999,percent,False,advanced_ensemble_percent
-11,6,Jennifer Grey,1846398.4195710726,29.0,percent,False,advanced_ensemble_percent
-11,6,Rick Fox,1316815.5099741158,30.0,percent,False,advanced_ensemble_percent
-11,6,Kurt Warner,983585.049270715,21.9999,percent,False,advanced_ensemble_percent
-11,6,Brandy,2171575.6570884017,35.9999,percent,False,advanced_ensemble_percent
-11,6,Audrina Patridge,1064099.8368453016,31.9998,percent,True,advanced_ensemble_percent
-11,6,Bristol Palin,1031893.5800783656,27.9998,percent,False,advanced_ensemble_percent
+11,6,Kyle Massey,1630434.7245855054,29.9999,percent,False,advanced_ensemble_percent
+11,6,Jennifer Grey,1900161.8121631078,29.0,percent,False,advanced_ensemble_percent
+11,6,Rick Fox,1352657.8306002328,30.0,percent,False,advanced_ensemble_percent
+11,6,Kurt Warner,732688.9815397154,21.9999,percent,False,advanced_ensemble_percent
+11,6,Brandy,2234299.748768882,35.9999,percent,False,advanced_ensemble_percent
+11,6,Audrina Patridge,1090981.5390077482,31.9998,percent,True,advanced_ensemble_percent
+11,6,Bristol Palin,1058775.363334808,27.9998,percent,False,advanced_ensemble_percent
 11,7,Kyle Massey,1717061.1363425413,33.5,percent,False,advanced_ensemble_percent
 11,7,Jennifer Grey,2465679.629174794,36.5,percent,False,advanced_ensemble_percent
 11,7,Rick Fox,1000417.0583227024,34.5,percent,True,advanced_ensemble_percent
@@ -727,16 +727,16 @@
 12,2,Romeo,1219135.8116401343,23.0,percent,False,advanced_ensemble_percent
 12,2,Wendy Williams,478395.0560298077,17.0,percent,False,advanced_ensemble_percent
 12,2,Kendra Wilkinson,841049.3840357023,19.0,percent,False,advanced_ensemble_percent
-12,3,Ralph Macchio,983223.5359486364,21.0,percent,False,advanced_ensemble_percent
-12,3,Chelsea Kane,1408635.923761398,23.0,percent,False,advanced_ensemble_percent
-12,3,Kirstie Alley,1256447.5760856404,21.0,percent,False,advanced_ensemble_percent
-12,3,Hines Ward,1560824.271437156,25.0,percent,False,advanced_ensemble_percent
-12,3,Sugar Ray Leonard,565599.3094559758,20.0,percent,False,advanced_ensemble_percent
-12,3,Chris Jericho,846611.5109130808,21.0,percent,False,advanced_ensemble_percent
-12,3,Petra Nemcova,1287600.2213660448,25.0,percent,False,advanced_ensemble_percent
-12,3,Romeo,565599.3094559758,20.0,percent,False,advanced_ensemble_percent
-12,3,Wendy Williams,390046.46788580704,15.0,percent,True,advanced_ensemble_percent
-12,3,Kendra Wilkinson,1135411.873690287,23.0,percent,False,advanced_ensemble_percent
+12,3,Ralph Macchio,970003.012805607,21.0,percent,False,advanced_ensemble_percent
+12,3,Chelsea Kane,1388805.1407915028,23.0,percent,False,advanced_ensemble_percent
+12,3,Kirstie Alley,1373228.8182111904,21.0,percent,False,advanced_ensemble_percent
+12,3,Hines Ward,1538790.0717964142,25.0,percent,False,advanced_ensemble_percent
+12,3,Sugar Ray Leonard,558989.0461098675,20.0,percent,False,advanced_ensemble_percent
+12,3,Chris Jericho,835594.414315115,21.0,percent,False,advanced_ensemble_percent
+12,3,Petra Nemcova,1269972.87481543,25.0,percent,False,advanced_ensemble_percent
+12,3,Romeo,558989.0461098675,20.0,percent,False,advanced_ensemble_percent
+12,3,Wendy Williams,385639.63123448734,15.0,percent,True,advanced_ensemble_percent
+12,3,Kendra Wilkinson,1119987.9438105186,23.0,percent,False,advanced_ensemble_percent
 12,4,Ralph Macchio,1368932.0428273082,25.0,percent,False,advanced_ensemble_percent
 12,4,Chelsea Kane,1710355.9860535143,26.0,percent,False,advanced_ensemble_percent
 12,4,Kirstie Alley,1177993.5282664043,22.0,percent,False,advanced_ensemble_percent
@@ -761,12 +761,12 @@
 12,6,Chris Jericho,741338.1198972834,22.0,percent,True,advanced_ensemble_percent
 12,6,Romeo,1603345.2820287622,28.0,percent,False,advanced_ensemble_percent
 12,6,Kendra Wilkinson,1037933.0974745642,25.0,percent,False,advanced_ensemble_percent
-12,7,Ralph Macchio,1741052.54704861,33.0,percent,False,advanced_ensemble_percent
-12,7,Chelsea Kane,2094529.6552924635,32.0,percent,False,advanced_ensemble_percent
-12,7,Kirstie Alley,1714527.3665990324,30.0,percent,False,advanced_ensemble_percent
-12,7,Hines Ward,2465690.2304148455,33.0,percent,False,advanced_ensemble_percent
-12,7,Romeo,989889.6633645808,30.0,percent,False,advanced_ensemble_percent
-12,7,Kendra Wilkinson,994310.5372804697,30.5,percent,True,advanced_ensemble_percent
+12,7,Ralph Macchio,2027888.2793243662,33.0,percent,False,advanced_ensemble_percent
+12,7,Chelsea Kane,2019046.5660200655,32.0,percent,False,advanced_ensemble_percent
+12,7,Kirstie Alley,1654140.8940074197,30.0,percent,False,advanced_ensemble_percent
+12,7,Hines Ward,2375110.52472841,33.0,percent,False,advanced_ensemble_percent
+12,7,Romeo,959696.4429357627,30.0,percent,False,advanced_ensemble_percent
+12,7,Kendra Wilkinson,964117.2929839755,30.5,percent,True,advanced_ensemble_percent
 12,8,Ralph Macchio,1275263.9423609858,23.0,percent,False,advanced_ensemble_percent
 12,8,Chelsea Kane,2803544.5115613923,27.5,percent,False,advanced_ensemble_percent
 12,8,Kirstie Alley,1810331.8156242743,26.5,percent,False,advanced_ensemble_percent
@@ -791,36 +791,36 @@
 13,1,Chaz Bono,602104.7823054893,17.0,percent,False,advanced_ensemble_percent
 13,1,Nancy Grace,494950.8378153637,16.0,percent,False,advanced_ensemble_percent
 13,1,Rob Kardashian,1261330.692758604,44.333200000000005,percent,False,advanced_ensemble_percent
-13,2,Elisabetta Canalis,395045.90797162266,21.0,percent,True,advanced_ensemble_percent
-13,2,David Arquette,610719.6287934594,18.0,percent,False,advanced_ensemble_percent
-13,2,Ricki Lake,1481422.1615842949,23.0,percent,False,advanced_ensemble_percent
-13,2,J.R. Martinez,1473948.3251190737,22.0,percent,False,advanced_ensemble_percent
-13,2,Hope Solo,737241.0952685912,19.0,percent,False,advanced_ensemble_percent
-13,2,Chynna Phillips,990284.0083506396,21.0,percent,False,advanced_ensemble_percent
-13,2,Kristin Cavallari,1116805.4748257715,22.0,percent,False,advanced_ensemble_percent
-13,2,Carson Kressley,491671.99878354836,18.0,percent,False,advanced_ensemble_percent
-13,2,Chaz Bono,603245.782394131,17.0,percent,False,advanced_ensemble_percent
-13,2,Nancy Grace,871236.3783407286,21.0,percent,False,advanced_ensemble_percent
-13,2,Rob Kardashian,1228379.2385681388,21.0,percent,False,advanced_ensemble_percent
-13,3,David Arquette,1002109.7027465061,24.0,percent,False,advanced_ensemble_percent
-13,3,Ricki Lake,1578762.3172299394,27.0,percent,False,advanced_ensemble_percent
-13,3,J.R. Martinez,1571729.9424848591,26.0,percent,False,advanced_ensemble_percent
-13,3,Hope Solo,1002109.7027465062,24.0,percent,False,advanced_ensemble_percent
-13,3,Chynna Phillips,1155063.2999634456,26.0,percent,False,advanced_ensemble_percent
-13,3,Kristin Cavallari,585443.0377859807,24.0,percent,True,advanced_ensemble_percent
-13,3,Carson Kressley,717299.5729432218,23.0,percent,False,advanced_ensemble_percent
-13,3,Chaz Bono,543248.9309639033,18.0,percent,False,advanced_ensemble_percent
-13,3,Nancy Grace,564345.9955944978,21.0,percent,False,advanced_ensemble_percent
-13,3,Rob Kardashian,1279887.4975411412,24.0,percent,False,advanced_ensemble_percent
-13,4,David Arquette,1051468.6322062921,23.0,percent,False,advanced_ensemble_percent
-13,4,Ricki Lake,1793759.989245581,29.0,percent,False,advanced_ensemble_percent
-13,4,J.R. Martinez,1769836.5142535917,26.0,percent,False,advanced_ensemble_percent
-13,4,Hope Solo,1233054.2239784314,24.0,percent,False,advanced_ensemble_percent
-13,4,Chynna Phillips,514686.3419311316,21.0,percent,True,advanced_ensemble_percent
-13,4,Carson Kressley,680322.9636207541,20.0,percent,False,advanced_ensemble_percent
-13,4,Chaz Bono,688297.4486620126,21.0,percent,False,advanced_ensemble_percent
-13,4,Nancy Grace,688297.4486620127,21.0,percent,False,advanced_ensemble_percent
-13,4,Rob Kardashian,1580276.4374401928,24.0,percent,False,advanced_ensemble_percent
+13,2,Elisabetta Canalis,391692.4625714249,21.0,percent,True,advanced_ensemble_percent
+13,2,David Arquette,604012.7216414375,18.0,percent,False,advanced_ensemble_percent
+13,2,Ricki Lake,1462978.1702158826,23.0,percent,False,advanced_ensemble_percent
+13,2,J.R. Martinez,1455504.3339348154,22.0,percent,False,advanced_ensemble_percent
+13,2,Hope Solo,728857.4518132193,19.0,percent,False,advanced_ensemble_percent
+13,2,Chynna Phillips,978546.9121567827,21.0,percent,False,advanced_ensemble_percent
+13,2,Kristin Cavallari,1103391.652262672,22.0,percent,False,advanced_ensemble_percent
+13,2,Carson Kressley,486641.8178166155,18.0,percent,False,advanced_ensemble_percent
+13,2,Chaz Bono,596538.8654921555,17.0,percent,False,advanced_ensemble_percent
+13,2,Nancy Grace,861176.0282001755,21.0,percent,False,advanced_ensemble_percent
+13,2,Rob Kardashian,1330659.583894819,21.0,percent,False,advanced_ensemble_percent
+13,3,David Arquette,1016233.991120225,24.0,percent,False,advanced_ensemble_percent
+13,3,Ricki Lake,1602302.8103958445,27.0,percent,False,advanced_ensemble_percent
+13,3,J.R. Martinez,1595270.4556687225,26.0,percent,False,advanced_ensemble_percent
+13,3,Hope Solo,1016233.9911202252,24.0,percent,False,advanced_ensemble_percent
+13,3,Chynna Phillips,1171541.644315086,26.0,percent,False,advanced_ensemble_percent
+13,3,Kristin Cavallari,451262.25327284454,24.0,percent,True,advanced_ensemble_percent
+13,3,Carson Kressley,726715.7687800835,23.0,percent,False,advanced_ensemble_percent
+13,3,Chaz Bono,550311.0911402879,18.0,percent,False,advanced_ensemble_percent
+13,3,Nancy Grace,571408.1354534378,21.0,percent,False,advanced_ensemble_percent
+13,3,Rob Kardashian,1298719.8587332447,24.0,percent,False,advanced_ensemble_percent
+13,4,David Arquette,1033753.2149505231,23.0,percent,False,advanced_ensemble_percent
+13,4,Ricki Lake,1761872.2126639418,29.0,percent,False,advanced_ensemble_percent
+13,4,J.R. Martinez,1737948.7659463736,26.0,percent,False,advanced_ensemble_percent
+13,4,Hope Solo,1211795.7240871252,24.0,percent,False,advanced_ensemble_percent
+13,4,Chynna Phillips,507600.17309127515,21.0,percent,True,advanced_ensemble_percent
+13,4,Carson Kressley,669693.7111267602,20.0,percent,False,advanced_ensemble_percent
+13,4,Chaz Bono,677668.1966773188,21.0,percent,False,advanced_ensemble_percent
+13,4,Nancy Grace,847736.2202633625,21.0,percent,False,advanced_ensemble_percent
+13,4,Rob Kardashian,1551931.78119332,24.0,percent,False,advanced_ensemble_percent
 13,5,David Arquette,1290007.2742131273,25.0,percent,False,advanced_ensemble_percent
 13,5,Ricki Lake,1708492.447320252,24.0,percent,False,advanced_ensemble_percent
 13,5,J.R. Martinez,1957628.6520509738,28.0,percent,False,advanced_ensemble_percent
@@ -842,11 +842,11 @@
 13,7,Hope Solo,1673302.9974201038,25.0,percent,False,advanced_ensemble_percent
 13,7,Nancy Grace,944728.8674802197,22.0,percent,False,advanced_ensemble_percent
 13,7,Rob Kardashian,2026213.502659105,25.5,percent,False,advanced_ensemble_percent
-13,8,Ricki Lake,2527602.7852816293,26.0,percent,False,advanced_ensemble_percent
-13,8,J.R. Martinez,2579082.838076544,30.0,percent,False,advanced_ensemble_percent
-13,8,Hope Solo,1650409.802077928,26.0,percent,False,advanced_ensemble_percent
-13,8,Nancy Grace,1160333.2676152696,22.0,percent,True,advanced_ensemble_percent
-13,8,Rob Kardashian,2082571.3069486285,25.5,percent,False,advanced_ensemble_percent
+13,8,Ricki Lake,2295404.64780364,26.0,percent,False,advanced_ensemble_percent
+13,8,J.R. Martinez,2837080.776871116,30.0,percent,False,advanced_ensemble_percent
+13,8,Hope Solo,1805208.5737338457,26.0,percent,False,advanced_ensemble_percent
+13,8,Nancy Grace,1263532.4347322625,22.0,percent,True,advanced_ensemble_percent
+13,8,Rob Kardashian,1798773.5668591356,25.5,percent,False,advanced_ensemble_percent
 13,9,Ricki Lake,3248945.730853235,33.4999,percent,False,advanced_ensemble_percent
 13,9,J.R. Martinez,2477146.524714859,28.0,percent,False,advanced_ensemble_percent
 13,9,Hope Solo,1733472.619852044,24.4998,percent,True,advanced_ensemble_percent
@@ -854,18 +854,18 @@
 13,10,Ricki Lake,2933221.267297966,27.9999,percent,True,advanced_ensemble_percent
 13,10,J.R. Martinez,4126983.470288843,28.1665,percent,False,advanced_ensemble_percent
 13,10,Rob Kardashian,2939795.262413191,28.3332,percent,False,advanced_ensemble_percent
-14,2,William Levy,1259312.335399335,25.0,percent,False,advanced_ensemble_percent
-14,2,Jack Wagner,632119.554299751,21.0,percent,False,advanced_ensemble_percent
-14,2,Sherri Sheperd,845314.3404468736,23.0,percent,False,advanced_ensemble_percent
-14,2,Jaleel White,839118.5567430356,22.0,percent,False,advanced_ensemble_percent
-14,2,Roshon Fegan,1165106.5196675572,26.0,percent,False,advanced_ensemble_percent
-14,2,Melissa Gilbert,425120.55185646657,20.0,percent,False,advanced_ensemble_percent
-14,2,Martina Navratilova,306131.59137522953,17.0,percent,True,advanced_ensemble_percent
-14,2,Donald Driver,1152714.9522598812,24.0,percent,False,advanced_ensemble_percent
-14,2,Gavin DeGraw,531717.9548641355,21.0,percent,False,advanced_ensemble_percent
-14,2,Gladys Knight,418924.7681526286,19.0,percent,False,advanced_ensemble_percent
-14,2,Katherine Jenkins,1365909.7384070035,26.0,percent,False,advanced_ensemble_percent
-14,2,Maria Menounos,1058509.1365281034,25.0,percent,False,advanced_ensemble_percent
+14,2,William Levy,1272780.8525614617,25.0,percent,False,advanced_ensemble_percent
+14,2,Jack Wagner,638241.6069893023,21.0,percent,False,advanced_ensemble_percent
+14,2,Sherri Sheperd,853885.2147130861,23.0,percent,False,advanced_ensemble_percent
+14,2,Jaleel White,746063.4058841403,22.0,percent,False,advanced_ensemble_percent
+14,2,Roshon Fegan,1177350.6213317076,26.0,percent,False,advanced_ensemble_percent
+14,2,Melissa Gilbert,428793.7830980608,20.0,percent,False,advanced_ensemble_percent
+14,2,Martina Navratilova,308580.41653813864,17.0,percent,True,advanced_ensemble_percent
+14,2,Donald Driver,1164959.0536666235,24.0,percent,False,advanced_ensemble_percent
+14,2,Gavin DeGraw,536615.5819928987,21.0,percent,False,advanced_ensemble_percent
+14,2,Gladys Knight,422597.9992655187,19.0,percent,False,advanced_ensemble_percent
+14,2,Katherine Jenkins,1380602.6514562992,26.0,percent,False,advanced_ensemble_percent
+14,2,Maria Menounos,1069528.812502762,25.0,percent,False,advanced_ensemble_percent
 14,3,William Levy,1457746.4864473683,28.0,percent,False,advanced_ensemble_percent
 14,3,Jack Wagner,494969.81804164185,24.0,percent,True,advanced_ensemble_percent
 14,3,Sherri Sheperd,729711.6072601292,24.0,percent,False,advanced_ensemble_percent
@@ -924,42 +924,42 @@
 14,10,William Levy,2934434.5499046003,29.666600000000003,percent,True,advanced_ensemble_percent
 14,10,Donald Driver,2934434.5499046003,29.666600000000003,percent,False,advanced_ensemble_percent
 14,10,Katherine Jenkins,4131130.9001907986,30.0,percent,False,advanced_ensemble_percent
-15,1,Gilles Marini,891173.8409680395,24.0,percent,False,advanced_ensemble_percent
-15,1,Sabrina Bryan,884303.6011457739,22.5,percent,False,advanced_ensemble_percent
-15,1,Kirstie Alley,347439.710907734,19.0,percent,False,advanced_ensemble_percent
-15,1,Kelly Monaco,1273472.6914425385,50.6109,percent,False,advanced_ensemble_percent
-15,1,Apolo Anton Ohno,795207.9685797531,22.0,percent,False,advanced_ensemble_percent
-15,1,Emmitt Smith,980269.4785011137,24.5,percent,False,advanced_ensemble_percent
-15,1,Shawn Johnson,1361805.2703299474,50.9443,percent,False,advanced_ensemble_percent
-15,1,Pamela Anderson,251473.83355239427,17.0,percent,True,advanced_ensemble_percent
-15,1,Helio Castroneves,619306.7734543598,21.5,percent,False,advanced_ensemble_percent
-15,1,Joey Fatone,441115.5033552649,20.5,percent,False,advanced_ensemble_percent
-15,1,Drew Lachey,619306.7734543598,21.5,percent,False,advanced_ensemble_percent
-15,1,Bristol Palin,349729.7858814355,19.5,percent,False,advanced_ensemble_percent
-15,1,Melissa Rycroft,1185394.7684272886,50.3331,percent,False,advanced_ensemble_percent
-15,2,Gilles Marini,1057599.9509871106,25.5,percent,False,advanced_ensemble_percent
-15,2,Sabrina Bryan,1060619.2839070999,26.0,percent,False,advanced_ensemble_percent
-15,2,Kirstie Alley,428016.40378442965,21.0,percent,False,advanced_ensemble_percent
-15,2,Kelly Monaco,1136866.3083973564,22.0,percent,False,advanced_ensemble_percent
-15,2,Apolo Anton Ohno,951159.7165062538,24.5,percent,False,advanced_ensemble_percent
-15,2,Emmitt Smith,738279.2078081092,22.5,percent,False,advanced_ensemble_percent
-15,2,Shawn Johnson,1355785.4630672638,25.0,percent,False,advanced_ensemble_percent
-15,2,Helio Castroneves,741298.5407280982,23.0,percent,False,advanced_ensemble_percent
-15,2,Joey Fatone,336672.7722252281,22.5,percent,True,advanced_ensemble_percent
-15,2,Drew Lachey,537476.0109217062,22.5,percent,False,advanced_ensemble_percent
-15,2,Bristol Palin,409900.4658691402,18.0,percent,False,advanced_ensemble_percent
-15,2,Melissa Rycroft,1246325.8757982026,23.5,percent,False,advanced_ensemble_percent
-15,3,Gilles Marini,998288.3232946865,25.5,percent,False,advanced_ensemble_percent
-15,3,Sabrina Bryan,998288.3232946865,25.5,percent,False,advanced_ensemble_percent
-15,3,Kirstie Alley,506203.7317767174,24.0,percent,False,advanced_ensemble_percent
-15,3,Kelly Monaco,1369599.969680886,27.0,percent,False,advanced_ensemble_percent
-15,3,Apolo Anton Ohno,998288.3232946865,25.5,percent,False,advanced_ensemble_percent
-15,3,Emmitt Smith,753744.8359902556,25.0,percent,False,advanced_ensemble_percent
-15,3,Shawn Johnson,1366602.3726399934,26.5,percent,False,advanced_ensemble_percent
-15,3,Helio Castroneves,515196.53278467664,25.5,percent,True,advanced_ensemble_percent
-15,3,Drew Lachey,506203.7516449323,24.0,percent,False,advanced_ensemble_percent
-15,3,Bristol Palin,497210.9207858257,22.5,percent,False,advanced_ensemble_percent
-15,3,Melissa Rycroft,1490372.9148126545,27.0,percent,False,advanced_ensemble_percent
+15,1,Gilles Marini,891173.8385937613,24.0,percent,False,advanced_ensemble_percent
+15,1,Sabrina Bryan,884303.5985327136,22.5,percent,False,advanced_ensemble_percent
+15,1,Kirstie Alley,347439.711357939,19.0,percent,False,advanced_ensemble_percent
+15,1,Kelly Monaco,1273472.6914941948,50.6109,percent,False,advanced_ensemble_percent
+15,1,Apolo Anton Ohno,795207.9664905028,22.0,percent,False,advanced_ensemble_percent
+15,1,Emmitt Smith,980269.48057008,24.5,percent,False,advanced_ensemble_percent
+15,1,Shawn Johnson,1361805.269831273,50.9443,percent,False,advanced_ensemble_percent
+15,1,Pamela Anderson,164668.2723316577,17.0,percent,True,advanced_ensemble_percent
+15,1,Helio Castroneves,619306.7774593772,21.5,percent,False,advanced_ensemble_percent
+15,1,Joey Fatone,441115.5084079021,20.5,percent,False,advanced_ensemble_percent
+15,1,Drew Lachey,619306.7774593772,21.5,percent,False,advanced_ensemble_percent
+15,1,Bristol Palin,436535.34340014966,19.5,percent,False,advanced_ensemble_percent
+15,1,Melissa Rycroft,1185394.764071073,50.3331,percent,False,advanced_ensemble_percent
+15,2,Gilles Marini,1068619.6510471888,25.5,percent,False,advanced_ensemble_percent
+15,2,Sabrina Bryan,1071638.963961044,26.0,percent,False,advanced_ensemble_percent
+15,2,Kirstie Alley,431689.6292746533,21.0,percent,False,advanced_ensemble_percent
+15,2,Kelly Monaco,1149110.415435317,22.0,percent,False,advanced_ensemble_percent
+15,2,Apolo Anton Ohno,960954.9909615051,24.5,percent,False,advanced_ensemble_percent
+15,2,Emmitt Smith,745625.6707901381,22.5,percent,False,advanced_ensemble_percent
+15,2,Shawn Johnson,1370478.381302609,25.0,percent,False,advanced_ensemble_percent
+15,2,Helio Castroneves,647018.9693142348,23.0,percent,False,advanced_ensemble_percent
+15,2,Joey Fatone,339121.60528095404,22.5,percent,True,advanced_ensemble_percent
+15,2,Drew Lachey,542373.6221424065,22.5,percent,False,advanced_ensemble_percent
+15,2,Bristol Palin,413573.7120550925,18.0,percent,False,advanced_ensemble_percent
+15,2,Melissa Rycroft,1259794.388434856,23.5,percent,False,advanced_ensemble_percent
+15,3,Gilles Marini,986211.0261846252,25.5,percent,False,advanced_ensemble_percent
+15,3,Sabrina Bryan,986211.0261846252,25.5,percent,False,advanced_ensemble_percent
+15,3,Kirstie Alley,501027.7373378551,24.0,percent,False,advanced_ensemble_percent
+15,3,Kelly Monaco,1471394.3348996118,27.0,percent,False,advanced_ensemble_percent
+15,3,Apolo Anton Ohno,986211.0261846252,25.5,percent,False,advanced_ensemble_percent
+15,3,Emmitt Smith,745118.1704432551,25.0,percent,False,advanced_ensemble_percent
+15,3,Shawn Johnson,1349349.0885445871,26.5,percent,False,advanced_ensemble_percent
+15,3,Helio Castroneves,510020.572342233,25.5,percent,True,advanced_ensemble_percent
+15,3,Drew Lachey,501027.7373378551,24.0,percent,False,advanced_ensemble_percent
+15,3,Bristol Palin,492034.9456411162,22.5,percent,False,advanced_ensemble_percent
+15,3,Melissa Rycroft,1471394.3348996118,27.0,percent,False,advanced_ensemble_percent
 15,4,Gilles Marini,1371435.9847431136,39.5,percent,False,advanced_ensemble_percent
 15,4,Sabrina Bryan,850699.8516243446,35.5,percent,False,advanced_ensemble_percent
 15,4,Kirstie Alley,655520.9932419965,30.0,percent,False,advanced_ensemble_percent
@@ -969,14 +969,14 @@
 15,4,Shawn Johnson,1704769.3013967269,39.5,percent,False,advanced_ensemble_percent
 15,4,Bristol Palin,499222.38418204145,32.0,percent,True,advanced_ensemble_percent
 15,4,Melissa Rycroft,1525142.5665851946,37.0,percent,False,advanced_ensemble_percent
-15,6,Gilles Marini,996453.1452621998,27.5,percent,False,advanced_ensemble_percent
-15,6,Sabrina Bryan,816477.0363112303,30.0,percent,True,advanced_ensemble_percent
-15,6,Kirstie Alley,798040.4550853831,27.5,percent,False,advanced_ensemble_percent
-15,6,Kelly Monaco,1389591.2232601468,27.0,percent,False,advanced_ensemble_percent
-15,6,Apolo Anton Ohno,1610127.8269121575,30.0,percent,False,advanced_ensemble_percent
-15,6,Emmitt Smith,989078.5206826116,26.5,percent,False,advanced_ensemble_percent
-15,6,Shawn Johnson,1595378.5777529813,28.0,percent,False,advanced_ensemble_percent
-15,6,Melissa Rycroft,1804853.2147332886,29.5,percent,False,advanced_ensemble_percent
+15,6,Gilles Marini,1015810.4875952635,27.5,percent,False,advanced_ensemble_percent
+15,6,Sabrina Bryan,627742.9987620425,30.0,percent,True,advanced_ensemble_percent
+15,6,Kirstie Alley,812558.4573918852,27.5,percent,False,advanced_ensemble_percent
+15,6,Kelly Monaco,1418627.2456082422,27.0,percent,False,advanced_ensemble_percent
+15,6,Apolo Anton Ohno,1644003.169647149,30.0,percent,False,advanced_ensemble_percent
+15,6,Emmitt Smith,1008435.8629394926,26.5,percent,False,advanced_ensemble_percent
+15,6,Shawn Johnson,1629253.9004673911,28.0,percent,False,advanced_ensemble_percent
+15,6,Melissa Rycroft,1843567.8775885336,29.5,percent,False,advanced_ensemble_percent
 15,8,Gilles Marini,1051317.1380754998,29.2777,percent,True,advanced_ensemble_percent
 15,8,Kirstie Alley,750904.9363876167,25.5,percent,False,advanced_ensemble_percent
 15,8,Kelly Monaco,1849870.234229417,28.3333,percent,False,advanced_ensemble_percent
@@ -992,18 +992,18 @@
 15,10,Kelly Monaco,2936154.4683368867,29.1109,percent,True,advanced_ensemble_percent
 15,10,Shawn Johnson,2932977.0827085753,28.9443,percent,False,advanced_ensemble_percent
 15,10,Melissa Rycroft,4130868.4489545384,29.3331,percent,False,advanced_ensemble_percent
-16,1,Ingo Rademacher,751769.8719009755,20.0,percent,False,advanced_ensemble_percent
-16,1,Zendaya,1383711.193910631,54.0,percent,False,advanced_ensemble_percent
-16,1,Dorothy Hamill,569320.9036623063,21.0,percent,False,advanced_ensemble_percent
-16,1,Victor Ortiz,835768.9021196193,18.0,percent,False,advanced_ensemble_percent
-16,1,Alexandra Raisman,802645.6012002768,50.0,percent,True,advanced_ensemble_percent
-16,1,Jacoby Jones,793011.2081626073,47.9999,percent,False,advanced_ensemble_percent
-16,1,D. L. Hughley,900500.095006184,12.0,percent,False,advanced_ensemble_percent
-16,1,Andy Dick,737318.9640995938,17.0,percent,False,advanced_ensemble_percent
-16,1,Wynonna Judd,742135.9333667211,18.0,percent,False,advanced_ensemble_percent
-16,1,Kellie Pickler,994728.4905705167,51.0,percent,False,advanced_ensemble_percent
-16,1,Lisa Vanderpump,742135.9333667211,18.0,percent,False,advanced_ensemble_percent
-16,1,Sean Lowe,746952.9026338483,19.0,percent,False,advanced_ensemble_percent
+16,1,Ingo Rademacher,774633.7359457242,20.0,percent,False,advanced_ensemble_percent
+16,1,Zendaya,1422906.4263417176,54.0,percent,False,advanced_ensemble_percent
+16,1,Dorothy Hamill,585652.1961808348,21.0,percent,False,advanced_ensemble_percent
+16,1,Victor Ortiz,861899.0320931496,18.0,percent,False,advanced_ensemble_percent
+16,1,Alexandra Raisman,822243.2070328399,50.0,percent,True,advanced_ensemble_percent
+16,1,Jacoby Jones,715709.5313182857,47.9999,percent,False,advanced_ensemble_percent
+16,1,D. L. Hughley,832997.2960987918,12.0,percent,False,advanced_ensemble_percent
+16,1,Andy Dick,760182.7884756855,17.0,percent,False,advanced_ensemble_percent
+16,1,Wynonna Judd,764999.7974566518,18.0,percent,False,advanced_ensemble_percent
+16,1,Kellie Pickler,1020858.6595349769,51.0,percent,False,advanced_ensemble_percent
+16,1,Lisa Vanderpump,764999.7974566518,18.0,percent,False,advanced_ensemble_percent
+16,1,Sean Lowe,672917.5320646901,19.0,percent,False,advanced_ensemble_percent
 16,2,Ingo Rademacher,949620.1511921543,20.0,percent,False,advanced_ensemble_percent
 16,2,Zendaya,1397107.8210263036,26.0,percent,False,advanced_ensemble_percent
 16,2,Dorothy Hamill,305711.0534446213,15.0,percent,True,advanced_ensemble_percent
@@ -1072,55 +1072,55 @@
 16,9,Alexandra Raisman,2663514.577173824,29.5,percent,False,advanced_ensemble_percent
 16,9,Jacoby Jones,2200551.61849966,29.5,percent,False,advanced_ensemble_percent
 16,9,Kellie Pickler,2194641.4504162692,29.0,percent,False,advanced_ensemble_percent
-16,10,Zendaya,2350427.716905142,30.0,percent,True,advanced_ensemble_percent
-16,10,Alexandra Raisman,2336182.684421851,29.0,percent,False,advanced_ensemble_percent
-16,10,Jacoby Jones,2321936.2406170038,27.9999,percent,False,advanced_ensemble_percent
-16,10,Kellie Pickler,2991453.3580560037,30.0,percent,False,advanced_ensemble_percent
-17,1,Valerie Harper,372803.40755213227,21.0,percent,False,advanced_ensemble_percent
-17,1,Brant Daugherty,581619.9966238784,22.0,percent,False,advanced_ensemble_percent
-17,1,Elizabeth Berkley Lauren,793491.9197482982,24.0,percent,False,advanced_ensemble_percent
-17,1,Leah Remini,986504.0502845163,53.5,percent,True,advanced_ensemble_percent
-17,1,Corbin Bleu,1410228.3315805139,91.1664,percent,False,advanced_ensemble_percent
-17,1,Amber Riley,1533478.111061333,97.8332,percent,False,advanced_ensemble_percent
-17,1,Keyshawn Johnson,257701.46370011516,17.0,percent,False,advanced_ensemble_percent
-17,1,Bill Engvall,1150490.4619718394,73.4999,percent,False,advanced_ensemble_percent
-17,1,Christina Milian,581619.9568874491,22.0,percent,False,advanced_ensemble_percent
-17,1,"Nicole ""Snooki"" Polizzi",687555.9383178735,23.0,percent,False,advanced_ensemble_percent
-17,1,Jack Osbourne,1395970.7815206677,86.49989999999998,percent,False,advanced_ensemble_percent
-17,1,Bill Nye,248535.58075138138,14.0,percent,False,advanced_ensemble_percent
-17,2,Valerie Harper,423925.6749496768,19.0,percent,False,advanced_ensemble_percent
-17,2,Brant Daugherty,753866.3744823147,23.0,percent,False,advanced_ensemble_percent
-17,2,Elizabeth Berkley Lauren,969649.7274339164,25.0,percent,False,advanced_ensemble_percent
-17,2,Leah Remini,1065010.083567462,24.0,percent,False,advanced_ensemble_percent
-17,2,Corbin Bleu,1382419.4528237365,26.0,percent,False,advanced_ensemble_percent
-17,2,Amber Riley,1268262.1261109156,24.0,percent,False,advanced_ensemble_percent
-17,2,Keyshawn Johnson,316033.98308707686,18.0,percent,True,advanced_ensemble_percent
-17,2,Bill Engvall,842961.0505765172,21.0,percent,False,advanced_ensemble_percent
-17,2,Christina Milian,868023.7210633511,25.0,percent,False,advanced_ensemble_percent
-17,2,"Nicole ""Snooki"" Polizzi",531817.3613595852,20.0,percent,False,advanced_ensemble_percent
-17,2,Jack Osbourne,1268262.1261109156,24.0,percent,False,advanced_ensemble_percent
-17,2,Bill Nye,309768.318434533,17.0,percent,False,advanced_ensemble_percent
-17,3,Valerie Harper,336056.6445513971,16.0,percent,False,advanced_ensemble_percent
-17,3,Brant Daugherty,1102396.5118386885,27.0,percent,False,advanced_ensemble_percent
-17,3,Elizabeth Berkley Lauren,857843.1284907534,25.0,percent,False,advanced_ensemble_percent
-17,3,Leah Remini,967047.9402212021,24.0,percent,False,advanced_ensemble_percent
-17,3,Corbin Bleu,1443082.7922041763,26.0,percent,False,advanced_ensemble_percent
-17,3,Amber Riley,1314270.1481408149,24.0,percent,False,advanced_ensemble_percent
-17,3,Bill Engvall,1082788.6695716677,24.0,percent,False,advanced_ensemble_percent
-17,3,Christina Milian,864379.0858472013,26.0,percent,False,advanced_ensemble_percent
-17,3,"Nicole ""Snooki"" Polizzi",742102.3991402877,25.0,percent,False,advanced_ensemble_percent
-17,3,Jack Osbourne,953976.0354424139,22.0,percent,False,advanced_ensemble_percent
-17,3,Bill Nye,336056.6445513971,16.0,percent,True,advanced_ensemble_percent
-17,4,Valerie Harper,399806.3142180125,18.0,percent,True,advanced_ensemble_percent
-17,4,Brant Daugherty,557515.3930089503,21.0,percent,False,advanced_ensemble_percent
-17,4,Elizabeth Berkley Lauren,1146157.5707466945,27.0,percent,False,advanced_ensemble_percent
-17,4,Leah Remini,1125060.5268689594,24.0,percent,False,advanced_ensemble_percent
-17,4,Corbin Bleu,1555993.635749873,27.0,percent,False,advanced_ensemble_percent
-17,4,Amber Riley,1555993.635749873,27.0,percent,False,advanced_ensemble_percent
-17,4,Bill Engvall,694127.4080539383,21.0,percent,False,advanced_ensemble_percent
-17,4,Christina Milian,851836.4868448761,24.0,percent,False,advanced_ensemble_percent
-17,4,"Nicole ""Snooki"" Polizzi",851836.4868448761,24.0,percent,False,advanced_ensemble_percent
-17,4,Jack Osbourne,1261672.5419139473,24.0,percent,False,advanced_ensemble_percent
+16,10,Zendaya,2510684.11961855,30.0,percent,True,advanced_ensemble_percent
+16,10,Alexandra Raisman,2496439.1566128973,29.0,percent,False,advanced_ensemble_percent
+16,10,Jacoby Jones,1787748.1798768763,27.9999,percent,False,advanced_ensemble_percent
+16,10,Kellie Pickler,3205128.5438916767,30.0,percent,False,advanced_ensemble_percent
+17,1,Valerie Harper,376661.4013213021,21.0,percent,False,advanced_ensemble_percent
+17,1,Brant Daugherty,588050.0254057315,22.0,percent,False,advanced_ensemble_percent
+17,1,Elizabeth Berkley Lauren,802493.9438502407,24.0,percent,False,advanced_ensemble_percent
+17,1,Leah Remini,996792.112604305,53.5,percent,True,advanced_ensemble_percent
+17,1,Corbin Bleu,1424374.4683008417,91.1664,percent,False,advanced_ensemble_percent
+17,1,Amber Riley,1548910.186085467,97.8332,percent,False,advanced_ensemble_percent
+17,1,Keyshawn Johnson,260273.47954594844,17.0,percent,False,advanced_ensemble_percent
+17,1,Bill Engvall,1162064.5629489024,73.4999,percent,False,advanced_ensemble_percent
+17,1,Christina Milian,588050.0651421614,22.0,percent,False,advanced_ensemble_percent
+17,1,"Nicole ""Snooki"" Polizzi",695271.9846279859,23.0,percent,False,advanced_ensemble_percent
+17,1,Jack Osbourne,1305950.1737014037,86.49989999999998,percent,False,advanced_ensemble_percent
+17,1,Bill Nye,251107.59646570924,14.0,percent,False,advanced_ensemble_percent
+17,2,Valerie Harper,427689.59156262263,19.0,percent,False,advanced_ensemble_percent
+17,2,Brant Daugherty,761394.2268793308,23.0,percent,False,advanced_ensemble_percent
+17,2,Elizabeth Berkley Lauren,979686.8669009161,25.0,percent,False,advanced_ensemble_percent
+17,2,Leah Remini,1076301.8711124246,24.0,percent,False,advanced_ensemble_percent
+17,2,Corbin Bleu,1397475.1657945798,26.0,percent,False,advanced_ensemble_percent
+17,2,Amber Riley,1282063.1804335648,24.0,percent,False,advanced_ensemble_percent
+17,2,Keyshawn Johnson,318543.2658534725,18.0,percent,True,advanced_ensemble_percent
+17,2,Bill Engvall,851743.5607735631,21.0,percent,False,advanced_ensemble_percent
+17,2,Christina Milian,876806.2122403462,25.0,percent,False,advanced_ensemble_percent
+17,2,"Nicole ""Snooki"" Polizzi",536835.9165404692,20.0,percent,False,advanced_ensemble_percent
+17,2,Jack Osbourne,1179182.5257729944,24.0,percent,False,advanced_ensemble_percent
+17,2,Bill Nye,312277.6161357152,17.0,percent,False,advanced_ensemble_percent
+17,3,Valerie Harper,329800.38502835244,16.0,percent,False,advanced_ensemble_percent
+17,3,Brant Daugherty,1189984.0994849766,27.0,percent,False,advanced_ensemble_percent
+17,3,Elizabeth Berkley Lauren,839074.3657955443,25.0,percent,False,advanced_ensemble_percent
+17,3,Leah Remini,945151.0249982538,24.0,percent,False,advanced_ensemble_percent
+17,3,Corbin Bleu,1408673.385001228,26.0,percent,False,advanced_ensemble_percent
+17,3,Amber Riley,1282988.8741365578,24.0,percent,False,advanced_ensemble_percent
+17,3,Bill Engvall,1170376.257757123,24.0,percent,False,advanced_ensemble_percent
+17,3,Christina Milian,845610.3229722695,26.0,percent,False,advanced_ensemble_percent
+17,3,"Nicole ""Snooki"" Polizzi",726461.7593502172,25.0,percent,False,advanced_ensemble_percent
+17,3,Jack Osbourne,932079.130513018,22.0,percent,False,advanced_ensemble_percent
+17,3,Bill Nye,329800.3949624598,16.0,percent,True,advanced_ensemble_percent
+17,4,Valerie Harper,409068.14994042175,18.0,percent,True,advanced_ensemble_percent
+17,4,Brant Daugherty,571408.1414320644,21.0,percent,False,advanced_ensemble_percent
+17,4,Elizabeth Berkley Lauren,1178573.9807066997,27.0,percent,False,advanced_ensemble_percent
+17,4,Leah Remini,1016233.9991491645,24.0,percent,False,advanced_ensemble_percent
+17,4,Corbin Bleu,1602302.794946047,27.0,percent,False,advanced_ensemble_percent
+17,4,Amber Riley,1602302.794946047,27.0,percent,False,advanced_ensemble_percent
+17,4,Bill Engvall,712651.0795118465,21.0,percent,False,advanced_ensemble_percent
+17,4,Christina Milian,874991.0610693819,24.0,percent,False,advanced_ensemble_percent
+17,4,"Nicole ""Snooki"" Polizzi",733748.1229895995,24.0,percent,False,advanced_ensemble_percent
+17,4,Jack Osbourne,1298719.8753087292,24.0,percent,False,advanced_ensemble_percent
 17,5,Brant Daugherty,1211897.5177731826,27.0,percent,False,advanced_ensemble_percent
 17,5,Elizabeth Berkley Lauren,864669.2733908059,26.0,percent,False,advanced_ensemble_percent
 17,5,Leah Remini,836300.4638114444,22.0,percent,False,advanced_ensemble_percent
@@ -1160,29 +1160,29 @@
 17,11,Amber Riley,3233867.504158469,31.3332,percent,False,advanced_ensemble_percent
 17,11,Bill Engvall,1760068.4186509466,25.4999,percent,True,advanced_ensemble_percent
 17,11,Jack Osbourne,2490903.1565407566,27.9999,percent,False,advanced_ensemble_percent
-18,1,Billy Dee Williams,375013.70521291916,15.0,percent,False,advanced_ensemble_percent
-18,1,Danica McKellar,826359.3743026941,24.0,percent,False,advanced_ensemble_percent
-18,1,James Maslow,1147165.0204533513,50.0,percent,False,advanced_ensemble_percent
-18,1,Candace Cameron Bure,1254469.5779039953,50.99980000000001,percent,False,advanced_ensemble_percent
-18,1,Sean Avery,397137.6129249606,20.0,percent,False,advanced_ensemble_percent
-18,1,Diana Nyad,285407.39078976645,18.0,percent,True,advanced_ensemble_percent
-18,1,Charlie White,942514.379470413,27.0,percent,False,advanced_ensemble_percent
-18,1,Amy Purdy,1369150.242334381,53.6666,percent,False,advanced_ensemble_percent
-18,1,Meryl Davis,1473506.1232774118,54.0,percent,False,advanced_ensemble_percent
-18,1,Drew Carey,607323.710581303,21.0,percent,False,advanced_ensemble_percent
-18,1,Cody Simpson,714629.1521674995,22.0,percent,False,advanced_ensemble_percent
-18,1,NeNe Leakes,607323.710581303,21.0,percent,False,advanced_ensemble_percent
-18,2,Billy Dee Williams,327684.23817843304,15.0,percent,True,advanced_ensemble_percent
-18,2,Danica McKellar,952222.7142810788,24.0,percent,False,advanced_ensemble_percent
-18,2,James Maslow,1409503.7707174914,25.0,percent,False,advanced_ensemble_percent
-18,2,Candace Cameron Bure,1044343.5113188387,21.0,percent,False,advanced_ensemble_percent
-18,2,Sean Avery,368667.84600573307,21.0,percent,False,advanced_ensemble_percent
-18,2,Charlie White,1184278.5390123487,25.0,percent,False,advanced_ensemble_percent
-18,2,Amy Purdy,1290060.5519046856,24.0,percent,False,advanced_ensemble_percent
-18,2,Meryl Davis,1409503.7707174914,25.0,percent,False,advanced_ensemble_percent
-18,2,Drew Carey,593893.0777108759,21.0,percent,False,advanced_ensemble_percent
-18,2,Cody Simpson,825948.9024421459,22.0,percent,False,advanced_ensemble_percent
-18,2,NeNe Leakes,593893.0777108759,21.0,percent,False,advanced_ensemble_percent
+18,1,Billy Dee Williams,274705.06013719796,15.0,percent,False,advanced_ensemble_percent
+18,1,Danica McKellar,835361.4310410912,24.0,percent,False,advanced_ensemble_percent
+18,1,James Maslow,1158739.094181406,50.0,percent,False,advanced_ensemble_percent
+18,1,Candace Cameron Bure,1267329.6567474618,50.99980000000001,percent,False,advanced_ensemble_percent
+18,1,Sean Avery,400995.6392675442,20.0,percent,False,advanced_ensemble_percent
+18,1,Diana Nyad,287979.40814580646,18.0,percent,True,advanced_ensemble_percent
+18,1,Charlie White,952802.4489241296,27.0,percent,False,advanced_ensemble_percent
+18,1,Amy Purdy,1383296.333868292,53.6666,percent,False,advanced_ensemble_percent
+18,1,Meryl Davis,1488938.2248440376,54.0,percent,False,advanced_ensemble_percent
+18,1,Drew Carey,613753.7520471369,21.0,percent,False,advanced_ensemble_percent
+18,1,Cody Simpson,722345.1987487603,22.0,percent,False,advanced_ensemble_percent
+18,1,NeNe Leakes,613753.7520471369,21.0,percent,False,advanced_ensemble_percent
+18,2,Billy Dee Williams,330769.5246626597,15.0,percent,True,advanced_ensemble_percent
+18,2,Danica McKellar,963021.193926327,24.0,percent,False,advanced_ensemble_percent
+18,2,James Maslow,1426472.7907828875,25.0,percent,False,advanced_ensemble_percent
+18,2,Candace Cameron Bure,942529.3849484044,21.0,percent,False,advanced_ensemble_percent
+18,2,Sean Avery,371753.12275028974,21.0,percent,False,advanced_ensemble_percent
+18,2,Charlie White,1198162.28391682,25.0,percent,False,advanced_ensemble_percent
+18,2,Amy Purdy,1305486.9293901592,24.0,percent,False,advanced_ensemble_percent
+18,2,Meryl Davis,1426472.7907828875,25.0,percent,False,advanced_ensemble_percent
+18,2,Drew Carey,600063.6196822495,21.0,percent,False,advanced_ensemble_percent
+18,2,Cody Simpson,835204.7394750654,22.0,percent,False,advanced_ensemble_percent
+18,2,NeNe Leakes,600063.6196822495,21.0,percent,False,advanced_ensemble_percent
 18,5,Danica McKellar,1201863.3673062224,39.0,percent,False,advanced_ensemble_percent
 18,5,James Maslow,1707039.336746718,40.0,percent,False,advanced_ensemble_percent
 18,5,Candace Cameron Bure,1014492.7549987612,35.0,percent,False,advanced_ensemble_percent
@@ -1192,49 +1192,49 @@
 18,5,Drew Carey,478260.85784087196,28.0,percent,False,advanced_ensemble_percent
 18,5,Cody Simpson,509316.7724197945,34.0,percent,True,advanced_ensemble_percent
 18,5,NeNe Leakes,853002.0625875795,36.0,percent,False,advanced_ensemble_percent
-18,6,Danica McKellar,1254432.6185144302,36.0,percent,False,advanced_ensemble_percent
-18,6,James Maslow,1456855.7948021896,35.0,percent,False,advanced_ensemble_percent
-18,6,Candace Cameron Bure,1022458.612394041,32.0,percent,False,advanced_ensemble_percent
-18,6,Charlie White,1254432.6185144302,36.0,percent,False,advanced_ensemble_percent
-18,6,Amy Purdy,1891252.9573421238,38.0,percent,False,advanced_ensemble_percent
-18,6,Meryl Davis,1903073.2932488185,40.0,percent,False,advanced_ensemble_percent
-18,6,Drew Carey,605791.9636482561,32.0,percent,True,advanced_ensemble_percent
-18,6,NeNe Leakes,611702.1415357108,33.0,percent,False,advanced_ensemble_percent
-18,7,Danica McKellar,1043605.7697852261,36.0,percent,False,advanced_ensemble_percent
-18,7,James Maslow,1305835.3619129886,35.0,percent,False,advanced_ensemble_percent
-18,7,Candace Cameron Bure,1587827.7876787924,37.0,percent,False,advanced_ensemble_percent
-18,7,Charlie White,1040311.9575561477,35.5,percent,False,advanced_ensemble_percent
-18,7,Amy Purdy,2128755.9933432797,37.5,percent,False,advanced_ensemble_percent
-18,7,Meryl Davis,2138637.4300305154,39.0,percent,False,advanced_ensemble_percent
-18,7,NeNe Leakes,755025.6996930507,33.0,percent,True,advanced_ensemble_percent
+18,6,Danica McKellar,1229026.125742473,36.0,percent,False,advanced_ensemble_percent
+18,6,James Maslow,1426367.9897283397,35.0,percent,False,advanced_ensemble_percent
+18,6,Candace Cameron Bure,1002133.4216332783,32.0,percent,False,advanced_ensemble_percent
+18,6,Charlie White,1229026.125742473,36.0,percent,False,advanced_ensemble_percent
+18,6,Amy Purdy,1850602.547889294,38.0,percent,False,advanced_ensemble_percent
+18,6,Meryl Davis,1862422.8740045177,40.0,percent,False,advanced_ensemble_percent
+18,6,Drew Carey,595629.3576122134,32.0,percent,True,advanced_ensemble_percent
+18,6,NeNe Leakes,804791.5576474112,33.0,percent,False,advanced_ensemble_percent
+18,7,Danica McKellar,1070487.4807001348,36.0,percent,False,advanced_ensemble_percent
+18,7,James Maslow,1341677.6535067807,35.0,percent,False,advanced_ensemble_percent
+18,7,Candace Cameron Bure,1632630.6582124848,37.0,percent,False,advanced_ensemble_percent
+18,7,Charlie White,1067193.6886291,35.5,percent,False,advanced_ensemble_percent
+18,7,Amy Purdy,1913702.2271004473,37.5,percent,False,advanced_ensemble_percent
+18,7,Meryl Davis,2201361.439735117,39.0,percent,False,advanced_ensemble_percent
+18,7,NeNe Leakes,772946.8521159355,33.0,percent,True,advanced_ensemble_percent
 18,8,Danica McKellar,974680.4338190237,38.0,percent,True,advanced_ensemble_percent
 18,8,James Maslow,1654375.6127228488,36.0,percent,False,advanced_ensemble_percent
 18,8,Candace Cameron Bure,1307153.393884878,36.0,percent,False,advanced_ensemble_percent
 18,8,Charlie White,2031096.3590391614,40.0,percent,False,advanced_ensemble_percent
 18,8,Amy Purdy,2378318.5878112395,40.0,percent,False,advanced_ensemble_percent
 18,8,Meryl Davis,1654375.6127228485,36.0,percent,False,advanced_ensemble_percent
-18,9,James Maslow,1720477.0324535212,38.0,percent,False,advanced_ensemble_percent
-18,9,Candace Cameron Bure,1703025.0110810832,36.0,percent,False,advanced_ensemble_percent
-18,9,Charlie White,1257514.0536797363,38.0,percent,True,advanced_ensemble_percent
-18,9,Amy Purdy,2655128.9510167735,39.0,percent,False,advanced_ensemble_percent
-18,9,Meryl Davis,2663854.9517688854,40.0,percent,False,advanced_ensemble_percent
+18,9,James Maslow,1802176.371582541,38.0,percent,False,advanced_ensemble_percent
+18,9,Candace Cameron Bure,1784724.3702487794,36.0,percent,False,advanced_ensemble_percent
+18,9,Charlie White,1311980.2859711715,38.0,percent,True,advanced_ensemble_percent
+18,9,Amy Purdy,2301098.4379925756,39.0,percent,False,advanced_ensemble_percent
+18,9,Meryl Davis,2800020.534204933,40.0,percent,False,advanced_ensemble_percent
 18,10,James Maslow,1810401.4936290048,29.0,percent,True,advanced_ensemble_percent
 18,10,Candace Cameron Bure,1766793.8471902786,25.9998,percent,False,advanced_ensemble_percent
 18,10,Amy Purdy,3208979.321326598,29.666600000000003,percent,False,advanced_ensemble_percent
 18,10,Meryl Davis,3213825.337854118,30.0,percent,False,advanced_ensemble_percent
-19,1,Antonio Sabato Jr.,405838.8918763562,25.0,percent,False,advanced_ensemble_percent
-19,1,Jonathan Bennett,677978.8936834974,30.0,percent,False,advanced_ensemble_percent
-19,1,Lea Thompson,856279.3509615096,32.0,percent,False,advanced_ensemble_percent
-19,1,Janel Parrish,1118934.446348995,106.9998,percent,False,advanced_ensemble_percent
-19,1,Alfonso Ribeiro,1394591.9268120404,113.5,percent,False,advanced_ensemble_percent
-19,1,Lolo Jones,225193.78681658386,22.0,percent,True,advanced_ensemble_percent
-19,1,Randy Couture,680323.5714967735,31.0,percent,False,advanced_ensemble_percent
-19,1,Tommy Chong,917240.6760834685,58.0,percent,False,advanced_ensemble_percent
-19,1,Betsey Johnson,220504.46076315967,20.0,percent,False,advanced_ensemble_percent
-19,1,Michael Waltrip,405838.8918763562,25.0,percent,False,advanced_ensemble_percent
-19,1,Tavis Smiley,502023.11421876145,29.0,percent,False,advanced_ensemble_percent
-19,1,Bethany Mota,1208085.1518251523,108.0,percent,False,advanced_ensemble_percent
-19,1,Sadie Robertson,1387166.8372373458,110.3332,percent,False,advanced_ensemble_percent
+19,1,Antonio Sabato Jr.,405838.8904728284,25.0,percent,False,advanced_ensemble_percent
+19,1,Jonathan Bennett,677978.9025690806,30.0,percent,False,advanced_ensemble_percent
+19,1,Lea Thompson,769473.7892651455,32.0,percent,False,advanced_ensemble_percent
+19,1,Janel Parrish,1118934.4542207662,106.9998,percent,False,advanced_ensemble_percent
+19,1,Alfonso Ribeiro,1394591.9250761876,113.5,percent,False,advanced_ensemble_percent
+19,1,Lolo Jones,225193.78428202498,22.0,percent,True,advanced_ensemble_percent
+19,1,Randy Couture,680323.5604951307,31.0,percent,False,advanced_ensemble_percent
+19,1,Tommy Chong,917240.6847367734,58.0,percent,False,advanced_ensemble_percent
+19,1,Betsey Johnson,220504.4591546483,20.0,percent,False,advanced_ensemble_percent
+19,1,Michael Waltrip,405838.8904728284,25.0,percent,False,advanced_ensemble_percent
+19,1,Tavis Smiley,502023.1228233156,29.0,percent,False,advanced_ensemble_percent
+19,1,Bethany Mota,1294890.7008695717,108.0,percent,False,advanced_ensemble_percent
+19,1,Sadie Robertson,1387166.8355616978,110.3332,percent,False,advanced_ensemble_percent
 19,2,Antonio Sabato Jr.,837170.0354308086,31.0,percent,False,advanced_ensemble_percent
 19,2,Jonathan Bennett,733359.6383235598,30.0,percent,False,advanced_ensemble_percent
 19,2,Lea Thompson,1053998.942494748,35.0,percent,False,advanced_ensemble_percent
@@ -1247,17 +1247,17 @@
 19,2,Tavis Smiley,327326.1428757911,28.0,percent,True,advanced_ensemble_percent
 19,2,Bethany Mota,1243203.540812685,33.0,percent,False,advanced_ensemble_percent
 19,2,Sadie Robertson,1035582.7465981869,31.0,percent,False,advanced_ensemble_percent
-19,3,Antonio Sabato Jr.,599884.5878010746,29.0,percent,False,advanced_ensemble_percent
-19,3,Jonathan Bennett,845530.3761500729,32.0,percent,False,advanced_ensemble_percent
-19,3,Lea Thompson,840808.9432799018,31.0,percent,False,advanced_ensemble_percent
-19,3,Janel Parrish,1462005.5584906011,40.0,percent,False,advanced_ensemble_percent
-19,3,Alfonso Ribeiro,1192752.5958566393,32.0,percent,False,advanced_ensemble_percent
-19,3,Randy Couture,354238.79945207614,26.0,percent,True,advanced_ensemble_percent
-19,3,Tommy Chong,1086454.7316289002,34.0,percent,False,advanced_ensemble_percent
-19,3,Betsey Johnson,484143.8478988858,29.0,percent,False,advanced_ensemble_percent
-19,3,Michael Waltrip,479422.4050946072,28.0,percent,False,advanced_ensemble_percent
-19,3,Bethany Mota,1462005.5584906011,40.0,percent,False,advanced_ensemble_percent
-19,3,Sadie Robertson,1192752.5958566393,32.0,percent,False,advanced_ensemble_percent
+19,3,Antonio Sabato Jr.,593542.6330909532,29.0,percent,False,advanced_ensemble_percent
+19,3,Jonathan Bennett,836017.4407782753,32.0,percent,False,advanced_ensemble_percent
+19,3,Lea Thompson,831295.9981183829,31.0,percent,False,advanced_ensemble_percent
+19,3,Janel Parrish,1444565.1813265267,40.0,percent,False,advanced_ensemble_percent
+19,3,Alfonso Ribeiro,1292638.4399299934,32.0,percent,False,advanced_ensemble_percent
+19,3,Randy Couture,351067.8254036312,26.0,percent,True,advanced_ensemble_percent
+19,3,Tommy Chong,1073770.805805705,34.0,percent,False,advanced_ensemble_percent
+19,3,Betsey Johnson,479387.3733689167,29.0,percent,False,advanced_ensemble_percent
+19,3,Michael Waltrip,474665.9406431314,28.0,percent,False,advanced_ensemble_percent
+19,3,Bethany Mota,1444565.1713924198,40.0,percent,False,advanced_ensemble_percent
+19,3,Sadie Robertson,1178483.190142064,32.0,percent,False,advanced_ensemble_percent
 19,4,Antonio Sabato Jr.,725754.3123004762,29.0,percent,False,advanced_ensemble_percent
 19,4,Jonathan Bennett,556034.4827005286,24.0,percent,False,advanced_ensemble_percent
 19,4,Lea Thompson,1208872.1146425782,39.0,percent,False,advanced_ensemble_percent
@@ -1268,15 +1268,15 @@
 19,4,Michael Waltrip,417564.65300801327,25.0,percent,False,advanced_ensemble_percent
 19,4,Bethany Mota,1321300.2976137807,33.0,percent,False,advanced_ensemble_percent
 19,4,Sadie Robertson,1485811.7740276086,37.0,percent,False,advanced_ensemble_percent
-19,6,Antonio Sabato Jr.,669475.975626121,28.0,percent,False,advanced_ensemble_percent
-19,6,Jonathan Bennett,522161.0761361714,32.0,percent,True,advanced_ensemble_percent
-19,6,Lea Thompson,1032365.1683492843,32.0,percent,False,advanced_ensemble_percent
-19,6,Janel Parrish,1378189.5101531043,33.0,percent,False,advanced_ensemble_percent
-19,6,Alfonso Ribeiro,1752455.2436648745,39.0,percent,False,advanced_ensemble_percent
-19,6,Tommy Chong,839544.0162979335,28.0,percent,False,advanced_ensemble_percent
-19,6,Michael Waltrip,680852.5462170524,30.0,percent,False,advanced_ensemble_percent
-19,6,Bethany Mota,1565322.371941935,36.0,percent,False,advanced_ensemble_percent
-19,6,Sadie Robertson,1559634.0916135237,35.0,percent,False,advanced_ensemble_percent
+19,6,Antonio Sabato Jr.,649467.9766757812,28.0,percent,False,advanced_ensemble_percent
+19,6,Jonathan Bennett,672221.1135869824,32.0,percent,True,advanced_ensemble_percent
+19,6,Lea Thompson,999018.4752752761,32.0,percent,False,advanced_ensemble_percent
+19,6,Janel Parrish,1331504.1639315484,33.0,percent,False,advanced_ensemble_percent
+19,6,Alfonso Ribeiro,1692431.2620978365,39.0,percent,False,advanced_ensemble_percent
+19,6,Tommy Chong,812866.6661451653,28.0,percent,False,advanced_ensemble_percent
+19,6,Michael Waltrip,660844.5365061446,30.0,percent,False,advanced_ensemble_percent
+19,6,Bethany Mota,1675366.372681754,36.0,percent,False,advanced_ensemble_percent
+19,6,Sadie Robertson,1506279.4330995108,35.0,percent,False,advanced_ensemble_percent
 19,7,Antonio Sabato Jr.,628796.3667163261,29.5,percent,True,advanced_ensemble_percent
 19,7,Lea Thompson,1322152.0781443317,35.0,percent,False,advanced_ensemble_percent
 19,7,Janel Parrish,1531779.145412585,33.5,percent,False,advanced_ensemble_percent
@@ -1285,13 +1285,13 @@
 19,7,Michael Waltrip,619125.1793759649,28.0,percent,False,advanced_ensemble_percent
 19,7,Bethany Mota,1996165.4813270038,37.5,percent,False,advanced_ensemble_percent
 19,7,Sadie Robertson,1296362.2601387904,31.0,percent,False,advanced_ensemble_percent
-19,8,Lea Thompson,1021505.3826209364,32.0,percent,False,advanced_ensemble_percent
-19,8,Janel Parrish,2170698.9244654085,43.0,percent,False,advanced_ensemble_percent
-19,8,Alfonso Ribeiro,2157258.0669386173,41.0,percent,False,advanced_ensemble_percent
-19,8,Tommy Chong,1001344.0814295874,29.0,percent,False,advanced_ensemble_percent
-19,8,Michael Waltrip,705645.161255988,25.0,percent,True,advanced_ensemble_percent
-19,8,Bethany Mota,1612903.222968135,40.0,percent,False,advanced_ensemble_percent
-19,8,Sadie Robertson,1330645.1603213274,38.0,percent,False,advanced_ensemble_percent
+19,8,Lea Thompson,996303.7625635451,32.0,percent,False,advanced_ensemble_percent
+19,8,Janel Parrish,2111895.15978272,43.0,percent,False,advanced_ensemble_percent
+19,8,Alfonso Ribeiro,2098454.3024848695,41.0,percent,False,advanced_ensemble_percent
+19,8,Tommy Chong,976142.4815838233,29.0,percent,False,advanced_ensemble_percent
+19,8,Michael Waltrip,688844.0803249488,25.0,percent,True,advanced_ensemble_percent
+19,8,Bethany Mota,1570900.5452130798,40.0,percent,False,advanced_ensemble_percent
+19,8,Sadie Robertson,1557459.6680470144,38.0,percent,False,advanced_ensemble_percent
 19,9,Lea Thompson,939252.328986555,35.0,percent,True,advanced_ensemble_percent
 19,9,Janel Parrish,2299844.226019793,38.5,percent,False,advanced_ensemble_percent
 19,9,Alfonso Ribeiro,2299844.226019793,38.5,percent,False,advanced_ensemble_percent
@@ -1307,29 +1307,29 @@
 19,11,Alfonso Ribeiro,3204217.922413879,40.0,percent,False,advanced_ensemble_percent
 19,11,Bethany Mota,1794007.0264188496,38.0,percent,True,advanced_ensemble_percent
 19,11,Sadie Robertson,2502664.707616969,39.333200000000005,percent,False,advanced_ensemble_percent
-20,2,Suzanne Somers,722721.3704828682,28.0,percent,False,advanced_ensemble_percent
-20,2,Willow Shields,1036051.3012382386,32.0,percent,False,advanced_ensemble_percent
-20,2,Riker Lynch,1330168.9656308345,32.0,percent,False,advanced_ensemble_percent
-20,2,Rumer Willis,1330168.9656308347,32.0,percent,False,advanced_ensemble_percent
-20,2,Nastia Liukin,1143696.6724406707,34.0,percent,False,advanced_ensemble_percent
-20,2,Michael Sam,722721.3704828682,28.0,percent,False,advanced_ensemble_percent
-20,2,Robert Herjavec,820760.5588333742,28.0,percent,False,advanced_ensemble_percent
-20,2,Charlotte McKinney,320958.35475605587,26.0,percent,False,advanced_ensemble_percent
-20,2,Noah Galloway,1012035.9335153933,27.0,percent,False,advanced_ensemble_percent
-20,2,Redfoo,443012.94125406037,31.0,percent,True,advanced_ensemble_percent
-20,2,Patti LaBelle,624682.1423959311,28.0,percent,False,advanced_ensemble_percent
-20,2,Chris Soules,493021.4233388692,21.0,percent,False,advanced_ensemble_percent
-20,3,Suzanne Somers,602603.9115575545,25.0,percent,False,advanced_ensemble_percent
-20,3,Willow Shields,991990.2774075458,32.0,percent,False,advanced_ensemble_percent
-20,3,Riker Lynch,1472123.4727290624,34.0,percent,False,advanced_ensemble_percent
-20,3,Rumer Willis,1466798.6619245629,33.0,percent,False,advanced_ensemble_percent
-20,3,Nastia Liukin,1354752.5892350406,34.0,percent,False,advanced_ensemble_percent
-20,3,Michael Sam,479908.2073249257,24.0,percent,False,advanced_ensemble_percent
-20,3,Robert Herjavec,976015.8350599405,29.0,percent,False,advanced_ensemble_percent
-20,3,Charlotte McKinney,351887.6823536899,22.0,percent,True,advanced_ensemble_percent
-20,3,Noah Galloway,1098711.5492266768,30.0,percent,False,advanced_ensemble_percent
-20,3,Patti LaBelle,469258.5757818193,22.0,percent,False,advanced_ensemble_percent
-20,3,Chris Soules,735949.237399182,28.0,percent,False,advanced_ensemble_percent
+20,2,Suzanne Somers,715881.426513221,28.0,percent,False,advanced_ensemble_percent
+20,2,Willow Shields,1025791.3846413663,32.0,percent,False,advanced_ensemble_percent
+20,2,Riker Lynch,1316489.0572749705,32.0,percent,False,advanced_ensemble_percent
+20,2,Rumer Willis,1316489.0572749705,32.0,percent,False,advanced_ensemble_percent
+20,2,Nastia Liukin,1229196.0089247313,34.0,percent,False,advanced_ensemble_percent
+20,2,Michael Sam,715881.4265132211,28.0,percent,False,advanced_ensemble_percent
+20,2,Robert Herjavec,812780.6573471609,28.0,percent,False,advanced_ensemble_percent
+20,2,Charlotte McKinney,318678.3604301918,26.0,percent,False,advanced_ensemble_percent
+20,2,Noah Galloway,1001776.0178390832,27.0,percent,False,advanced_ensemble_percent
+20,2,Redfoo,439592.97213422915,31.0,percent,True,advanced_ensemble_percent
+20,2,Patti LaBelle,618982.1758110666,28.0,percent,False,advanced_ensemble_percent
+20,2,Chris Soules,488461.4552957883,21.0,percent,False,advanced_ensemble_percent
+20,3,Suzanne Somers,609310.8185803394,25.0,percent,False,advanced_ensemble_percent
+20,3,Willow Shields,1003727.3738796865,32.0,percent,False,advanced_ensemble_percent
+20,3,Riker Lynch,1490567.474329571,34.0,percent,False,advanced_ensemble_percent
+20,3,Rumer Willis,1485242.6634034405,33.0,percent,False,advanced_ensemble_percent
+20,3,Nastia Liukin,1371519.8447460572,34.0,percent,False,advanced_ensemble_percent
+20,3,Michael Sam,484938.3780706952,24.0,percent,False,advanced_ensemble_percent
+20,3,Robert Herjavec,868705.311517781,29.0,percent,False,advanced_ensemble_percent
+20,3,Charlotte McKinney,355241.1365690283,22.0,percent,True,advanced_ensemble_percent
+20,3,Noah Galloway,1112125.3617427235,30.0,percent,False,advanced_ensemble_percent
+20,3,Patti LaBelle,474288.7562184342,22.0,percent,False,advanced_ensemble_percent
+20,3,Chris Soules,744332.8809422447,28.0,percent,False,advanced_ensemble_percent
 20,4,Suzanne Somers,426075.61920246866,28.0,percent,False,advanced_ensemble_percent
 20,4,Willow Shields,1329943.4899745733,39.0,percent,False,advanced_ensemble_percent
 20,4,Riker Lynch,1445545.413997935,34.0,percent,False,advanced_ensemble_percent
@@ -1340,15 +1340,15 @@
 20,4,Noah Galloway,1152803.125496072,32.0,percent,False,advanced_ensemble_percent
 20,4,Patti LaBelle,718817.9077043314,30.0,percent,False,advanced_ensemble_percent
 20,4,Chris Soules,562190.3434653997,27.0,percent,False,advanced_ensemble_percent
-20,5,Suzanne Somers,498233.2179760933,28.0,percent,True,advanced_ensemble_percent
-20,5,Willow Shields,1200235.5741089836,34.0,percent,False,advanced_ensemble_percent
-20,5,Riker Lynch,1723792.6979600457,38.0,percent,False,advanced_ensemble_percent
-20,5,Rumer Willis,1729681.984457258,39.0,percent,False,advanced_ensemble_percent
-20,5,Nastia Liukin,1557126.0287385338,38.0,percent,False,advanced_ensemble_percent
-20,5,Robert Herjavec,808009.4203643752,24.0,percent,False,advanced_ensemble_percent
-20,5,Noah Galloway,1164899.8749939252,28.0,percent,False,advanced_ensemble_percent
-20,5,Patti LaBelle,659010.6007003927,27.0,percent,False,advanced_ensemble_percent
-20,5,Chris Soules,659010.6007003926,27.0,percent,False,advanced_ensemble_percent
+20,5,Suzanne Somers,505035.9394982623,28.0,percent,True,advanced_ensemble_percent
+20,5,Willow Shields,1220643.7345078422,34.0,percent,False,advanced_ensemble_percent
+20,5,Riker Lynch,1754404.9424638744,38.0,percent,False,advanced_ensemble_percent
+20,5,Rumer Willis,1760294.2290002878,39.0,percent,False,advanced_ensemble_percent
+20,5,Nastia Liukin,1584336.9086149386,38.0,percent,False,advanced_ensemble_percent
+20,5,Robert Herjavec,821614.8610504792,24.0,percent,False,advanced_ensemble_percent
+20,5,Noah Galloway,1015240.0211768545,28.0,percent,False,advanced_ensemble_percent
+20,5,Patti LaBelle,669214.676876677,27.0,percent,False,advanced_ensemble_percent
+20,5,Chris Soules,669214.6868107843,27.0,percent,False,advanced_ensemble_percent
 20,6,Willow Shields,1283334.8506749026,36.5,percent,False,advanced_ensemble_percent
 20,6,Riker Lynch,1933194.4059776848,38.0,percent,False,advanced_ensemble_percent
 20,6,Rumer Willis,1704795.9877930416,35.5,percent,False,advanced_ensemble_percent
@@ -1357,52 +1357,52 @@
 20,6,Noah Galloway,1268611.6492763294,34.0,percent,False,advanced_ensemble_percent
 20,6,Patti LaBelle,627585.9989181191,34.0,percent,True,advanced_ensemble_percent
 20,6,Chris Soules,847150.4922899759,35.0,percent,False,advanced_ensemble_percent
-20,7,Willow Shields,776738.8438187946,39.0,percent,True,advanced_ensemble_percent
-20,7,Riker Lynch,1805282.1615453546,37.0,percent,False,advanced_ensemble_percent
-20,7,Rumer Willis,1805282.1615453546,37.0,percent,False,advanced_ensemble_percent
-20,7,Nastia Liukin,2091945.5321506471,41.0,percent,False,advanced_ensemble_percent
-20,7,Robert Herjavec,984662.0723043082,31.0,percent,False,advanced_ensemble_percent
-20,7,Noah Galloway,1551427.156331232,38.0,percent,False,advanced_ensemble_percent
-20,7,Chris Soules,984662.0723043082,31.0,percent,False,advanced_ensemble_percent
+20,7,Willow Shields,1013481.2688267912,39.0,percent,True,advanced_ensemble_percent
+20,7,Riker Lynch,1757933.6552067907,37.0,percent,False,advanced_ensemble_percent
+20,7,Rumer Willis,1757933.675075006,37.0,percent,False,advanced_ensemble_percent
+20,7,Nastia Liukin,2036705.648998028,41.0,percent,False,advanced_ensemble_percent
+20,7,Robert Herjavec,960987.8335481873,31.0,percent,False,advanced_ensemble_percent
+20,7,Noah Galloway,1511970.084797011,38.0,percent,False,advanced_ensemble_percent
+20,7,Chris Soules,960987.8335481873,31.0,percent,False,advanced_ensemble_percent
 20,8,Riker Lynch,2481241.6403825474,39.0,percent,False,advanced_ensemble_percent
 20,8,Rumer Willis,2489121.8710752293,40.0,percent,False,advanced_ensemble_percent
 20,8,Nastia Liukin,1748723.7526253685,38.0,percent,False,advanced_ensemble_percent
 20,8,Robert Herjavec,968924.520448527,31.0,percent,True,advanced_ensemble_percent
 20,8,Noah Galloway,1335183.484195331,31.5,percent,False,advanced_ensemble_percent
 20,8,Chris Soules,976804.7312729942,32.0,percent,False,advanced_ensemble_percent
-20,9,Riker Lynch,2988731.01626977,40.0,percent,False,advanced_ensemble_percent
-20,9,Rumer Willis,2978115.309818338,39.0,percent,False,advanced_ensemble_percent
-20,9,Nastia Liukin,1706679.7389881292,40.0,percent,True,advanced_ensemble_percent
-20,9,Noah Galloway,2326473.934923763,38.0,percent,False,advanced_ensemble_percent
+20,9,Riker Lynch,3202406.223665957,40.0,percent,False,advanced_ensemble_percent
+20,9,Rumer Willis,2497346.0783772767,39.0,percent,False,advanced_ensemble_percent
+20,9,Nastia Liukin,1813517.3358727058,40.0,percent,True,advanced_ensemble_percent
+20,9,Noah Galloway,2486730.3620840595,38.0,percent,False,advanced_ensemble_percent
 20,10,Riker Lynch,2955665.02507144,40.0,percent,True,advanced_ensemble_percent
 20,10,Rumer Willis,4146141.2155483025,40.0,percent,False,advanced_ensemble_percent
 20,10,Noah Galloway,2898193.759380257,36.0,percent,False,advanced_ensemble_percent
-21,1,Gary Busey,476557.52685727656,15.0,percent,False,advanced_ensemble_percent
-21,1,Alexa PenaVega,755640.4032645416,22.0,percent,False,advanced_ensemble_percent
-21,1,Carlos PenaVega,1224856.9215145435,84.5,percent,True,advanced_ensemble_percent
-21,1,Victor Espinoza,476557.52685727656,15.0,percent,False,advanced_ensemble_percent
-21,1,Alek Skarlatos,1204301.583418223,78.4999,percent,False,advanced_ensemble_percent
-21,1,Chaka Khan,299637.83954430267,13.0,percent,False,advanced_ensemble_percent
-21,1,Andy Grammer,667180.5596080549,21.0,percent,False,advanced_ensemble_percent
-21,1,Tamar Braxton,844100.246921029,23.0,percent,False,advanced_ensemble_percent
-21,1,Nick Carter,1297900.459768879,81.0,percent,False,advanced_ensemble_percent
-21,1,Hayes Grier,667180.5596080549,21.0,percent,False,advanced_ensemble_percent
-21,1,Bindi Irwin,1398350.7704198721,85.5,percent,False,advanced_ensemble_percent
-21,1,Kim Zolciak-Biermann,296212.0826577066,12.0,percent,False,advanced_ensemble_percent
-21,1,Paula Deen,391523.5195602406,15.0,percent,False,advanced_ensemble_percent
-21,2,Gary Busey,362080.2520369347,16.5,percent,False,advanced_ensemble_percent
-21,2,Alexa PenaVega,922962.8831859577,23.0,percent,False,advanced_ensemble_percent
-21,2,Carlos PenaVega,1180298.8218806752,22.5,percent,False,advanced_ensemble_percent
-21,2,Victor Espinoza,287597.54970198247,18.5,percent,True,advanced_ensemble_percent
-21,2,Alek Skarlatos,1093493.270451516,22.5,percent,False,advanced_ensemble_percent
-21,2,Chaka Khan,266032.55382950115,15.0,percent,False,advanced_ensemble_percent
-21,2,Andy Grammer,656384.7679106448,22.0,percent,False,advanced_ensemble_percent
-21,2,Tamar Braxton,1019010.5813933911,24.5,percent,False,advanced_ensemble_percent
-21,2,Nick Carter,1180298.8218806752,22.5,percent,False,advanced_ensemble_percent
-21,2,Hayes Grier,833076.6062299338,22.5,percent,False,advanced_ensemble_percent
-21,2,Bindi Irwin,1276346.5300222153,24.0,percent,False,advanced_ensemble_percent
-21,2,Kim Zolciak-Biermann,374403.1243420751,18.5,percent,False,advanced_ensemble_percent
-21,2,Paula Deen,548014.2371344989,18.5,percent,False,advanced_ensemble_percent
+21,1,Gary Busey,472262.9491684128,15.0,percent,False,advanced_ensemble_percent
+21,1,Alexa PenaVega,748769.0260001709,22.0,percent,False,advanced_ensemble_percent
+21,1,Carlos PenaVega,1215408.687221443,84.5,percent,True,advanced_ensemble_percent
+21,1,Victor Espinoza,472262.94916841266,15.0,percent,False,advanced_ensemble_percent
+21,1,Alek Skarlatos,1194853.3367044225,78.4999,percent,False,advanced_ensemble_percent
+21,1,Chaka Khan,297061.02279241366,13.0,percent,False,advanced_ensemble_percent
+21,1,Andy Grammer,745343.1099739417,21.0,percent,False,advanced_ensemble_percent
+21,1,Tamar Braxton,836369.8302424515,23.0,percent,False,advanced_ensemble_percent
+21,1,Nick Carter,1287593.3328774848,81.0,percent,False,advanced_ensemble_percent
+21,1,Hayes Grier,661168.0628121713,21.0,percent,False,advanced_ensemble_percent
+21,1,Bindi Irwin,1387184.684265849,85.5,percent,False,advanced_ensemble_percent
+21,1,Kim Zolciak-Biermann,293635.26571190346,12.0,percent,False,advanced_ensemble_percent
+21,1,Paula Deen,388087.7430609233,15.0,percent,False,advanced_ensemble_percent
+21,2,Gary Busey,362080.248993176,16.5,percent,False,advanced_ensemble_percent
+21,2,Alexa PenaVega,922962.8852995061,23.0,percent,False,advanced_ensemble_percent
+21,2,Carlos PenaVega,1180298.8297789576,22.5,percent,False,advanced_ensemble_percent
+21,2,Victor Espinoza,374403.10720233567,18.5,percent,True,advanced_ensemble_percent
+21,2,Alek Skarlatos,1093493.2862773961,22.5,percent,False,advanced_ensemble_percent
+21,2,Chaka Khan,266032.5679430588,15.0,percent,False,advanced_ensemble_percent
+21,2,Andy Grammer,656384.7834032833,22.0,percent,False,advanced_ensemble_percent
+21,2,Tamar Braxton,1019010.5663496234,24.5,percent,False,advanced_ensemble_percent
+21,2,Nick Carter,1093493.2664091806,22.5,percent,False,advanced_ensemble_percent
+21,2,Hayes Grier,833076.5961680671,22.5,percent,False,advanced_ensemble_percent
+21,2,Bindi Irwin,1276346.5306972896,24.0,percent,False,advanced_ensemble_percent
+21,2,Kim Zolciak-Biermann,374403.11230339465,18.5,percent,False,advanced_ensemble_percent
+21,2,Paula Deen,548014.2191747319,18.5,percent,False,advanced_ensemble_percent
 21,4,Gary Busey,390772.122888358,16.0,percent,True,advanced_ensemble_percent
 21,4,Alexa PenaVega,564971.7534118141,21.0,percent,False,advanced_ensemble_percent
 21,4,Carlos PenaVega,1426553.670444936,25.0,percent,False,advanced_ensemble_percent
@@ -1459,17 +1459,17 @@
 22,2,Ginger Zee,1239574.92634391,21.0,percent,False,advanced_ensemble_percent
 22,2,Wanya Morris,1161555.0114857857,24.0,percent,False,advanced_ensemble_percent
 22,2,Marla Maples,835687.3765194671,20.0,percent,False,advanced_ensemble_percent
-22,3,Mischa Barton,361324.062207758,18.0,percent,True,advanced_ensemble_percent
-22,3,Kim Fields,858937.0244141513,22.0,percent,False,advanced_ensemble_percent
-22,3,Jodie Sweetin,1100711.1556541028,23.0,percent,False,advanced_ensemble_percent
-22,3,Doug Flutie,492759.6451720208,20.0,percent,False,advanced_ensemble_percent
-22,3,Von Miller,727501.4315157807,20.0,percent,False,advanced_ensemble_percent
-22,3,Antonio Brown,610130.5482780085,20.0,percent,False,advanced_ensemble_percent
-22,3,Paige VanZant,1335452.9419978624,23.0,percent,False,advanced_ensemble_percent
-22,3,Nyle DiMarco,1466888.534896233,25.0,percent,False,advanced_ensemble_percent
-22,3,Ginger Zee,1086646.4658617198,21.0,percent,False,advanced_ensemble_percent
-22,3,Wanya Morris,1225114.3937221735,24.0,percent,False,advanced_ensemble_percent
-22,3,Marla Maples,734533.7962801874,21.0,percent,False,advanced_ensemble_percent
+22,3,Mischa Barton,364677.51771448,18.0,percent,True,advanced_ensemble_percent
+22,3,Kim Fields,868997.3891184566,22.0,percent,False,advanced_ensemble_percent
+22,3,Jodie Sweetin,1114124.965248566,23.0,percent,False,advanced_ensemble_percent
+22,3,Doug Flutie,497789.82775266544,20.0,percent,False,advanced_ensemble_percent
+22,3,Von Miller,616837.4583835221,20.0,percent,False,advanced_ensemble_percent
+22,3,Antonio Brown,616837.458383522,20.0,percent,False,advanced_ensemble_percent
+22,3,Paige VanZant,1352220.2165761713,23.0,percent,False,advanced_ensemble_percent
+22,3,Nyle DiMarco,1485332.5266143568,25.0,percent,False,advanced_ensemble_percent
+22,3,Ginger Zee,1100060.2759071293,21.0,percent,False,advanced_ensemble_percent
+22,3,Wanya Morris,1240204.9504842476,24.0,percent,False,advanced_ensemble_percent
+22,3,Marla Maples,742917.4138168821,21.0,percent,False,advanced_ensemble_percent
 22,4,Kim Fields,850249.2415676487,32.0,percent,False,advanced_ensemble_percent
 22,4,Jodie Sweetin,550901.9002292132,27.0,percent,False,advanced_ensemble_percent
 22,4,Doug Flutie,398615.8871209027,24.0,percent,False,advanced_ensemble_percent
@@ -1497,12 +1497,12 @@
 22,7,Nyle DiMarco,1884735.2005400655,28.0,percent,False,advanced_ensemble_percent
 22,7,Ginger Zee,1672507.7960201618,27.5,percent,False,advanced_ensemble_percent
 22,7,Wanya Morris,1464174.4622430329,27.5,percent,False,advanced_ensemble_percent
-22,8,Jodie Sweetin,1020495.6631166339,30.0,percent,True,advanced_ensemble_percent
-22,8,Antonio Brown,990909.8869722871,27.0,percent,False,advanced_ensemble_percent
-22,8,Paige VanZant,2087728.3413437633,28.0,percent,False,advanced_ensemble_percent
-22,8,Nyle DiMarco,2097590.2480054703,29.0,percent,False,advanced_ensemble_percent
-22,8,Ginger Zee,2469771.0303947213,30.0,percent,False,advanced_ensemble_percent
-22,8,Wanya Morris,1333504.830167124,25.0,percent,False,advanced_ensemble_percent
+22,8,Jodie Sweetin,1053433.7449779012,30.0,percent,True,advanced_ensemble_percent
+22,8,Antonio Brown,1023847.9296905056,27.0,percent,False,advanced_ensemble_percent
+22,8,Paige VanZant,1791285.664122191,28.0,percent,False,advanced_ensemble_percent
+22,8,Nyle DiMarco,2179935.4250549525,29.0,percent,False,advanced_ensemble_percent
+22,8,Ginger Zee,2568585.2654605764,30.0,percent,False,advanced_ensemble_percent
+22,8,Wanya Morris,1382911.9706938746,25.0,percent,False,advanced_ensemble_percent
 22,9,Antonio Brown,1245321.9784911543,27.5,percent,True,advanced_ensemble_percent
 22,9,Paige VanZant,2657439.670798012,29.5,percent,False,advanced_ensemble_percent
 22,9,Nyle DiMarco,2182862.299398648,28.5,percent,False,advanced_ensemble_percent
@@ -1511,32 +1511,32 @@
 22,10,Paige VanZant,2949280.667993187,29.666600000000003,percent,True,advanced_ensemble_percent
 22,10,Nyle DiMarco,4126982.8520741765,28.9998,percent,False,advanced_ensemble_percent
 22,10,Ginger Zee,2923736.4799326374,28.3332,percent,False,advanced_ensemble_percent
-23,1,Jake T. Austin,316056.45567816886,22.0,percent,False,advanced_ensemble_percent
-23,1,Maureen McCormick,401967.17148948973,22.0,percent,False,advanced_ensemble_percent
-23,1,Marilu Henner,758865.3928873221,27.0,percent,False,advanced_ensemble_percent
-23,1,Ryan Lochte,493180.07824554737,24.0,percent,False,advanced_ensemble_percent
-23,1,Calvin Johnson Jr.,1275713.637164515,92.3331,percent,False,advanced_ensemble_percent
-23,1,Laurie Hernandez,1382833.4346462318,100.3332,percent,False,advanced_ensemble_percent
-23,1,Amber Rose,493180.07824554737,24.0,percent,False,advanced_ensemble_percent
-23,1,Rick Perry,224843.62839497317,20.0,percent,False,advanced_ensemble_percent
-23,1,James Hinchcliffe,1294713.3732668592,99.4998,percent,False,advanced_ensemble_percent
-23,1,Babyface,756214.1782056605,26.0,percent,False,advanced_ensemble_percent
-23,1,Vanilla Ice,581741.7703199435,25.0,percent,False,advanced_ensemble_percent
-23,1,Jana Kramer,1101683.6221664723,91.5,percent,True,advanced_ensemble_percent
-23,1,Terra Jole,919007.1792892696,55.0,percent,False,advanced_ensemble_percent
-23,2,Jake T. Austin,287247.47682438156,24.0,percent,True,advanced_ensemble_percent
-23,2,Maureen McCormick,557133.843702076,26.0,percent,False,advanced_ensemble_percent
-23,2,Marilu Henner,822285.3490445433,27.0,percent,False,advanced_ensemble_percent
-23,2,Ryan Lochte,460858.5853732075,24.0,percent,False,advanced_ensemble_percent
-23,2,Calvin Johnson Jr.,1000631.3138499053,28.0,percent,False,advanced_ensemble_percent
-23,2,Laurie Hernandez,1279987.3710447473,32.0,percent,False,advanced_ensemble_percent
-23,2,Amber Rose,460858.5853732076,24.0,percent,False,advanced_ensemble_percent
-23,2,Rick Perry,277777.76663901843,22.0,percent,False,advanced_ensemble_percent
-23,2,James Hinchcliffe,1178977.2786552666,29.0,percent,False,advanced_ensemble_percent
-23,2,Babyface,923295.4613022392,30.0,percent,False,advanced_ensemble_percent
-23,2,Vanilla Ice,643939.4041073966,26.0,percent,False,advanced_ensemble_percent
-23,2,Jana Kramer,1092171.7182499457,29.0,percent,False,advanced_ensemble_percent
-23,2,Terra Jole,1014835.8458340652,31.0,percent,False,advanced_ensemble_percent
+23,1,Jake T. Austin,318741.22344443237,22.0,percent,False,advanced_ensemble_percent
+23,1,Maureen McCormick,405546.8049992099,22.0,percent,False,advanced_ensemble_percent
+23,1,Marilu Henner,766024.5686990906,27.0,percent,False,advanced_ensemble_percent
+23,1,Ryan Lochte,497654.57744086796,24.0,percent,False,advanced_ensemble_percent
+23,1,Calvin Johnson Jr.,1199646.8514510728,92.3331,percent,False,advanced_ensemble_percent
+23,1,Laurie Hernandez,1394467.175472456,100.3332,percent,False,advanced_ensemble_percent
+23,1,Amber Rose,497654.57744086796,24.0,percent,False,advanced_ensemble_percent
+23,1,Rick Perry,226633.37152991307,20.0,percent,False,advanced_ensemble_percent
+23,1,James Hinchcliffe,1305452.1689008737,99.4998,percent,False,advanced_ensemble_percent
+23,1,Babyface,763373.43351922,26.0,percent,False,advanced_ensemble_percent
+23,1,Vanilla Ice,587111.2147026552,25.0,percent,False,advanced_ensemble_percent
+23,1,Jana Kramer,1110632.653419117,91.5,percent,True,advanced_ensemble_percent
+23,1,Terra Jole,927061.3789802226,55.0,percent,False,advanced_ensemble_percent
+23,2,Jake T. Austin,285457.66982338665,24.0,percent,True,advanced_ensemble_percent
+23,2,Maureen McCormick,552659.3269388139,26.0,percent,False,advanced_ensemble_percent
+23,2,Marilu Henner,815126.1300911963,27.0,percent,False,advanced_ensemble_percent
+23,2,Ryan Lochte,457278.9727295107,24.0,percent,False,advanced_ensemble_percent
+23,2,Calvin Johnson Jr.,991682.2867981294,28.0,percent,False,advanced_ensemble_percent
+23,2,Laurie Hernandez,1268353.6515962926,32.0,percent,False,advanced_ensemble_percent
+23,2,Amber Rose,457278.9727295107,24.0,percent,False,advanced_ensemble_percent
+23,2,Rick Perry,275987.98200886557,22.0,percent,False,advanced_ensemble_percent
+23,2,James Hinchcliffe,1168238.4435050625,29.0,percent,False,advanced_ensemble_percent
+23,2,Babyface,915241.3282483193,30.0,percent,False,advanced_ensemble_percent
+23,2,Vanilla Ice,638569.9733842632,26.0,percent,False,advanced_ensemble_percent
+23,2,Jana Kramer,1082327.7771913984,29.0,percent,False,advanced_ensemble_percent
+23,2,Terra Jole,1091797.4849552524,31.0,percent,False,advanced_ensemble_percent
 23,3,Maureen McCormick,745999.3780508961,28.0,percent,False,advanced_ensemble_percent
 23,3,Marilu Henner,846400.9976620531,28.0,percent,False,advanced_ensemble_percent
 23,3,Ryan Lochte,529811.5541784302,25.0,percent,False,advanced_ensemble_percent
@@ -1549,17 +1549,17 @@
 23,3,Vanilla Ice,419153.5348663978,23.0,percent,False,advanced_ensemble_percent
 23,3,Jana Kramer,936546.1877700124,26.0,percent,False,advanced_ensemble_percent
 23,3,Terra Jole,1057460.6067829202,30.0,percent,False,advanced_ensemble_percent
-23,4,Maureen McCormick,847701.1502723569,24.0,percent,False,advanced_ensemble_percent
-23,4,Marilu Henner,481321.83927987004,21.0,percent,False,advanced_ensemble_percent
-23,4,Ryan Lochte,603448.2729659965,22.0,percent,False,advanced_ensemble_percent
-23,4,Calvin Johnson Jr.,1188537.6756958133,23.0,percent,False,advanced_ensemble_percent
-23,4,Laurie Hernandez,1464719.0324799353,30.0,percent,False,advanced_ensemble_percent
-23,4,Amber Rose,847701.1502723569,24.0,percent,False,advanced_ensemble_percent
-23,4,James Hinchcliffe,1451947.6347283663,28.0,percent,False,advanced_ensemble_percent
-23,4,Babyface,346424.00784217444,18.0,percent,True,advanced_ensemble_percent
-23,4,Vanilla Ice,609833.9768088347,23.0,percent,False,advanced_ensemble_percent
-23,4,Jana Kramer,1072796.9359184173,23.0,percent,False,advanced_ensemble_percent
-23,4,Terra Jole,1085568.3237358793,25.0,percent,False,advanced_ensemble_percent
+23,4,Maureen McCormick,857482.060769324,24.0,percent,False,advanced_ensemble_percent
+23,4,Marilu Henner,486212.2961454867,21.0,percent,False,advanced_ensemble_percent
+23,4,Ryan Lochte,609968.8744193255,22.0,percent,False,advanced_ensemble_percent
+23,4,Calvin Johnson Jr.,1203209.030576121,23.0,percent,False,advanced_ensemble_percent
+23,4,Laurie Hernandez,1482650.6955462596,30.0,percent,False,advanced_ensemble_percent
+23,4,Amber Rose,740111.166298585,24.0,percent,False,advanced_ensemble_percent
+23,4,James Hinchcliffe,1469879.2981377395,28.0,percent,False,advanced_ensemble_percent
+23,4,Babyface,349684.3105290208,18.0,percent,True,advanced_ensemble_percent
+23,4,Vanilla Ice,616354.5780906392,23.0,percent,False,advanced_ensemble_percent
+23,4,Jana Kramer,1085838.1460394892,23.0,percent,False,advanced_ensemble_percent
+23,4,Terra Jole,1098609.5434480093,25.0,percent,False,advanced_ensemble_percent
 23,6,Maureen McCormick,669398.9081277066,31.0,percent,False,advanced_ensemble_percent
 23,6,Marilu Henner,1019125.6804654752,34.0,percent,False,advanced_ensemble_percent
 23,6,Ryan Lochte,663934.4339867147,30.0,percent,False,advanced_ensemble_percent
@@ -1599,48 +1599,48 @@
 23,11,Laurie Hernandez,3208592.081462777,39.333200000000005,percent,False,advanced_ensemble_percent
 23,11,James Hinchcliffe,3204940.3830148163,38.9998,percent,False,advanced_ensemble_percent
 23,11,Jana Kramer,1777718.3706941372,35.5,percent,True,advanced_ensemble_percent
-24,2,Charo,428237.3259965071,25.0,percent,False,advanced_ensemble_percent
-24,2,Mr. T,312591.83838373923,22.0,percent,False,advanced_ensemble_percent
-24,2,Heather Morris,1056053.483413701,30.0,percent,False,advanced_ensemble_percent
-24,2,Nancy Kerrigan,845087.6722375726,28.0,percent,False,advanced_ensemble_percent
-24,2,Bonner Bolton,744686.0526948067,28.0,percent,False,advanced_ensemble_percent
-24,2,Simone Biles,1050972.1775001877,29.0,percent,False,advanced_ensemble_percent
-24,2,David Ross,1141211.1852159274,27.0,percent,False,advanced_ensemble_percent
-24,2,Rashad Jennings,1367420.904198487,32.0,percent,False,advanced_ensemble_percent
-24,2,Chris Kattan,312591.83838373923,22.0,percent,True,advanced_ensemble_percent
-24,2,Erika Jayne,845087.6722375726,28.0,percent,False,advanced_ensemble_percent
-24,2,Normani,1367420.904198487,32.0,percent,False,advanced_ensemble_percent
-24,2,Nick Viall,528638.945539273,25.0,percent,False,advanced_ensemble_percent
-24,3,Charo,365079.3617827522,24.0,percent,True,advanced_ensemble_percent
-24,3,Mr. T,365079.3617827522,24.0,percent,False,advanced_ensemble_percent
-24,3,Heather Morris,1246031.7418098983,33.0,percent,False,advanced_ensemble_percent
-24,3,Nancy Kerrigan,1246031.7418098983,33.0,percent,False,advanced_ensemble_percent
-24,3,Bonner Bolton,484126.9826321457,24.0,percent,False,advanced_ensemble_percent
-24,3,Simone Biles,1002645.5051546074,32.0,percent,False,advanced_ensemble_percent
-24,3,David Ross,1354497.3528780695,31.0,percent,False,advanced_ensemble_percent
-24,3,Rashad Jennings,1100529.106441557,28.0,percent,False,advanced_ensemble_percent
-24,3,Erika Jayne,732804.2341121546,26.0,percent,False,advanced_ensemble_percent
-24,3,Normani,1489417.9883992958,34.0,percent,False,advanced_ensemble_percent
-24,3,Nick Viall,613756.6231968683,26.0,percent,False,advanced_ensemble_percent
-24,4,Mr. T,284392.22094565013,28.0,percent,True,advanced_ensemble_percent
-24,4,Heather Morris,1167637.174323513,35.0,percent,False,advanced_ensemble_percent
-24,4,Nancy Kerrigan,1016169.2793878259,33.0,percent,False,advanced_ensemble_percent
-24,4,Bonner Bolton,869813.8835939629,32.0,percent,False,advanced_ensemble_percent
-24,4,Simone Biles,1455235.5164399527,36.0,percent,False,advanced_ensemble_percent
-24,4,David Ross,1147187.2770972932,31.0,percent,False,advanced_ensemble_percent
-24,4,Rashad Jennings,1611815.8807151406,39.0,percent,False,advanced_ensemble_percent
-24,4,Erika Jayne,577103.0423356988,30.0,percent,False,advanced_ensemble_percent
-24,4,Normani,1293542.6828252636,32.0,percent,False,advanced_ensemble_percent
-24,4,Nick Viall,577103.0423356988,30.0,percent,False,advanced_ensemble_percent
-24,5,Heather Morris,1186403.5070205694,34.0,percent,False,advanced_ensemble_percent
-24,5,Nancy Kerrigan,1197368.4173666833,36.0,percent,False,advanced_ensemble_percent
-24,5,Bonner Bolton,664473.6817979214,30.0,percent,False,advanced_ensemble_percent
-24,5,Simone Biles,1541666.6740005184,38.0,percent,False,advanced_ensemble_percent
-24,5,David Ross,825657.8948016716,29.0,percent,False,advanced_ensemble_percent
-24,5,Rashad Jennings,1342105.2648512628,32.0,percent,False,advanced_ensemble_percent
-24,5,Erika Jayne,508771.9339013359,32.0,percent,True,advanced_ensemble_percent
-24,5,Normani,1713815.7874162744,39.0,percent,False,advanced_ensemble_percent
-24,5,Nick Viall,1019736.8388437628,34.0,percent,False,advanced_ensemble_percent
+24,2,Charo,431910.57410720276,25.0,percent,False,advanced_ensemble_percent
+24,2,Mr. T,315040.65063465317,22.0,percent,False,advanced_ensemble_percent
+24,2,Heather Morris,1067073.1770201412,30.0,percent,False,advanced_ensemble_percent
+24,2,Nancy Kerrigan,853658.534101839,28.0,percent,False,advanced_ensemble_percent
+24,2,Bonner Bolton,752032.5186164407,28.0,percent,False,advanced_ensemble_percent
+24,2,Simone Biles,1061991.871046388,29.0,percent,False,advanced_ensemble_percent
+24,2,David Ross,1051829.2690329896,27.0,percent,False,advanced_ensemble_percent
+24,2,Rashad Jennings,1382113.8155556263,32.0,percent,False,advanced_ensemble_percent
+24,2,Chris Kattan,315040.65063465317,22.0,percent,True,advanced_ensemble_percent
+24,2,Erika Jayne,853658.534101839,28.0,percent,False,advanced_ensemble_percent
+24,2,Normani,1382113.8254897336,32.0,percent,False,advanced_ensemble_percent
+24,2,Nick Viall,533536.5796584932,25.0,percent,False,advanced_ensemble_percent
+24,3,Charo,365079.3589369365,24.0,percent,True,advanced_ensemble_percent
+24,3,Mr. T,365079.3589369365,24.0,percent,False,advanced_ensemble_percent
+24,3,Heather Morris,1246031.7536184639,33.0,percent,False,advanced_ensemble_percent
+24,3,Nancy Kerrigan,1246031.7536184639,33.0,percent,False,advanced_ensemble_percent
+24,3,Bonner Bolton,603174.6084842978,24.0,percent,False,advanced_ensemble_percent
+24,3,Simone Biles,1002645.5088828732,32.0,percent,False,advanced_ensemble_percent
+24,3,David Ross,1235449.7334396823,31.0,percent,False,advanced_ensemble_percent
+24,3,Rashad Jennings,1100529.0982660446,28.0,percent,False,advanced_ensemble_percent
+24,3,Erika Jayne,732804.2286014906,26.0,percent,False,advanced_ensemble_percent
+24,3,Normani,1489417.9784858387,34.0,percent,False,advanced_ensemble_percent
+24,3,Nick Viall,613756.6187289716,26.0,percent,False,advanced_ensemble_percent
+24,4,Mr. T,420927.0648481653,28.0,percent,True,advanced_ensemble_percent
+24,4,Heather Morris,1151158.8276782928,35.0,percent,False,advanced_ensemble_percent
+24,4,Nancy Kerrigan,1002044.9836870781,33.0,percent,False,advanced_ensemble_percent
+24,4,Bonner Bolton,858043.6287158811,32.0,percent,False,advanced_ensemble_percent
+24,4,Simone Biles,1434049.0784029912,36.0,percent,False,advanced_ensemble_percent
+24,4,David Ross,1130708.9312028666,31.0,percent,False,advanced_ensemble_percent
+24,4,Rashad Jennings,1588275.3915460082,39.0,percent,False,advanced_ensemble_percent
+24,4,Erika Jayne,570040.8989052726,30.0,percent,False,advanced_ensemble_percent
+24,4,Normani,1274710.296108171,32.0,percent,False,advanced_ensemble_percent
+24,4,Nick Viall,570040.8989052726,30.0,percent,False,advanced_ensemble_percent
+24,5,Heather Morris,1036743.6494910772,34.0,percent,False,advanced_ensemble_percent
+24,5,Nancy Kerrigan,1217776.5832930312,36.0,percent,False,advanced_ensemble_percent
+24,5,Bonner Bolton,674677.7620189545,30.0,percent,False,advanced_ensemble_percent
+24,5,Simone Biles,1568877.5506660081,38.0,percent,False,advanced_ensemble_percent
+24,5,David Ross,839263.3305733517,29.0,percent,False,advanced_ensemble_percent
+24,5,Rashad Jennings,1365914.786599872,32.0,percent,False,advanced_ensemble_percent
+24,5,Erika Jayne,515574.6584811835,32.0,percent,True,advanced_ensemble_percent
+24,5,Normani,1744428.0393195513,39.0,percent,False,advanced_ensemble_percent
+24,5,Nick Viall,1036743.6395569697,34.0,percent,False,advanced_ensemble_percent
 24,6,Heather Morris,870269.7636132257,37.0,percent,True,advanced_ensemble_percent
 24,6,Nancy Kerrigan,1275934.9249548053,33.5,percent,False,advanced_ensemble_percent
 24,6,Bonner Bolton,836192.9169065049,31.5,percent,False,advanced_ensemble_percent
@@ -1661,50 +1661,50 @@
 24,8,David Ross,1699299.5853244758,32.5,percent,False,advanced_ensemble_percent
 24,8,Rashad Jennings,2672981.0041845804,37.5,percent,False,advanced_ensemble_percent
 24,8,Normani,2692083.1997936517,39.5,percent,False,advanced_ensemble_percent
-24,9,Simone Biles,1955195.5265196397,40.0,percent,True,advanced_ensemble_percent
-24,9,David Ross,1900190.0239162883,35.0,percent,False,advanced_ensemble_percent
-24,9,Rashad Jennings,2696269.5978403706,38.5,percent,False,advanced_ensemble_percent
-24,9,Normani,3448344.851723701,38.0,percent,False,advanced_ensemble_percent
+24,9,Simone Biles,1828932.8755573512,40.0,percent,True,advanced_ensemble_percent
+24,9,David Ross,1773927.4364993547,35.0,percent,False,advanced_ensemble_percent
+24,9,Rashad Jennings,3201320.1215116265,38.5,percent,False,advanced_ensemble_percent
+24,9,Normani,3195819.5664316667,38.0,percent,False,advanced_ensemble_percent
 24,10,David Ross,2608382.0830356376,36.3333,percent,True,advanced_ensemble_percent
 24,10,Rashad Jennings,3698217.922466157,39.6666,percent,False,advanced_ensemble_percent
 24,10,Normani,3693399.9944982054,39.333200000000005,percent,False,advanced_ensemble_percent
-25,1,Sasha Pieterse,591338.6415408246,18.0,percent,False,advanced_ensemble_percent
-25,1,Frankie Muniz,1189033.2064951768,57.8887,percent,False,advanced_ensemble_percent
-25,1,Jordan Fisher,1378184.6734336286,62.0,percent,False,advanced_ensemble_percent
-25,1,Derek Fisher,591338.6415408243,18.0,percent,False,advanced_ensemble_percent
-25,1,Nikki Bella,771590.499481865,20.0,percent,False,advanced_ensemble_percent
-25,1,Terrell Owens,320960.85462926346,15.0,percent,False,advanced_ensemble_percent
-25,1,Victoria Arlen,681464.5705113447,19.0,percent,False,advanced_ensemble_percent
-25,1,Barbara Corcoran,230834.92565874316,14.0,percent,False,advanced_ensemble_percent
-25,1,Lindsey Stirling,1378184.6734336286,62.0,percent,False,advanced_ensemble_percent
-25,1,Debbie Gibson,329391.33534906374,17.0,percent,False,advanced_ensemble_percent
-25,1,Nick Lachey,505427.95293020416,18.0,percent,False,advanced_ensemble_percent
-25,1,Drew Scott,1170533.676015905,53.5,percent,True,advanced_ensemble_percent
-25,1,Vanessa Lachey,861716.348979528,21.0,percent,False,advanced_ensemble_percent
-25,2,Sasha Pieterse,838865.8997013493,22.5,percent,False,advanced_ensemble_percent
-25,2,Frankie Muniz,1286603.1568358452,24.0,percent,False,advanced_ensemble_percent
-25,2,Jordan Fisher,1286603.1568358452,24.0,percent,False,advanced_ensemble_percent
-25,2,Derek Fisher,378940.94299736543,19.0,percent,False,advanced_ensemble_percent
-25,2,Nikki Bella,557426.473787029,19.5,percent,False,advanced_ensemble_percent
-25,2,Terrell Owens,469707.1683548564,19.5,percent,False,advanced_ensemble_percent
-25,2,Victoria Arlen,835818.9698419234,22.0,percent,False,advanced_ensemble_percent
-25,2,Barbara Corcoran,279033.9677980272,17.0,percent,True,advanced_ensemble_percent
-25,2,Lindsey Stirling,1189743.101561825,22.5,percent,False,advanced_ensemble_percent
-25,2,Debbie Gibson,563520.3235717731,20.5,percent,False,advanced_ensemble_percent
-25,2,Nick Lachey,378940.9628655805,19.0,percent,False,advanced_ensemble_percent
-25,2,Drew Scott,914397.525432249,20.5,percent,False,advanced_ensemble_percent
-25,2,Vanessa Lachey,1020398.3504163311,23.5,percent,False,advanced_ensemble_percent
-25,4,Sasha Pieterse,598051.9190851664,24.0,percent,False,advanced_ensemble_percent
-25,4,Frankie Muniz,1161114.9830212072,24.0,percent,False,advanced_ensemble_percent
-25,4,Jordan Fisher,1417090.520105227,29.0,percent,False,advanced_ensemble_percent
-25,4,Derek Fisher,366676.63875875075,23.0,percent,True,advanced_ensemble_percent
-25,4,Nikki Bella,823277.1526068685,24.0,percent,False,advanced_ensemble_percent
-25,4,Terrell Owens,710664.5457801246,24.0,percent,False,advanced_ensemble_percent
-25,4,Victoria Arlen,1179565.183039991,27.0,percent,False,advanced_ensemble_percent
-25,4,Lindsey Stirling,1286027.7132596998,26.0,percent,False,advanced_ensemble_percent
-25,4,Nick Lachey,473139.188846674,22.0,percent,False,advanced_ensemble_percent
-25,4,Drew Scott,1048502.3861285704,24.0,percent,False,advanced_ensemble_percent
-25,4,Vanessa Lachey,935889.7693677197,24.0,percent,False,advanced_ensemble_percent
+25,1,Sasha Pieterse,586078.7577521902,18.0,percent,False,advanced_ensemble_percent
+25,1,Frankie Muniz,1179390.1496537065,57.8887,percent,False,advanced_ensemble_percent
+25,1,Jordan Fisher,1366788.4117920108,62.0,percent,False,advanced_ensemble_percent
+25,1,Derek Fisher,586078.7577521902,18.0,percent,False,advanced_ensemble_percent
+25,1,Nikki Bella,764577.3315704428,20.0,percent,False,advanced_ensemble_percent
+25,1,Terrell Owens,318330.9367612397,15.0,percent,False,advanced_ensemble_percent
+25,1,Victoria Arlen,675328.0843977445,19.0,percent,False,advanced_ensemble_percent
+25,1,Barbara Corcoran,229081.6895885416,14.0,percent,False,advanced_ensemble_percent
+25,1,Lindsey Stirling,1366788.4117920108,62.0,percent,False,advanced_ensemble_percent
+25,1,Debbie Gibson,326761.4968115987,17.0,percent,False,advanced_ensemble_percent
+25,1,Nick Lachey,586078.7577521902,18.0,percent,False,advanced_ensemble_percent
+25,1,Drew Scott,1160890.6356329925,53.5,percent,True,advanced_ensemble_percent
+25,1,Vanessa Lachey,853826.5787431408,21.0,percent,False,advanced_ensemble_percent
+25,2,Sasha Pieterse,831555.9663883648,22.5,percent,False,advanced_ensemble_percent
+25,2,Frankie Muniz,1274724.5074022142,24.0,percent,False,advanced_ensemble_percent
+25,2,Jordan Fisher,1274724.507402214,24.0,percent,False,advanced_ensemble_percent
+25,2,Derek Fisher,376199.7259318805,19.0,percent,False,advanced_ensemble_percent
+25,2,Nikki Bella,552857.7603455205,19.5,percent,False,advanced_ensemble_percent
+25,2,Terrell Owens,466052.2080525567,19.5,percent,False,advanced_ensemble_percent
+25,2,Victoria Arlen,828509.0365606523,22.0,percent,False,advanced_ensemble_percent
+25,2,Barbara Corcoran,277206.47419628105,17.0,percent,True,advanced_ensemble_percent
+25,2,Lindsey Stirling,1178778.195428435,22.5,percent,False,advanced_ensemble_percent
+25,2,Debbie Gibson,558951.6100668383,20.5,percent,False,advanced_ensemble_percent
+25,2,Nick Lachey,376199.7259318804,19.0,percent,False,advanced_ensemble_percent
+25,2,Drew Scott,992979.3715316571,20.5,percent,False,advanced_ensemble_percent
+25,2,Vanessa Lachey,1011260.9107615032,23.5,percent,False,advanced_ensemble_percent
+25,4,Sasha Pieterse,710664.5343013905,24.0,percent,False,advanced_ensemble_percent
+25,4,Frankie Muniz,1161114.9960206407,24.0,percent,False,advanced_ensemble_percent
+25,4,Jordan Fisher,1417090.522325761,29.0,percent,False,advanced_ensemble_percent
+25,4,Derek Fisher,366676.650777891,23.0,percent,True,advanced_ensemble_percent
+25,4,Nikki Bella,823277.1397970953,24.0,percent,False,advanced_ensemble_percent
+25,4,Terrell Owens,710664.5343013905,24.0,percent,False,advanced_ensemble_percent
+25,4,Victoria Arlen,1179565.177261581,27.0,percent,False,advanced_ensemble_percent
+25,4,Lindsey Stirling,1286027.725655008,26.0,percent,False,advanced_ensemble_percent
+25,4,Nick Lachey,473139.18923721055,22.0,percent,False,advanced_ensemble_percent
+25,4,Drew Scott,1048502.380590828,24.0,percent,False,advanced_ensemble_percent
+25,4,Vanessa Lachey,823277.1497312032,24.0,percent,False,advanced_ensemble_percent
 25,5,Sasha Pieterse,440613.02743101056,24.0,percent,True,advanced_ensemble_percent
 25,5,Frankie Muniz,1478288.6333210003,29.0,percent,False,advanced_ensemble_percent
 25,5,Jordan Fisher,1628352.4873944407,30.0,percent,False,advanced_ensemble_percent
@@ -1724,14 +1724,14 @@
 25,6,Nick Lachey,474945.5348592831,26.0,percent,True,advanced_ensemble_percent
 25,6,Drew Scott,830065.3645414123,30.0,percent,False,advanced_ensemble_percent
 25,6,Vanessa Lachey,1196078.4295122183,36.0,percent,False,advanced_ensemble_percent
-25,7,Frankie Muniz,1899224.8009972721,30.0,percent,False,advanced_ensemble_percent
-25,7,Jordan Fisher,1667635.6729891833,27.0,percent,False,advanced_ensemble_percent
-25,7,Nikki Bella,602713.1869660238,24.0,percent,True,advanced_ensemble_percent
-25,7,Terrell Owens,606589.1380573458,24.5,percent,False,advanced_ensemble_percent
-25,7,Victoria Arlen,1262596.9018932064,28.5,percent,False,advanced_ensemble_percent
-25,7,Lindsey Stirling,1447674.4081891682,25.5,percent,False,advanced_ensemble_percent
-25,7,Drew Scott,1470930.2339463937,28.5,percent,False,advanced_ensemble_percent
-25,7,Vanessa Lachey,1042635.6569614072,27.0,percent,False,advanced_ensemble_percent
+25,7,Frankie Muniz,1858574.393101769,30.0,percent,False,advanced_ensemble_percent
+25,7,Jordan Fisher,1632066.5550634938,27.0,percent,False,advanced_ensemble_percent
+25,7,Nikki Bella,592550.5785504912,24.0,percent,True,advanced_ensemble_percent
+25,7,Terrell Owens,596426.5490984588,24.5,percent,False,advanced_ensemble_percent
+25,7,Victoria Arlen,1237190.3974700333,28.5,percent,False,advanced_ensemble_percent
+25,7,Lindsey Stirling,1417186.6088009083,25.5,percent,False,advanced_ensemble_percent
+25,7,Drew Scott,1643694.4667073975,28.5,percent,False,advanced_ensemble_percent
+25,7,Vanessa Lachey,1022310.4512074483,27.0,percent,False,advanced_ensemble_percent
 25,8,Frankie Muniz,2018326.2315837452,26.5,percent,False,advanced_ensemble_percent
 25,8,Jordan Fisher,2402822.1592965014,30.0,percent,False,advanced_ensemble_percent
 25,8,Terrell Owens,966009.9527267225,25.5,percent,True,advanced_ensemble_percent
@@ -1774,19 +1774,19 @@
 26,4,Tonya Harding,2926761.3513339953,28.0,percent,True,advanced_ensemble_percent
 26,4,Josh Norman,2936507.9327721507,28.5,percent,False,advanced_ensemble_percent
 26,4,Adam Rippon,4136730.715893855,29.0,percent,False,advanced_ensemble_percent
-27,1,Juan Pablo Di Pace,994130.9839821743,22.0,percent,False,advanced_ensemble_percent
-27,1,Evanna Lynch,542817.1227550274,18.0,percent,False,advanced_ensemble_percent
-27,1,Nancy McKeon,637655.0719846011,19.5,percent,False,advanced_ensemble_percent
-27,1,John Schneider,542817.1227550274,18.0,percent,False,advanced_ensemble_percent
-27,1,Milo Manheim,896025.0809948196,20.0,percent,False,advanced_ensemble_percent
-27,1,Danelle Umstead,542817.1227550274,18.0,percent,False,advanced_ensemble_percent
-27,1,Mary Lou Retton,810991.0725114481,20.0,percent,False,advanced_ensemble_percent
-27,1,DeMarcus Ware,1255768.976552496,23.0,percent,False,advanced_ensemble_percent
-27,1,Nikki Glaser,284447.11720189237,17.5,percent,True,advanced_ensemble_percent
-27,1,Bobby Bones,810991.0625773406,20.0,percent,False,advanced_ensemble_percent
-27,1,Tinashe,1255768.976552496,23.0,percent,False,advanced_ensemble_percent
-27,1,Alexis Ren,1079164.9924655461,22.0,percent,False,advanced_ensemble_percent
-27,1,Joe Amabile,346605.2969121032,14.0,percent,False,advanced_ensemble_percent
+27,1,Juan Pablo Di Pace,985541.6937112475,22.0,percent,False,advanced_ensemble_percent
+27,1,Evanna Lynch,538522.4852202915,18.0,percent,False,advanced_ensemble_percent
+27,1,Nancy McKeon,632501.4879275498,19.5,percent,False,advanced_ensemble_percent
+27,1,John Schneider,538522.4852202915,18.0,percent,False,advanced_ensemble_percent
+27,1,Milo Manheim,888294.70750139,20.0,percent,False,advanced_ensemble_percent
+27,1,Danelle Umstead,538522.4852202915,18.0,percent,False,advanced_ensemble_percent
+27,1,Mary Lou Retton,804119.6254996073,20.0,percent,False,advanced_ensemble_percent
+27,1,DeMarcus Ware,1244602.88685358,23.0,percent,False,advanced_ensemble_percent
+27,1,Nikki Glaser,282729.25004306476,17.5,percent,True,advanced_ensemble_percent
+27,1,Bobby Bones,888294.7174354973,20.0,percent,False,advanced_ensemble_percent
+27,1,Tinashe,1244602.88685358,23.0,percent,False,advanced_ensemble_percent
+27,1,Alexis Ren,1069716.7757130302,22.0,percent,False,advanced_ensemble_percent
+27,1,Joe Amabile,344028.51280057715,14.0,percent,False,advanced_ensemble_percent
 27,2,Juan Pablo Di Pace,1336667.7571635046,26.0,percent,False,advanced_ensemble_percent
 27,2,Evanna Lynch,834148.810447259,24.0,percent,False,advanced_ensemble_percent
 27,2,Nancy McKeon,518466.1698183109,20.5,percent,False,advanced_ensemble_percent
@@ -1799,17 +1799,17 @@
 27,2,Tinashe,1336667.7571635046,26.0,percent,False,advanced_ensemble_percent
 27,2,Alexis Ren,1131347.1764217059,24.5,percent,False,advanced_ensemble_percent
 27,2,Joe Amabile,401942.6585553742,17.5,percent,False,advanced_ensemble_percent
-27,3,Juan Pablo Di Pace,1457649.9950181358,30.0,percent,False,advanced_ensemble_percent
-27,3,Evanna Lynch,1091977.5831218453,27.0,percent,False,advanced_ensemble_percent
-27,3,Nancy McKeon,366782.83320710546,22.0,percent,True,advanced_ensemble_percent
-27,3,John Schneider,592114.2536653511,21.0,percent,False,advanced_ensemble_percent
-27,3,Milo Manheim,1323459.0675238245,27.0,percent,False,advanced_ensemble_percent
-27,3,Mary Lou Retton,726305.1811596623,24.0,percent,False,advanced_ensemble_percent
-27,3,DeMarcus Ware,1085827.5263244584,26.0,percent,False,advanced_ensemble_percent
-27,3,Bobby Bones,604414.3771942322,23.0,percent,False,advanced_ensemble_percent
-27,3,Tinashe,1207718.3203557814,27.0,percent,False,advanced_ensemble_percent
-27,3,Alexis Ren,1085827.5263244584,26.0,percent,False,advanced_ensemble_percent
-27,3,Joe Amabile,457923.3361051472,18.0,percent,False,advanced_ensemble_percent
+27,3,Juan Pablo Di Pace,1475581.6492563456,30.0,percent,False,advanced_ensemble_percent
+27,3,Evanna Lynch,1105018.7946012348,27.0,percent,False,advanced_ensemble_percent
+27,3,Nancy McKeon,370043.13323122414,22.0,percent,True,advanced_ensemble_percent
+27,3,John Schneider,598634.8580121679,21.0,percent,False,advanced_ensemble_percent
+27,3,Milo Manheim,1339760.577256497,27.0,percent,False,advanced_ensemble_percent
+27,3,Mary Lou Retton,734455.9300120164,24.0,percent,False,advanced_ensemble_percent
+27,3,DeMarcus Ware,981497.8463609002,26.0,percent,False,advanced_ensemble_percent
+27,3,Bobby Bones,610934.9817716819,23.0,percent,False,advanced_ensemble_percent
+27,3,Tinashe,1222389.695862973,27.0,percent,False,advanced_ensemble_percent
+27,3,Alexis Ren,1098868.7376885314,26.0,percent,False,advanced_ensemble_percent
+27,3,Joe Amabile,462813.7959464266,18.0,percent,False,advanced_ensemble_percent
 27,4,Juan Pablo Di Pace,1302357.3136824088,24.0,percent,False,advanced_ensemble_percent
 27,4,Evanna Lynch,1019871.4316930629,24.0,percent,False,advanced_ensemble_percent
 27,4,John Schneider,574590.8795329508,21.0,percent,False,advanced_ensemble_percent
@@ -1820,23 +1820,23 @@
 27,4,Tinashe,892996.2914889393,26.0,percent,True,advanced_ensemble_percent
 27,4,Alexis Ren,1309541.1836713417,25.0,percent,False,advanced_ensemble_percent
 27,4,Joe Amabile,672730.3621754382,15.0,percent,False,advanced_ensemble_percent
-27,6,Juan Pablo Di Pace,1718340.6070518722,30.0,percent,False,advanced_ensemble_percent
-27,6,Evanna Lynch,1377729.2626900526,29.0,percent,False,advanced_ensemble_percent
-27,6,John Schneider,804949.0540846202,19.0,percent,False,advanced_ensemble_percent
-27,6,Milo Manheim,1718340.6070518722,30.0,percent,False,advanced_ensemble_percent
-27,6,Mary Lou Retton,508005.8195846662,24.0,percent,True,advanced_ensemble_percent
-27,6,DeMarcus Ware,1189228.5281765198,26.0,percent,False,advanced_ensemble_percent
-27,6,Bobby Bones,660116.4493011679,22.0,percent,False,advanced_ensemble_percent
-27,6,Alexis Ren,1363173.2227580617,27.0,percent,False,advanced_ensemble_percent
-27,6,Joe Amabile,660116.4493011679,22.0,percent,False,advanced_ensemble_percent
-27,7,Juan Pablo Di Pace,1672892.720494286,28.0,percent,False,advanced_ensemble_percent
-27,7,Evanna Lynch,1684386.9591482768,29.5,percent,False,advanced_ensemble_percent
-27,7,John Schneider,623563.2120584797,27.0,percent,True,advanced_ensemble_percent
-27,7,Milo Manheim,1888888.8880950992,29.0,percent,False,advanced_ensemble_percent
-27,7,DeMarcus Ware,1036398.4762140505,26.5,percent,False,advanced_ensemble_percent
-27,7,Bobby Bones,828065.1410053023,26.5,percent,False,advanced_ensemble_percent
-27,7,Alexis Ren,1460727.979023612,27.5,percent,False,advanced_ensemble_percent
-27,7,Joe Amabile,805076.6239608926,23.5,percent,False,advanced_ensemble_percent
+27,6,Juan Pablo Di Pace,1688928.8445446782,30.0,percent,False,advanced_ensemble_percent
+27,6,Evanna Lynch,1354853.4367188136,29.0,percent,False,advanced_ensemble_percent
+27,6,John Schneider,791877.1607228694,19.0,percent,False,advanced_ensemble_percent
+27,6,Milo Manheim,1688928.8445446782,30.0,percent,False,advanced_ensemble_percent
+27,6,Mary Lou Retton,664868.567404483,24.0,percent,True,advanced_ensemble_percent
+27,6,DeMarcus Ware,1169620.689754189,26.0,percent,False,advanced_ensemble_percent
+27,6,Bobby Bones,650312.5250295929,22.0,percent,False,advanced_ensemble_percent
+27,6,Alexis Ren,1340297.4062511025,27.0,percent,False,advanced_ensemble_percent
+27,6,Joe Amabile,650312.5250295931,22.0,percent,False,advanced_ensemble_percent
+27,7,Juan Pablo Di Pace,1637323.607001087,28.0,percent,False,advanced_ensemble_percent
+27,7,Evanna Lynch,1648817.8666574701,29.5,percent,False,advanced_ensemble_percent
+27,7,John Schneider,613400.617070295,27.0,percent,True,advanced_ensemble_percent
+27,7,Milo Manheim,1848238.4893871865,29.0,percent,False,advanced_ensemble_percent
+27,7,DeMarcus Ware,1016073.2592356033,26.5,percent,False,advanced_ensemble_percent
+27,7,Bobby Bones,1016073.2592356033,26.5,percent,False,advanced_ensemble_percent
+27,7,Alexis Ren,1430240.1709914028,27.5,percent,False,advanced_ensemble_percent
+27,7,Joe Amabile,789832.7304213523,23.5,percent,False,advanced_ensemble_percent
 27,8,Juan Pablo Di Pace,1699447.8770978993,30.0,percent,True,advanced_ensemble_percent
 27,8,Evanna Lynch,2036318.1194726462,29.0,percent,False,advanced_ensemble_percent
 27,8,Milo Manheim,1673567.9461310324,27.5,percent,False,advanced_ensemble_percent
@@ -1860,36 +1860,36 @@
 28,1,Karamo Brown,7000.0,17.0,rank,False,advanced_ensemble_rank
 28,1,Hannah Brown,12000.0,76.0,rank,False,advanced_ensemble_rank
 28,2,Kate Flannery,10000.0,21.0,rank,False,advanced_ensemble_rank
-28,2,James Van Der Beek,11000.0,20.0,rank,False,advanced_ensemble_rank
-28,2,Kel Mitchell,11000.0,20.0,rank,False,advanced_ensemble_rank
+28,2,James Van Der Beek,10000.0,20.0,rank,False,advanced_ensemble_rank
+28,2,Kel Mitchell,10000.0,20.0,rank,False,advanced_ensemble_rank
 28,2,Ray Lewis,2000.0,15.0,rank,True,advanced_ensemble_rank
 28,2,Lamar Odom,4000.0,12.0,rank,False,advanced_ensemble_rank
-28,2,Sailor Brinkley-Cook,6000.0,18.0,rank,False,advanced_ensemble_rank
+28,2,Sailor Brinkley-Cook,5000.0,18.0,rank,False,advanced_ensemble_rank
 28,2,Sean Spicer,4000.0,16.0,rank,False,advanced_ensemble_rank
-28,2,Mary Wilson,4000.0,15.0,rank,False,advanced_ensemble_rank
+28,2,Mary Wilson,3000.0,15.0,rank,False,advanced_ensemble_rank
 28,2,Lauren Alaina,8000.0,19.0,rank,False,advanced_ensemble_rank
 28,2,Ally Brooke,11000.0,20.0,rank,False,advanced_ensemble_rank
-28,2,Karamo Brown,8000.0,19.0,rank,False,advanced_ensemble_rank
+28,2,Karamo Brown,7000.0,19.0,rank,False,advanced_ensemble_rank
 28,2,Hannah Brown,12000.0,24.0,rank,False,advanced_ensemble_rank
 28,4,Kate Flannery,4000.0,26.0,rank,False,advanced_ensemble_rank
 28,4,James Van Der Beek,6000.0,28.0,rank,False,advanced_ensemble_rank
 28,4,Kel Mitchell,10000.0,32.0,rank,False,advanced_ensemble_rank
 28,4,Lamar Odom,2000.0,20.0,rank,True,advanced_ensemble_rank
-28,4,Sailor Brinkley-Cook,7000.0,31.0,rank,False,advanced_ensemble_rank
+28,4,Sailor Brinkley-Cook,6000.0,31.0,rank,False,advanced_ensemble_rank
 28,4,Sean Spicer,3000.0,21.0,rank,False,advanced_ensemble_rank
 28,4,Lauren Alaina,9000.0,32.0,rank,False,advanced_ensemble_rank
 28,4,Ally Brooke,10000.0,32.0,rank,False,advanced_ensemble_rank
-28,4,Karamo Brown,6000.0,28.0,rank,False,advanced_ensemble_rank
+28,4,Karamo Brown,5000.0,28.0,rank,False,advanced_ensemble_rank
 28,4,Hannah Brown,10000.0,32.0,rank,False,advanced_ensemble_rank
-28,6,Kate Flannery,7000.0,27.0,rank,False,advanced_ensemble_rank
+28,6,Kate Flannery,8000.0,27.0,rank,False,advanced_ensemble_rank
 28,6,James Van Der Beek,9000.0,27.0,rank,False,advanced_ensemble_rank
-28,6,Kel Mitchell,6000.0,26.0,rank,False,advanced_ensemble_rank
+28,6,Kel Mitchell,7000.0,26.0,rank,False,advanced_ensemble_rank
 28,6,Sailor Brinkley-Cook,1000.0,27.0,rank,True,advanced_ensemble_rank
 28,6,Sean Spicer,9000.0,21.0,rank,False,advanced_ensemble_rank
 28,6,Lauren Alaina,6000.0,26.0,rank,False,advanced_ensemble_rank
 28,6,Ally Brooke,7000.0,25.0,rank,False,advanced_ensemble_rank
-28,6,Karamo Brown,7000.0,25.0,rank,False,advanced_ensemble_rank
-28,6,Hannah Brown,9000.0,24.0,rank,False,advanced_ensemble_rank
+28,6,Karamo Brown,6000.0,25.0,rank,False,advanced_ensemble_rank
+28,6,Hannah Brown,8000.0,24.0,rank,False,advanced_ensemble_rank
 28,7,Kate Flannery,3000.0,24.0,rank,False,advanced_ensemble_rank
 28,7,James Van Der Beek,8000.0,27.0,rank,False,advanced_ensemble_rank
 28,7,Kel Mitchell,5000.0,25.5,rank,False,advanced_ensemble_rank
@@ -1916,21 +1916,21 @@
 28,10,Lauren Alaina,4000.0,27.0,rank,False,advanced_ensemble_rank
 28,10,Ally Brooke,5000.0,29.5,rank,False,advanced_ensemble_rank
 28,10,Hannah Brown,4000.0,27.0,rank,False,advanced_ensemble_rank
-29,1,Anne Heche,8000.0,18.0,rank,False,advanced_ensemble_rank
-29,1,Jesse Metcalfe,9000.0,18.0,rank,False,advanced_ensemble_rank
+29,1,Anne Heche,9000.0,18.0,rank,False,advanced_ensemble_rank
+29,1,Jesse Metcalfe,11000.0,18.0,rank,False,advanced_ensemble_rank
 29,1,Chrishell Stause,10000.0,13.0,rank,False,advanced_ensemble_rank
-29,1,Skai Jackson,2000.0,49.5,rank,True,advanced_ensemble_rank
+29,1,Skai Jackson,1000.0,49.5,rank,True,advanced_ensemble_rank
 29,1,Justina Machado,15000.0,80.0,rank,False,advanced_ensemble_rank
-29,1,Charles Oakley,10000.0,12.0,rank,False,advanced_ensemble_rank
+29,1,Charles Oakley,11000.0,12.0,rank,False,advanced_ensemble_rank
 29,1,Veron Davis,8000.0,17.0,rank,False,advanced_ensemble_rank
-29,1,Johnny Weir,10000.0,46.5,rank,False,advanced_ensemble_rank
-29,1,Nev Schulman,15000.0,80.0,rank,False,advanced_ensemble_rank
+29,1,Johnny Weir,9000.0,46.5,rank,False,advanced_ensemble_rank
+29,1,Nev Schulman,12000.0,80.0,rank,False,advanced_ensemble_rank
 29,1,AJ McLean,9000.0,18.0,rank,False,advanced_ensemble_rank
 29,1,Nelly,12000.0,72.5,rank,False,advanced_ensemble_rank
 29,1,Kaitlyn Bristowe,15000.0,80.0,rank,False,advanced_ensemble_rank
 29,1,Carole Baskin,11000.0,11.0,rank,False,advanced_ensemble_rank
-29,1,Monica Aldama,9000.0,19.0,rank,False,advanced_ensemble_rank
-29,1,Jeannie Mai,9000.0,18.0,rank,False,advanced_ensemble_rank
+29,1,Monica Aldama,12000.0,19.0,rank,False,advanced_ensemble_rank
+29,1,Jeannie Mai,12000.0,18.0,rank,False,advanced_ensemble_rank
 29,2,Anne Heche,9000.0,18.0,rank,False,advanced_ensemble_rank
 29,2,Jesse Metcalfe,12000.0,20.0,rank,False,advanced_ensemble_rank
 29,2,Chrishell Stause,7000.0,18.0,rank,False,advanced_ensemble_rank
@@ -1940,19 +1940,19 @@
 29,2,Veron Davis,8000.0,18.0,rank,False,advanced_ensemble_rank
 29,2,Johnny Weir,10000.0,18.0,rank,False,advanced_ensemble_rank
 29,2,Nev Schulman,15000.0,21.0,rank,False,advanced_ensemble_rank
-29,2,AJ McLean,10000.0,19.0,rank,False,advanced_ensemble_rank
+29,2,AJ McLean,11000.0,19.0,rank,False,advanced_ensemble_rank
 29,2,Nelly,11000.0,18.0,rank,False,advanced_ensemble_rank
 29,2,Kaitlyn Bristowe,15000.0,22.0,rank,False,advanced_ensemble_rank
 29,2,Carole Baskin,4000.0,16.0,rank,False,advanced_ensemble_rank
-29,2,Monica Aldama,4000.0,16.0,rank,False,advanced_ensemble_rank
+29,2,Monica Aldama,5000.0,16.0,rank,False,advanced_ensemble_rank
 29,2,Jeannie Mai,10000.0,18.0,rank,False,advanced_ensemble_rank
-29,3,Anne Heche,3000.0,15.0,rank,False,advanced_ensemble_rank
+29,3,Anne Heche,2000.0,15.0,rank,False,advanced_ensemble_rank
 29,3,Jesse Metcalfe,7000.0,20.0,rank,False,advanced_ensemble_rank
 29,3,Chrishell Stause,10000.0,22.0,rank,False,advanced_ensemble_rank
 29,3,Skai Jackson,4000.0,18.0,rank,False,advanced_ensemble_rank
-29,3,Justina Machado,8000.0,19.0,rank,False,advanced_ensemble_rank
+29,3,Justina Machado,9000.0,19.0,rank,False,advanced_ensemble_rank
 29,3,Veron Davis,11000.0,22.0,rank,False,advanced_ensemble_rank
-29,3,Johnny Weir,14000.0,24.0,rank,False,advanced_ensemble_rank
+29,3,Johnny Weir,13000.0,24.0,rank,False,advanced_ensemble_rank
 29,3,Nev Schulman,14000.0,24.0,rank,False,advanced_ensemble_rank
 29,3,AJ McLean,8000.0,21.0,rank,False,advanced_ensemble_rank
 29,3,Nelly,5000.0,18.0,rank,False,advanced_ensemble_rank
@@ -1964,7 +1964,7 @@
 29,4,Jesse Metcalfe,4000.0,21.0,rank,False,advanced_ensemble_rank
 29,4,Chrishell Stause,6000.0,22.0,rank,False,advanced_ensemble_rank
 29,4,Skai Jackson,10000.0,28.0,rank,False,advanced_ensemble_rank
-29,4,Justina Machado,11000.0,24.0,rank,False,advanced_ensemble_rank
+29,4,Justina Machado,12000.0,24.0,rank,False,advanced_ensemble_rank
 29,4,Veron Davis,6000.0,22.0,rank,False,advanced_ensemble_rank
 29,4,Johnny Weir,11000.0,24.0,rank,False,advanced_ensemble_rank
 29,4,Nev Schulman,12000.0,24.0,rank,False,advanced_ensemble_rank
@@ -1975,7 +1975,7 @@
 29,4,Jeannie Mai,4000.0,21.0,rank,False,advanced_ensemble_rank
 29,5,Jesse Metcalfe,3000.0,19.0,rank,True,advanced_ensemble_rank
 29,5,Chrishell Stause,3000.0,19.0,rank,False,advanced_ensemble_rank
-29,5,Skai Jackson,6000.0,24.0,rank,False,advanced_ensemble_rank
+29,5,Skai Jackson,7000.0,24.0,rank,False,advanced_ensemble_rank
 29,5,Justina Machado,9000.0,24.0,rank,False,advanced_ensemble_rank
 29,5,Veron Davis,4000.0,21.0,rank,False,advanced_ensemble_rank
 29,5,Johnny Weir,12000.0,29.0,rank,False,advanced_ensemble_rank
@@ -2017,7 +2017,7 @@
 29,9,Skai Jackson,4000.0,28.9998,rank,False,advanced_ensemble_rank
 29,9,Justina Machado,4000.0,25.9998,rank,False,advanced_ensemble_rank
 29,9,Johnny Weir,7000.0,30.0,rank,False,advanced_ensemble_rank
-29,9,Nev Schulman,6000.0,28.9998,rank,False,advanced_ensemble_rank
+29,9,Nev Schulman,5000.0,28.9998,rank,False,advanced_ensemble_rank
 29,9,AJ McLean,2000.0,24.9998,rank,True,advanced_ensemble_rank
 29,9,Nelly,3000.0,24.0,rank,False,advanced_ensemble_rank
 29,9,Kaitlyn Bristowe,7000.0,30.0,rank,False,advanced_ensemble_rank
@@ -2031,7 +2031,7 @@
 30,2,Brian Austin Green,4000.0,23.0,rank,False,advanced_ensemble_rank
 30,2,Melora Hardin,11000.0,27.0,rank,False,advanced_ensemble_rank
 30,2,Matt James,3000.0,22.0,rank,False,advanced_ensemble_rank
-30,2,"Mike ""The Miz"" Mizanin",7000.0,26.0,rank,False,advanced_ensemble_rank
+30,2,"Mike ""The Miz"" Mizanin",8000.0,26.0,rank,False,advanced_ensemble_rank
 30,2,Suni Lee,12000.0,28.0,rank,False,advanced_ensemble_rank
 30,2,Iman Shumpert,9000.0,25.0,rank,False,advanced_ensemble_rank
 30,2,Cody Rigsby,9000.0,24.0,rank,False,advanced_ensemble_rank
@@ -2073,19 +2073,19 @@
 30,5,"Mike ""The Miz"" Mizanin",8000.0,32.0,rank,False,advanced_ensemble_rank
 30,5,Suni Lee,9000.0,36.0,rank,False,advanced_ensemble_rank
 30,5,Iman Shumpert,9000.0,28.0,rank,False,advanced_ensemble_rank
-30,5,Cody Rigsby,8000.0,32.0,rank,False,advanced_ensemble_rank
+30,5,Cody Rigsby,7000.0,32.0,rank,False,advanced_ensemble_rank
 30,5,Melanie C,2000.0,36.0,rank,True,advanced_ensemble_rank
 30,5,Jimmie Allen,7000.0,34.0,rank,False,advanced_ensemble_rank
-30,5,Olivia Jade,10000.0,36.0,rank,False,advanced_ensemble_rank
+30,5,Olivia Jade,9000.0,36.0,rank,False,advanced_ensemble_rank
 30,5,JoJo Siwa,11000.0,40.0,rank,False,advanced_ensemble_rank
 30,5,Kenya Moore,6000.0,36.0,rank,False,advanced_ensemble_rank
 30,5,Amanda Kloots,11000.0,39.0,rank,False,advanced_ensemble_rank
 30,6,Melora Hardin,4000.0,34.0,rank,False,advanced_ensemble_rank
 30,6,"Mike ""The Miz"" Mizanin",3000.0,34.0,rank,False,advanced_ensemble_rank
-30,6,Suni Lee,7000.0,36.0,rank,False,advanced_ensemble_rank
+30,6,Suni Lee,6000.0,36.0,rank,False,advanced_ensemble_rank
 30,6,Iman Shumpert,9000.0,40.0,rank,False,advanced_ensemble_rank
 30,6,Cody Rigsby,5000.0,36.0,rank,False,advanced_ensemble_rank
-30,6,Jimmie Allen,7000.0,38.0,rank,False,advanced_ensemble_rank
+30,6,Jimmie Allen,6000.0,38.0,rank,False,advanced_ensemble_rank
 30,6,Olivia Jade,7000.0,36.0,rank,False,advanced_ensemble_rank
 30,6,JoJo Siwa,10000.0,40.0,rank,False,advanced_ensemble_rank
 30,6,Kenya Moore,2000.0,32.0,rank,True,advanced_ensemble_rank
@@ -2120,19 +2120,19 @@
 31,1,Jason Lewis,2000.0,18.0,rank,True,advanced_ensemble_rank
 31,1,Cheryl Ladd,7000.0,21.0,rank,False,advanced_ensemble_rank
 31,1,Selma Blair,12000.0,28.0,rank,False,advanced_ensemble_rank
-31,1,Joseph Baena,8000.0,23.0,rank,False,advanced_ensemble_rank
+31,1,Joseph Baena,9000.0,23.0,rank,False,advanced_ensemble_rank
 31,1,Trevor Donovan,7000.0,21.0,rank,False,advanced_ensemble_rank
-31,1,Daniel Durant,11000.0,27.0,rank,False,advanced_ensemble_rank
+31,1,Daniel Durant,12000.0,27.0,rank,False,advanced_ensemble_rank
 31,1,Wayne Brady,14000.0,67.0,rank,False,advanced_ensemble_rank
 31,1,Sam Champion,6000.0,20.0,rank,False,advanced_ensemble_rank
-31,1,Jessie James Decker,5000.0,20.0,rank,False,advanced_ensemble_rank
-31,1,Jordin Sparks,10000.0,26.0,rank,False,advanced_ensemble_rank
+31,1,Jessie James Decker,6000.0,20.0,rank,False,advanced_ensemble_rank
+31,1,Jordin Sparks,11000.0,26.0,rank,False,advanced_ensemble_rank
 31,1,Heidi D'Amelio,10000.0,24.0,rank,False,advanced_ensemble_rank
 31,1,Charli D'Amelio,16000.0,72.0,rank,False,advanced_ensemble_rank
 31,1,Teresa Giudice,5000.0,20.0,rank,False,advanced_ensemble_rank
 31,1,Vinny Guadagnino,4000.0,17.0,rank,False,advanced_ensemble_rank
 31,1,Shangela,13000.0,66.0,rank,False,advanced_ensemble_rank
-31,1,Gabby Windey,16000.0,68.0,rank,False,advanced_ensemble_rank
+31,1,Gabby Windey,15000.0,68.0,rank,False,advanced_ensemble_rank
 31,2,Cheryl Ladd,3000.0,21.0,rank,False,advanced_ensemble_rank
 31,2,Selma Blair,10000.0,28.0,rank,False,advanced_ensemble_rank
 31,2,Joseph Baena,4000.0,24.0,rank,False,advanced_ensemble_rank
@@ -2151,7 +2151,7 @@
 31,3,Cheryl Ladd,2000.0,24.0,rank,True,advanced_ensemble_rank
 31,3,Selma Blair,7000.0,28.0,rank,False,advanced_ensemble_rank
 31,3,Joseph Baena,7000.0,29.0,rank,False,advanced_ensemble_rank
-31,3,Trevor Donovan,5000.0,27.0,rank,False,advanced_ensemble_rank
+31,3,Trevor Donovan,6000.0,27.0,rank,False,advanced_ensemble_rank
 31,3,Daniel Durant,11000.0,31.0,rank,False,advanced_ensemble_rank
 31,3,Wayne Brady,14000.0,33.0,rank,False,advanced_ensemble_rank
 31,3,Sam Champion,3000.0,25.0,rank,False,advanced_ensemble_rank
@@ -2165,7 +2165,7 @@
 31,4,Selma Blair,8000.0,32.0,rank,False,advanced_ensemble_rank
 31,4,Joseph Baena,4000.0,28.0,rank,False,advanced_ensemble_rank
 31,4,Trevor Donovan,5000.0,28.0,rank,False,advanced_ensemble_rank
-31,4,Daniel Durant,7000.0,29.0,rank,False,advanced_ensemble_rank
+31,4,Daniel Durant,6000.0,29.0,rank,False,advanced_ensemble_rank
 31,4,Wayne Brady,13000.0,36.0,rank,False,advanced_ensemble_rank
 31,4,Sam Champion,2000.0,25.0,rank,True,advanced_ensemble_rank
 31,4,Jessie James Decker,6000.0,31.0,rank,False,advanced_ensemble_rank
@@ -2201,7 +2201,7 @@
 31,7,Daniel Durant,6000.0,36.5,rank,False,advanced_ensemble_rank
 31,7,Wayne Brady,8000.0,38.0,rank,False,advanced_ensemble_rank
 31,7,Jordin Sparks,2000.0,34.5,rank,True,advanced_ensemble_rank
-31,7,Heidi D'Amelio,4000.0,35.0,rank,False,advanced_ensemble_rank
+31,7,Heidi D'Amelio,3000.0,35.0,rank,False,advanced_ensemble_rank
 31,7,Charli D'Amelio,9000.0,39.0,rank,False,advanced_ensemble_rank
 31,7,Vinny Guadagnino,3000.0,31.5,rank,False,advanced_ensemble_rank
 31,7,Shangela,6000.0,36.5,rank,False,advanced_ensemble_rank
@@ -2224,12 +2224,12 @@
 31,10,Charli D'Amelio,4000.0,40.0,rank,False,advanced_ensemble_rank
 31,10,Shangela,2000.0,38.0,rank,False,advanced_ensemble_rank
 31,10,Gabby Windey,4000.0,40.0,rank,False,advanced_ensemble_rank
-32,1,Jamie Lynn Spears,6000.0,15.0,rank,False,advanced_ensemble_rank
+32,1,Jamie Lynn Spears,5000.0,15.0,rank,False,advanced_ensemble_rank
 32,1,Mira Sorvino,8000.0,17.0,rank,False,advanced_ensemble_rank
 32,1,Barry Williams,7000.0,16.0,rank,False,advanced_ensemble_rank
-32,1,Alyson Hannigan,11000.0,65.0,rank,False,advanced_ensemble_rank
-32,1,Xochitl Gomez,12000.0,78.0,rank,False,advanced_ensemble_rank
-32,1,Adrian Peterson,9000.0,18.0,rank,False,advanced_ensemble_rank
+32,1,Alyson Hannigan,10000.0,65.0,rank,False,advanced_ensemble_rank
+32,1,Xochitl Gomez,11000.0,78.0,rank,False,advanced_ensemble_rank
+32,1,Adrian Peterson,8000.0,18.0,rank,False,advanced_ensemble_rank
 32,1,Matt Walsh,4000.0,12.0,rank,True,advanced_ensemble_rank
 32,1,Tyson Beckford,4000.0,12.0,rank,False,advanced_ensemble_rank
 32,1,Jason Mraz,14000.0,79.5,rank,False,advanced_ensemble_rank
@@ -2237,7 +2237,7 @@
 32,1,Harry Jowsey,5000.0,12.0,rank,False,advanced_ensemble_rank
 32,1,Mauricio Umansky,6000.0,15.0,rank,False,advanced_ensemble_rank
 32,1,Charity Lawson,14000.0,81.0,rank,False,advanced_ensemble_rank
-32,1,Ariana Madix,14000.0,79.5,rank,False,advanced_ensemble_rank
+32,1,Ariana Madix,13000.0,79.5,rank,False,advanced_ensemble_rank
 32,2,Jamie Lynn Spears,2000.0,16.0,rank,True,advanced_ensemble_rank
 32,2,Mira Sorvino,8000.0,18.0,rank,False,advanced_ensemble_rank
 32,2,Barry Williams,5000.0,15.0,rank,False,advanced_ensemble_rank
@@ -2250,7 +2250,7 @@
 32,2,Harry Jowsey,4000.0,15.0,rank,False,advanced_ensemble_rank
 32,2,Mauricio Umansky,6000.0,12.0,rank,False,advanced_ensemble_rank
 32,2,Charity Lawson,12000.0,21.0,rank,False,advanced_ensemble_rank
-32,2,Ariana Madix,11000.0,20.0,rank,False,advanced_ensemble_rank
+32,2,Ariana Madix,10000.0,20.0,rank,False,advanced_ensemble_rank
 32,3,Mira Sorvino,8000.0,26.0,rank,False,advanced_ensemble_rank
 32,3,Barry Williams,6000.0,25.0,rank,False,advanced_ensemble_rank
 32,3,Alyson Hannigan,6000.0,24.0,rank,False,advanced_ensemble_rank
@@ -2263,32 +2263,32 @@
 32,3,Mauricio Umansky,4000.0,23.0,rank,False,advanced_ensemble_rank
 32,3,Charity Lawson,11000.0,32.0,rank,False,advanced_ensemble_rank
 32,3,Ariana Madix,12000.0,34.0,rank,False,advanced_ensemble_rank
-32,4,Mira Sorvino,6000.0,21.0,rank,False,advanced_ensemble_rank
+32,4,Mira Sorvino,8000.0,21.0,rank,False,advanced_ensemble_rank
 32,4,Barry Williams,6000.0,18.0,rank,False,advanced_ensemble_rank
 32,4,Alyson Hannigan,6000.0,18.0,rank,False,advanced_ensemble_rank
 32,4,Xochitl Gomez,11000.0,27.0,rank,False,advanced_ensemble_rank
 32,4,Adrian Peterson,2000.0,21.0,rank,True,advanced_ensemble_rank
-32,4,Jason Mraz,10000.0,24.0,rank,False,advanced_ensemble_rank
-32,4,Lele Pons,7000.0,22.0,rank,False,advanced_ensemble_rank
+32,4,Jason Mraz,8000.0,24.0,rank,False,advanced_ensemble_rank
+32,4,Lele Pons,6000.0,22.0,rank,False,advanced_ensemble_rank
 32,4,Harry Jowsey,6000.0,21.0,rank,False,advanced_ensemble_rank
 32,4,Mauricio Umansky,5000.0,19.0,rank,False,advanced_ensemble_rank
 32,4,Charity Lawson,9000.0,24.0,rank,False,advanced_ensemble_rank
-32,4,Ariana Madix,10000.0,25.0,rank,False,advanced_ensemble_rank
+32,4,Ariana Madix,11000.0,25.0,rank,False,advanced_ensemble_rank
 32,5,Mira Sorvino,2000.0,22.0,rank,True,advanced_ensemble_rank
 32,5,Barry Williams,6000.0,24.0,rank,False,advanced_ensemble_rank
 32,5,Alyson Hannigan,3000.0,21.0,rank,False,advanced_ensemble_rank
 32,5,Xochitl Gomez,10000.0,28.0,rank,False,advanced_ensemble_rank
 32,5,Jason Mraz,9000.0,27.0,rank,False,advanced_ensemble_rank
-32,5,Lele Pons,7000.0,24.0,rank,False,advanced_ensemble_rank
+32,5,Lele Pons,6000.0,24.0,rank,False,advanced_ensemble_rank
 32,5,Harry Jowsey,4000.0,18.0,rank,False,advanced_ensemble_rank
-32,5,Mauricio Umansky,6000.0,24.0,rank,False,advanced_ensemble_rank
+32,5,Mauricio Umansky,5000.0,24.0,rank,False,advanced_ensemble_rank
 32,5,Charity Lawson,10000.0,28.0,rank,False,advanced_ensemble_rank
 32,5,Ariana Madix,8000.0,24.0,rank,False,advanced_ensemble_rank
 32,6,Barry Williams,4000.0,32.0,rank,False,advanced_ensemble_rank
 32,6,Alyson Hannigan,4000.0,31.0,rank,False,advanced_ensemble_rank
 32,6,Xochitl Gomez,9000.0,42.0,rank,False,advanced_ensemble_rank
 32,6,Jason Mraz,8000.0,39.0,rank,False,advanced_ensemble_rank
-32,6,Lele Pons,6000.0,37.0,rank,False,advanced_ensemble_rank
+32,6,Lele Pons,5000.0,37.0,rank,False,advanced_ensemble_rank
 32,6,Harry Jowsey,5000.0,29.0,rank,False,advanced_ensemble_rank
 32,6,Mauricio Umansky,2000.0,33.0,rank,True,advanced_ensemble_rank
 32,6,Charity Lawson,7000.0,38.0,rank,False,advanced_ensemble_rank
@@ -2318,14 +2318,14 @@
 33,2,Eric Roberts,5000.0,15.0,rank,False,advanced_ensemble_rank
 33,2,Reginald VelJohnson,5000.0,15.0,rank,False,advanced_ensemble_rank
 33,2,Chandler Kinney,13000.0,24.0,rank,False,advanced_ensemble_rank
-33,2,Dwight Howard ,12000.0,22.0,rank,False,advanced_ensemble_rank
-33,2,Danny Amendola,9000.0,21.0,rank,False,advanced_ensemble_rank
-33,2,Stephen Nedoroscik,12000.0,22.0,rank,False,advanced_ensemble_rank
-33,2,Ilona Maher,9000.0,21.0,rank,False,advanced_ensemble_rank
-33,2,Anna Delvey,4000.0,17.0,rank,False,advanced_ensemble_rank
-33,2,Brooks Nader,6000.0,20.0,rank,False,advanced_ensemble_rank
-33,2,Phaedra Parks,9000.0,21.0,rank,False,advanced_ensemble_rank
-33,2,Jenn Tran,6000.0,19.0,rank,False,advanced_ensemble_rank
+33,2,Dwight Howard ,13000.0,22.0,rank,False,advanced_ensemble_rank
+33,2,Danny Amendola,7000.0,21.0,rank,False,advanced_ensemble_rank
+33,2,Stephen Nedoroscik,13000.0,22.0,rank,False,advanced_ensemble_rank
+33,2,Ilona Maher,11000.0,21.0,rank,False,advanced_ensemble_rank
+33,2,Anna Delvey,7000.0,17.0,rank,False,advanced_ensemble_rank
+33,2,Brooks Nader,5000.0,20.0,rank,False,advanced_ensemble_rank
+33,2,Phaedra Parks,11000.0,21.0,rank,False,advanced_ensemble_rank
+33,2,Jenn Tran,5000.0,19.0,rank,False,advanced_ensemble_rank
 33,2,Joey Graziadei,12000.0,22.0,rank,False,advanced_ensemble_rank
 33,3,Eric Roberts,2000.0,23.0,rank,True,advanced_ensemble_rank
 33,3,Reginald VelJohnson,3000.0,21.0,rank,False,advanced_ensemble_rank
@@ -2375,15 +2375,15 @@
 33,9,Joey Graziadei,4000.0,29.5,rank,False,advanced_ensemble_rank
 34,1,Corey Feldman,9000.0,9.0,rank,False,advanced_ensemble_rank
 34,1,Danielle Fishel,7000.0,12.0,rank,False,advanced_ensemble_rank
-34,1,Elaine Hendrix,13000.0,69.49980000000001,rank,False,advanced_ensemble_rank
+34,1,Elaine Hendrix,12000.0,69.49980000000001,rank,False,advanced_ensemble_rank
 34,1,Baron Davis,7000.0,10.0,rank,False,advanced_ensemble_rank
 34,1,Jordan Chiles,11000.0,68.1666,rank,False,advanced_ensemble_rank
 34,1,Andy Richter,9000.0,9.0,rank,False,advanced_ensemble_rank
 34,1,Robert Irwin,14000.0,74.1666,rank,False,advanced_ensemble_rank
 34,1,Hilaria Baldwin,9000.0,14.0,rank,False,advanced_ensemble_rank
-34,1,Lauren Jauregui,8000.0,13.0,rank,False,advanced_ensemble_rank
+34,1,Lauren Jauregui,7000.0,13.0,rank,False,advanced_ensemble_rank
 34,1,Scott Hoying,7000.0,10.0,rank,False,advanced_ensemble_rank
-34,1,Alix Earle,14000.0,72.0,rank,False,advanced_ensemble_rank
+34,1,Alix Earle,13000.0,72.0,rank,False,advanced_ensemble_rank
 34,1,Jen Affleck,7000.0,12.0,rank,False,advanced_ensemble_rank
 34,1,Whitney Leavitt,2000.0,44.0,rank,True,advanced_ensemble_rank
 34,1,Dylan Efron,10000.0,66.8332,rank,False,advanced_ensemble_rank
@@ -2394,7 +2394,7 @@
 34,2,Jordan Chiles,14000.0,22.0,rank,False,advanced_ensemble_rank
 34,2,Andy Richter,3000.0,16.0,rank,False,advanced_ensemble_rank
 34,2,Robert Irwin,14000.0,22.0,rank,False,advanced_ensemble_rank
-34,2,Hilaria Baldwin,9000.0,21.0,rank,False,advanced_ensemble_rank
+34,2,Hilaria Baldwin,10000.0,21.0,rank,False,advanced_ensemble_rank
 34,2,Lauren Jauregui,8000.0,21.0,rank,False,advanced_ensemble_rank
 34,2,Scott Hoying,4000.0,18.0,rank,False,advanced_ensemble_rank
 34,2,Alix Earle,11000.0,21.0,rank,False,advanced_ensemble_rank
@@ -2402,7 +2402,7 @@
 34,2,Whitney Leavitt,14000.0,22.0,rank,False,advanced_ensemble_rank
 34,2,Dylan Efron,7000.0,20.0,rank,False,advanced_ensemble_rank
 34,3,Danielle Fishel,5000.0,21.0,rank,False,advanced_ensemble_rank
-34,3,Elaine Hendrix,6000.0,21.0,rank,False,advanced_ensemble_rank
+34,3,Elaine Hendrix,7000.0,21.0,rank,False,advanced_ensemble_rank
 34,3,Jordan Chiles,12000.0,24.0,rank,False,advanced_ensemble_rank
 34,3,Andy Richter,3000.0,18.0,rank,False,advanced_ensemble_rank
 34,3,Robert Irwin,9000.0,22.0,rank,False,advanced_ensemble_rank
@@ -2436,7 +2436,7 @@
 34,6,Dylan Efron,5000.0,32.0,rank,False,advanced_ensemble_rank
 34,7,Danielle Fishel,4000.0,35.0,rank,False,advanced_ensemble_rank
 34,7,Elaine Hendrix,4000.0,32.0,rank,False,advanced_ensemble_rank
-34,7,Jordan Chiles,6000.0,38.0,rank,False,advanced_ensemble_rank
+34,7,Jordan Chiles,7000.0,38.0,rank,False,advanced_ensemble_rank
 34,7,Andy Richter,4000.0,29.0,rank,False,advanced_ensemble_rank
 34,7,Robert Irwin,7000.0,41.0,rank,False,advanced_ensemble_rank
 34,7,Alix Earle,9000.0,43.0,rank,False,advanced_ensemble_rank

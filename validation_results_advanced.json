@@ -1,7 +1,7 @@
 {
   "total_weeks": 299,
-  "correct_predictions": 183,
-  "incorrect_predictions": 116,
+  "correct_predictions": 179,
+  "incorrect_predictions": 120,
   "details": [
     {
       "season": 1,
@@ -42,8 +42,8 @@
       "season": 2,
       "week": 1,
       "actual_eliminated": "Kenny Mayne",
-      "predicted_eliminated": "Kenny Mayne",
-      "correct": true
+      "predicted_eliminated": "Master P",
+      "correct": false
     },
     {
       "season": 2,
@@ -189,7 +189,7 @@
       "season": 4,
       "week": 6,
       "actual_eliminated": "Heather Mills",
-      "predicted_eliminated": "John Ratzenberger",
+      "predicted_eliminated": "Billy Ray Cyrus",
       "correct": false
     },
     {
@@ -259,8 +259,8 @@
       "season": 5,
       "week": 6,
       "actual_eliminated": "Sabrina Bryan",
-      "predicted_eliminated": "Sabrina Bryan",
-      "correct": true
+      "predicted_eliminated": "Jane Seymour",
+      "correct": false
     },
     {
       "season": 5,
@@ -364,7 +364,7 @@
       "season": 7,
       "week": 2,
       "actual_eliminated": "Misty May-Treanor",
-      "predicted_eliminated": "Kim Kardashian",
+      "predicted_eliminated": "Rocco DiSpirito",
       "correct": false
     },
     {
@@ -917,8 +917,8 @@
       "season": 15,
       "week": 6,
       "actual_eliminated": "Sabrina Bryan",
-      "predicted_eliminated": "Kirstie Alley",
-      "correct": false
+      "predicted_eliminated": "Sabrina Bryan",
+      "correct": true
     },
     {
       "season": 15,
@@ -945,7 +945,7 @@
       "season": 16,
       "week": 1,
       "actual_eliminated": "Alexandra Raisman",
-      "predicted_eliminated": "Dorothy Hamill",
+      "predicted_eliminated": "D. L. Hughley",
       "correct": false
     },
     {
@@ -1085,8 +1085,8 @@
       "season": 18,
       "week": 1,
       "actual_eliminated": "Diana Nyad",
-      "predicted_eliminated": "Diana Nyad",
-      "correct": true
+      "predicted_eliminated": "Billy Dee Williams",
+      "correct": false
     },
     {
       "season": 18,
@@ -1169,8 +1169,8 @@
       "season": 19,
       "week": 6,
       "actual_eliminated": "Jonathan Bennett",
-      "predicted_eliminated": "Jonathan Bennett",
-      "correct": true
+      "predicted_eliminated": "Antonio Sabato Jr.",
+      "correct": false
     },
     {
       "season": 19,
@@ -1638,8 +1638,8 @@
       "season": 27,
       "week": 6,
       "actual_eliminated": "Mary Lou Retton",
-      "predicted_eliminated": "Mary Lou Retton",
-      "correct": true
+      "predicted_eliminated": "Bobby Bones",
+      "correct": false
     },
     {
       "season": 27,
@@ -1687,7 +1687,7 @@
       "season": 28,
       "week": 6,
       "actual_eliminated": "Sailor Brinkley-Cook",
-      "predicted_eliminated": "Kel Mitchell",
+      "predicted_eliminated": "Karamo Brown",
       "correct": false
     },
     {
@@ -1813,7 +1813,7 @@
       "season": 30,
       "week": 5,
       "actual_eliminated": "Melanie C",
-      "predicted_eliminated": "Mike \"The Miz\" Mizanin",
+      "predicted_eliminated": "Cody Rigsby",
       "correct": false
     },
     {
@@ -2097,5 +2097,5 @@
       "correct": false
     }
   ],
-  "accuracy": 0.6120401337792643
+  "accuracy": 0.5986622073578596
 }
