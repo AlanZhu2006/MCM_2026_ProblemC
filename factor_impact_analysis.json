@@ -1,0 +1,2507 @@
+{
+  "pro_dancer_impact": {
+    "pro_dancer_stats": [
+      {
+        "pro_dancer": "Witney Carson (Xoshitl Gomez week 9)",
+        "n_celebrities": 1,
+        "n_weeks": 9,
+        "avg_judge_score": 36.29628888888889,
+        "avg_fan_votes": 8444.444893178277,
+        "avg_placement": 1.0,
+        "best_placement": 1,
+        "n_finalists": 9,
+        "finalist_rate": 1.0
+      },
+      {
+        "pro_dancer": "Charlotte Jorgensen",
+        "n_celebrities": 1,
+        "n_weeks": 5,
+        "avg_judge_score": 25.0,
+        "avg_fan_votes": 3299.9858183630813,
+        "avg_placement": 2.0,
+        "best_placement": 2,
+        "n_finalists": 5,
+        "finalist_rate": 1.0
+      },
+      {
+        "pro_dancer": "Val Chmerkovskiy (Joey Graziadei week 9)",
+        "n_celebrities": 1,
+        "n_weeks": 9,
+        "avg_judge_score": 36.166666666666664,
+        "avg_fan_votes": 8311.110818366324,
+        "avg_placement": 2.0,
+        "best_placement": 2,
+        "n_finalists": 9,
+        "finalist_rate": 1.0
+      },
+      {
+        "pro_dancer": "Derek Hough",
+        "n_celebrities": 17,
+        "n_weeks": 149,
+        "avg_judge_score": 31.308714765100667,
+        "avg_fan_votes": 1777959.9887806524,
+        "avg_placement": 2.838926174496644,
+        "best_placement": 1,
+        "n_finalists": 82,
+        "finalist_rate": 0.5503355704697986
+      },
+      {
+        "pro_dancer": "Ezra Sosa (Apolo Anton Ohno week 9)",
+        "n_celebrities": 1,
+        "n_weeks": 9,
+        "avg_judge_score": 35.74073333333334,
+        "avg_fan_votes": 8566.666668090968,
+        "avg_placement": 3.0,
+        "best_placement": 3,
+        "n_finalists": 9,
+        "finalist_rate": 1.0
+      },
+      {
+        "pro_dancer": "Julianne Hough",
+        "n_celebrities": 5,
+        "n_weeks": 38,
+        "avg_judge_score": 25.508763157894737,
+        "avg_fan_votes": 1518932.3550766464,
+        "avg_placement": 3.3157894736842106,
+        "best_placement": 1,
+        "n_finalists": 19,
+        "finalist_rate": 0.5
+      },
+      {
+        "pro_dancer": "Daniella Karagach",
+        "n_celebrities": 5,
+        "n_weeks": 39,
+        "avg_judge_score": 30.897435897435898,
+        "avg_fan_votes": 6483.168000089445,
+        "avg_placement": 3.7948717948717947,
+        "best_placement": 1,
+        "n_finalists": 28,
+        "finalist_rate": 0.717948717948718
+      },
+      {
+        "pro_dancer": "Mark Ballas",
+        "n_celebrities": 20,
+        "n_weeks": 151,
+        "avg_judge_score": 30.528687417218542,
+        "avg_fan_votes": 1344886.47596262,
+        "avg_placement": 3.9735099337748343,
+        "best_placement": 1,
+        "n_finalists": 92,
+        "finalist_rate": 0.609271523178808
+      },
+      {
+        "pro_dancer": "Daniella Karagach (Rumer Willis week 9)",
+        "n_celebrities": 1,
+        "n_weeks": 9,
+        "avg_judge_score": 34.48146666666667,
+        "avg_fan_votes": 6833.333227457836,
+        "avg_placement": 4.0,
+        "best_placement": 4,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Valentin Chmerkovskiy",
+        "n_celebrities": 19,
+        "n_weeks": 138,
+        "avg_judge_score": 32.51448043478261,
+        "avg_fan_votes": 1133085.9611321632,
+        "avg_placement": 4.195652173913044,
+        "best_placement": 1,
+        "n_finalists": 83,
+        "finalist_rate": 0.6014492753623188
+      },
+      {
+        "pro_dancer": "Witney Carson",
+        "n_celebrities": 14,
+        "n_weeks": 89,
+        "avg_judge_score": 32.469404494382026,
+        "avg_fan_votes": 823178.2479735116,
+        "avg_placement": 4.314606741573034,
+        "best_placement": 1,
+        "n_finalists": 45,
+        "finalist_rate": 0.5056179775280899
+      },
+      {
+        "pro_dancer": "Lindsay Arnold",
+        "n_celebrities": 10,
+        "n_weeks": 67,
+        "avg_judge_score": 29.104467164179102,
+        "avg_fan_votes": 1183797.9873604744,
+        "avg_placement": 4.373134328358209,
+        "best_placement": 1,
+        "n_finalists": 36,
+        "finalist_rate": 0.5373134328358209
+      },
+      {
+        "pro_dancer": "Jenna Johnson",
+        "n_celebrities": 9,
+        "n_weeks": 49,
+        "avg_judge_score": 27.663261224489798,
+        "avg_fan_votes": 388021.5164741424,
+        "avg_placement": 4.469387755102041,
+        "best_placement": 1,
+        "n_finalists": 30,
+        "finalist_rate": 0.6122448979591837
+      },
+      {
+        "pro_dancer": "Kym Johnson",
+        "n_celebrities": 13,
+        "n_weeks": 86,
+        "avg_judge_score": 25.09301046511628,
+        "avg_fan_votes": 1285888.0062285196,
+        "avg_placement": 4.523255813953488,
+        "best_placement": 1,
+        "n_finalists": 37,
+        "finalist_rate": 0.43023255813953487
+      },
+      {
+        "pro_dancer": "Alan Bersten",
+        "n_celebrities": 9,
+        "n_weeks": 55,
+        "avg_judge_score": 28.899989090909095,
+        "avg_fan_votes": 325837.2972108772,
+        "avg_placement": 4.763636363636364,
+        "best_placement": 1,
+        "n_finalists": 15,
+        "finalist_rate": 0.2727272727272727
+      },
+      {
+        "pro_dancer": "Cheryl Burke",
+        "n_celebrities": 24,
+        "n_weeks": 173,
+        "avg_judge_score": 26.275841618497115,
+        "avg_fan_votes": 1051145.9918606891,
+        "avg_placement": 4.791907514450867,
+        "best_placement": 1,
+        "n_finalists": 74,
+        "finalist_rate": 0.4277456647398844
+      },
+      {
+        "pro_dancer": "Maksim Chmerkoskiy",
+        "n_celebrities": 16,
+        "n_weeks": 110,
+        "avg_judge_score": 26.404536363636367,
+        "avg_fan_votes": 1319694.0132099479,
+        "avg_placement": 4.845454545454546,
+        "best_placement": 1,
+        "n_finalists": 45,
+        "finalist_rate": 0.4090909090909091
+      },
+      {
+        "pro_dancer": "Lacey Schwimmer",
+        "n_celebrities": 6,
+        "n_weeks": 39,
+        "avg_judge_score": 23.76066923076923,
+        "avg_fan_votes": 1215349.169772826,
+        "avg_placement": 4.871794871794871,
+        "best_placement": 2,
+        "n_finalists": 19,
+        "finalist_rate": 0.48717948717948717
+      },
+      {
+        "pro_dancer": "Alan Bersten (Rashad Jennings week 9)",
+        "n_celebrities": 1,
+        "n_weeks": 9,
+        "avg_judge_score": 33.94442222222222,
+        "avg_fan_votes": 6644.444316699129,
+        "avg_placement": 5.0,
+        "best_placement": 5,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Sharna Burgess",
+        "n_celebrities": 14,
+        "n_weeks": 82,
+        "avg_judge_score": 28.78048048780488,
+        "avg_fan_votes": 1097039.3307130046,
+        "avg_placement": 5.036585365853658,
+        "best_placement": 1,
+        "n_finalists": 39,
+        "finalist_rate": 0.47560975609756095
+      },
+      {
+        "pro_dancer": "Karina Smirnoff",
+        "n_celebrities": 18,
+        "n_weeks": 106,
+        "avg_judge_score": 25.390443396226416,
+        "avg_fan_votes": 1298215.1601859725,
+        "avg_placement": 5.1415094339622645,
+        "best_placement": 1,
+        "n_finalists": 39,
+        "finalist_rate": 0.36792452830188677
+      },
+      {
+        "pro_dancer": "Edyta Sliwinska",
+        "n_celebrities": 11,
+        "n_weeks": 52,
+        "avg_judge_score": 22.182690384615384,
+        "avg_fan_votes": 973295.9213106886,
+        "avg_placement": 5.288461538461538,
+        "best_placement": 2,
+        "n_finalists": 17,
+        "finalist_rate": 0.3269230769230769
+      },
+      {
+        "pro_dancer": "Dmitry Chaplin",
+        "n_celebrities": 3,
+        "n_weeks": 18,
+        "avg_judge_score": 26.092566666666666,
+        "avg_fan_votes": 1543283.6088377917,
+        "avg_placement": 5.333333333333333,
+        "best_placement": 2,
+        "n_finalists": 10,
+        "finalist_rate": 0.5555555555555556
+      },
+      {
+        "pro_dancer": "Sasha Farber",
+        "n_celebrities": 12,
+        "n_weeks": 82,
+        "avg_judge_score": 30.670726829268293,
+        "avg_fan_votes": 481918.73519411136,
+        "avg_placement": 5.682926829268292,
+        "best_placement": 3,
+        "n_finalists": 12,
+        "finalist_rate": 0.14634146341463414
+      },
+      {
+        "pro_dancer": "Peta Murgatroyd",
+        "n_celebrities": 15,
+        "n_weeks": 88,
+        "avg_judge_score": 26.499363636363636,
+        "avg_fan_votes": 910627.0552593388,
+        "avg_placement": 5.886363636363637,
+        "best_placement": 1,
+        "n_finalists": 17,
+        "finalist_rate": 0.19318181818181818
+      },
+      {
+        "pro_dancer": "Damian Whitewood",
+        "n_celebrities": 1,
+        "n_weeks": 6,
+        "avg_judge_score": 23.833299999999998,
+        "avg_fan_votes": 1141335.0867709802,
+        "avg_placement": 6.0,
+        "best_placement": 6,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Louis van Amstel",
+        "n_celebrities": 11,
+        "n_weeks": 57,
+        "avg_judge_score": 23.569185964912283,
+        "avg_fan_votes": 807841.1162220924,
+        "avg_placement": 6.017543859649122,
+        "best_placement": 3,
+        "n_finalists": 10,
+        "finalist_rate": 0.17543859649122806
+      },
+      {
+        "pro_dancer": "Jonathan Roberts",
+        "n_celebrities": 7,
+        "n_weeks": 25,
+        "avg_judge_score": 23.739996,
+        "avg_fan_votes": 962631.3086779336,
+        "avg_placement": 6.12,
+        "best_placement": 3,
+        "n_finalists": 10,
+        "finalist_rate": 0.4
+      },
+      {
+        "pro_dancer": "Tony Dovolani",
+        "n_celebrities": 20,
+        "n_weeks": 104,
+        "avg_judge_score": 25.116443269230768,
+        "avg_fan_votes": 945634.6669571423,
+        "avg_placement": 6.153846153846154,
+        "best_placement": 1,
+        "n_finalists": 26,
+        "finalist_rate": 0.25
+      },
+      {
+        "pro_dancer": "Artem Chigvintsev",
+        "n_celebrities": 12,
+        "n_weeks": 71,
+        "avg_judge_score": 31.028169014084508,
+        "avg_fan_votes": 393271.6730876476,
+        "avg_placement": 6.197183098591549,
+        "best_placement": 1,
+        "n_finalists": 10,
+        "finalist_rate": 0.14084507042253522
+      },
+      {
+        "pro_dancer": "Allison Holker",
+        "n_celebrities": 4,
+        "n_weeks": 24,
+        "avg_judge_score": 30.708325000000002,
+        "avg_fan_votes": 1252484.3085871257,
+        "avg_placement": 6.208333333333333,
+        "best_placement": 2,
+        "n_finalists": 9,
+        "finalist_rate": 0.375
+      },
+      {
+        "pro_dancer": "Emma Slater",
+        "n_celebrities": 16,
+        "n_weeks": 87,
+        "avg_judge_score": 27.611105747126437,
+        "avg_fan_votes": 663686.0116718409,
+        "avg_placement": 6.275862068965517,
+        "best_placement": 1,
+        "n_finalists": 9,
+        "finalist_rate": 0.10344827586206896
+      },
+      {
+        "pro_dancer": "Rylee Arnold",
+        "n_celebrities": 3,
+        "n_weeks": 21,
+        "avg_judge_score": 23.928571428571427,
+        "avg_fan_votes": 5033.566385132593,
+        "avg_placement": 6.285714285714286,
+        "best_placement": 4,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Chelsie Hightower",
+        "n_celebrities": 7,
+        "n_weeks": 40,
+        "avg_judge_score": 23.4249875,
+        "avg_fan_votes": 871504.9374990877,
+        "avg_placement": 6.3,
+        "best_placement": 4,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Anna Trebunskaya",
+        "n_celebrities": 11,
+        "n_weeks": 49,
+        "avg_judge_score": 21.929697959183674,
+        "avg_fan_votes": 791122.3097860591,
+        "avg_placement": 6.36734693877551,
+        "best_placement": 2,
+        "n_finalists": 17,
+        "finalist_rate": 0.3469387755102041
+      },
+      {
+        "pro_dancer": "Ashly DelGrosso",
+        "n_celebrities": 4,
+        "n_weeks": 13,
+        "avg_judge_score": 16.96153846153846,
+        "avg_fan_votes": 226086.74091118906,
+        "avg_placement": 6.6923076923076925,
+        "best_placement": 3,
+        "n_finalists": 4,
+        "finalist_rate": 0.3076923076923077
+      },
+      {
+        "pro_dancer": "Alec Mazo",
+        "n_celebrities": 5,
+        "n_weeks": 16,
+        "avg_judge_score": 22.5937375,
+        "avg_fan_votes": 491697.0400983143,
+        "avg_placement": 6.875,
+        "best_placement": 1,
+        "n_finalists": 5,
+        "finalist_rate": 0.3125
+      },
+      {
+        "pro_dancer": "Anna Demidova",
+        "n_celebrities": 1,
+        "n_weeks": 7,
+        "avg_judge_score": 19.357114285714285,
+        "avg_fan_votes": 474209.8358659666,
+        "avg_placement": 7.0,
+        "best_placement": 7,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Fabian Sanchez",
+        "n_celebrities": 1,
+        "n_weeks": 5,
+        "avg_judge_score": 22.4,
+        "avg_fan_votes": 757082.6193171154,
+        "avg_placement": 7.0,
+        "best_placement": 7,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Emma Slater/Kaitlyn Bristowe (week 9)",
+        "n_celebrities": 1,
+        "n_weeks": 8,
+        "avg_judge_score": 22.5,
+        "avg_fan_votes": 3806.249978033814,
+        "avg_placement": 7.0,
+        "best_placement": 7,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Gleb Savchenko",
+        "n_celebrities": 13,
+        "n_weeks": 67,
+        "avg_judge_score": 28.91044776119403,
+        "avg_fan_votes": 348082.53187899746,
+        "avg_placement": 7.223880597014926,
+        "best_placement": 4,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Britt Stewart",
+        "n_celebrities": 6,
+        "n_weeks": 28,
+        "avg_judge_score": 26.053571428571427,
+        "avg_fan_votes": 6835.7167754413385,
+        "avg_placement": 7.5,
+        "best_placement": 5,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Corky Ballas",
+        "n_celebrities": 2,
+        "n_weeks": 10,
+        "avg_judge_score": 18.45,
+        "avg_fan_votes": 571725.8881143637,
+        "avg_placement": 7.5,
+        "best_placement": 7,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Koko Iwasaki",
+        "n_celebrities": 2,
+        "n_weeks": 9,
+        "avg_judge_score": 25.27777777777778,
+        "avg_fan_votes": 4448.147648916006,
+        "avg_placement": 7.777777777777778,
+        "best_placement": 7,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Tristan MacManus",
+        "n_celebrities": 5,
+        "n_weeks": 20,
+        "avg_judge_score": 20.25,
+        "avg_fan_votes": 578775.406563779,
+        "avg_placement": 7.85,
+        "best_placement": 5,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Pasha Pashkov",
+        "n_celebrities": 7,
+        "n_weeks": 30,
+        "avg_judge_score": 26.849993333333334,
+        "avg_fan_votes": 5919.906954438145,
+        "avg_placement": 7.9,
+        "best_placement": 3,
+        "n_finalists": 9,
+        "finalist_rate": 0.3
+      },
+      {
+        "pro_dancer": "Keo Motsepe",
+        "n_celebrities": 9,
+        "n_weeks": 30,
+        "avg_judge_score": 23.116666666666667,
+        "avg_fan_votes": 758485.6292789113,
+        "avg_placement": 7.966666666666667,
+        "best_placement": 3,
+        "n_finalists": 8,
+        "finalist_rate": 0.26666666666666666
+      },
+      {
+        "pro_dancer": "Val Chmerkovskiy",
+        "n_celebrities": 1,
+        "n_weeks": 4,
+        "avg_judge_score": 26.25,
+        "avg_fan_votes": 6312.500000785024,
+        "avg_placement": 8.0,
+        "best_placement": 8,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Nick Kosovich",
+        "n_celebrities": 2,
+        "n_weeks": 6,
+        "avg_judge_score": 22.833333333333332,
+        "avg_fan_votes": 670894.5109147417,
+        "avg_placement": 8.333333333333334,
+        "best_placement": 8,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Brandon Armstrong",
+        "n_celebrities": 8,
+        "n_weeks": 42,
+        "avg_judge_score": 26.13095238095238,
+        "avg_fan_votes": 91111.47264342595,
+        "avg_placement": 8.404761904761905,
+        "best_placement": 3,
+        "n_finalists": 7,
+        "finalist_rate": 0.16666666666666666
+      },
+      {
+        "pro_dancer": "Elena Grinenko",
+        "n_celebrities": 2,
+        "n_weeks": 5,
+        "avg_judge_score": 14.8,
+        "avg_fan_votes": 489064.5519459774,
+        "avg_placement": 8.6,
+        "best_placement": 8,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Jan Ravnik",
+        "n_celebrities": 1,
+        "n_weeks": 6,
+        "avg_judge_score": 23.666666666666668,
+        "avg_fan_votes": 6133.333451226154,
+        "avg_placement": 9.0,
+        "best_placement": 9,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Kym Herjavec",
+        "n_celebrities": 1,
+        "n_weeks": 3,
+        "avg_judge_score": 24.666666666666668,
+        "avg_fan_votes": 276737.8840475302,
+        "avg_placement": 10.0,
+        "best_placement": 10,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Brian Fortuna",
+        "n_celebrities": 1,
+        "n_weeks": 2,
+        "avg_judge_score": 20.5,
+        "avg_fan_votes": 597427.0353302611,
+        "avg_placement": 10.0,
+        "best_placement": 10,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Andrea Hale",
+        "n_celebrities": 1,
+        "n_weeks": 1,
+        "avg_judge_score": 13.0,
+        "avg_fan_votes": 1000.0,
+        "avg_placement": 10.0,
+        "best_placement": 10,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Jesse DeSoto",
+        "n_celebrities": 1,
+        "n_weeks": 2,
+        "avg_judge_score": 20.0,
+        "avg_fan_votes": 584514.0599997966,
+        "avg_placement": 10.0,
+        "best_placement": 10,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Tyne Stecklein",
+        "n_celebrities": 1,
+        "n_weeks": 3,
+        "avg_judge_score": 15.666666666666666,
+        "avg_fan_votes": 351346.61564864015,
+        "avg_placement": 11.0,
+        "best_placement": 11,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Inna Brayer",
+        "n_celebrities": 1,
+        "n_weeks": 1,
+        "avg_judge_score": 18.5,
+        "avg_fan_votes": 216487.40977612408,
+        "avg_placement": 12.0,
+        "best_placement": 12,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Henry Byalikov",
+        "n_celebrities": 1,
+        "n_weeks": 1,
+        "avg_judge_score": 18.0,
+        "avg_fan_votes": 291666.6666666666,
+        "avg_placement": 12.0,
+        "best_placement": 12,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      },
+      {
+        "pro_dancer": "Ezra Sosa",
+        "n_celebrities": 1,
+        "n_weeks": 1,
+        "avg_judge_score": 17.0,
+        "avg_fan_votes": 5800.000000000001,
+        "avg_placement": 12.0,
+        "best_placement": 12,
+        "n_finalists": 0,
+        "finalist_rate": 0.0
+      }
+    ],
+    "correlations": {
+      "judge_score_correlation": 0.07460220305812408,
+      "fan_votes_correlation": 0.10066136417094841
+    },
+    "summary": {
+      "total_pro_dancers": 60,
+      "top_5_dancers_by_placement": [
+        {
+          "pro_dancer": "Witney Carson (Xoshitl Gomez week 9)",
+          "avg_placement": 1.0,
+          "avg_judge_score": 36.29628888888889,
+          "avg_fan_votes": 8444.444893178277
+        },
+        {
+          "pro_dancer": "Charlotte Jorgensen",
+          "avg_placement": 2.0,
+          "avg_judge_score": 25.0,
+          "avg_fan_votes": 3299.9858183630813
+        },
+        {
+          "pro_dancer": "Val Chmerkovskiy (Joey Graziadei week 9)",
+          "avg_placement": 2.0,
+          "avg_judge_score": 36.166666666666664,
+          "avg_fan_votes": 8311.110818366324
+        },
+        {
+          "pro_dancer": "Derek Hough",
+          "avg_placement": 2.838926174496644,
+          "avg_judge_score": 31.308714765100667,
+          "avg_fan_votes": 1777959.9887806524
+        },
+        {
+          "pro_dancer": "Ezra Sosa (Apolo Anton Ohno week 9)",
+          "avg_placement": 3.0,
+          "avg_judge_score": 35.74073333333334,
+          "avg_fan_votes": 8566.666668090968
+        }
+      ],
+      "bottom_5_dancers_by_placement": [
+        {
+          "pro_dancer": "Jesse DeSoto",
+          "avg_placement": 10.0,
+          "avg_judge_score": 20.0,
+          "avg_fan_votes": 584514.0599997966
+        },
+        {
+          "pro_dancer": "Tyne Stecklein",
+          "avg_placement": 11.0,
+          "avg_judge_score": 15.666666666666666,
+          "avg_fan_votes": 351346.61564864015
+        },
+        {
+          "pro_dancer": "Inna Brayer",
+          "avg_placement": 12.0,
+          "avg_judge_score": 18.5,
+          "avg_fan_votes": 216487.40977612408
+        },
+        {
+          "pro_dancer": "Henry Byalikov",
+          "avg_placement": 12.0,
+          "avg_judge_score": 18.0,
+          "avg_fan_votes": 291666.6666666666
+        },
+        {
+          "pro_dancer": "Ezra Sosa",
+          "avg_placement": 12.0,
+          "avg_judge_score": 17.0,
+          "avg_fan_votes": 5800.000000000001
+        }
+      ]
+    }
+  },
+  "celebrity_features_impact": {
+    "age": {
+      "correlation_with_judge_score": {
+        "correlation": -0.24401283888257286,
+        "p_value": 9.623607181560504e-35,
+        "significant": true
+      },
+      "correlation_with_fan_votes": {
+        "correlation": -0.2600492101210153,
+        "p_value": 2.1838433552306018e-39,
+        "significant": true
+      },
+      "group_statistics": {
+        "judge_total_mean": {
+          "<30": 30.03,
+          "30-40": 27.69,
+          "40-50": 25.37,
+          "50-60": 23.97,
+          "60+": 22.41
+        },
+        "judge_total_std": {
+          "<30": 11.49,
+          "30-40": 8.83,
+          "40-50": 9.61,
+          "50-60": 8.4,
+          "60+": 6.27
+        },
+        "judge_total_count": {
+          "<30": 890,
+          "30-40": 794,
+          "40-50": 450,
+          "50-60": 199,
+          "60+": 132
+        },
+        "fan_votes_mean": {
+          "<30": 1147415.79,
+          "30-40": 979802.48,
+          "40-50": 592961.11,
+          "50-60": 589031.09,
+          "60+": 463705.57
+        },
+        "fan_votes_std": {
+          "<30": 962570.71,
+          "30-40": 979549.2,
+          "40-50": 695267.78,
+          "50-60": 617477.89,
+          "60+": 376088.52
+        },
+        "placement_mean": {
+          "<30": 3.98,
+          "30-40": 4.84,
+          "40-50": 6.5,
+          "50-60": 7.54,
+          "60+": 8.47
+        }
+      },
+      "age_range": {
+        "min": 14.0,
+        "max": 82.0,
+        "mean": 36.27383367139959,
+        "median": 34.0
+      }
+    },
+    "industry": {
+      "industry_statistics": {
+        "judge_total_mean": {
+          "Actor/Actress": 27.58,
+          "Astronaut": 12.5,
+          "Athlete": 27.28,
+          "Beauty Pagent": 20.5,
+          "Comedian": 26.6,
+          "Con artist": 17.0,
+          "Conservationist": 36.3,
+          "Entrepreneur": 21.97,
+          "Fashion Designer": 26.5,
+          "Fitness Instructor": 31.83,
+          "Journalist": 13.0,
+          "Magician": 17.0,
+          "Military": 32.5,
+          "Model": 23.88,
+          "Motivational Speaker": 32.72,
+          "Musician": 33.28,
+          "News Anchor": 25.39,
+          "Politician": 19.54,
+          "Producer": 32.0,
+          "Racing Driver": 31.65,
+          "Radio Personality": 22.39,
+          "Singer/Rapper": 27.17,
+          "Social Media Personality": 34.61,
+          "Social media personality": 36.17,
+          "Sports Broadcaster": 24.15,
+          "TV Personality": 27.46
+        },
+        "judge_total_std": {
+          "Actor/Actress": 9.89,
+          "Astronaut": 0.71,
+          "Athlete": 8.54,
+          "Beauty Pagent": 0.71,
+          "Comedian": 12.13,
+          "Con artist": null,
+          "Conservationist": 16.4,
+          "Entrepreneur": 8.03,
+          "Fashion Designer": 4.36,
+          "Fitness Instructor": 6.94,
+          "Journalist": null,
+          "Magician": null,
+          "Military": 18.73,
+          "Model": 4.69,
+          "Motivational Speaker": 4.07,
+          "Musician": 12.43,
+          "News Anchor": 4.17,
+          "Politician": 3.5,
+          "Producer": 17.15,
+          "Racing Driver": 14.3,
+          "Radio Personality": 3.8,
+          "Singer/Rapper": 9.44,
+          "Social Media Personality": 12.41,
+          "Social media personality": 15.63,
+          "Sports Broadcaster": 5.58,
+          "TV Personality": 11.69
+        },
+        "judge_total_count": {
+          "Actor/Actress": 780,
+          "Astronaut": 2,
+          "Athlete": 548,
+          "Beauty Pagent": 2,
+          "Comedian": 60,
+          "Con artist": 1,
+          "Conservationist": 9,
+          "Entrepreneur": 17,
+          "Fashion Designer": 4,
+          "Fitness Instructor": 9,
+          "Journalist": 1,
+          "Magician": 1,
+          "Military": 8,
+          "Model": 61,
+          "Motivational Speaker": 9,
+          "Musician": 9,
+          "News Anchor": 15,
+          "Politician": 13,
+          "Producer": 10,
+          "Racing Driver": 30,
+          "Radio Personality": 14,
+          "Singer/Rapper": 364,
+          "Social Media Personality": 64,
+          "Social media personality": 9,
+          "Sports Broadcaster": 10,
+          "TV Personality": 415
+        },
+        "fan_votes_mean": {
+          "Actor/Actress": 946785.38,
+          "Astronaut": 419051.42,
+          "Athlete": 1079571.68,
+          "Beauty Pagent": 597427.04,
+          "Comedian": 494396.81,
+          "Con artist": 5800.0,
+          "Conservationist": 8444.44,
+          "Entrepreneur": 513276.7,
+          "Fashion Designer": 525961.27,
+          "Fitness Instructor": 4874.63,
+          "Journalist": 163167.41,
+          "Magician": 348735.83,
+          "Military": 1443187.02,
+          "Model": 803400.22,
+          "Motivational Speaker": 1306527.72,
+          "Musician": 1684430.1,
+          "News Anchor": 937147.07,
+          "Politician": 213517.59,
+          "Producer": 10299.93,
+          "Racing Driver": 1477242.24,
+          "Radio Personality": 903217.95,
+          "Singer/Rapper": 1008167.77,
+          "Social Media Personality": 484864.77,
+          "Social media personality": 8311.11,
+          "Sports Broadcaster": 1799054.39,
+          "TV Personality": 707760.82
+        },
+        "fan_votes_std": {
+          "Actor/Actress": 863941.44,
+          "Astronaut": 307325.88,
+          "Athlete": 967094.38,
+          "Beauty Pagent": 349914.67,
+          "Comedian": 476424.77,
+          "Con artist": null,
+          "Conservationist": 3315.16,
+          "Entrepreneur": 398250.19,
+          "Fashion Designer": 217799.25,
+          "Fitness Instructor": 2723.7,
+          "Journalist": null,
+          "Magician": null,
+          "Military": 593035.46,
+          "Model": 720104.2,
+          "Motivational Speaker": 612468.07,
+          "Musician": 587387.29,
+          "News Anchor": 1097761.9,
+          "Politician": 298351.04,
+          "Producer": 3430.96,
+          "Racing Driver": 800284.74,
+          "Radio Personality": 659725.85,
+          "Singer/Rapper": 974585.16,
+          "Social Media Personality": 722843.58,
+          "Social media personality": 3021.77,
+          "Sports Broadcaster": 1004912.74,
+          "TV Personality": 900193.4
+        },
+        "placement_mean": {
+          "Actor/Actress": 5.32,
+          "Astronaut": 10.0,
+          "Athlete": 4.75,
+          "Beauty Pagent": 10.0,
+          "Comedian": 6.32,
+          "Con artist": 12.0,
+          "Conservationist": 1.0,
+          "Entrepreneur": 8.94,
+          "Fashion Designer": 10.0,
+          "Fitness Instructor": 3.0,
+          "Journalist": 12.0,
+          "Magician": 12.0,
+          "Military": 3.0,
+          "Model": 7.07,
+          "Motivational Speaker": 3.0,
+          "Musician": 2.0,
+          "News Anchor": 6.67,
+          "Politician": 9.0,
+          "Producer": 2.0,
+          "Racing Driver": 3.63,
+          "Radio Personality": 5.0,
+          "Singer/Rapper": 5.32,
+          "Social Media Personality": 4.94,
+          "Social media personality": 2.0,
+          "Sports Broadcaster": 3.7,
+          "TV Personality": 5.47
+        }
+      },
+      "industry_performance": [
+        {
+          "industry": "Conservationist",
+          "avg_judge_score": 36.29628888888889,
+          "avg_fan_votes": 8444.444893178277,
+          "avg_placement": 1.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Musician",
+          "avg_judge_score": 33.27777777777778,
+          "avg_fan_votes": 1684430.1044191124,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Producer",
+          "avg_judge_score": 31.99998,
+          "avg_fan_votes": 10299.929056362733,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 10
+        },
+        {
+          "industry": "Social media personality",
+          "avg_judge_score": 36.166666666666664,
+          "avg_fan_votes": 8311.110818366324,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Fitness Instructor",
+          "avg_judge_score": 31.833333333333332,
+          "avg_fan_votes": 4874.629517090942,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Military",
+          "avg_judge_score": 32.499975,
+          "avg_fan_votes": 1443187.0241717289,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 8
+        },
+        {
+          "industry": "Motivational Speaker",
+          "avg_judge_score": 32.72222222222222,
+          "avg_fan_votes": 1306527.7196447037,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Racing Driver",
+          "avg_judge_score": 31.649973333333335,
+          "avg_fan_votes": 1477242.2446020222,
+          "avg_placement": 3.6333333333333333,
+          "n_celebrities": 3,
+          "n_weeks": 30
+        },
+        {
+          "industry": "Sports Broadcaster",
+          "avg_judge_score": 24.14998,
+          "avg_fan_votes": 1799054.3928379286,
+          "avg_placement": 3.7,
+          "n_celebrities": 2,
+          "n_weeks": 10
+        },
+        {
+          "industry": "Athlete",
+          "avg_judge_score": 27.27959489051095,
+          "avg_fan_votes": 1079571.678477186,
+          "avg_placement": 4.748175182481752,
+          "n_celebrities": 92,
+          "n_weeks": 548
+        },
+        {
+          "industry": "Social Media Personality",
+          "avg_judge_score": 34.609375,
+          "avg_fan_votes": 484864.7705539814,
+          "avg_placement": 4.9375,
+          "n_celebrities": 8,
+          "n_weeks": 64
+        },
+        {
+          "industry": "Radio Personality",
+          "avg_judge_score": 22.392857142857142,
+          "avg_fan_votes": 903217.9506458313,
+          "avg_placement": 5.0,
+          "n_celebrities": 4,
+          "n_weeks": 14
+        },
+        {
+          "industry": "Actor/Actress",
+          "avg_judge_score": 27.578694487179483,
+          "avg_fan_votes": 946785.3800102955,
+          "avg_placement": 5.316666666666666,
+          "n_celebrities": 124,
+          "n_weeks": 780
+        },
+        {
+          "industry": "Singer/Rapper",
+          "avg_judge_score": 27.16558983516484,
+          "avg_fan_votes": 1008167.7681323845,
+          "avg_placement": 5.318681318681318,
+          "n_celebrities": 59,
+          "n_weeks": 364
+        },
+        {
+          "industry": "TV Personality",
+          "avg_judge_score": 27.45876072289157,
+          "avg_fan_votes": 707760.8193017286,
+          "avg_placement": 5.472289156626506,
+          "n_celebrities": 65,
+          "n_weeks": 415
+        },
+        {
+          "industry": "Comedian",
+          "avg_judge_score": 26.599996666666666,
+          "avg_fan_votes": 494396.8137946434,
+          "avg_placement": 6.316666666666666,
+          "n_celebrities": 12,
+          "n_weeks": 60
+        },
+        {
+          "industry": "News Anchor",
+          "avg_judge_score": 25.388879999999997,
+          "avg_fan_votes": 937147.071353545,
+          "avg_placement": 6.666666666666667,
+          "n_celebrities": 3,
+          "n_weeks": 15
+        },
+        {
+          "industry": "Model",
+          "avg_judge_score": 23.87703770491803,
+          "avg_fan_votes": 803400.2249772953,
+          "avg_placement": 7.065573770491803,
+          "n_celebrities": 16,
+          "n_weeks": 61
+        },
+        {
+          "industry": "Entrepreneur",
+          "avg_judge_score": 21.970588235294116,
+          "avg_fan_votes": 513276.70468328847,
+          "avg_placement": 8.941176470588236,
+          "n_celebrities": 4,
+          "n_weeks": 17
+        },
+        {
+          "industry": "Politician",
+          "avg_judge_score": 19.538453846153846,
+          "avg_fan_votes": 213517.5904988195,
+          "avg_placement": 9.0,
+          "n_celebrities": 3,
+          "n_weeks": 13
+        },
+        {
+          "industry": "Astronaut",
+          "avg_judge_score": 12.5,
+          "avg_fan_votes": 419051.4231687478,
+          "avg_placement": 10.0,
+          "n_celebrities": 1,
+          "n_weeks": 2
+        },
+        {
+          "industry": "Beauty Pagent",
+          "avg_judge_score": 20.5,
+          "avg_fan_votes": 597427.0353302611,
+          "avg_placement": 10.0,
+          "n_celebrities": 1,
+          "n_weeks": 2
+        },
+        {
+          "industry": "Fashion Designer",
+          "avg_judge_score": 26.5,
+          "avg_fan_votes": 525961.2725264985,
+          "avg_placement": 10.0,
+          "n_celebrities": 1,
+          "n_weeks": 4
+        },
+        {
+          "industry": "Con artist",
+          "avg_judge_score": 17.0,
+          "avg_fan_votes": 5800.000000000001,
+          "avg_placement": 12.0,
+          "n_celebrities": 1,
+          "n_weeks": 1
+        },
+        {
+          "industry": "Journalist",
+          "avg_judge_score": 13.0,
+          "avg_fan_votes": 163167.40895968105,
+          "avg_placement": 12.0,
+          "n_celebrities": 1,
+          "n_weeks": 1
+        },
+        {
+          "industry": "Magician",
+          "avg_judge_score": 17.0,
+          "avg_fan_votes": 348735.832607121,
+          "avg_placement": 12.0,
+          "n_celebrities": 1,
+          "n_weeks": 1
+        }
+      ],
+      "top_industries_by_judge_score": [
+        {
+          "industry": "Conservationist",
+          "avg_judge_score": 36.29628888888889,
+          "avg_fan_votes": 8444.444893178277,
+          "avg_placement": 1.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Social media personality",
+          "avg_judge_score": 36.166666666666664,
+          "avg_fan_votes": 8311.110818366324,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Social Media Personality",
+          "avg_judge_score": 34.609375,
+          "avg_fan_votes": 484864.7705539814,
+          "avg_placement": 4.9375,
+          "n_celebrities": 8,
+          "n_weeks": 64
+        },
+        {
+          "industry": "Musician",
+          "avg_judge_score": 33.27777777777778,
+          "avg_fan_votes": 1684430.1044191124,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Motivational Speaker",
+          "avg_judge_score": 32.72222222222222,
+          "avg_fan_votes": 1306527.7196447037,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        }
+      ],
+      "top_industries_by_fan_votes": [
+        {
+          "industry": "Sports Broadcaster",
+          "avg_judge_score": 24.14998,
+          "avg_fan_votes": 1799054.3928379286,
+          "avg_placement": 3.7,
+          "n_celebrities": 2,
+          "n_weeks": 10
+        },
+        {
+          "industry": "Musician",
+          "avg_judge_score": 33.27777777777778,
+          "avg_fan_votes": 1684430.1044191124,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Racing Driver",
+          "avg_judge_score": 31.649973333333335,
+          "avg_fan_votes": 1477242.2446020222,
+          "avg_placement": 3.6333333333333333,
+          "n_celebrities": 3,
+          "n_weeks": 30
+        },
+        {
+          "industry": "Military",
+          "avg_judge_score": 32.499975,
+          "avg_fan_votes": 1443187.0241717289,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 8
+        },
+        {
+          "industry": "Motivational Speaker",
+          "avg_judge_score": 32.72222222222222,
+          "avg_fan_votes": 1306527.7196447037,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        }
+      ],
+      "top_industries_by_placement": [
+        {
+          "industry": "Conservationist",
+          "avg_judge_score": 36.29628888888889,
+          "avg_fan_votes": 8444.444893178277,
+          "avg_placement": 1.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Musician",
+          "avg_judge_score": 33.27777777777778,
+          "avg_fan_votes": 1684430.1044191124,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Producer",
+          "avg_judge_score": 31.99998,
+          "avg_fan_votes": 10299.929056362733,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 10
+        },
+        {
+          "industry": "Social media personality",
+          "avg_judge_score": 36.166666666666664,
+          "avg_fan_votes": 8311.110818366324,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Fitness Instructor",
+          "avg_judge_score": 31.833333333333332,
+          "avg_fan_votes": 4874.629517090942,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        }
+      ]
+    },
+    "region": {
+      "region_statistics": {
+        "judge_total_mean": {
+          "Argentina": 27.14,
+          "Australia": 31.32,
+          "Brazil": 28.04,
+          "Canada": 29.79,
+          "Chile": 24.83,
+          "Croatia": 30.07,
+          "Cuba": 28.19,
+          "Czechoslovakia": 21.0,
+          "England": 25.28,
+          "France": 31.61,
+          "Germany": 22.5,
+          "Ireland": 26.31,
+          "Italy": 26.96,
+          "Mexico": 20.77,
+          "New Zealand": 25.0,
+          "Philippines": 25.92,
+          "Poland": 27.06,
+          "Russia": 34.94,
+          "South Africa": 22.12,
+          "South Korea": 27.41,
+          "Spain": 24.5,
+          "Taiwan China": 22.5,
+          "United States": 27.54,
+          "Venezuela": 26.64,
+          "Wales": 28.83,
+          "Yugoslavia": 15.0
+        },
+        "judge_total_std": {
+          "Argentina": 3.24,
+          "Australia": 15.41,
+          "Brazil": 7.9,
+          "Canada": 13.26,
+          "Chile": 2.64,
+          "Croatia": 3.45,
+          "Cuba": 3.81,
+          "Czechoslovakia": 3.03,
+          "England": 10.46,
+          "France": 14.13,
+          "Germany": 2.09,
+          "Ireland": 4.11,
+          "Italy": 5.49,
+          "Mexico": 5.78,
+          "New Zealand": 1.0,
+          "Philippines": 5.3,
+          "Poland": 5.08,
+          "Russia": 7.14,
+          "South Africa": 2.84,
+          "South Korea": 3.05,
+          "Spain": 0.71,
+          "Taiwan China": 2.12,
+          "United States": 10.15,
+          "Venezuela": 7.34,
+          "Wales": 4.21,
+          "Yugoslavia": null
+        },
+        "judge_total_count": {
+          "Argentina": 7,
+          "Australia": 29,
+          "Brazil": 13,
+          "Canada": 62,
+          "Chile": 15,
+          "Croatia": 7,
+          "Cuba": 9,
+          "Czechoslovakia": 6,
+          "England": 67,
+          "France": 16,
+          "Germany": 9,
+          "Ireland": 8,
+          "Italy": 14,
+          "Mexico": 11,
+          "New Zealand": 3,
+          "Philippines": 6,
+          "Poland": 9,
+          "Russia": 9,
+          "South Africa": 4,
+          "South Korea": 9,
+          "Spain": 2,
+          "Taiwan China": 2,
+          "United States": 2131,
+          "Venezuela": 7,
+          "Wales": 9,
+          "Yugoslavia": 1
+        },
+        "fan_votes_mean": {
+          "Argentina": 1141919.0,
+          "Australia": 622973.9,
+          "Brazil": 1630453.18,
+          "Canada": 993588.44,
+          "Chile": 1237057.66,
+          "Croatia": 801771.18,
+          "Cuba": 1976007.25,
+          "Czechoslovakia": 711041.75,
+          "England": 1210458.53,
+          "France": 1596403.07,
+          "Germany": 765922.4,
+          "Ireland": 1402684.42,
+          "Italy": 375667.96,
+          "Mexico": 55024.92,
+          "New Zealand": 3666.19,
+          "Philippines": 927743.66,
+          "Poland": 1237163.07,
+          "Russia": 1317531.09,
+          "South Africa": 705559.51,
+          "South Korea": 2325711.63,
+          "Spain": 373564.39,
+          "Taiwan China": 2500.0,
+          "United States": 885073.29,
+          "Venezuela": 6575.92,
+          "Wales": 2147452.73,
+          "Yugoslavia": 183086.31
+        },
+        "fan_votes_std": {
+          "Argentina": 420973.48,
+          "Australia": 919147.79,
+          "Brazil": 740307.45,
+          "Canada": 702511.67,
+          "Chile": 677453.66,
+          "Croatia": 299979.37,
+          "Cuba": 672393.0,
+          "Czechoslovakia": 399431.46,
+          "England": 946145.31,
+          "France": 803439.75,
+          "Germany": 212795.25,
+          "Ireland": 638497.62,
+          "Italy": 389165.4,
+          "Mexico": 116232.96,
+          "New Zealand": 2308.99,
+          "Philippines": 181658.94,
+          "Poland": 444391.19,
+          "Russia": 616901.88,
+          "South Africa": 190766.52,
+          "South Korea": 911046.6,
+          "Spain": 160430.39,
+          "Taiwan China": 2121.32,
+          "United States": 914783.79,
+          "Venezuela": 2868.47,
+          "Wales": 732446.17,
+          "Yugoslavia": null
+        },
+        "placement_mean": {
+          "Argentina": 5.0,
+          "Australia": 3.38,
+          "Brazil": 3.08,
+          "Canada": 4.26,
+          "Chile": 5.0,
+          "Croatia": 6.0,
+          "Cuba": 3.0,
+          "Czechoslovakia": 9.17,
+          "England": 5.49,
+          "France": 3.5,
+          "Germany": 5.0,
+          "Ireland": 3.0,
+          "Italy": 9.29,
+          "Mexico": 9.27,
+          "New Zealand": 4.0,
+          "Philippines": 7.0,
+          "Poland": 4.0,
+          "Russia": 4.89,
+          "South Africa": 10.0,
+          "South Korea": 1.0,
+          "Spain": 11.0,
+          "Taiwan China": 14.0,
+          "United States": 5.28,
+          "Venezuela": 8.0,
+          "Wales": 2.0,
+          "Yugoslavia": 11.0
+        }
+      },
+      "region_performance": [
+        {
+          "region": "South Korea",
+          "avg_judge_score": 27.407400000000003,
+          "avg_fan_votes": 2325711.6253945837,
+          "avg_placement": 1.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Wales",
+          "avg_judge_score": 28.833322222222225,
+          "avg_fan_votes": 2147452.731719918,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Cuba",
+          "avg_judge_score": 28.18517777777778,
+          "avg_fan_votes": 1976007.2501818128,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Ireland",
+          "avg_judge_score": 26.3125,
+          "avg_fan_votes": 1402684.423264204,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 8
+        },
+        {
+          "region": "Brazil",
+          "avg_judge_score": 28.03844615384616,
+          "avg_fan_votes": 1630453.18275345,
+          "avg_placement": 3.076923076923077,
+          "n_celebrities": 1,
+          "n_weeks": 13
+        },
+        {
+          "region": "Australia",
+          "avg_judge_score": 31.316089655172416,
+          "avg_fan_votes": 622973.9035627989,
+          "avg_placement": 3.3793103448275863,
+          "n_celebrities": 4,
+          "n_weeks": 29
+        },
+        {
+          "region": "France",
+          "avg_judge_score": 31.61110625,
+          "avg_fan_votes": 1596403.0677367095,
+          "avg_placement": 3.5,
+          "n_celebrities": 1,
+          "n_weeks": 16
+        },
+        {
+          "region": "New Zealand",
+          "avg_judge_score": 25.0,
+          "avg_fan_votes": 3666.191328431991,
+          "avg_placement": 4.0,
+          "n_celebrities": 1,
+          "n_weeks": 3
+        },
+        {
+          "region": "Poland",
+          "avg_judge_score": 27.055533333333333,
+          "avg_fan_votes": 1237163.0669257336,
+          "avg_placement": 4.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Canada",
+          "avg_judge_score": 29.790309677419355,
+          "avg_fan_votes": 993588.4374392971,
+          "avg_placement": 4.258064516129032,
+          "n_celebrities": 8,
+          "n_weeks": 62
+        },
+        {
+          "region": "Russia",
+          "avg_judge_score": 34.94444444444444,
+          "avg_fan_votes": 1317531.0904630807,
+          "avg_placement": 4.888888888888889,
+          "n_celebrities": 2,
+          "n_weeks": 9
+        },
+        {
+          "region": "Argentina",
+          "avg_judge_score": 27.142857142857142,
+          "avg_fan_votes": 1141918.9988890449,
+          "avg_placement": 5.0,
+          "n_celebrities": 1,
+          "n_weeks": 7
+        },
+        {
+          "region": "Chile",
+          "avg_judge_score": 24.833333333333332,
+          "avg_fan_votes": 1237057.6611446126,
+          "avg_placement": 5.0,
+          "n_celebrities": 2,
+          "n_weeks": 15
+        },
+        {
+          "region": "Germany",
+          "avg_judge_score": 22.5,
+          "avg_fan_votes": 765922.3979982235,
+          "avg_placement": 5.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "United States",
+          "avg_judge_score": 27.539592351008917,
+          "avg_fan_votes": 885073.2852811066,
+          "avg_placement": 5.277803847958705,
+          "n_celebrities": 355,
+          "n_weeks": 2131
+        },
+        {
+          "region": "England",
+          "avg_judge_score": 25.277761194029853,
+          "avg_fan_votes": 1210458.5342595377,
+          "avg_placement": 5.492537313432836,
+          "n_celebrities": 11,
+          "n_weeks": 67
+        },
+        {
+          "region": "Croatia",
+          "avg_judge_score": 30.071428571428573,
+          "avg_fan_votes": 801771.1812844583,
+          "avg_placement": 6.0,
+          "n_celebrities": 1,
+          "n_weeks": 7
+        },
+        {
+          "region": "Philippines",
+          "avg_judge_score": 25.916666666666668,
+          "avg_fan_votes": 927743.662926783,
+          "avg_placement": 7.0,
+          "n_celebrities": 1,
+          "n_weeks": 6
+        },
+        {
+          "region": "Venezuela",
+          "avg_judge_score": 26.642857142857142,
+          "avg_fan_votes": 6575.918905368706,
+          "avg_placement": 8.0,
+          "n_celebrities": 1,
+          "n_weeks": 7
+        },
+        {
+          "region": "Czechoslovakia",
+          "avg_judge_score": 21.0,
+          "avg_fan_votes": 711041.7540225916,
+          "avg_placement": 9.166666666666666,
+          "n_celebrities": 3,
+          "n_weeks": 6
+        },
+        {
+          "region": "Mexico",
+          "avg_judge_score": 20.772727272727273,
+          "avg_fan_votes": 55024.922455378386,
+          "avg_placement": 9.272727272727273,
+          "n_celebrities": 3,
+          "n_weeks": 11
+        },
+        {
+          "region": "Italy",
+          "avg_judge_score": 26.964285714285715,
+          "avg_fan_votes": 375667.96389314474,
+          "avg_placement": 9.285714285714286,
+          "n_celebrities": 3,
+          "n_weeks": 14
+        },
+        {
+          "region": "South Africa",
+          "avg_judge_score": 22.125,
+          "avg_fan_votes": 705559.5050352399,
+          "avg_placement": 10.0,
+          "n_celebrities": 1,
+          "n_weeks": 4
+        },
+        {
+          "region": "Spain",
+          "avg_judge_score": 24.5,
+          "avg_fan_votes": 373564.39239701035,
+          "avg_placement": 11.0,
+          "n_celebrities": 1,
+          "n_weeks": 2
+        },
+        {
+          "region": "Yugoslavia",
+          "avg_judge_score": 15.0,
+          "avg_fan_votes": 183086.3121183448,
+          "avg_placement": 11.0,
+          "n_celebrities": 1,
+          "n_weeks": 1
+        },
+        {
+          "region": "Taiwan China",
+          "avg_judge_score": 22.5,
+          "avg_fan_votes": 2500.0000039283823,
+          "avg_placement": 14.0,
+          "n_celebrities": 1,
+          "n_weeks": 2
+        }
+      ],
+      "top_regions_by_judge_score": [
+        {
+          "region": "Russia",
+          "avg_judge_score": 34.94444444444444,
+          "avg_fan_votes": 1317531.0904630807,
+          "avg_placement": 4.888888888888889,
+          "n_celebrities": 2,
+          "n_weeks": 9
+        },
+        {
+          "region": "France",
+          "avg_judge_score": 31.61110625,
+          "avg_fan_votes": 1596403.0677367095,
+          "avg_placement": 3.5,
+          "n_celebrities": 1,
+          "n_weeks": 16
+        },
+        {
+          "region": "Australia",
+          "avg_judge_score": 31.316089655172416,
+          "avg_fan_votes": 622973.9035627989,
+          "avg_placement": 3.3793103448275863,
+          "n_celebrities": 4,
+          "n_weeks": 29
+        },
+        {
+          "region": "Croatia",
+          "avg_judge_score": 30.071428571428573,
+          "avg_fan_votes": 801771.1812844583,
+          "avg_placement": 6.0,
+          "n_celebrities": 1,
+          "n_weeks": 7
+        },
+        {
+          "region": "Canada",
+          "avg_judge_score": 29.790309677419355,
+          "avg_fan_votes": 993588.4374392971,
+          "avg_placement": 4.258064516129032,
+          "n_celebrities": 8,
+          "n_weeks": 62
+        }
+      ],
+      "top_regions_by_fan_votes": [
+        {
+          "region": "South Korea",
+          "avg_judge_score": 27.407400000000003,
+          "avg_fan_votes": 2325711.6253945837,
+          "avg_placement": 1.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Wales",
+          "avg_judge_score": 28.833322222222225,
+          "avg_fan_votes": 2147452.731719918,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Cuba",
+          "avg_judge_score": 28.18517777777778,
+          "avg_fan_votes": 1976007.2501818128,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Brazil",
+          "avg_judge_score": 28.03844615384616,
+          "avg_fan_votes": 1630453.18275345,
+          "avg_placement": 3.076923076923077,
+          "n_celebrities": 1,
+          "n_weeks": 13
+        },
+        {
+          "region": "France",
+          "avg_judge_score": 31.61110625,
+          "avg_fan_votes": 1596403.0677367095,
+          "avg_placement": 3.5,
+          "n_celebrities": 1,
+          "n_weeks": 16
+        }
+      ],
+      "top_regions_by_placement": [
+        {
+          "region": "South Korea",
+          "avg_judge_score": 27.407400000000003,
+          "avg_fan_votes": 2325711.6253945837,
+          "avg_placement": 1.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Wales",
+          "avg_judge_score": 28.833322222222225,
+          "avg_fan_votes": 2147452.731719918,
+          "avg_placement": 2.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Cuba",
+          "avg_judge_score": 28.18517777777778,
+          "avg_fan_votes": 1976007.2501818128,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 9
+        },
+        {
+          "region": "Ireland",
+          "avg_judge_score": 26.3125,
+          "avg_fan_votes": 1402684.423264204,
+          "avg_placement": 3.0,
+          "n_celebrities": 1,
+          "n_weeks": 8
+        },
+        {
+          "region": "Brazil",
+          "avg_judge_score": 28.03844615384616,
+          "avg_fan_votes": 1630453.18275345,
+          "avg_placement": 3.076923076923077,
+          "n_celebrities": 1,
+          "n_weeks": 13
+        }
+      ]
+    }
+  },
+  "judge_vs_fan_comparison": {
+    "pro_dancer": {
+      "dancer_impacts": [
+        {
+          "pro_dancer": "Charlotte Jorgensen",
+          "judge_impact": -2.527893509127793,
+          "fan_impact": -907216.0571061026,
+          "impact_difference": 907213.5292125935,
+          "n_weeks": 5
+        },
+        {
+          "pro_dancer": "Alec Mazo",
+          "judge_impact": -4.934156009127793,
+          "fan_impact": -418819.0028261513,
+          "impact_difference": 418814.0686701422,
+          "n_weeks": 16
+        },
+        {
+          "pro_dancer": "Edyta Sliwinska",
+          "judge_impact": -5.345203124512409,
+          "fan_impact": 62779.87838622299,
+          "impact_difference": -62785.2235893475,
+          "n_weeks": 52
+        },
+        {
+          "pro_dancer": "Jonathan Roberts",
+          "judge_impact": -3.7878975091277916,
+          "fan_impact": 52115.26575346803,
+          "impact_difference": -52119.05365097716,
+          "n_weeks": 25
+        },
+        {
+          "pro_dancer": "Ashly DelGrosso",
+          "judge_impact": -10.566355047589333,
+          "fan_impact": -684429.3020132766,
+          "impact_difference": 684418.735658229,
+          "n_weeks": 13
+        },
+        {
+          "pro_dancer": "Louis van Amstel",
+          "judge_impact": -3.9587075442155104,
+          "fan_impact": -102674.9267023732,
+          "impact_difference": 102670.96799482898,
+          "n_weeks": 57
+        },
+        {
+          "pro_dancer": "Nick Kosovich",
+          "judge_impact": -4.694560175794461,
+          "fan_impact": -239621.53200972395,
+          "impact_difference": 239616.83744954815,
+          "n_weeks": 6
+        },
+        {
+          "pro_dancer": "Maksim Chmerkoskiy",
+          "judge_impact": -1.1233571454914255,
+          "fan_impact": 409177.97028548224,
+          "impact_difference": -409179.0936426277,
+          "n_weeks": 110
+        },
+        {
+          "pro_dancer": "Tony Dovolani",
+          "judge_impact": -2.4114502398970252,
+          "fan_impact": 35118.624032676686,
+          "impact_difference": -35121.03548291658,
+          "n_weeks": 104
+        },
+        {
+          "pro_dancer": "Anna Trebunskaya",
+          "judge_impact": -5.598195549944119,
+          "fan_impact": -119393.73313840653,
+          "impact_difference": 119388.13494285659,
+          "n_weeks": 49
+        },
+        {
+          "pro_dancer": "Cheryl Burke",
+          "judge_impact": -1.2520518906306783,
+          "fan_impact": 140629.94893622352,
+          "impact_difference": -140631.20098811414,
+          "n_weeks": 173
+        },
+        {
+          "pro_dancer": "Karina Smirnoff",
+          "judge_impact": -2.1374501129013765,
+          "fan_impact": 387699.11726150685,
+          "impact_difference": -387701.25471161975,
+          "n_weeks": 106
+        },
+        {
+          "pro_dancer": "Kym Johnson",
+          "judge_impact": -2.4348830440115137,
+          "fan_impact": 375371.963304054,
+          "impact_difference": -375374.398187098,
+          "n_weeks": 86
+        },
+        {
+          "pro_dancer": "Elena Grinenko",
+          "judge_impact": -12.727893509127792,
+          "fan_impact": -421451.49097848823,
+          "impact_difference": 421438.7630849791,
+          "n_weeks": 5
+        },
+        {
+          "pro_dancer": "Julianne Hough",
+          "judge_impact": -2.0191303512330556,
+          "fan_impact": 608416.3121521808,
+          "impact_difference": -608418.3312825321,
+          "n_weeks": 38
+        },
+        {
+          "pro_dancer": "Mark Ballas",
+          "judge_impact": 3.000793908090749,
+          "fan_impact": 434370.4330381544,
+          "impact_difference": -434367.4322442463,
+          "n_weeks": 151
+        },
+        {
+          "pro_dancer": "Derek Hough",
+          "judge_impact": 3.7808212559728744,
+          "fan_impact": 867443.9458561868,
+          "impact_difference": -867440.1650349308,
+          "n_weeks": 149
+        },
+        {
+          "pro_dancer": "Fabian Sanchez",
+          "judge_impact": -5.127893509127794,
+          "fan_impact": -153433.4236073502,
+          "impact_difference": 153428.29571384107,
+          "n_weeks": 5
+        },
+        {
+          "pro_dancer": "Corky Ballas",
+          "judge_impact": -9.077893509127794,
+          "fan_impact": -338790.15481010196,
+          "impact_difference": 338781.07691659284,
+          "n_weeks": 10
+        },
+        {
+          "pro_dancer": "Lacey Schwimmer",
+          "judge_impact": -3.7672242783585617,
+          "fan_impact": 304833.1268483603,
+          "impact_difference": -304836.89407263865,
+          "n_weeks": 39
+        },
+        {
+          "pro_dancer": "Chelsie Hightower",
+          "judge_impact": -4.102906009127793,
+          "fan_impact": -39011.10542537796,
+          "impact_difference": 39007.00251936883,
+          "n_weeks": 40
+        },
+        {
+          "pro_dancer": "Dmitry Chaplin",
+          "judge_impact": -1.4353268424611265,
+          "fan_impact": 632767.5659133261,
+          "impact_difference": -632769.0012401686,
+          "n_weeks": 18
+        },
+        {
+          "pro_dancer": "Anna Demidova",
+          "judge_impact": -8.170779223413508,
+          "fan_impact": -436306.207058499,
+          "impact_difference": 436298.03627927555,
+          "n_weeks": 7
+        },
+        {
+          "pro_dancer": "Damian Whitewood",
+          "judge_impact": -3.6945935091277953,
+          "fan_impact": 230819.04384651454,
+          "impact_difference": -230822.73844002368,
+          "n_weeks": 6
+        },
+        {
+          "pro_dancer": "Valentin Chmerkovskiy",
+          "judge_impact": 4.986586925654819,
+          "fan_impact": 222569.91820769757,
+          "impact_difference": -222564.9316207719,
+          "n_weeks": 138
+        },
+        {
+          "pro_dancer": "Peta Murgatroyd",
+          "judge_impact": -1.0285298727641567,
+          "fan_impact": 111.01233487320133,
+          "impact_difference": -112.04086474596548,
+          "n_weeks": 88
+        },
+        {
+          "pro_dancer": "Tristan MacManus",
+          "judge_impact": -7.277893509127793,
+          "fan_impact": -331740.6363606866,
+          "impact_difference": 331733.3584671775,
+          "n_weeks": 20
+        },
+        {
+          "pro_dancer": "Lindsay Arnold",
+          "judge_impact": 1.576573655051309,
+          "fan_impact": 273281.9444360088,
+          "impact_difference": -273280.36786235374,
+          "n_weeks": 67
+        },
+        {
+          "pro_dancer": "Sharna Burgess",
+          "judge_impact": 1.252586978677087,
+          "fan_impact": 186523.28778853896,
+          "impact_difference": -186522.03520156027,
+          "n_weeks": 82
+        },
+        {
+          "pro_dancer": "Gleb Savchenko",
+          "judge_impact": 1.3825542520662353,
+          "fan_impact": -562433.5110454682,
+          "impact_difference": 562434.8935997202,
+          "n_weeks": 67
+        },
+        {
+          "pro_dancer": "Emma Slater",
+          "judge_impact": 0.08321223799864441,
+          "fan_impact": -246830.0312526247,
+          "impact_difference": 246830.1144648627,
+          "n_weeks": 87
+        },
+        {
+          "pro_dancer": "Sasha Farber",
+          "judge_impact": 3.1428333201405003,
+          "fan_impact": -428597.30773035425,
+          "impact_difference": 428600.4505636744,
+          "n_weeks": 82
+        },
+        {
+          "pro_dancer": "Witney Carson",
+          "judge_impact": 4.941510985254233,
+          "fan_impact": -87337.79495095403,
+          "impact_difference": 87342.73646193929,
+          "n_weeks": 89
+        },
+        {
+          "pro_dancer": "Allison Holker",
+          "judge_impact": 3.180431490872209,
+          "fan_impact": 341968.2656626601,
+          "impact_difference": -341965.08523116924,
+          "n_weeks": 24
+        },
+        {
+          "pro_dancer": "Artem Chigvintsev",
+          "judge_impact": 3.500275504956715,
+          "fan_impact": -517244.369836818,
+          "impact_difference": 517247.87011232297,
+          "n_weeks": 71
+        },
+        {
+          "pro_dancer": "Keo Motsepe",
+          "judge_impact": -4.411226842461126,
+          "fan_impact": -152030.41364555433,
+          "impact_difference": 152026.00241871187,
+          "n_weeks": 30
+        },
+        {
+          "pro_dancer": "Jenna Johnson",
+          "judge_impact": 0.13536771536200476,
+          "fan_impact": -522494.52645032323,
+          "impact_difference": 522494.6618180386,
+          "n_weeks": 49
+        },
+        {
+          "pro_dancer": "Alan Bersten",
+          "judge_impact": 1.372095581781302,
+          "fan_impact": -584678.7457135884,
+          "impact_difference": 584680.1178091702,
+          "n_weeks": 55
+        },
+        {
+          "pro_dancer": "Brandon Armstrong",
+          "judge_impact": -1.3969411281754134,
+          "fan_impact": -819404.5702810397,
+          "impact_difference": 819403.1733399115,
+          "n_weeks": 42
+        },
+        {
+          "pro_dancer": "Pasha Pashkov",
+          "judge_impact": -0.6779001757944592,
+          "fan_impact": -904596.1359700274,
+          "impact_difference": 904595.4580698516,
+          "n_weeks": 30
+        },
+        {
+          "pro_dancer": "Britt Stewart",
+          "judge_impact": -1.474322080556366,
+          "fan_impact": -903680.3261490243,
+          "impact_difference": 903678.8518269437,
+          "n_weeks": 28
+        },
+        {
+          "pro_dancer": "Daniella Karagach",
+          "judge_impact": 3.369542388308105,
+          "fan_impact": -904032.8749243761,
+          "impact_difference": 904036.2444667645,
+          "n_weeks": 39
+        },
+        {
+          "pro_dancer": "Koko Iwasaki",
+          "judge_impact": -2.2501157313500144,
+          "fan_impact": -906067.8952755496,
+          "impact_difference": 906065.6451598182,
+          "n_weeks": 9
+        },
+        {
+          "pro_dancer": "Rylee Arnold",
+          "judge_impact": -3.599322080556366,
+          "fan_impact": -905482.476539333,
+          "impact_difference": 905478.8772172524,
+          "n_weeks": 21
+        },
+        {
+          "pro_dancer": "Alan Bersten (Rashad Jennings week 9)",
+          "judge_impact": 6.416528713094429,
+          "fan_impact": -903871.5986077664,
+          "impact_difference": 903878.0151364795,
+          "n_weeks": 9
+        },
+        {
+          "pro_dancer": "Ezra Sosa (Apolo Anton Ohno week 9)",
+          "judge_impact": 8.212839824205545,
+          "fan_impact": -901949.3762563746,
+          "impact_difference": 901957.5890961988,
+          "n_weeks": 9
+        },
+        {
+          "pro_dancer": "Emma Slater/Kaitlyn Bristowe (week 9)",
+          "judge_impact": -5.027893509127793,
+          "fan_impact": -906709.7929464318,
+          "impact_difference": 906704.7650529227,
+          "n_weeks": 8
+        },
+        {
+          "pro_dancer": "Witney Carson (Xoshitl Gomez week 9)",
+          "judge_impact": 8.768395379761095,
+          "fan_impact": -902071.5980312873,
+          "impact_difference": 902080.3664266671,
+          "n_weeks": 9
+        },
+        {
+          "pro_dancer": "Val Chmerkovskiy (Joey Graziadei week 9)",
+          "judge_impact": 8.638773157538871,
+          "fan_impact": -902204.9321060993,
+          "impact_difference": 902213.5708792568,
+          "n_weeks": 9
+        },
+        {
+          "pro_dancer": "Jan Ravnik",
+          "judge_impact": -3.861226842461125,
+          "fan_impact": -904382.7094732395,
+          "impact_difference": 904378.848246397,
+          "n_weeks": 6
+        },
+        {
+          "pro_dancer": "Daniella Karagach (Rumer Willis week 9)",
+          "judge_impact": 6.953573157538877,
+          "fan_impact": -903682.7096970078,
+          "impact_difference": 903689.6632701653,
+          "n_weeks": 9
+        }
+      ],
+      "summary": {
+        "mean_impact_difference": 262678.7537058561,
+        "std_impact_difference": 509162.9207999621,
+        "dancers_with_positive_judge_impact": 19,
+        "dancers_with_positive_fan_impact": 18
+      }
+    },
+    "age": {
+      "correlation_comparison": {
+        "judge_score_correlation": -0.24401283888257286,
+        "fan_votes_correlation": -0.2600492101210153,
+        "correlation_difference": 0.016036371238442426
+      },
+      "regression_comparison": {
+        "judge_score_slope": -0.1933595031268203,
+        "fan_votes_slope": -18489.540564737545,
+        "slope_difference": 18489.34720523442
+      },
+      "interpretation": {
+        "age_affects_judge_more": false,
+        "age_affects_fan_more": true
+      }
+    },
+    "industry": {
+      "industry_impacts": [
+        {
+          "industry": "Actor/Actress",
+          "judge_impact": 0.05080097805169004,
+          "fan_impact": 36269.33708582993,
+          "impact_difference": -36269.28628485188,
+          "n_weeks": 780
+        },
+        {
+          "industry": "Athlete",
+          "judge_impact": -0.24829861861684321,
+          "fan_impact": 169055.6355527204,
+          "impact_difference": -169055.88385133902,
+          "n_weeks": 548
+        },
+        {
+          "industry": "Model",
+          "judge_impact": -3.650855804209762,
+          "fan_impact": -107115.81794717035,
+          "impact_difference": 107112.16709136614,
+          "n_weeks": 61
+        },
+        {
+          "industry": "Singer/Rapper",
+          "judge_impact": -0.36230367396295193,
+          "fan_impact": 97651.7252079189,
+          "impact_difference": -97652.08751159286,
+          "n_weeks": 364
+        },
+        {
+          "industry": "TV Personality",
+          "judge_impact": -0.06913278623622432,
+          "fan_impact": -202755.223622737,
+          "impact_difference": 202755.15448995074,
+          "n_weeks": 415
+        },
+        {
+          "industry": "News Anchor",
+          "judge_impact": -2.139013509127796,
+          "fan_impact": 26631.028429079335,
+          "impact_difference": -26633.167442588463,
+          "n_weeks": 15
+        },
+        {
+          "industry": "Sports Broadcaster",
+          "judge_impact": -3.3779135091277936,
+          "fan_impact": 888538.349913463,
+          "impact_difference": -888541.7278269721,
+          "n_weeks": 10
+        },
+        {
+          "industry": "Racing Driver",
+          "judge_impact": 4.122079824205542,
+          "fan_impact": 566726.2016775566,
+          "impact_difference": -566722.0795977324,
+          "n_weeks": 30
+        },
+        {
+          "industry": "Radio Personality",
+          "judge_impact": -5.135036366270651,
+          "fan_impact": -7298.092278634314,
+          "impact_difference": 7292.957242268044,
+          "n_weeks": 14
+        },
+        {
+          "industry": "Comedian",
+          "judge_impact": -0.9278968424611271,
+          "fan_impact": -416119.2291298222,
+          "impact_difference": 416118.30123297975,
+          "n_weeks": 60
+        },
+        {
+          "industry": "Entrepreneur",
+          "judge_impact": -5.557305273833677,
+          "fan_impact": -397239.33824117715,
+          "impact_difference": 397233.7809359033,
+          "n_weeks": 17
+        },
+        {
+          "industry": "Politician",
+          "judge_impact": -7.989439662973947,
+          "fan_impact": -696998.4524256461,
+          "impact_difference": 696990.4629859831,
+          "n_weeks": 13
+        },
+        {
+          "industry": "Social Media Personality",
+          "judge_impact": 7.081481490872207,
+          "fan_impact": -425651.2723704842,
+          "impact_difference": 425658.35385197506,
+          "n_weeks": 64
+        },
+        {
+          "industry": "Motivational Speaker",
+          "judge_impact": 5.1943287130944285,
+          "fan_impact": 396011.67672023806,
+          "impact_difference": -396006.48239152494,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Military",
+          "judge_impact": 4.972081490872206,
+          "fan_impact": 532670.9812472633,
+          "impact_difference": -532666.0091657724,
+          "n_weeks": 8
+        },
+        {
+          "industry": "Musician",
+          "judge_impact": 5.749884268649986,
+          "fan_impact": 773914.0614946468,
+          "impact_difference": -773908.3116103782,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Producer",
+          "judge_impact": 4.472086490872208,
+          "fan_impact": -900216.1138681029,
+          "impact_difference": 900220.5859545937,
+          "n_weeks": 10
+        },
+        {
+          "industry": "Fitness Instructor",
+          "judge_impact": 4.305439824205539,
+          "fan_impact": -905641.4134073746,
+          "impact_difference": 905645.7188471989,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Conservationist",
+          "judge_impact": 8.768395379761095,
+          "fan_impact": -902071.5980312873,
+          "impact_difference": 902080.3664266671,
+          "n_weeks": 9
+        },
+        {
+          "industry": "Social media personality",
+          "judge_impact": 8.638773157538871,
+          "fan_impact": -902204.9321060993,
+          "impact_difference": 902213.5708792568,
+          "n_weeks": 9
+        }
+      ],
+      "summary": {
+        "mean_impact_difference": 118793.31921276951,
+        "industries_with_positive_judge_impact": 10,
+        "industries_with_positive_fan_impact": 9
+      }
+    },
+    "region": {
+      "region_impacts": [
+        {
+          "region": "United States",
+          "judge_impact": 0.011698841881123911,
+          "fan_impact": -25442.757643359015,
+          "impact_difference": 25442.769342200896,
+          "n_weeks": 2131
+        },
+        {
+          "region": "Mexico",
+          "judge_impact": -6.75516623640052,
+          "fan_impact": -855491.1204690873,
+          "impact_difference": 855484.3653028508,
+          "n_weeks": 11
+        },
+        {
+          "region": "England",
+          "judge_impact": -2.2501323150979395,
+          "fan_impact": 299942.4913350721,
+          "impact_difference": -299944.7414673872,
+          "n_weeks": 67
+        },
+        {
+          "region": "Czechoslovakia",
+          "judge_impact": -6.527893509127793,
+          "fan_impact": -199474.28890187398,
+          "impact_difference": 199467.76100836485,
+          "n_weeks": 6
+        },
+        {
+          "region": "Canada",
+          "judge_impact": 2.262416168291562,
+          "fan_impact": 83072.39451483148,
+          "impact_difference": -83070.13209866319,
+          "n_weeks": 62
+        },
+        {
+          "region": "Brazil",
+          "judge_impact": 0.5105526447183664,
+          "fan_impact": 719937.1398289844,
+          "impact_difference": -719936.6292763397,
+          "n_weeks": 13
+        },
+        {
+          "region": "Chile",
+          "judge_impact": -2.694560175794461,
+          "fan_impact": 326541.618220147,
+          "impact_difference": -326544.3127803228,
+          "n_weeks": 15
+        },
+        {
+          "region": "France",
+          "judge_impact": 4.083212740872206,
+          "fan_impact": 685887.0248122439,
+          "impact_difference": -685882.941599503,
+          "n_weeks": 16
+        },
+        {
+          "region": "Poland",
+          "judge_impact": -0.47236017579446,
+          "fan_impact": 326647.024001268,
+          "impact_difference": -326647.4963614438,
+          "n_weeks": 9
+        },
+        {
+          "region": "South Korea",
+          "judge_impact": -0.12049350912779033,
+          "fan_impact": 1415195.582470118,
+          "impact_difference": -1415195.7029636272,
+          "n_weeks": 9
+        },
+        {
+          "region": "Italy",
+          "judge_impact": -0.5636077948420777,
+          "fan_impact": -534848.0790313209,
+          "impact_difference": 534847.515423526,
+          "n_weeks": 14
+        },
+        {
+          "region": "Cuba",
+          "judge_impact": 0.6572842686499882,
+          "fan_impact": 1065491.2072573472,
+          "impact_difference": -1065490.5499730785,
+          "n_weeks": 9
+        },
+        {
+          "region": "Wales",
+          "judge_impact": 1.3054287130944324,
+          "fan_impact": 1236936.6887954525,
+          "impact_difference": -1236935.3833667394,
+          "n_weeks": 9
+        },
+        {
+          "region": "Germany",
+          "judge_impact": -5.027893509127793,
+          "fan_impact": -144593.64492624206,
+          "impact_difference": 144588.61703273293,
+          "n_weeks": 9
+        },
+        {
+          "region": "Australia",
+          "judge_impact": 3.7881961460446227,
+          "fan_impact": -287542.13936166675,
+          "impact_difference": 287545.92755781277,
+          "n_weeks": 29
+        },
+        {
+          "region": "Russia",
+          "judge_impact": 7.41655093531665,
+          "fan_impact": 407015.04753861506,
+          "impact_difference": -407007.63098767976,
+          "n_weeks": 9
+        },
+        {
+          "region": "Croatia",
+          "judge_impact": 2.54353506230078,
+          "fan_impact": -108744.86164000735,
+          "impact_difference": 108747.40517506965,
+          "n_weeks": 7
+        },
+        {
+          "region": "Philippines",
+          "judge_impact": -1.6112268424611251,
+          "fan_impact": 17227.62000231736,
+          "impact_difference": -17229.23122915982,
+          "n_weeks": 6
+        },
+        {
+          "region": "Argentina",
+          "judge_impact": -0.38503636627065063,
+          "fan_impact": 231402.95596457925,
+          "impact_difference": -231403.3410009455,
+          "n_weeks": 7
+        },
+        {
+          "region": "Ireland",
+          "judge_impact": -1.215393509127793,
+          "fan_impact": 492168.38033973845,
+          "impact_difference": -492169.5957332476,
+          "n_weeks": 8
+        },
+        {
+          "region": "Venezuela",
+          "judge_impact": -0.8850363662706506,
+          "fan_impact": -903940.124019097,
+          "impact_difference": 903939.2389827307,
+          "n_weeks": 7
+        }
+      ],
+      "summary": {
+        "mean_impact_difference": -202256.86138156423,
+        "regions_with_positive_judge_impact": 9,
+        "regions_with_positive_fan_impact": 13
+      }
+    }
+  }
+}
