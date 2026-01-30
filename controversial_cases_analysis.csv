@@ -1,0 +1,6 @@
+﻿season,celebrity,week,description,judge_total,fan_votes,judge_rank,fan_rank,rank_method_would_eliminate,percent_method_would_eliminate,actual_result,methods_agree
+2,Jerry Rice,3,尽管评委评分最低（5周），但仍进入决赛获得亚军,19.0,3600.0000000000005,7,7,True,False,Survived,False
+4,Billy Ray Cyrus,8,尽管6周评委评分垫底，仍获得第5名,19.0,329498.6443699543,5,5,True,True,Eliminated,True
+11,Bristol Palin,5,尽管12次评委评分最低，仍获得第3名,18.0,842423.5918436649,8,7,True,False,Survived,False
+11,Bristol Palin,7,尽管12次评委评分最低，仍获得第3名,32.5,1676492.2623434046,6,5,True,False,Survived,False
+27,Bobby Bones,9,尽管评委评分持续偏低，仍获得冠军,27.0,2647058.823529412,4,3,True,False,Survived,False

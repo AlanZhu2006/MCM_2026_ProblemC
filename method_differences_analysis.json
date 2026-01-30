@@ -1,0 +1,314 @@
+{
+  "total_weeks": 299,
+  "methods_agree_count": 187,
+  "methods_disagree_count": 112,
+  "disagree_rate": 0.3745819397993311,
+  "rank_method": {
+    "correct_predictions": 181,
+    "total_predictions": 299,
+    "accuracy": 0.6053511705685619
+  },
+  "percent_method": {
+    "correct_predictions": 290,
+    "total_predictions": 299,
+    "accuracy": 0.9698996655518395
+  },
+  "season_stats": [
+    {
+      "season": 1,
+      "total_weeks": 5,
+      "disagree_count": 2,
+      "disagree_rate": 0.4
+    },
+    {
+      "season": 2,
+      "total_weeks": 8,
+      "disagree_count": 3,
+      "disagree_rate": 0.375
+    },
+    {
+      "season": 3,
+      "total_weeks": 9,
+      "disagree_count": 4,
+      "disagree_rate": 0.4444444444444444
+    },
+    {
+      "season": 4,
+      "total_weeks": 9,
+      "disagree_count": 4,
+      "disagree_rate": 0.4444444444444444
+    },
+    {
+      "season": 5,
+      "total_weeks": 10,
+      "disagree_count": 3,
+      "disagree_rate": 0.3
+    },
+    {
+      "season": 6,
+      "total_weeks": 9,
+      "disagree_count": 3,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "season": 7,
+      "total_weeks": 9,
+      "disagree_count": 3,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "season": 8,
+      "total_weeks": 10,
+      "disagree_count": 4,
+      "disagree_rate": 0.4
+    },
+    {
+      "season": 9,
+      "total_weeks": 10,
+      "disagree_count": 3,
+      "disagree_rate": 0.3
+    },
+    {
+      "season": 10,
+      "total_weeks": 9,
+      "disagree_count": 2,
+      "disagree_rate": 0.2222222222222222
+    },
+    {
+      "season": 11,
+      "total_weeks": 10,
+      "disagree_count": 3,
+      "disagree_rate": 0.3
+    },
+    {
+      "season": 12,
+      "total_weeks": 9,
+      "disagree_count": 3,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "season": 13,
+      "total_weeks": 10,
+      "disagree_count": 3,
+      "disagree_rate": 0.3
+    },
+    {
+      "season": 14,
+      "total_weeks": 9,
+      "disagree_count": 2,
+      "disagree_rate": 0.2222222222222222
+    },
+    {
+      "season": 15,
+      "total_weeks": 8,
+      "disagree_count": 6,
+      "disagree_rate": 0.75
+    },
+    {
+      "season": 16,
+      "total_weeks": 10,
+      "disagree_count": 2,
+      "disagree_rate": 0.2
+    },
+    {
+      "season": 17,
+      "total_weeks": 10,
+      "disagree_count": 3,
+      "disagree_rate": 0.3
+    },
+    {
+      "season": 18,
+      "total_weeks": 8,
+      "disagree_count": 3,
+      "disagree_rate": 0.375
+    },
+    {
+      "season": 19,
+      "total_weeks": 10,
+      "disagree_count": 3,
+      "disagree_rate": 0.3
+    },
+    {
+      "season": 20,
+      "total_weeks": 9,
+      "disagree_count": 7,
+      "disagree_rate": 0.7777777777777778
+    },
+    {
+      "season": 21,
+      "total_weeks": 8,
+      "disagree_count": 4,
+      "disagree_rate": 0.5
+    },
+    {
+      "season": 22,
+      "total_weeks": 8,
+      "disagree_count": 4,
+      "disagree_rate": 0.5
+    },
+    {
+      "season": 23,
+      "total_weeks": 10,
+      "disagree_count": 4,
+      "disagree_rate": 0.4
+    },
+    {
+      "season": 24,
+      "total_weeks": 9,
+      "disagree_count": 4,
+      "disagree_rate": 0.4444444444444444
+    },
+    {
+      "season": 25,
+      "total_weeks": 9,
+      "disagree_count": 3,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "season": 26,
+      "total_weeks": 4,
+      "disagree_count": 0,
+      "disagree_rate": 0.0
+    },
+    {
+      "season": 27,
+      "total_weeks": 8,
+      "disagree_count": 5,
+      "disagree_rate": 0.625
+    },
+    {
+      "season": 28,
+      "total_weeks": 8,
+      "disagree_count": 4,
+      "disagree_rate": 0.5
+    },
+    {
+      "season": 29,
+      "total_weeks": 10,
+      "disagree_count": 3,
+      "disagree_rate": 0.3
+    },
+    {
+      "season": 30,
+      "total_weeks": 9,
+      "disagree_count": 3,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "season": 31,
+      "total_weeks": 10,
+      "disagree_count": 2,
+      "disagree_rate": 0.2
+    },
+    {
+      "season": 32,
+      "total_weeks": 9,
+      "disagree_count": 3,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "season": 33,
+      "total_weeks": 7,
+      "disagree_count": 3,
+      "disagree_rate": 0.42857142857142855
+    },
+    {
+      "season": 34,
+      "total_weeks": 9,
+      "disagree_count": 4,
+      "disagree_rate": 0.4444444444444444
+    }
+  ],
+  "n_contestants_stats": [
+    {
+      "n_contestants": 2,
+      "total_weeks": 2,
+      "disagree_count": 0,
+      "disagree_rate": 0.0
+    },
+    {
+      "n_contestants": 3,
+      "total_weeks": 18,
+      "disagree_count": 3,
+      "disagree_rate": 0.16666666666666666
+    },
+    {
+      "n_contestants": 4,
+      "total_weeks": 26,
+      "disagree_count": 9,
+      "disagree_rate": 0.34615384615384615
+    },
+    {
+      "n_contestants": 5,
+      "total_weeks": 24,
+      "disagree_count": 8,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "n_contestants": 6,
+      "total_weeks": 30,
+      "disagree_count": 13,
+      "disagree_rate": 0.43333333333333335
+    },
+    {
+      "n_contestants": 7,
+      "total_weeks": 27,
+      "disagree_count": 9,
+      "disagree_rate": 0.3333333333333333
+    },
+    {
+      "n_contestants": 8,
+      "total_weeks": 32,
+      "disagree_count": 15,
+      "disagree_rate": 0.46875
+    },
+    {
+      "n_contestants": 9,
+      "total_weeks": 31,
+      "disagree_count": 16,
+      "disagree_rate": 0.5161290322580645
+    },
+    {
+      "n_contestants": 10,
+      "total_weeks": 27,
+      "disagree_count": 12,
+      "disagree_rate": 0.4444444444444444
+    },
+    {
+      "n_contestants": 11,
+      "total_weeks": 27,
+      "disagree_count": 11,
+      "disagree_rate": 0.4074074074074074
+    },
+    {
+      "n_contestants": 12,
+      "total_weeks": 24,
+      "disagree_count": 7,
+      "disagree_rate": 0.2916666666666667
+    },
+    {
+      "n_contestants": 13,
+      "total_weeks": 18,
+      "disagree_count": 7,
+      "disagree_rate": 0.3888888888888889
+    },
+    {
+      "n_contestants": 14,
+      "total_weeks": 7,
+      "disagree_count": 1,
+      "disagree_rate": 0.14285714285714285
+    },
+    {
+      "n_contestants": 15,
+      "total_weeks": 4,
+      "disagree_count": 1,
+      "disagree_rate": 0.25
+    },
+    {
+      "n_contestants": 16,
+      "total_weeks": 2,
+      "disagree_count": 0,
+      "disagree_rate": 0.0
+    }
+  ]
+}
