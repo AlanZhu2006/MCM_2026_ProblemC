@@ -1,7 +1,7 @@
 {
   "total_weeks": 299,
-  "correct_predictions": 134,
-  "incorrect_predictions": 165,
+  "correct_predictions": 135,
+  "incorrect_predictions": 164,
   "details": [
     {
       "season": 1,
@@ -91,8 +91,8 @@
       "season": 2,
       "week": 8,
       "actual_eliminated": "Stacy Keibler",
-      "predicted_eliminated": "Stacy Keibler",
-      "correct": true
+      "predicted_eliminated": "Jerry Rice",
+      "correct": false
     },
     {
       "season": 3,
@@ -973,8 +973,8 @@
       "season": 16,
       "week": 5,
       "actual_eliminated": "D. L. Hughley",
-      "predicted_eliminated": "Andy Dick",
-      "correct": false
+      "predicted_eliminated": "D. L. Hughley",
+      "correct": true
     },
     {
       "season": 16,
@@ -1463,8 +1463,8 @@
       "season": 24,
       "week": 3,
       "actual_eliminated": "Charo",
-      "predicted_eliminated": "Bonner Bolton",
-      "correct": false
+      "predicted_eliminated": "Charo",
+      "correct": true
     },
     {
       "season": 24,
@@ -1988,7 +1988,7 @@
       "season": 33,
       "week": 2,
       "actual_eliminated": "Tori Spelling",
-      "predicted_eliminated": "Anna Delvey",
+      "predicted_eliminated": "Eric Roberts",
       "correct": false
     },
     {
@@ -2030,7 +2030,7 @@
       "season": 33,
       "week": 9,
       "actual_eliminated": "Chandler Kinney",
-      "predicted_eliminated": "Ilona Maher",
+      "predicted_eliminated": "Danny Amendola",
       "correct": false
     },
     {
@@ -2097,5 +2097,5 @@
       "correct": false
     }
   ],
-  "accuracy": 0.44816053511705684
+  "accuracy": 0.451505016722408
 }

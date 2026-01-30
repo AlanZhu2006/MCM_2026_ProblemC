@@ -1,7 +1,7 @@
 {
   "total_weeks": 299,
-  "correct_predictions": 180,
-  "incorrect_predictions": 119,
+  "correct_predictions": 181,
+  "incorrect_predictions": 118,
   "details": [
     {
       "season": 1,
@@ -189,7 +189,7 @@
       "season": 4,
       "week": 6,
       "actual_eliminated": "Heather Mills",
-      "predicted_eliminated": "John Ratzenberger",
+      "predicted_eliminated": "Billy Ray Cyrus",
       "correct": false
     },
     {
@@ -392,8 +392,8 @@
       "season": 7,
       "week": 7,
       "actual_eliminated": "Susan Lucci",
-      "predicted_eliminated": "Cody Linley",
-      "correct": false
+      "predicted_eliminated": "Susan Lucci",
+      "correct": true
     },
     {
       "season": 7,
@@ -420,7 +420,7 @@
       "season": 8,
       "week": 1,
       "actual_eliminated": "Ty Murray",
-      "predicted_eliminated": "Steve Wozniak",
+      "predicted_eliminated": "David Alan Grier",
       "correct": false
     },
     {
@@ -476,8 +476,8 @@
       "season": 8,
       "week": 9,
       "actual_eliminated": "Lil' Kim",
-      "predicted_eliminated": "Ty Murray",
-      "correct": false
+      "predicted_eliminated": "Lil' Kim",
+      "correct": true
     },
     {
       "season": 8,
@@ -707,8 +707,8 @@
       "season": 12,
       "week": 4,
       "actual_eliminated": "Sugar Ray Leonard",
-      "predicted_eliminated": "Sugar Ray Leonard",
-      "correct": true
+      "predicted_eliminated": "Kendra Wilkinson",
+      "correct": false
     },
     {
       "season": 12,
@@ -777,8 +777,8 @@
       "season": 13,
       "week": 4,
       "actual_eliminated": "Chynna Phillips",
-      "predicted_eliminated": "Carson Kressley",
-      "correct": false
+      "predicted_eliminated": "Chynna Phillips",
+      "correct": true
     },
     {
       "season": 13,
@@ -875,8 +875,8 @@
       "season": 14,
       "week": 9,
       "actual_eliminated": "Maria Menounos",
-      "predicted_eliminated": "Donald Driver",
-      "correct": false
+      "predicted_eliminated": "Maria Menounos",
+      "correct": true
     },
     {
       "season": 14,
@@ -959,8 +959,8 @@
       "season": 16,
       "week": 3,
       "actual_eliminated": "Wynonna Judd",
-      "predicted_eliminated": "Wynonna Judd",
-      "correct": true
+      "predicted_eliminated": "D. L. Hughley",
+      "correct": false
     },
     {
       "season": 16,
@@ -1015,15 +1015,15 @@
       "season": 17,
       "week": 1,
       "actual_eliminated": "Leah Remini",
-      "predicted_eliminated": "Bill Nye",
+      "predicted_eliminated": "Nicole \"Snooki\" Polizzi",
       "correct": false
     },
     {
       "season": 17,
       "week": 2,
       "actual_eliminated": "Keyshawn Johnson",
-      "predicted_eliminated": "Bill Nye",
-      "correct": false
+      "predicted_eliminated": "Keyshawn Johnson",
+      "correct": true
     },
     {
       "season": 17,
@@ -1085,8 +1085,8 @@
       "season": 18,
       "week": 1,
       "actual_eliminated": "Diana Nyad",
-      "predicted_eliminated": "Billy Dee Williams",
-      "correct": false
+      "predicted_eliminated": "Diana Nyad",
+      "correct": true
     },
     {
       "season": 18,
@@ -1099,8 +1099,8 @@
       "season": 18,
       "week": 5,
       "actual_eliminated": "Cody Simpson",
-      "predicted_eliminated": "Cody Simpson",
-      "correct": true
+      "predicted_eliminated": "Drew Carey",
+      "correct": false
     },
     {
       "season": 18,
@@ -1169,7 +1169,7 @@
       "season": 19,
       "week": 6,
       "actual_eliminated": "Jonathan Bennett",
-      "predicted_eliminated": "Michael Waltrip",
+      "predicted_eliminated": "Antonio Sabato Jr.",
       "correct": false
     },
     {
@@ -1225,8 +1225,8 @@
       "season": 20,
       "week": 4,
       "actual_eliminated": "Michael Sam",
-      "predicted_eliminated": "Michael Sam",
-      "correct": true
+      "predicted_eliminated": "Suzanne Somers",
+      "correct": false
     },
     {
       "season": 20,
@@ -1379,22 +1379,22 @@
       "season": 22,
       "week": 10,
       "actual_eliminated": "Paige VanZant",
-      "predicted_eliminated": "Ginger Zee",
-      "correct": false
+      "predicted_eliminated": "Paige VanZant",
+      "correct": true
     },
     {
       "season": 23,
       "week": 1,
       "actual_eliminated": "Jana Kramer",
-      "predicted_eliminated": "Rick Perry",
+      "predicted_eliminated": "Marilu Henner",
       "correct": false
     },
     {
       "season": 23,
       "week": 2,
       "actual_eliminated": "Jake T. Austin",
-      "predicted_eliminated": "Rick Perry",
-      "correct": false
+      "predicted_eliminated": "Jake T. Austin",
+      "correct": true
     },
     {
       "season": 23,
@@ -1463,8 +1463,8 @@
       "season": 24,
       "week": 3,
       "actual_eliminated": "Charo",
-      "predicted_eliminated": "Charo",
-      "correct": true
+      "predicted_eliminated": "Mr. T",
+      "correct": false
     },
     {
       "season": 24,
@@ -1484,7 +1484,7 @@
       "season": 24,
       "week": 6,
       "actual_eliminated": "Heather Morris",
-      "predicted_eliminated": "Bonner Bolton",
+      "predicted_eliminated": "Nick Viall",
       "correct": false
     },
     {
@@ -1519,7 +1519,7 @@
       "season": 25,
       "week": 1,
       "actual_eliminated": "Drew Scott",
-      "predicted_eliminated": "Barbara Corcoran",
+      "predicted_eliminated": "Victoria Arlen",
       "correct": false
     },
     {
@@ -1561,15 +1561,15 @@
       "season": 25,
       "week": 8,
       "actual_eliminated": "Terrell Owens",
-      "predicted_eliminated": "Terrell Owens",
-      "correct": true
+      "predicted_eliminated": "Victoria Arlen",
+      "correct": false
     },
     {
       "season": 25,
       "week": 9,
       "actual_eliminated": "Victoria Arlen",
-      "predicted_eliminated": "Victoria Arlen",
-      "correct": true
+      "predicted_eliminated": "Drew Scott",
+      "correct": false
     },
     {
       "season": 25,
@@ -1638,7 +1638,7 @@
       "season": 27,
       "week": 6,
       "actual_eliminated": "Mary Lou Retton",
-      "predicted_eliminated": "Bobby Bones",
+      "predicted_eliminated": "John Schneider",
       "correct": false
     },
     {
@@ -1687,7 +1687,7 @@
       "season": 28,
       "week": 6,
       "actual_eliminated": "Sailor Brinkley-Cook",
-      "predicted_eliminated": "Lauren Alaina",
+      "predicted_eliminated": "Karamo Brown",
       "correct": false
     },
     {
@@ -1883,7 +1883,7 @@
       "season": 31,
       "week": 5,
       "actual_eliminated": "Selma Blair",
-      "predicted_eliminated": "Trevor Donovan",
+      "predicted_eliminated": "Jessie James Decker",
       "correct": false
     },
     {
@@ -1967,7 +1967,7 @@
       "season": 32,
       "week": 7,
       "actual_eliminated": "Lele Pons",
-      "predicted_eliminated": "Barry Williams",
+      "predicted_eliminated": "Alyson Hannigan",
       "correct": false
     },
     {
@@ -2097,5 +2097,5 @@
       "correct": false
     }
   ],
-  "accuracy": 0.6020066889632107
+  "accuracy": 0.6053511705685619
 }
