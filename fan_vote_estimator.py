@@ -174,7 +174,10 @@ class FanVoteEstimator:
                 
                 eliminated = [name for name in this_week if name not in next_week_active]
                 if eliminated:
-                    return eliminated[0]  # 返回第一个被淘汰的
+                    if len(eliminated) > 1:
+                        warnings.warn(f"Season {season}, Week {week}: Multiple contestants ({len(eliminated)}) appear to be eliminated. "
+                                      f"The model will only consider the first one: {eliminated[0]}. This may affect accuracy.")
+                    return eliminated[0]
         
         # 如果无法从数据推断，尝试从results列解析
         if 'results' in season_data.columns:
@@ -213,52 +216,70 @@ class FanVoteEstimator:
         n_contestants = len(features_df)
         judge_ranks = features_df['judge_rank'].values
         
-        # 获取被淘汰的选手
         eliminated_name = self.get_eliminated_contestant(season, week)
         if eliminated_name is None:
-            # 如果无法确定，假设排名最低的评委评分选手被淘汰
-            eliminated_idx = np.argmax(judge_ranks)  # 排名最高（最差）
+            warnings.warn(f"S{season} W{week}: Could not determine eliminated contestant. Skipping estimation.")
+            return None
+
+        eliminated_mask = features_df['celebrity_name'] == eliminated_name
+        if not eliminated_mask.any():
+            warnings.warn(f"S{season} W{week}: Eliminated contestant '{eliminated_name}' not found in active contestants. Skipping estimation.")
+            return None
+        eliminated_idx = np.where(eliminated_mask)[0][0]
+
+        # --- 优化：构建更复杂的“不受欢迎度”模型 ---
+        # 1. 准备特征，归一化处理，值越大代表越“不受欢迎”
+        features = features_df.copy()
+        if n_contestants > 1:
+            features['judge_rank_norm'] = (features['judge_rank'] - 1) / (n_contestants - 1)
         else:
-            eliminated_mask = features_df['celebrity_name'] == eliminated_name
-            if eliminated_mask.any():
-                eliminated_idx = np.where(eliminated_mask)[0][0]
-            else:
-                eliminated_idx = np.argmax(judge_ranks)
-        
-        # 目标函数：最小化粉丝投票的方差，同时满足约束
+            features['judge_rank_norm'] = 0.5
+
+        if 'avg_historical_rank' in features.columns and features['avg_historical_rank'].notna().any():
+            features['avg_historical_rank'].fillna(features['judge_rank'], inplace=True)
+            min_r, max_r = features['avg_historical_rank'].min(), features['avg_historical_rank'].max()
+            features['hist_rank_norm'] = (features['avg_historical_rank'] - min_r) / (max_r - min_r) if max_r > min_r else 0.5
+        else:
+            features['hist_rank_norm'] = features['judge_rank_norm']
+
+        if 'partner_avg_placement' in features.columns and features['partner_avg_placement'].notna().any():
+            features['partner_avg_placement'].fillna(features['partner_avg_placement'].mean(), inplace=True)
+            min_p, max_p = features['partner_avg_placement'].min(), features['partner_avg_placement'].max()
+            features['partner_perf_norm'] = (features['partner_avg_placement'] - min_p) / (max_p - min_p) if max_p > min_p else 0.5
+        else:
+            features['partner_perf_norm'] = 0.5
+
+        # 2. 定义特征权重（可调整）
+        weights = {'judge': 0.5, 'history': 0.3, 'partner': 0.2}
+
+        # 3. 计算“不受欢迎度”分数
+        features['unpopularity_score'] = (
+            weights['judge'] * features['judge_rank_norm'] +
+            weights['history'] * features['hist_rank_norm'] +
+            weights['partner'] * features['partner_perf_norm']
+        )
+        expected_fan_ranks = features['unpopularity_score'].rank(method='min').values
+        # --- 模型优化结束 ---
+
         def objective(fan_ranks):
             """
-            目标函数：最小化粉丝投票与评委评分的差异
+            目标函数：最小化粉丝排名与基于特征的预期排名之间的差异
             """
-            # 惩罚项：粉丝排名应该与某些特征相关
-            penalty = 0
-            
-            # 如果评委评分高，粉丝排名应该相对较低（受欢迎）
-            for i, judge_rank in enumerate(judge_ranks):
-                # 评委排名低（好）的选手，粉丝排名也应该相对低（受欢迎）
-                expected_fan_rank = judge_rank * 0.7 + n_contestants * 0.3  # 混合模型
-                penalty += (fan_ranks[i] - expected_fan_rank) ** 2
-            
-            return penalty
-        
-        # 约束：被淘汰选手的综合排名应该最高
+            return np.sum((fan_ranks - expected_fan_ranks) ** 2)
+
         def constraint_eliminated(fan_ranks):
             """
             约束：被淘汰选手的（评委排名 + 粉丝排名）应该最大
             """
             combined_ranks = judge_ranks + fan_ranks
             eliminated_combined = combined_ranks[eliminated_idx]
-            # 被淘汰选手的综合排名应该大于等于所有其他选手
             return eliminated_combined - np.max(combined_ranks)
         
-        # 边界：粉丝排名在 [1, n_contestants] 之间
         bounds = [(1, n_contestants)] * n_contestants
         
-        # 初始猜测：粉丝排名与评委排名相似但有一定随机性
-        x0 = judge_ranks.copy() + np.random.normal(0, 0.5, n_contestants)
+        x0 = expected_fan_ranks.copy() + np.random.normal(0, 0.5, n_contestants)
         x0 = np.clip(x0, 1, n_contestants)
         
-        # 优化
         constraints = [{'type': 'ineq', 'fun': constraint_eliminated}]
         
         result = minimize(
@@ -276,8 +297,6 @@ class FanVoteEstimator:
             # 如果优化失败，使用启发式方法
             fan_ranks = self._heuristic_fan_ranks(judge_ranks, eliminated_idx, n_contestants)
         
-        # 将排名转换为投票数（相对值）
-        # 排名越低，投票数越多
         fan_votes = (n_contestants + 1 - fan_ranks) * 1000  # 缩放因子
         
         return {
@@ -315,48 +334,76 @@ class FanVoteEstimator:
         n_contestants = len(features_df)
         judge_percents = features_df['judge_percent'].values
         
-        # 获取被淘汰的选手
         eliminated_name = self.get_eliminated_contestant(season, week)
         if eliminated_name is None:
-            eliminated_idx = np.argmin(judge_percents)
+            warnings.warn(f"S{season} W{week}: Could not determine eliminated contestant. Skipping estimation.")
+            return None
+
+        eliminated_mask = features_df['celebrity_name'] == eliminated_name
+        if not eliminated_mask.any():
+            warnings.warn(f"S{season} W{week}: Eliminated contestant '{eliminated_name}' not found in active contestants. Skipping estimation.")
+            return None
+        eliminated_idx = np.where(eliminated_mask)[0][0]
+
+        # --- 优化：构建更复杂的“受欢迎度”模型 ---
+        # 1. 准备特征，归一化处理，值越大代表越“受欢迎”
+        features = features_df.copy()
+        min_pct, max_pct = features['judge_percent'].min(), features['judge_percent'].max()
+        features['judge_pct_norm'] = (features['judge_percent'] - min_pct) / (max_pct - min_pct) if max_pct > min_pct else 0.5
+
+        if 'avg_historical_score' in features.columns and features['avg_historical_score'].notna().any():
+            features['avg_historical_score'].fillna(features['judge_total'], inplace=True)
+            min_s, max_s = features['avg_historical_score'].min(), features['avg_historical_score'].max()
+            features['hist_score_norm'] = (features['avg_historical_score'] - min_s) / (max_s - min_s) if max_s > min_s else 0.5
         else:
-            eliminated_mask = features_df['celebrity_name'] == eliminated_name
-            if eliminated_mask.any():
-                eliminated_idx = np.where(eliminated_mask)[0][0]
-            else:
-                eliminated_idx = np.argmin(judge_percents)
+            features['hist_score_norm'] = features['judge_pct_norm']
+
+        if 'partner_avg_placement' in features.columns and features['partner_avg_placement'].notna().any():
+            features['partner_avg_placement'].fillna(features['partner_avg_placement'].mean(), inplace=True)
+            min_p, max_p = features['partner_avg_placement'].min(), features['partner_avg_placement'].max()
+            # 反转，因为排名越低越好
+            features['partner_perf_norm'] = (max_p - features['partner_avg_placement']) / (max_p - min_p) if max_p > min_p else 0.5
+        else:
+            features['partner_perf_norm'] = 0.5
+
+        # 2. 定义特征权重（可调整）
+        weights = {'judge': 0.5, 'history': 0.3, 'partner': 0.2}
+
+        # 3. 计算“受欢迎度”分数
+        features['popularity_score'] = (
+            weights['judge'] * features['judge_pct_norm'] +
+            weights['history'] * features['hist_score_norm'] +
+            weights['partner'] * features['partner_perf_norm']
+        )
         
-        # 目标函数：最小化粉丝投票与评委评分的差异
+        # 4. 将分数转换为预期的粉丝百分比
+        popularity_scores = np.maximum(features['popularity_score'].values, 0)
+        total_popularity = np.sum(popularity_scores)
+        if total_popularity > 0:
+            expected_fan_percents = (popularity_scores / total_popularity) * 100
+        else:
+            expected_fan_percents = np.full(n_contestants, 100 / n_contestants)
+        # --- 模型优化结束 ---
+
         def objective(fan_percents):
             """
-            目标函数：粉丝百分比应该与评委百分比有一定相关性
+            目标函数：粉丝百分比应该与基于特征的预期百分比相似
             """
-            penalty = 0
-            for i, judge_percent in enumerate(judge_percents):
-                # 评委百分比高的，粉丝百分比也应该相对高
-                expected_fan_percent = judge_percent * 0.6 + (100/n_contestants) * 0.4
-                penalty += (fan_percents[i] - expected_fan_percent) ** 2
-            return penalty
-        
-        # 约束1：百分比总和为100
+            return np.sum((fan_percents - expected_fan_percents) ** 2)
+
         def constraint_sum(fan_percents):
             return np.sum(fan_percents) - 100.0
         
-        # 约束2：被淘汰选手的综合百分比应该最低
         def constraint_eliminated(fan_percents):
             combined_percents = judge_percents + fan_percents
             eliminated_combined = combined_percents[eliminated_idx]
             return np.min(combined_percents) - eliminated_combined
         
-        # 边界：每个选手的粉丝百分比在 [0, 100] 之间
         bounds = [(0, 100)] * n_contestants
         
-        # 初始猜测
-        x0 = judge_percents.copy() * 0.8 + np.random.normal(0, 2, n_contestants)
-        x0 = np.clip(x0, 1, 99)
+        x0 = expected_fan_percents.copy()
         x0 = x0 / np.sum(x0) * 100  # 归一化到100
         
-        # 优化
         constraints = [
             {'type': 'eq', 'fun': constraint_sum},
             {'type': 'ineq', 'fun': constraint_eliminated}
@@ -377,10 +424,8 @@ class FanVoteEstimator:
             # 启发式方法
             fan_percents = self._heuristic_fan_percents(judge_percents, eliminated_idx, n_contestants)
         
-        # 将百分比转换为投票数（假设总投票数为1000万）
         total_votes = 10_000_000
         fan_votes = fan_percents / 100 * total_votes
-        
         return {
             'fan_percents': fan_percents,
             'fan_votes': fan_votes,
@@ -479,6 +524,10 @@ class FanVoteEstimator:
                     estimate = self.estimate_fan_votes_rank_method(season, week, features_df)
                 else:
                     estimate = self.estimate_fan_votes_percent_method(season, week, features_df)
+                
+                if estimate is None:
+                    print("跳过（无法确定淘汰者或数据不足）")
+                    continue
                 
                 # 保存结果
                 for i, (idx, row) in enumerate(features_df.iterrows()):
