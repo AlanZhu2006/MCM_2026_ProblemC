@@ -65,3 +65,6 @@ fan_vote_uncertainty.csv
 stage1_preprocessing_report.txt
 stage2_fan_vote_report.txt
 validation_results.json
+
+# 原始数据文件（通常很大，不应提交）
+2026_MCM_Problem_C_Data.csv
