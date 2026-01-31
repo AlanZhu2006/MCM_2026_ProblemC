@@ -1,0 +1,42 @@
+\subsection{Data Loading and Cleaning}
+
+The raw data from \texttt{2026\_MCM\_Problem\_C\_Data.csv} required preprocessing to handle:
+\begin{itemize}
+    \item Missing values (N/A) for weeks not run in a season
+    \item Zero scores for eliminated contestants in subsequent weeks
+    \item Variable number of judges per week (usually 3, sometimes 4)
+    \item Decimal scores due to multiple dances or bonus points
+\end{itemize}
+
+\subsection{Weekly Score Calculation}
+
+For each week, we calculated:
+\begin{itemize}
+    \item \textbf{Total Judge Score}: Sum of all judge scores for each contestant
+    \item \textbf{Judge Rank}: Ranking based on total judge score (1 = best, N = worst)
+    \item \textbf{Judge Percent}: Percentage of total judge scores
+\end{itemize}
+
+The preprocessing module (\texttt{preprocess\_dwts.py}) handles all these calculations automatically.
+
+\subsection{Season and Week Identification}
+
+We identified:
+\begin{itemize}
+    \item Total of 34 seasons
+    \item 299 elimination weeks across all seasons
+    \item Variable number of contestants per season (ranging from 6 to 16)
+    \item Variable number of weeks per season (ranging from 5 to 11)
+\end{itemize}
+
+\subsection{Output}
+
+The preprocessing produces \texttt{2026\_MCM\_Problem\_C\_Data\_processed.csv}, which contains:
+\begin{itemize}
+    \item All original contestant information
+    \item Weekly judge scores and totals
+    \item Weekly rankings and percentages
+    \item Season and week identifiers
+\end{itemize}
+
+This processed data serves as the foundation for all subsequent analyses.

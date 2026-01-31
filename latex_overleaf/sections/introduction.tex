@@ -1,0 +1,50 @@
+\subsection{Problem Background}
+
+Dancing with the Stars (DWTS) is a popular television competition show where celebrities are partnered with professional dancers and perform dances each week. A panel of expert judges scores each couple's dance, and fans vote for their favorite couple. The judge and fan votes are combined to determine which couple is eliminated each week.
+
+The show has completed 34 seasons, and the method of combining judge scores and fan votes has evolved:
+\begin{itemize}
+    \item \textbf{Seasons 1-2}: Rank-based method
+    \item \textbf{Seasons 3-27}: Percent-based method
+    \item \textbf{Seasons 28-34}: Returned to rank-based method, with an additional mechanism where judges choose from the bottom two couples
+\end{itemize}
+
+\subsection{Research Objectives}
+
+This study addresses the following key questions:
+
+\begin{enumerate}
+    \item \textbf{Fan Vote Estimation}: Develop mathematical models to estimate fan votes (which are unknown and confidential) for each contestant for the weeks they competed.
+    
+    \item \textbf{Model Validation}: Verify that the estimated fan votes lead to results consistent with actual eliminations, and quantify the uncertainty in these estimates.
+    
+    \item \textbf{Voting Method Comparison}: Compare and contrast the rank-based and percent-based methods across all seasons, analyzing which method favors fan votes more.
+    
+    \item \textbf{Controversial Cases}: Examine how different voting methods would have affected controversial cases (e.g., Jerry Rice, Bobby Bones).
+    
+    \item \textbf{Factor Impact Analysis}: Analyze the impact of professional dancers and celebrity characteristics (age, industry, region) on both judge scores and fan votes.
+    
+    \item \textbf{New Voting System}: Propose a new voting system that is more "fair" or "exciting" than the current methods.
+\end{enumerate}
+
+\subsection{Data Description}
+
+The dataset contains information for 34 seasons of DWTS, including:
+\begin{itemize}
+    \item Contestant information (name, age, industry, region, professional dancer partner)
+    \item Judge scores for each week (1-10 scale)
+    \item Season results and final placements
+    \item Total of 299 elimination weeks across all seasons
+\end{itemize}
+
+\subsection{Report Structure}
+
+This report is organized as follows:
+\begin{itemize}
+    \item \textbf{Section 2}: Data preprocessing methods
+    \item \textbf{Section 3}: Fan vote estimation model and validation
+    \item \textbf{Section 4}: Comparison of rank-based and percent-based voting methods
+    \item \textbf{Section 5}: Analysis of factor impacts (pro dancers, age, industry, region)
+    \item \textbf{Section 6}: Proposal for a new machine learning-based voting system
+    \item \textbf{Section 7}: Conclusions and recommendations
+\end{itemize}

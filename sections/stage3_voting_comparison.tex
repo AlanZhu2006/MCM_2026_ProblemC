@@ -1,0 +1,114 @@
+\subsection{Methodology}
+
+We applied both voting methods to all 34 seasons (299 weeks total) to compare their results:
+
+\begin{enumerate}
+    \item \textbf{Rank-Based Method}: Combined judge rank + fan rank, highest combined rank is eliminated
+    \item \textbf{Percent-Based Method}: Combined judge percent + fan percent, lowest combined percent is eliminated
+\end{enumerate}
+
+\subsection{Overall Comparison Results}
+
+\subsubsection{Agreement Rate}
+
+\begin{itemize}
+    \item \textbf{Total Weeks}: 299
+    \item \textbf{Methods Agree}: 187 weeks (62.54\%)
+    \item \textbf{Methods Disagree}: 112 weeks (37.46\%)
+\end{itemize}
+
+The high disagreement rate (37.46\%) indicates that the choice of voting method significantly impacts the results.
+
+\subsubsection{Accuracy Comparison}
+
+\begin{table}[H]
+\centering
+\caption{Accuracy Comparison of Voting Methods}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{Correct} & \textbf{Total} & \textbf{Accuracy} \\
+\midrule
+Rank-Based & 181 & 299 & 60.5\% \\
+Percent-Based & 290 & 299 & \textbf{97.0\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Key Finding}: The percent-based method is significantly more accurate (97.0\% vs. 60.5\%).
+
+\subsection{Which Method Favors Fan Votes More?}
+
+To determine which method favors fan votes more, we analyzed cases where judge scores and fan votes disagreed:
+
+\begin{itemize}
+    \item When a contestant has low judge scores but high fan votes, the \textbf{percent-based method} is more likely to protect them from elimination
+    \item The \textbf{rank-based method} gives equal weight to each rank position, while the \textbf{percent-based method} gives more weight to actual vote percentages
+    \item \textbf{Conclusion}: The percent-based method favors fan votes more, as it allows high fan vote percentages to compensate for low judge scores
+\end{itemize}
+
+\subsection{Controversial Cases Analysis}
+
+\subsubsection{Season 2: Jerry Rice}
+
+\begin{itemize}
+    \item \textbf{Background}: Runner-up despite lowest judge scores in 5 weeks
+    \item \textbf{Rank Method}: Would have eliminated Jerry Rice earlier
+    \item \textbf{Percent Method}: Would have protected Jerry Rice longer (matches actual result)
+    \item \textbf{Conclusion}: Percent method better reflects fan support
+\end{itemize}
+
+\subsubsection{Season 4: Billy Ray Cyrus}
+
+\begin{itemize}
+    \item \textbf{Background}: 5th place despite last place judge scores in 6 weeks
+    \item \textbf{Analysis}: Percent method would have protected him, rank method would have eliminated him earlier
+\end{itemize}
+
+\subsubsection{Season 11: Bristol Palin}
+
+\begin{itemize}
+    \item \textbf{Background}: 3rd place with lowest judge scores 12 times
+    \item \textbf{Analysis}: Percent method consistently protected her due to high fan support
+\end{itemize}
+
+\subsubsection{Season 27: Bobby Bones}
+
+\begin{itemize}
+    \item \textbf{Background}: Won despite consistently low judge scores
+    \item \textbf{Analysis}: Percent method would have protected him throughout, rank method would have eliminated him earlier
+    \item \textbf{Conclusion}: Percent method allows fan popularity to overcome low judge scores
+\end{itemize}
+
+\subsection{Season 28+ Mechanism: Judges Choose from Bottom Two}
+
+Starting in Season 28, a new mechanism was introduced: judges select which of the bottom two couples to eliminate.
+
+\subsubsection{Impact Analysis}
+
+\begin{itemize}
+    \item This mechanism provides an additional layer of fairness
+    \item It allows judges to override purely mathematical results when appropriate
+    \item It reduces the impact of extreme fan vote scenarios
+    \item \textbf{Recommendation}: This mechanism should be retained as it balances fan democracy with expert judgment
+\end{itemize}
+
+\subsection{Recommendations}
+
+Based on our analysis:
+
+\begin{enumerate}
+    \item \textbf{For Future Seasons}: Use the percent-based method, as it is significantly more accurate (97.0\% vs. 60.5\%)
+    \item \textbf{Retain Season 28+ Mechanism}: Keep the "judges choose from bottom two" mechanism for additional fairness
+    \item \textbf{Consider Hybrid Approach}: Use percent-based method to identify bottom two, then let judges decide
+\end{enumerate}
+
+\subsection{Visualization}
+
+Figure~\ref{fig:stage3} shows the comprehensive comparison of the two voting methods, including accuracy comparison, disagreement rates by season, and controversial case analysis.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{visualizations/stage3_voting_comparison.png}
+\caption{Stage 3: Voting Method Comparison Visualization}
+\label{fig:stage3}
+\end{figure}

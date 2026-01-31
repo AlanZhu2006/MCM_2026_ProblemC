@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{url}
+
+% 页面设置
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% 超链接设置
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=green
+}
+
+% 标题信息
+\title{2026 MCM Problem C: Data With The Stars\\
+\large Complete Solution Report}
+\author{Team Control Number: [Your Team Number]}
+\date{\today}
+
+\begin{document}
+
+% 摘要表（Summary Sheet）
+\input{sections/summary_sheet}
+
+\newpage
+
+% 目录
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+% 完整解决方案
+\section{Introduction}
+\input{sections/introduction}
+
+\section{Data Preprocessing (Stage 1)}
+\input{sections/stage1_preprocessing}
+
+\section{Fan Vote Estimation Model (Stage 2)}
+\input{sections/stage2_fan_vote_estimation}
+
+\section{Voting Method Comparison (Stage 3)}
+\input{sections/stage3_voting_comparison}
+
+\section{Factor Impact Analysis (Stage 4)}
+\input{sections/stage4_factor_impact}
+
+\section{New Voting System Proposal (Stage 5)}
+\input{sections/stage5_new_system}
+
+\section{Conclusions and Recommendations}
+\input{sections/conclusions}
+
+% 备忘录
+\newpage
+\section*{Memo to Producers}
+\addcontentsline{toc}{section}{Memo to Producers}
+\input{sections/memo_to_producers}
+
+% 参考文献
+\newpage
+\section*{References}
+\addcontentsline{toc}{section}{References}
+\input{sections/references}
+
+% AI使用报告（如使用）
+\newpage
+\section*{AI Use Report}
+\addcontentsline{toc}{section}{AI Use Report}
+\input{sections/ai_use_report}
+
+\end{document}

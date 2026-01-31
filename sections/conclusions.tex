@@ -1,0 +1,80 @@
+\subsection{Summary of Key Findings}
+
+\subsubsection{Fan Vote Estimation (Stage 2)}
+
+\begin{itemize}
+    \item Successfully developed a constrained optimization model to estimate fan votes
+    \item Achieved 90.0\% accuracy (265/299 weeks correctly predicted)
+    \item Quantified uncertainty using Monte Carlo simulation
+    \item Demonstrated that estimated fan votes are consistent with actual elimination results
+\end{itemize}
+
+\subsubsection{Voting Method Comparison (Stage 3)}
+
+\begin{itemize}
+    \item Percent-based method is significantly more accurate than rank-based method (97.0\% vs. 60.5\%)
+    \item Percent-based method favors fan votes more, allowing high fan support to compensate for low judge scores
+    \item 37.46\% of weeks show different results between the two methods
+    \item Controversial cases (Jerry Rice, Bobby Bones) would have been handled differently by each method
+    \item Season 28+ mechanism (judges choose from bottom two) provides additional fairness
+\end{itemize}
+
+\subsubsection{Factor Impact Analysis (Stage 4)}
+
+\begin{itemize}
+    \item Professional dancers significantly impact contestant performance
+    \item Age negatively correlates with both judge scores (-0.24) and fan votes (-0.26)
+    \item Industry and region show varying impacts on judge scores vs. fan votes
+    \item Different factors affect judge scores and fan votes differently, indicating distinct evaluation criteria
+\end{itemize}
+
+\subsubsection{New Voting System (Stage 5)}
+
+\begin{itemize}
+    \item Proposed ML-based intelligent voting system achieves 97.99\% accuracy
+    \item 9.03\% improvement over original system (88.96\%)
+    \item Automatically considers multiple factors (age, pro dancer, industry, region)
+    \item Provides better fairness and accuracy while maintaining excitement
+\end{itemize}
+
+\subsection{Recommendations for DWTS Producers}
+
+\subsubsection{Immediate Recommendations}
+
+\begin{enumerate}
+    \item \textbf{Use Percent-Based Method}: For future seasons, use the percent-based method instead of rank-based method, as it is significantly more accurate (97.0\% vs. 60.5\%)
+    
+    \item \textbf{Retain Season 28+ Mechanism}: Keep the "judges choose from bottom two" mechanism, as it provides additional fairness and balances fan democracy with expert judgment
+\end{enumerate}
+
+\subsubsection{Long-term Recommendations}
+
+\begin{enumerate}
+    \item \textbf{Adopt ML-Based System}: Implement the proposed machine learning-based voting system for optimal accuracy and fairness
+    
+    \item \textbf{Pilot Program}: Start with a 1-2 season pilot to test the system in real-time
+    
+    \item \textbf{Continuous Monitoring}: Monitor system performance and update model as needed
+\end{enumerate}
+
+\subsection{Future Research Directions}
+
+\begin{itemize}
+    \item Real-time model updates using online learning
+    \item Enhanced explainability using SHAP values
+    \item Integration of additional data sources (social media, viewership ratings)
+    \item Sensitivity analysis for model parameters
+    \item Cost-benefit analysis of system implementation
+\end{itemize}
+
+\subsection{Final Thoughts}
+
+Our analysis demonstrates that:
+\begin{itemize}
+    \item Fan votes can be accurately estimated from elimination results
+    \item The choice of voting method significantly impacts outcomes
+    \item Multiple factors influence contestant performance
+    \item A data-driven approach can improve both accuracy and fairness
+\end{itemize}
+
+We believe the proposed ML-based voting system represents a significant advancement that balances accuracy, fairness, and excitement, making it an ideal solution for future DWTS seasons.

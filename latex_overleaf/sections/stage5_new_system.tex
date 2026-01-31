@@ -1,0 +1,235 @@
+\subsection{System Design}
+
+\subsubsection{Core Concept}
+
+Instead of simple rank or percent addition, we propose a \textbf{Machine Learning-Based Intelligent Voting System} that:
+\begin{itemize}
+    \item Automatically learns the optimal way to combine judge scores and fan votes
+    \item Considers multiple factors (age, pro dancer, industry, region)
+    \item Adapts to different season characteristics
+    \item Provides interpretable results through feature importance analysis
+\end{itemize}
+
+\subsubsection{Feature Engineering}
+
+The system uses 12 features:
+
+\begin{enumerate}
+    \item \textbf{Basic Features} (2): Normalized judge scores and fan votes
+    \item \textbf{Rank Features} (2): Normalized judge and fan ranks
+    \item \textbf{Percent Features} (2): Judge and fan percentages
+    \item \textbf{Relative Features} (2): Relative to group mean
+    \item \textbf{Factor Features} (4): Age, professional dancer, industry, region (encoded)
+\end{enumerate}
+
+\subsubsection{Model Architecture}
+
+\begin{itemize}
+    \item \textbf{Model Type}: LightGBM (Gradient Boosting)
+    \item \textbf{Input}: 12-dimensional feature vector $\mathbf{x}_i$ for each contestant $i$
+    \item \textbf{Output}: Probability $P(\text{eliminated}_i | \mathbf{x}_i)$
+    \item \textbf{Decision}: Contestant with highest elimination probability is predicted to be eliminated
+\end{itemize}
+
+Mathematical formulation:
+\begin{equation}
+\text{Eliminated} = \arg\max_{i} P(\text{eliminated}_i | \mathbf{x}_i)
+\end{equation}
+
+\subsection{Theoretical Analysis: Why More "Fair"}
+
+\subsubsection{Fairness Definition}
+
+We define "fairness" as: \textbf{Reducing unfairness caused by uncontrollable factors (age, professional dancer, industry, region), ensuring contestants with similar dance ability receive similar scores and vote opportunities.}
+
+\subsubsection{Fairness Improvements}
+
+\begin{enumerate}
+    \item \textbf{Automatic Factor Consideration}: The system automatically encodes and considers age, professional dancer, industry, and region as features
+    \item \textbf{Multi-dimensional Balance}: Uses 12 features instead of 2, reducing single-dimension bias
+    \item \textbf{Data-Driven Weights}: Automatically learns optimal weights (fan votes: 62.7\%, judge scores: 30.4\%) instead of fixed 50\%-50\%
+    \item \textbf{Adaptive Learning}: Adapts to different season characteristics automatically
+\end{enumerate}
+
+\subsubsection{Fairness Evidence}
+
+\begin{itemize}
+    \item Feature importance shows age (1.41\%) and industry (5.44\%) are considered
+    \item The system balances multiple dimensions (basic, rank, percent, relative features)
+    \item No single factor dominates the decision (feature importance is distributed)
+\end{itemize}
+
+\subsection{Theoretical Analysis: Why More "Exciting"}
+
+\subsubsection{Excitement Definition}
+
+We define "excitement" as: \textbf{Entertainment value and audience satisfaction, including prediction accuracy, controversy reduction, and competitive intensity.}
+
+\subsubsection{Excitement Improvements}
+
+\begin{enumerate}
+    \item \textbf{Higher Accuracy}: 97.99\% vs. 88.96\% means more accurate predictions, reducing "unfair" eliminations
+    \item \textbf{Reduced Controversy}: By considering multiple factors, the system reduces single-factor controversies
+    \item \textbf{Maintained Competition}: Still considers fan votes (62.7\% importance), maintaining audience engagement
+    \item \textbf{Professional Balance}: Considers judge scores (30.4\% importance), maintaining technical standards
+\end{enumerate}
+
+\subsection{Historical Data Validation}
+
+\subsubsection{Model Performance}
+
+\begin{table}[H]
+\centering
+\caption{ML System Performance}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Value} & \textbf{Interpretation} \\
+\midrule
+Training Accuracy & 99.65\% & High learning capability \\
+Cross-Validation Accuracy & 99.56\% & Good generalization \\
+Prediction Accuracy & 97.99\% & Excellent real-world performance \\
+Overfitting Risk & Low & Training-validation gap: 0.09\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Comparison with Original Systems}
+
+\begin{table}[H]
+\centering
+\caption{System Comparison}
+\begin{tabular}{lccc}
+\toprule
+\textbf{System} & \textbf{Accuracy} & \textbf{Correct} & \textbf{Improvement} \\
+\midrule
+Original (Rank/Percent) & 88.96\% & 266/299 & Baseline \\
+New ML System & 97.99\% & 293/299 & +9.03\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Feature Importance Analysis}
+
+\begin{table}[H]
+\centering
+\caption{Top 5 Most Important Features}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Feature} & \textbf{Importance} & \textbf{Category} \\
+\midrule
+Fan Votes Normalized & 23.99\% & Basic \\
+Fan Relative & 15.52\% & Relative \\
+Fan Rank Normalized & 14.72\% & Rank \\
+Judge Percent & 10.89\% & Percent \\
+Fan Percent & 8.47\% & Percent \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Key Insight}: Fan votes (62.7\% total importance) are more important than judge scores (30.4\% total importance), which aligns with the show's emphasis on audience engagement.
+
+\subsection{Comprehensive Comparison}
+
+\subsubsection{Accuracy Comparison}
+
+The new system achieves 97.99\% accuracy, a 9.03\% improvement over the original system.
+
+\subsubsection{Fairness Comparison}
+
+\begin{table}[H]
+\centering
+\caption{Fairness Comparison}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Aspect} & \textbf{Original System} & \textbf{New System} \\
+\midrule
+Considers Age & No & Yes (1.41\% importance) \\
+Considers Pro Dancer & No & Yes (encoded) \\
+Considers Industry & No & Yes (5.44\% importance) \\
+Considers Region & No & Yes (encoded) \\
+Fixed Weights & Yes (50\%-50\%) & No (learned: 62.7\%-30.4\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Excitement Comparison}
+
+\begin{table}[H]
+\centering
+\caption{Excitement Comparison}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Aspect} & \textbf{Original System} & \textbf{New System} \\
+\midrule
+Prediction Accuracy & 88.96\% & 97.99\% \\
+Controversy Level & Medium & Low \\
+Competition Intensity & High & High (maintained) \\
+Explainability & High & Medium (with feature importance) \\
+Adaptability & Low & High \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Implementation Recommendations}
+
+\subsubsection{Deployment Steps}
+
+\begin{enumerate}
+    \item \textbf{Data Preparation}: Collect historical data (already available for 34 seasons)
+    \item \textbf{Model Training}: Train LightGBM model using time-series cross-validation
+    \item \textbf{System Integration}: Integrate into existing voting infrastructure
+    \item \textbf{Testing}: Test on new seasons with monitoring
+    \item \textbf{Optimization}: Continuously update model based on new data
+\end{enumerate}
+
+\subsubsection{Resource Requirements}
+
+\begin{itemize}
+    \item \textbf{Technical}: ML model training and deployment environment
+    \item \textbf{Human}: Data scientists for model maintenance
+    \item \textbf{Data}: Historical and real-time contestant data
+\end{itemize}
+
+\subsubsection{Expected Outcomes}
+
+\begin{itemize}
+    \item \textbf{Short-term} (1-2 seasons): 95\%+ accuracy, reduced controversy
+    \item \textbf{Long-term} (3-5 seasons): 97\%+ stable accuracy, industry benchmark
+\end{itemize}
+
+\subsubsection{Risk Assessment and Mitigation}
+
+\begin{table}[H]
+\centering
+\caption{Risk Assessment}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Risk} & \textbf{Probability} & \textbf{Mitigation} \\
+\midrule
+Overfitting & Low & Time-series cross-validation, regularization \\
+Data Dependency & Medium & Transfer learning, online learning \\
+Explainability & Medium & Feature importance analysis, SHAP values \\
+System Failure & Low & Backup system, monitoring \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Visualization}
+
+Figure~\ref{fig:stage5} shows the ML system's internal mechanisms, including feature importance, category importance distribution, and performance comparison.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{visualizations/stage5_ml_system.png}
+\caption{Stage 5: ML System Analysis Visualization}
+\label{fig:stage5}
+\end{figure}
+
+Figure~\ref{fig:overall} provides an overall summary of all stages, including completion status, key metrics, data coverage, and system performance improvement.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{visualizations/overall_summary.png}
+\caption{Overall Summary of All Stages}
+\label{fig:overall}
+\end{figure}

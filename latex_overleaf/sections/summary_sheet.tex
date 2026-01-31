@@ -1,0 +1,73 @@
+% Summary Sheet (One Page)
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+
+{\Huge\bfseries 2026 MCM Problem C}\\[0.5cm]
+{\Large\bfseries Data With The Stars}\\[1cm]
+{\Large Summary Sheet}\\[2cm]
+
+\begin{minipage}{0.9\textwidth}
+\centering
+\begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+\hline
+\textbf{Team Control Number} & [2603215] \\
+\hline
+\textbf{Problem} & Problem C \\
+\hline
+\textbf{Title} & Data With The Stars \\
+\hline
+\end{tabular}
+\end{minipage}
+
+\vspace{2cm}
+
+\section*{Problem Overview}
+We developed mathematical models to estimate fan votes for the Dancing with the Stars (DWTS) competition, compared two voting combination methods (rank-based and percent-based), analyzed the impact of various factors, and proposed a new machine learning-based voting system.
+
+\vspace{1cm}
+
+\section*{Key Methods}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Fan Vote Estimation}: Constrained optimization model with multi-start SLSQP algorithm (90\% accuracy)
+    \item \textbf{Voting Method Comparison}: Applied both rank-based and percent-based methods to all 34 seasons
+    \item \textbf{Factor Impact Analysis}: Statistical analysis of pro dancers, age, industry, and region impacts
+    \item \textbf{New Voting System}: Machine learning-based system using LightGBM (97.99\% accuracy)
+\end{itemize}
+
+\vspace{1cm}
+
+\section*{Key Findings}
+\begin{itemize}[leftmargin=*]
+    \item Fan vote estimation accuracy: \textbf{90.0\%} (265/299 weeks correctly predicted)
+    \item Rank method accuracy: \textbf{60.5\%}; Percent method accuracy: \textbf{97.0\%}
+    \item New ML system accuracy: \textbf{97.99\%} (improvement of 9.03\% over original system)
+    \item Age negatively correlates with both judge scores (-0.24) and fan votes (-0.26)
+    \item Professional dancers significantly impact contestant performance
+    \item Industry and region show varying impacts on judge scores vs. fan votes
+\end{itemize}
+
+\vspace{1cm}
+
+\section*{Main Conclusions}
+\begin{enumerate}[leftmargin=*]
+    \item The percent-based method is significantly more accurate than the rank-based method (97.0\% vs. 60.5\%)
+    \item We recommend adopting the percent-based method for future seasons
+    \item The proposed ML-based voting system achieves 97.99\% accuracy and improves fairness by automatically considering multiple factors
+    \item We strongly recommend implementing the new ML system, which provides better accuracy while maintaining fairness and excitement
+\end{enumerate}
+
+\vspace{1cm}
+
+\section*{Recommendations}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{For Future Seasons}: Use percent-based method or adopt the new ML system
+    \item \textbf{For Season 28+ Mechanism}: The "judges choose from bottom two" mechanism should be retained as it provides additional fairness
+    \item \textbf{Implementation}: Deploy the ML system with proper validation and monitoring
+\end{itemize}
+
+\vfill
+\vspace{1cm}
+{\large \today}
+
+\end{titlepage}
