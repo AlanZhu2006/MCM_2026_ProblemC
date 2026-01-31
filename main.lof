@@ -1,0 +1,11 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Comprehensive uncertainty analysis showing distribution of uncertainty measures, confidence intervals, temporal trends, and seasonal comparisons.}}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {2}{\ignorespaces 95\% confidence intervals for fan vote estimates across sample weeks, demonstrating the range of plausible values.}}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Parameter sensitivity analysis showing model accuracy as a function of key parameter values.}}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Data sensitivity analysis showing model performance under various data quality conditions.}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Stage 2: Fan vote estimation visualization showing estimated vote distributions, accuracy metrics, and validation results.}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Detailed time-series analysis for each controversial case, showing judge scores, fan votes, and rank progression throughout their respective seasons.}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Cross-case comparison highlighting similarities and differences in judge scores, fan votes, and rankings across all four controversial cases.}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Comprehensive comparison of voting methods, including accuracy metrics, disagreement rates by season, and controversial case analysis.}}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Stage 4: Factor impact analysis visualization showing the influence of professional dancers, age, industry, and region on judge scores and fan votes.}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Stage 5: ML system analysis visualization showing feature importance, model performance, and system comparisons.}}{33}{figure.caption.28}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Overall summary of all stages, including completion status, key metrics, data coverage, and system performance improvement.}}{34}{figure.caption.29}%

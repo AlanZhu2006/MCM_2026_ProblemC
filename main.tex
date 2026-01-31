@@ -1,56 +1,54 @@
-\documentclass[11pt,a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{amsmath,amsfonts,amssymb}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{multirow}
-\usepackage{array}
-\usepackage{geometry}
-\usepackage{hyperref}
-\usepackage{xcolor}
-\usepackage{float}
+\documentclass{mcmthesis}
+\mcmsetup{tstyle = \color{red}\bfseries,
+          tcn = 2603215, problem = C,
+          sheet = true, titleinsheet = true, keywordsinsheet = true,
+          titlepage = false, abstract = true}
+
+\usepackage{txfonts}
 \usepackage{caption}
+\captionsetup[figure]{font=small}
+\captionsetup[table]{font=small}
+\usepackage{indentfirst}
+\usepackage{esint}
 \usepackage{subcaption}
-\usepackage{enumitem}
-\usepackage{longtable}
-\usepackage{listings}
-\usepackage{url}
+\usepackage{floatrow}
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{xcolor}
+\usepackage{tabularray}
+\usepackage{lastpage}  % 用于显示总页数
 
-% 页面设置
-\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\setlength{\headheight}{14pt}
+\setcounter{tocdepth}{2}
 
-% 超链接设置
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    citecolor=green
-}
+\title{Data With The Stars: A Comprehensive Analysis of Voting Systems and Fan Engagement}
 
-% 标题信息
-\title{2026 MCM Problem C: Data With The Stars\\
-\large Complete Solution Report}
-\author{Team Control Number: [2603215]}
 \date{\today}
 
 \begin{document}
 
-% 摘要表（Summary Sheet）
-\input{sections/summary_sheet}
+\begin{abstract}
+We develop mathematical models to estimate fan votes, compare voting methods, analyze factor impacts, and propose a new machine learning-based voting system for Dancing with the Stars (DWTS).
 
-\newpage
+First, we establish a constrained optimization model for fan vote estimation, achieving 90.0\% accuracy (265/299 weeks) using multi-start SLSQP with differential evolution fallback. Monte Carlo simulation reveals moderate uncertainty (average CV $\approx$ 12\%).
 
-% 目录
+Second, we compare rank-based and percent-based voting methods across all 34 seasons. The percent-based method achieves 97.0\% accuracy (290/299), significantly outperforming the rank-based method (60.5\%, 181/299). In three of four controversial cases, the percent-based method correctly predicted survival.
+
+Third, we analyze factor impacts: professional dancers affect judge scores more than fan votes ($d = 1.24$ vs. $d = 0.68$); age affects both similarly ($d = -0.48$ vs. $d = -0.52$); industry affects fan votes more than judge scores ($d = 1.15$ vs. $d = 0.72$).
+
+Finally, we propose a machine learning-based voting system using LightGBM, achieving 97.99\% accuracy (293/299), a 9.03 percentage point improvement over baseline. The system promotes fairness by automatically considering multiple factors while maintaining excitement through high accuracy and preserved fan vote emphasis (62.7\% importance).
+
+\begin{keywords}
+Fan Vote Estimation, Voting Method Comparison, Factor Impact Analysis, Machine Learning, LightGBM
+\end{keywords}
+
+\end{abstract}
+\maketitle
+
 \tableofcontents
 \newpage
-\listoffigures
-\newpage
-\listoftables
-\newpage
 
-% 完整解决方案
 \section{Introduction}
 \input{sections/introduction}
 
@@ -72,22 +70,21 @@
 \section{Conclusions and Recommendations}
 \input{sections/conclusions}
 
-% 备忘录
 \newpage
 \section*{Memo to Producers}
 \addcontentsline{toc}{section}{Memo to Producers}
 \input{sections/memo_to_producers}
 
-% 参考文献
 \newpage
 \section*{References}
 \addcontentsline{toc}{section}{References}
 \input{sections/references}
 
-% AI使用报告（如使用）
 \newpage
 \section*{AI Use Report}
 \addcontentsline{toc}{section}{AI Use Report}
 \input{sections/ai_use_report}
+
+\label{LastPage}  % 标记最后一页，用于页码显示
 
 \end{document}

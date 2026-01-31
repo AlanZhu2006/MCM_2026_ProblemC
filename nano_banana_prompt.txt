@@ -1,0 +1,19 @@
+High-fidelity scientific schematic diagram, technical vector illustration, clean white background, academic textbook style, 4K resolution, strictly 2D flat design. Professional color coding: Azure Blue (#4A90E2), Slate Grey (#708090), Coral Orange (#FF7F50), Forest Green (#228B22), Deep Purple (#6A5ACD). Clean thin outlines, soft pastel fills, NO shadows, NO 3D effects, NOT hand-drawn.
+
+Five horizontal rectangular panels arranged left-to-right in a pipeline:
+
+[PANEL 1 - LEFT] Azure Blue panel labeled "Stage 1: Data Preprocessing". Contains: database icon "[Raw DWTS Data]" at top, three processing blocks "[Data Cleaning]", "[Score Calculation]", "[Data Validation]" in middle, processed database icon "[Processed Data]" at bottom.
+
+[PANEL 2] Slate Grey panel labeled "Stage 2: Fan Vote Estimation". Contains: input arrow from left, central processing showing "[Constraint Optimization]", "[Multi-start SLSQP]", "[Global Optimization]", two outputs "[Fan Vote Estimates]" and "[Uncertainty Analysis]", badge "[90% Accuracy]" at top.
+
+[PANEL 3] Coral Orange panel labeled "Stage 3: Voting Method Comparison". Contains: two parallel streams "[Rank-based Method]" (top) and "[Percent-based Method]" (bottom), comparison icon "[Method Comparison]" in center, three outputs "[Accuracy: 60.5% vs 97.0%]", "[Controversial Cases]", "[37.46% Disagreement]" at bottom.
+
+[PANEL 4] Forest Green panel labeled "Stage 4: Factor Impact Analysis". Contains: four factor icons "[Professional Dancers]", "[Age]", "[Industry]", "[Region]" at top, two analysis paths "[Judge Score Impact]" and "[Fan Vote Impact]" in middle, statistical chart "[Differential Impact Analysis]" at bottom.
+
+[PANEL 5 - RIGHT] Deep Purple panel labeled "Stage 5: New Voting System". Contains: machine learning icon "[ML System (LightGBM)]" at top, feature icon "[12-D Feature Vector]" in middle, three outputs "[97.99% Accuracy]", "[Fairness Analysis]", "[System Proposal]" at bottom.
+
+CONNECTIONS: Thick arrows (3pt, dark grey #2C3E50) flow left-to-right connecting each panel sequentially. Feedback loops (2pt dashed lines) connect Stage 5 back to Stage 2, Stage 4 back to Stage 2, and Stage 3 back to Stage 2. Cross-connections (1.5pt dotted lines) connect Stage 1 to Stage 4, and Stage 2 to Stage 5.
+
+Typography: Bold Sans-Serif font, main labels 24pt, sub-labels 18pt, metrics 20pt, text color #1A1A1A. All text labels are in English, positioned clearly within each panel.
+
+Overall composition: Balanced layout with clear visual hierarchy, professional academic appearance suitable for mathematical modeling competition paper.

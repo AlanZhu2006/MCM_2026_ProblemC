@@ -1,42 +1,27 @@
 \subsection{Data Loading and Cleaning}
 
-The raw data from \texttt{2026\_MCM\_Problem\_C\_Data.csv} required preprocessing to handle:
-\begin{itemize}
-    \item Missing values (N/A) for weeks not run in a season
-    \item Zero scores for eliminated contestants in subsequent weeks
-    \item Variable number of judges per week (usually 3, sometimes 4)
-    \item Decimal scores due to multiple dances or bonus points
-\end{itemize}
+The raw data required preprocessing to handle missing values (N/A for weeks not run), zero scores (eliminated contestants), and varying numbers of judges (typically 3, occasionally 4). Decimal scores arise from multiple dances, bonus points, or team performances.
 
 \subsection{Weekly Score Calculation}
 
-For each week, we calculated:
+For each week $w$ and contestant $i$, we compute:
 \begin{itemize}
-    \item \textbf{Total Judge Score}: Sum of all judge scores for each contestant
-    \item \textbf{Judge Rank}: Ranking based on total judge score (1 = best, N = worst)
-    \item \textbf{Judge Percent}: Percentage of total judge scores
+\item Total judge score: $S_i^{(w)} = \sum_{j=1}^{J^{(w)}} s_{i,j}^{(w)}$
+\item Judge rank: $R_{\text{judge}}^{(w)}(i)$ (descending order, rank 1 = highest)
+\item Judge percentage: $P_{\text{judge}}^{(w)}(i) = S_i^{(w)} / \sum_{k} S_k^{(w)}$
 \end{itemize}
-
-The preprocessing module (\texttt{preprocess\_dwts.py}) handles all these calculations automatically.
 
 \subsection{Season and Week Identification}
 
-We identified:
-\begin{itemize}
-    \item Total of 34 seasons
-    \item 299 elimination weeks across all seasons
-    \item Variable number of contestants per season (ranging from 6 to 16)
-    \item Variable number of weeks per season (ranging from 5 to 11)
-\end{itemize}
+We identified 34 seasons with 299 elimination weeks. Season identification uses the \texttt{season} column. Week identification extracts from the \texttt{results} column (e.g., "Eliminated Week 2") or infers from final placements.
 
-\subsection{Output}
+\subsection{Output and Data Quality}
 
-The preprocessing produces \texttt{2026\_MCM\_Problem\_C\_Data\_processed.csv}, which contains:
-\begin{itemize}
-    \item All original contestant information
-    \item Weekly judge scores and totals
-    \item Weekly rankings and percentages
-    \item Season and week identifiers
-\end{itemize}
+The preprocessing produces \texttt{2026\_MCM\_Problem\_C\_Data\_processed.csv} with computed metrics. Data quality checks verify rank sums and percentage unity, ensuring data integrity.
 
-This processed data serves as the foundation for all subsequent analyses.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{visualizations/overall_summary.png}
+\caption{Overall data summary showing distribution of contestants, seasons, and key statistics across all 34 seasons.}
+\label{fig:stage1}
+\end{figure}

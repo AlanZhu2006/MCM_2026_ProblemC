@@ -1,0 +1,291 @@
+High-fidelity scientific schematic diagram titled "Figure 1: The structure of our paper", technical vector illustration, clean white background, academic textbook style, ultra-high resolution 8K (7680×4320 pixels), strictly 2D flat design. Professional color coding: Azure Blue (#4A90E2) for data preprocessing, Slate Grey (#708090) for estimation, Coral Orange (#FF7F50) for comparison, Forest Green (#228B22) for analysis, Deep Purple (#6A5ACD) for ML system. Clean thin outlines, soft pastel fills, NO shadows, NO 3D effects, NOT hand-drawn. Sharp, crisp lines and text for maximum clarity.
+
+
+
+The diagram illustrates a pipeline for analyzing DWTS voting system with five main sections labeled (a) through (e).
+
+
+
+[Section (a) - Data Preprocessing - Azure Blue Block, Left Side]
+
+
+
+Top: "DWTS" logo, followed by "Raw Competition Data" showing "[34 Seasons, 299 Weeks]".
+
+
+
+Middle: Arrow to "Data Correction" with three blocks:
+
+- "[Missing Value Handling]"
+
+- "[Score Calculation]"
+
+- "[Data Validation]"
+
+
+
+Bottom: Two outputs:
+
+- "[Processed Dataset]" (arrow right)
+
+- "[Feature Matrix]" (arrow down to Section (e))
+
+
+
+[Section (e) - Contestant Attributes - Forest Green Block, Bottom Left]
+
+
+
+Four attribute boxes:
+
+- "[Age]"
+
+- "[Industry]"
+
+- "[Region]"
+
+- "[Professional Dancer]"
+
+
+
+Output arrow "[Contestant Attributes]" connects to Sections (b) and (d).
+
+
+
+[Section (b) - Task 1: Fan Vote Estimation - Slate Grey Block, Top Right]
+
+
+
+Three sub-sections:
+
+
+
+1. "Constraint Optimization"
+
+- Inputs: "[Processed Dataset]" and "[Elimination Results]"
+
+- "[Rank-based: R_judge + R_fan ≥ max]"
+
+- "[Percent-based: P_judge + P_fan ≤ min]"
+
+- "[Expected Vote Model: v̂ = α₀ + Σαⱼφⱼ]"
+
+- "[Objective: min Σw(v - v̂)²]"
+
+
+
+2. "Optimization Algorithm"
+
+- "[Multi-start SLSQP]" (8 initial guesses)
+
+  - Self-loop: "[Restart if Failed]"
+
+- "[Differential Evolution]" (fallback)
+
+- Output: "[Optimized Fan Votes]"
+
+
+
+3. "Validation"
+
+- "[Elimination Prediction]" → Badge: "[90.0% Accuracy]"
+
+- "[Monte Carlo Simulation]" (500 iterations) → "[Uncertainty Analysis]"
+
+
+
+Output: "[Fan Vote Estimates]" (arrow right to Section (c))
+
+
+
+Feedback: Curved arrow from "[90.0% Accuracy]" back to "[Expected Vote Model]".
+
+
+
+[Section (c) - Task 2: Voting Method Comparison - Coral Orange Block, Middle Right]
+
+
+
+Two parallel methods:
+
+
+
+Method 1: "[Rank-based Method]"
+
+- "[Judge Ranks + Fan Ranks]"
+
+- Badge: "[60.5% Accuracy]"
+
+
+
+Method 2: "[Percent-based Method]"
+
+- "[Judge Percentages + Fan Percentages]"
+
+- Badge: "[97.0% Accuracy]"
+
+
+
+Comparison:
+
+- "[Agreement: 62.54%]"
+
+- "[Disagreement: 37.46%]"
+
+
+
+Controversial Cases (4 icons):
+
+- "[Jerry Rice (S2)]"
+
+- "[Billy Ray Cyrus (S4)]"
+
+- "[Bristol Palin (S11)]"
+
+- "[Bobby Bones (S27)]"
+
+
+
+Output: "[Comparison Results]" (arrow right to Section (d))
+
+
+
+Feedback: Curved arrow from "[Controversial Cases]" back to Section (b).
+
+
+
+[Section (d) - Task 3: Factor Impact Analysis - Forest Green Block, Bottom Right]
+
+
+
+Factor Extraction (4 factors):
+
+- "[Professional Dancers]"
+
+- "[Age]"
+
+- "[Industry]"
+
+- "[Region]"
+
+
+
+Two Analysis Paths:
+
+- "[Judge Score Impact]": "[Pro Dancer: d=1.24, Age: r=-0.24, Industry: d=0.72, Region: d=0.31]"
+
+- "[Fan Vote Impact]": "[Pro Dancer: d=0.68, Age: r=-0.26, Industry: d=1.15, Region: d=0.58]"
+
+
+
+Output: "[Differential Impact Report]" (arrow right to Section (f))
+
+
+
+Feedback: Curved arrow back to Section (b).
+
+
+
+[Section (f) - Task 4: New Voting System - Deep Purple Block, Far Right]
+
+
+
+Feature Engineering:
+
+- Inputs: "[Fan Vote Estimates]", "[Contestant Attributes]", "[Differential Impact]"
+
+- "[12-D Feature Vector: x ∈ ℝ¹²]"
+
+
+
+Model Architecture:
+
+- "[LightGBM Gradient Boosting]"
+
+- "[Input: 12 features] → [Decision Trees] → [Output: P(eliminated | x)]"
+
+
+
+Training:
+
+- "[Time-series Cross-Validation]"
+
+- "[Loss: Cross-Entropy + L2 Regularization]"
+
+- Badges: "[Training: 99.65%]", "[CV: 99.56%]", "[Prediction: 97.99%]"
+
+
+
+Feature Importance:
+
+- Top: "[Fan Votes: 23.99%, Fan Relative: 15.52%, Fan Rank: 14.72%]"
+
+
+
+Output: "[System Proposal]"
+
+
+
+Feedback: Curved arrow from "[97.99% Accuracy]" back to Section (b).
+
+
+
+[CONNECTIONS]
+
+
+
+Main flow (thick arrows, 3pt):
+
+- (a) → (b) → (c) → (d) → (f)
+
+- (b) → (f) (direct)
+
+
+
+Cross-connections (thin arrows, 1.5pt):
+
+- (a) → (d)
+
+- (e) → (b), (d), (f)
+
+
+
+Feedback loops (curved dashed arrows, 2pt):
+
+- (f) → (b)
+
+- (d) → (b)
+
+- (c) → (b)
+
+- (b) internal self-loop
+
+
+
+[ADDITIONAL ELEMENTS]
+
+
+
+Title: "Figure 1: The structure of our paper" at top center, bold 36pt.
+
+
+
+Section labels: (a), (b), (c), (d), (e), (f) in bold 32pt at top-left of each section.
+
+
+
+Performance badges (rounded rectangles):
+
+- Section (b): "[90.0%]" (slate grey)
+
+- Section (c): "[97.0%]" (coral orange)
+
+- Section (f): "[97.99%]" (deep purple)
+
+
+
+Typography: Bold Sans-Serif (Roboto/Helvetica), title 36pt, section labels 32pt, sub-labels 22pt, algorithm names 20pt, metrics 24pt, text color #1A1A1A. All text crisp and readable at 8K resolution.
+
+
+
+Overall: Clean, organized layout with clear visual hierarchy. Professional academic style suitable for MCM/ICM competition paper. Balanced composition with adequate spacing

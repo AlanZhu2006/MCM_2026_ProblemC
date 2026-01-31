@@ -1,0 +1,337 @@
+High-fidelity scientific schematic diagram titled "Figure 1: The structure of our paper", technical vector illustration, clean white background, academic textbook style, 4K resolution, strictly 2D flat design. Professional color coding: Azure Blue (#4A90E2) for data preprocessing, Slate Grey (#708090) for estimation, Coral Orange (#FF7F50) for comparison, Forest Green (#228B22) for analysis, Deep Purple (#6A5ACD) for ML system. Clean thin outlines, soft pastel fills, NO shadows, NO 3D effects, NOT hand-drawn.
+
+The diagram illustrates a comprehensive pipeline for analyzing DWTS voting system, starting with data preprocessing, then proceeding through fan vote estimation, voting method comparison, factor impact analysis, and new system design.
+
+[Section (a) - Data Preprocessing - Azure Blue Block, Left Side]
+
+Top: "DWTS" logo icon box, followed by "Raw Competition Data" box showing "[34 Seasons, 299 Weeks, 299 Elimination Events]".
+
+Middle: Arrow flows from "Raw Competition Data" to "Data Correction" step.
+
+"Data Correction" step contains three processing blocks:
+- Block 1: "[Missing Value Handling]" with icon showing "[Median Imputation]", "[Time-series Interpolation]"
+- Block 2: "[Score Calculation]" with calculator icon showing "[Weekly Judge Scores]", "[Rank Calculation]", "[Percent Calculation]"
+- Block 3: "[Data Validation]" with checklist icon showing "[Outlier Detection]", "[Consistency Check]"
+
+Bottom: "Data Correction" yields two outputs:
+- Output 1: "[Processed Dataset]" (arrow pointing right)
+- Output 2: "[Feature Matrix]" (arrow pointing down to Section (e))
+
+[Section (e) - Contestant Attributes - Forest Green Block, Bottom Left]
+
+This section defines the attributes extracted for each contestant.
+
+Visual: Lightbulb icon and sticky note icon arranged horizontally.
+
+Components: Three attribute boxes arranged horizontally:
+- "[Age]" (normalized to [0,1])
+- "[Industry]" (label encoded)
+- "[Region]" (one-hot encoded)
+- "[Professional Dancer]" (60 dancers, historical stats encoded)
+- "[Historical Performance]" (EWMA: Exponentially Weighted Moving Average)
+
+Output: Arrow labeled "[Contestant Attributes]" connects upward to "Feature Engineering" in Section (b) and rightward to "Factor Extraction" in Section (d).
+
+[Section (b) - Task 1: Fan Vote Estimation Model & Uncertainty Analysis - Slate Grey Block, Top Right]
+
+This task is divided into three sub-sections with detailed processing:
+
+Sub-section 1: "Constraint-Based Optimization"
+- Inputs from left: "[Processed Dataset]" (from Section (a)) and "[Elimination Results]"
+- Three parallel processing paths:
+  Path 1 (Top): "[Rank-based Constraint]"
+    - Input: "[Judge Ranks]" + "[Fan Ranks]"
+    - Constraint: "[R_judge(i_e) + R_fan(i_e) ≥ R_judge(j) + R_fan(j) + ε]"
+    - Output: "[Rank Constraint Set]"
+  Path 2 (Middle): "[Percent-based Constraint]"
+    - Input: "[Judge Percentages]" + "[Fan Percentages]"
+    - Constraint: "[P_judge(i_e) + P_fan(i_e) ≤ P_judge(j) + P_fan(j) - ε]"
+    - Output: "[Percent Constraint Set]"
+  Path 3 (Bottom): "[Expected Vote Model]"
+    - Input: "[Feature Matrix]" (from Section (a)) + "[Contestant Attributes]" (from Section (e))
+    - Model: "[v̂_i = α₀ + Σαⱼφⱼ(s, H, A, I, P)]"
+    - Method: "[Least Squares Regression]"
+    - Output: "[Expected Votes]"
+- Convergence: All three paths feed into "[Objective Function]"
+  - Function: "[min Σw_i(v_i - v̂_i)²]"
+  - Weights: "[w_i ∝ 1/σ²]"
+
+Sub-section 2: "Optimization Algorithm"
+- Input from "[Objective Function]"
+- Two-stage optimization with feedback:
+  Stage 1: "[Multi-start SLSQP]"
+    - Icon showing "[8 Initial Guesses]", "[KKT Conditions]", "[Local Optimization]"
+    - Feedback loop: Curved arrow labeled "[Restart if Failed]" loops from "[Multi-start SLSQP]" back to itself
+    - Output: "[SLSQP Solution]" (if successful)
+  Stage 2: "[Differential Evolution]" (fallback, only if SLSQP fails)
+    - Condition: "[If n_contestants ≤ 12]"
+    - Icon showing "[Population-based]", "[Global Search]", "[Constraint Penalty: obj + 1e6·max(0,-const)²]"
+    - Output: "[DE Solution]"
+- Post-processing: "[Constraint Guarantee]" → "[Ensure Eliminated Worst]"
+- Final output: "[Optimized Fan Votes]"
+
+Sub-section 3: "Validation & Uncertainty Quantification"
+- Input from "[Optimized Fan Votes]"
+- Two parallel analysis paths:
+  Path 1: "[Elimination Prediction]"
+    - Method: "[Apply Voting Mechanism]"
+    - Output: "[Predicted Eliminations]"
+    - Comparison: "[vs. Actual Eliminations]"
+    - Badge: "[Accuracy: 90.0%]" (265/299 correct)
+  Path 2: "[Monte Carlo Simulation]"
+    - Iterations: "[500 Simulations]"
+    - Method: "[Bootstrap Sampling]", "[Perturbation Analysis]"
+    - Output: "[Uncertainty Distribution]"
+    - Analysis: "[Confidence Intervals]", "[Coefficient of Variation: ~12%]"
+- Final outputs:
+  - "[Fan Vote Estimates]" (arrow pointing right to Section (c))
+  - "[Uncertainty Analysis]" (arrow pointing down, feedback to optimization)
+
+Feedback loop: Curved arrow from "[Accuracy: 90.0%]" back to "[Expected Vote Model]" labeled "[Model Refinement]".
+
+[Section (c) - Task 2: Voting Method Comparison & Controversial Cases Analysis - Coral Orange Block, Middle Right]
+
+This task compares two voting methods with detailed sub-tasks:
+
+Sub-section 1: "Rank-based Method"
+- Input from "[Fan Vote Estimates]" (from Section (b))
+- Processing flow:
+  - "[Judge Ranks]" (descending order) + "[Fan Ranks]" (descending order)
+  - → "[Combined Rank = R_judge + R_fan]"
+  - → "[Elimination Prediction: max(Combined Rank)]"
+- Output badge: "[Accuracy: 60.5%]" (181/299 correct)
+
+Sub-section 2: "Percent-based Method"
+- Input from "[Fan Vote Estimates]" (from Section (b))
+- Processing flow:
+  - "[Judge Percentages = s_i / Σs_j]" + "[Fan Percentages = v_i / Σv_j]"
+  - → "[Combined Percentage = P_judge + P_fan]"
+  - → "[Elimination Prediction: min(Combined Percentage)]"
+- Output badge: "[Accuracy: 97.0%]" (290/299 correct)
+
+Sub-section 3: "Method Comparison"
+- Inputs from both methods: "[Rank Predictions]" and "[Percent Predictions]"
+- Comparison icon (two overlapping circles) showing:
+  - "[Agreement Rate: 62.54%]" (187/299 weeks)
+  - "[Disagreement: 37.46%]" (112/299 weeks)
+  - "[Fan Vote Favorability Analysis]"
+    - Rank method: "[Less favorable to fan votes]"
+    - Percent method: "[More favorable to fan votes]"
+- Statistical test: "[p < 0.001]" (significant difference)
+
+Sub-section 4: "Controversial Cases Analysis"
+- Input from "[Method Comparison]"
+- Four case icons arranged in a 2x2 grid:
+  - Case 1: "[Jerry Rice (Season 2)]"
+    - Details: "[5 weeks lowest judge score, reached final]"
+    - Rank method: "[Predicted: Eliminated]"
+    - Percent method: "[Predicted: Survived]"
+    - Actual: "[Survived]"
+  - Case 2: "[Billy Ray Cyrus (Season 4)]"
+    - Details: "[6 weeks lowest judge score, finished 5th]"
+    - Rank method: "[Predicted: Eliminated]"
+    - Percent method: "[Predicted: Survived]"
+    - Actual: "[Survived]"
+  - Case 3: "[Bristol Palin (Season 11)]"
+    - Details: "[12 times lowest judge score, finished 3rd]"
+    - Rank method: "[Predicted: Eliminated]"
+    - Percent method: "[Predicted: Survived]"
+    - Actual: "[Survived]"
+  - Case 4: "[Bobby Bones (Season 27)]"
+    - Details: "[Consistently low judge scores, won championship]"
+    - Rank method: "[Predicted: Eliminated]"
+    - Percent method: "[Predicted: Survived]"
+    - Actual: "[Survived]"
+- Analysis: "[Case-by-case Comparison]" → "[Method Impact Assessment]"
+- Conclusion: "[Percent method correctly predicted 3/4 controversial cases]"
+
+Final outputs:
+- "[Comparison Results]" (arrow pointing right to Section (d))
+- "[Controversial Cases Report]" (arrow pointing down, feedback to Section (b))
+- "[Method Recommendations]"
+
+Feedback loop: Curved arrow from "[Controversial Cases Report]" back to Section (b) "[Uncertainty Analysis]" labeled "[Case-specific Validation]".
+
+[Section (d) - Task 3: Factor Impact Analysis & Differential Effects - Forest Green Block, Bottom Right]
+
+This task analyzes multiple factors with detailed statistical methods:
+
+Sub-section 1: "Factor Extraction"
+- Inputs:
+  - "[Contestant Attributes]" (from Section (e))
+  - "[Processed Dataset]" (from Section (a), direct connection)
+  - "[Fan Vote Estimates]" (from Section (b))
+- Four factor icons arranged horizontally:
+  - Factor 1: "[Professional Dancers]"
+    - Details: "[60 unique dancers]", "[Historical win rate]", "[Average score impact]"
+  - Factor 2: "[Age]"
+    - Details: "[Normalized: (A_i - min) / (max - min)]", "[Range: 18-72 years]"
+  - Factor 3: "[Industry]"
+    - Details: "[Label Encoded]", "[Categories: Actor, Athlete, Musician, etc.]"
+  - Factor 4: "[Region]"
+    - Details: "[One-hot Encoded]", "[Countries: USA, UK, Canada, etc.]"
+
+Sub-section 2: "Impact Analysis"
+- Two parallel analysis paths:
+  Path 1 (Top): "[Judge Score Impact]"
+    - Methods: "[ANOVA]", "[Linear Regression]", "[Effect Size Calculation]"
+    - Results:
+      - "[Professional Dancers: d = 1.24]" (large effect)
+      - "[Age: r = -0.24]" (moderate negative)
+      - "[Industry: d = 0.72]" (moderate effect)
+      - "[Region: d = 0.31]" (small effect)
+    - Output: "[Judge Impact Matrix]"
+  Path 2 (Bottom): "[Fan Vote Impact]"
+    - Methods: "[ANOVA]", "[Linear Regression]", "[Effect Size Calculation]"
+    - Results:
+      - "[Professional Dancers: d = 0.68]" (moderate effect)
+      - "[Age: r = -0.26]" (moderate negative)
+      - "[Industry: d = 1.15]" (large effect)
+      - "[Region: d = 0.58]" (moderate effect)
+    - Output: "[Fan Impact Matrix]"
+
+Sub-section 3: "Differential Impact Analysis"
+- Inputs from both impact matrices: "[Judge Impact Matrix]" and "[Fan Impact Matrix]"
+- Processing: "[Impact Comparison]" → "[Differential Effects Calculation]"
+- Statistical chart showing differential effects:
+  - "[Pro Dancer: Judge d=1.24 > Fan d=0.68]" (stronger on judge scores)
+  - "[Age: Judge r=-0.24 ≈ Fan r=-0.26]" (similar impact)
+  - "[Industry: Judge d=0.72 < Fan d=1.15]" (stronger on fan votes)
+  - "[Region: Judge d=0.31 < Fan d=0.58]" (stronger on fan votes)
+- Interpretation: "[Factors affecting technical performance vs. popularity]"
+- Final output: "[Differential Impact Report]"
+
+Feedback loop: Curved arrow from "[Differential Impact Report]" back to Section (b) "[Expected Vote Model]" labeled "[Feature Enhancement]".
+
+[Section (f) - Task 4: New Voting System Design & ML Architecture - Deep Purple Block, Far Right]
+
+This task designs a machine learning-based system with detailed architecture:
+
+Sub-section 1: "Feature Engineering"
+- Inputs:
+  - "[Fan Vote Estimates]" (from Section (b))
+  - "[Contestant Attributes]" (from Section (e))
+  - "[Differential Impact Report]" (from Section (d))
+- Feature construction showing 12 features in a structured box:
+  - Basic Features (2):
+    - "[x₁: Normalized Judge Score = (s - min) / (max - min)]"
+    - "[x₂: Normalized Fan Vote = (v - min) / (max - min)]"
+  - Rank Features (2):
+    - "[x₃: Normalized Judge Rank = (R_judge - 1) / (n - 1)]"
+    - "[x₄: Normalized Fan Rank = (R_fan - 1) / (n - 1)]"
+  - Percent Features (2):
+    - "[x₅: Judge Percentage = s / Σs]"
+    - "[x₆: Fan Percentage = v / Σv]"
+  - Relative Features (2):
+    - "[x₇: Judge Relative = (s - s̄) / σ_s]"
+    - "[x₈: Fan Relative = (v - v̄) / σ_v]"
+  - Factor Features (4):
+    - "[x₉: Normalized Age]"
+    - "[x₁₀: Industry (encoded)]"
+    - "[x₁₁: Professional Dancer (encoded)]"
+    - "[x₁₂: Region (encoded)]"
+- Output: "[12-D Feature Vector: x ∈ ℝ¹²]"
+
+Sub-section 2: "Model Architecture (LightGBM)"
+- Input from "[12-D Feature Vector]"
+- Visual representation of LightGBM gradient boosting:
+  - "[Input Layer: 12 features]"
+  - "[Hidden Layers: Decision Trees]" with detailed structure:
+    - "[Gradient Boosting]", "[Leaf-wise Growth]", "[Max Depth: 7]"
+    - "[Feature Subsampling: 0.8]", "[Data Subsampling: 0.8]"
+    - "[L2 Regularization: λ = 0.1]", "[Min Child Samples: 20]"
+  - "[Output Layer: Elimination Probability P(eliminated | x)]"
+- Model equation in a box: "[P(eliminated_i | x_i) = f(x_i; θ)]"
+- Decision rule: "[i_eliminated = argmax P(eliminated_i | x_i)]"
+
+Sub-section 3: "Training Process"
+- Input from "[12-D Feature Vector]"
+- Training flow with detailed steps:
+  - "[Time-series Cross-Validation]" → "[Leave-one-season-out]"
+  - "[Train/Val Split: 80/20]"
+  - "[Loss Function: Cross-Entropy]"
+    - Formula: "[L(θ) = -1/N Σ[y_n log(f(x_n)) + (1-y_n)log(1-f(x_n))] + λR(θ)]"
+  - "[L2 Regularization: R(θ) = Σw²]"
+  - "[Optimization: Gradient Descent]"
+  - "[Early Stopping: patience=10]"
+- Training metrics badges arranged vertically:
+  - "[Training Accuracy: 99.65%]"
+  - "[Cross-Validation Accuracy: 99.56%]"
+  - "[Prediction Accuracy: 97.99%]"
+  - "[Overfitting Risk: Low (gap: 0.09%)]"
+
+Sub-section 4: "Feature Importance Analysis"
+- Input from trained model
+- Importance chart (horizontal bar chart) showing top features:
+  - "[Fan Votes Normalized: 23.99%]" (longest bar)
+  - "[Fan Relative: 15.52%]"
+  - "[Fan Rank Normalized: 14.72%]"
+  - "[Judge Percent: 10.89%]"
+  - "[Fan Percent: 8.47%]"
+  - "[Others: 26.41%]"
+- Interpretation: "[Fan-related features: 62.7%, Judge-related: 30.4%]"
+
+Sub-section 5: "System Evaluation & Proposal"
+- Inputs from model, importance, and comparison results
+- Evaluation metrics in three boxes:
+  - Box 1: "[Accuracy: 97.99%]" badge (293/299 correct)
+  - Box 2: "[Fairness Analysis]"
+    - Details: "[Considers age, pro dancer, industry, region]", "[Learned weights vs. fixed splits]"
+  - Box 3: "[Excitement Analysis]"
+    - Details: "[High accuracy reduces controversy]", "[Maintains competitive intensity]"
+- Comparison with baseline:
+  - "[Traditional System: 88.96%]"
+  - "[New ML System: 97.99%]"
+  - "[Improvement: +9.03%]"
+- Final output: "[System Proposal]" with recommendations
+
+Feedback loops:
+1. Curved arrow from "[Accuracy: 97.99%]" back to Section (b) "[Accuracy: 90.0%]" labeled "[Validation Comparison]"
+2. Curved arrow from "[Feature Importance]" back to Section (b) "[Feature Engineering]" labeled "[Feature Selection]"
+
+[CONNECTIONS AND DATA FLOW]
+
+Main forward flow (thick arrows, 3pt, dark grey #2C3E50):
+- Section (a) "[Processed Dataset]" → Section (b) "[Constraint-Based Optimization]"
+- Section (b) "[Fan Vote Estimates]" → Section (c) "[Rank-based Method]" and "[Percent-based Method]"
+- Section (c) "[Comparison Results]" → Section (d) "[Factor Extraction]"
+- Section (d) "[Differential Impact Report]" → Section (f) "[Feature Engineering]"
+- Section (b) "[Fan Vote Estimates]" → Section (f) "[Feature Engineering]"
+
+Cross-connections (thin arrows, 1.5pt dotted lines):
+- Section (a) "[Processed Dataset]" → Section (d) "[Factor Extraction]" (bypassing stages b-c, labeled "[Direct Factor Analysis]")
+- Section (e) "[Contestant Attributes]" → Section (b) "[Expected Vote Model]" (upward arrow)
+- Section (e) "[Contestant Attributes]" → Section (d) "[Factor Extraction]" (rightward arrow)
+- Section (e) "[Contestant Attributes]" → Section (f) "[Feature Engineering]" (diagonal arrow)
+
+Feedback loops (curved arrows, 2pt dashed lines, different colors):
+- Section (f) "[Accuracy: 97.99%]" → Section (b) "[Accuracy: 90.0%]" (purple dashed line, labeled "[Validation Comparison]")
+- Section (d) "[Differential Impact Report]" → Section (b) "[Expected Vote Model]" (green dashed line, labeled "[Feature Enhancement]")
+- Section (c) "[Controversial Cases Report]" → Section (b) "[Uncertainty Analysis]" (orange dashed line, labeled "[Case Validation]")
+- Section (f) "[Feature Importance]" → Section (b) "[Feature Engineering]" (purple dashed line, labeled "[Feature Selection]")
+- Section (b) "[Multi-start SLSQP]" → Section (b) "[Multi-start SLSQP]" (grey dashed line, self-loop, labeled "[Restart 1-8]")
+
+[ADDITIONAL ELEMENTS]
+
+Title: "Figure 1: The structure of our paper" at the top center, bold, 32pt.
+
+Performance metrics badges (small rounded rectangles with colored backgrounds, positioned above relevant sections):
+- Above Section (b): "[90.0% Accuracy]" (slate grey background)
+- Above Section (c): "[97.0% Best Method]" (coral orange background)
+- Above Section (f): "[97.99% Final Accuracy]" (deep purple background)
+
+Data flow indicators:
+- Small arrow icons on all connection lines indicating direction
+- Small data packet icons on main flow lines showing data type (e.g., "[Dataset]", "[Estimates]", "[Attributes]")
+- Number labels on feedback loops (e.g., "[Iteration 1-8]" on SLSQP loop, "[500 Simulations]" on Monte Carlo)
+
+Mathematical notation (in small boxes near relevant sections):
+- Near Section (b): "[min Σw_i(v_i - v̂_i)²]" in a small box
+- Near Section (f): "[P(eliminated | x) = f(x; θ)]" in a small box
+- Near Section (f): "[L(θ) = -1/N Σ[y_n log(f(x_n)) + (1-y_n)log(1-f(x_n))] + λR(θ)]" in a small box
+
+Section labels: Each main section clearly labeled with (a), (b), (c), (d), (e), (f) in large bold letters, positioned at the top-left of each section block.
+
+Typography: Bold Sans-Serif font (Roboto or Helvetica), title 32pt, main section labels (a)-(f) 28pt, sub-section labels 20pt, algorithm names 18pt, metrics 22pt, mathematical notation 16pt, text color #1A1A1A.
+
+Overall composition: Complex but organized layout with clear visual hierarchy, professional academic appearance suitable for top-tier mathematical modeling competition paper (MCM/ICM). All sections clearly labeled (a) through (f), with detailed sub-tasks, specific algorithm names, and mathematical formulations visible. Multiple feedback loops and cross-connections create a sophisticated data flow diagram similar to high-quality research papers. The diagram should tell a clear story of the research pipeline from raw data through preprocessing, estimation, comparison, analysis, to final system design.
