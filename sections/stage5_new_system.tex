@@ -1,8 +1,8 @@
-\subsection{System Design}
+\subsection{Proposed New Voting System}
 
-\subsubsection{Conceptual Framework}
+To address the question "Propose another system using fan votes and judge scores each week that you believe is more 'fair' (or 'better' in some other way such as making the show more exciting for the fans). Provide support for why your approach should be adopted by the show producers.", we propose a machine learning-based voting system that automatically learns optimal combination strategies from historical data, simultaneously considering multiple factors (age, professional dancer, industry, region) that influence elimination outcomes. The system adapts to different season characteristics and learns patterns that may not be captured by fixed mathematical methods.
 
-We propose a machine learning-based voting system that automatically learns optimal combination strategies from historical data, simultaneously considering multiple factors (age, professional dancer, industry, region) that influence elimination outcomes. The system adapts to different season characteristics and learns patterns that may not be captured by fixed mathematical methods.
+\subsubsection{System Design}
 
 \subsubsection{Feature Space Construction}
 
@@ -19,19 +19,21 @@ where $\boldsymbol{\theta}$ denotes the model parameters. The decision rule sele
 
 Training employs time-series cross-validation to respect temporal ordering, with leave-one-season-out validation ensuring robust performance estimation.
 
-\subsection{Theoretical Analysis}
+\subsection{Why This System is More "Fair" and "Better"}
 
 \subsubsection{Fairness Properties}
 
-The machine learning system promotes fairness by explicitly encoding fairness-relevant factors and learning optimal weights rather than imposing fixed splits. Feature importance analysis shows age accounts for 1.41\% and industry for 5.44\% of total importance, indicating balanced consideration without dominance.
+The machine learning system promotes fairness by explicitly encoding fairness-relevant factors and learning optimal weights rather than imposing fixed splits. Feature importance analysis shows age accounts for 1.41\% and industry for 5.44\% of total importance, indicating balanced consideration without dominance. The system automatically accounts for factors beyond contestants' control (professional dancer assignment, age, industry background) by learning appropriate weights from historical data, reducing inherent advantages and disadvantages that may arise from these factors.
 
-\subsubsection{Excitement Properties}
+\subsubsection{Excitement Properties: Making the Show More Exciting for Fans}
 
-The system achieves 97.99\% prediction accuracy (versus 88.96\% for traditional systems), reducing controversy while maintaining competitive intensity through continued emphasis on fan votes (62.7\% total importance).
+The system achieves 97.99\% prediction accuracy (versus 88.96\% for traditional systems), reducing controversy while maintaining competitive intensity through continued emphasis on fan votes (62.7\% total importance). By preserving strong fan vote influence, the system maintains audience engagement and excitement. The high accuracy reduces controversial outcomes that may frustrate viewers, while the continued emphasis on fan preferences ensures that popular contestants can still succeed, maintaining the drama and unpredictability that make the show entertaining.
 
-\subsection{Historical Data Validation}
+\subsection{Supporting Evidence: Why This Approach Should Be Adopted}
 
-Using time-series cross-validation, the model achieves training accuracy of 99.65\%, cross-validation accuracy of 99.56\%, and prediction accuracy of 97.99\% on all 299 elimination weeks. The small training-validation gap (0.09\%) indicates minimal overfitting.
+\subsubsection{Superior Accuracy}
+
+Using time-series cross-validation, the model achieves training accuracy of 99.65\%, cross-validation accuracy of 99.56\%, and prediction accuracy of 97.99\% on all 299 elimination weeks. The small training-validation gap (0.09\%) indicates minimal overfitting. This represents a 9.03 percentage point improvement over traditional methods (88.96\% accuracy), demonstrating substantial practical benefit.
 
 \begin{table}[H]
 \centering
@@ -47,7 +49,17 @@ New ML System & 97.99\% & 293/299 & +9.03\% \\
 \label{tab:system_comparison}
 \end{table}
 
-Feature importance analysis reveals that fan-related features account for 62.7\% of total importance, while judge-related features account for 30.4\%. Top features include fan votes normalized (23.99\%), fan relative (15.52\%), fan rank normalized (14.72\%), judge percent (10.89\%), and fan percent (8.47\%).
+\subsubsection{Balanced Consideration of Multiple Factors}
+
+Feature importance analysis reveals that fan-related features account for 62.7\% of total importance, while judge-related features account for 30.4\%. Top features include fan votes normalized (23.99\%), fan relative (15.52\%), fan rank normalized (14.72\%), judge percent (10.89\%), and fan percent (8.47\%). This balanced weighting ensures that both expert judgment and fan preferences are appropriately considered, with fan votes receiving greater emphasis to maintain audience engagement.
+
+\subsubsection{Automatic Adaptation to Different Scenarios}
+
+The machine learning system automatically adapts to different season characteristics, learning optimal weights for various factors without requiring manual specification. This adaptability ensures that the system remains effective across different seasons with varying contestant compositions, judge panels, and audience demographics.
+
+\subsubsection{Reduced Controversy}
+
+The system's high accuracy (97.99\%) significantly reduces controversial outcomes compared to traditional methods. By learning from historical data, the system identifies patterns that minimize cases where popular contestants are eliminated despite strong fan support, or where technically superior contestants are eliminated due to low popularity.
 
 \subsection{Implementation Recommendations}
 
