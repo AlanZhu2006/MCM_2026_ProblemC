@@ -24,10 +24,9 @@ C_MCM_C/
 │   ├── run_stage2_fan_vote_estimation.py        # Stage 2 运行脚本
 │   ├── run_stage3_comparison.py                  # Stage 3 运行脚本
 │   ├── run_stage4_factor_analysis.py             # Stage 4 运行脚本
-│   ├── run_stage5_new_system.py                  # Stage 5: 公平性调整系统
-│   ├── run_stage5_ml_system.py                   # Stage 5: ML系统（单个模型）
-│   ├── run_stage5_ml_auto.py                     # Stage 5: ML系统（自动测试）
-│   └── run_stage5_ml_robust.py                   # Stage 5: ML系统（防过拟合）
+│   ├── run_stage5_ml_auto.py                     # Stage 5: ML系统（自动测试所有模型）
+│   ├── run_stage5_ml_robust.py                   # Stage 5: ML系统（防过拟合版本）
+│   └── analyze_stage5_model.py                   # Stage 5: 模型深度分析工具
 │
 ├── 指南文档
 │   ├── README.md                                  # 项目总体说明
@@ -57,8 +56,8 @@ C_MCM_C/
 │   │   └── region_impact.csv                      # 地区影响
 │   │
 │   └── Stage 5 输出
-│       ├── new_voting_system_results.csv          # 新系统结果
-│       └── new_system_comparison.json             # 新系统比较
+│       ├── stage5_model_analysis_<model>.txt      # 模型深度分析报告
+│       └── stage5_model_analysis_<model>.json     # 模型分析数据
 │
 ├── 配置文件
 │   ├── requirements.txt                           # Python依赖包

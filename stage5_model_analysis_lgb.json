@@ -1,0 +1,68 @@
+{
+  "feature_importance": {
+    "judge_score_normalized": 41,
+    "fan_votes_normalized": 119,
+    "judge_rank_normalized": 27,
+    "fan_rank_normalized": 73,
+    "judge_percent": 54,
+    "fan_percent": 42,
+    "age_normalized": 7,
+    "pro_dancer_encoded": 0,
+    "industry_encoded": 27,
+    "region_encoded": 0,
+    "judge_relative": 29,
+    "fan_relative": 77
+  },
+  "feature_contribution": {
+    "judge_score_normalized": 8.266129032258064,
+    "fan_votes_normalized": 23.991935483870968,
+    "judge_rank_normalized": 5.443548387096774,
+    "fan_rank_normalized": 14.717741935483872,
+    "judge_percent": 10.887096774193548,
+    "fan_percent": 8.46774193548387,
+    "age_normalized": 1.411290322580645,
+    "pro_dancer_encoded": 0.0,
+    "industry_encoded": 5.443548387096774,
+    "region_encoded": 0.0,
+    "judge_relative": 5.846774193548387,
+    "fan_relative": 15.524193548387096
+  },
+  "category_importance": {
+    "基础特征（评委+粉丝）": 160,
+    "排名特征（评委+粉丝）": 100,
+    "百分比特征（评委+粉丝）": 96,
+    "相对特征（评委+粉丝）": 106,
+    "年龄特征": 7,
+    "专业舞者特征": 0,
+    "行业特征": 27,
+    "地区特征": 0
+  },
+  "weights_info": {},
+  "rules_info": {
+    "type": "tree_importance",
+    "top_features": [
+      {
+        "feature": "fan_votes_normalized",
+        "importance": 119.0
+      },
+      {
+        "feature": "fan_relative",
+        "importance": 77.0
+      },
+      {
+        "feature": "fan_rank_normalized",
+        "importance": 73.0
+      },
+      {
+        "feature": "judge_percent",
+        "importance": 54.0
+      },
+      {
+        "feature": "fan_percent",
+        "importance": 42.0
+      }
+    ]
+  },
+  "fan_total_importance": 311.0,
+  "judge_total_importance": 151.0
+}

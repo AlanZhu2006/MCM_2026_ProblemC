@@ -198,58 +198,27 @@
 
 ### 方法1：使用Python脚本（推荐）
 
-**系统1：公平性调整系统**
-```bash
-python scripts/run_stage5_new_system.py
-```
-
-**系统2：ML投票系统（单个模型）**
-```bash
-python scripts/run_stage5_ml_system.py
-# 然后选择模型类型（1-6）
-```
-
-**系统2：ML投票系统（自动测试所有模型）**
+**ML投票系统（自动测试所有模型）**
 ```bash
 python scripts/run_stage5_ml_auto.py
 # 自动测试所有模型并生成比较报告
 ```
 
-**系统2：ML投票系统（防过拟合版本）**
+**ML投票系统（防过拟合版本）**
 ```bash
 python scripts/run_stage5_ml_robust.py
 # 使用时间序列交叉验证，减少过拟合
 ```
 
-### 方法2：在Python代码中使用
-
-**系统1：公平性调整系统**
-```python
-import pandas as pd
-from new_voting_system_designer import FairnessAdjustedVotingSystem
-
-# 加载数据
-estimates_df = pd.read_csv('fan_vote_estimates.csv')
-processed_df = pd.read_csv('2026_MCM_Problem_C_Data_processed.csv')
-
-# 创建新投票系统
-new_system = FairnessAdjustedVotingSystem(
-    estimates_df=estimates_df,
-    processed_df=processed_df,
-    factor_analysis_path='factor_impact_analysis.json'
-)
-
-# 应用新系统到所有周次
-new_system_results = new_system.apply_to_all_weeks()
-
-# 比较新系统与原始系统
-comparison = new_system.compare_with_original_systems(new_system_results)
-
-print(f"新系统准确率: {comparison['new_system_accuracy']:.2%}")
-print(f"准确率提升: {comparison['accuracy_improvement']:.2%}")
+**模型深度分析工具**
+```bash
+python scripts/analyze_stage5_model.py
+# 分析模型的内部机制：特征重要性、权重、决策规则等
 ```
 
-**系统2：ML投票系统**
+### 方法2：在Python代码中使用
+
+**ML投票系统**
 ```python
 import pandas as pd
 from ml_voting_system import MLVotingSystem
@@ -403,22 +372,22 @@ new_system.adjustment_strength = 0.3  # 调整强度（0-1）
 
 ### 运行脚本
 
-**`scripts/run_stage5_new_system.py`**：
-- 运行系统1（公平性调整系统）
-- 生成理论分析报告和综合报告
-
-**`scripts/run_stage5_ml_system.py`**：
-- 运行系统2（单个ML模型）
-- 交互式选择模型类型
-
 **`scripts/run_stage5_ml_auto.py`**：
-- 自动测试所有ML模型
-- 创建集成模型
-- 生成比较报告
+- 自动测试所有ML模型（MLP、RF、XGB、LGB、GBDT、SGD）
+- 创建集成模型（Voting Classifier）
+- 生成模型比较报告
 
 **`scripts/run_stage5_ml_robust.py`**：
 - 运行防过拟合版本的ML系统
-- 使用时间序列交叉验证
+- 使用时间序列交叉验证（按季次分割）
+- 增加正则化，降低模型复杂度
+- 生成过拟合风险分析报告
+
+**`scripts/analyze_stage5_model.py`**：
+- 深度分析模型的内部机制
+- 提取特征重要性、模型权重、决策规则
+- 解释高准确率的原因
+- 生成详细的算法分析报告
 
 ## 系统优势总结
 
@@ -493,13 +462,78 @@ new_system.adjustment_strength = 0.3  # 调整强度（0-1）
 3. **计算时间**：处理所有周次可能需要一些时间，请耐心等待
 4. **结果验证**：建议检查 `new_system_comparison.json` 中的准确率提升情况
 
+## 算法深度分析
+
+### 分析模型的内部机制
+
+如果你想了解ML投票系统的具体算法、权重、特征重要性等细节，可以使用专门的分析脚本：
+
+```bash
+python scripts/analyze_stage5_model.py
+```
+
+这个脚本会：
+
+1. **特征重要性分析**：
+   - 显示所有特征的重要性排序
+   - 按特征类别统计重要性
+   - 分析粉丝投票 vs 评委评分的相对重要性
+
+2. **模型权重分析**：
+   - 对于线性模型（SGD）：提取系数和截距
+   - 对于MLP：分析第一层权重
+   - 对于树模型：显示特征重要性
+
+3. **决策规则分析**：
+   - 识别最重要的决策特征
+   - 分析模型的决策逻辑
+
+4. **高准确率原因分析**：
+   - 解释为什么准确率这么高
+   - 分析哪些特征贡献最大
+   - 说明模型的优势
+
+**输出文件**：
+- `stage5_model_analysis_<model_type>.txt` - 详细分析报告
+- `stage5_model_analysis_<model_type>.json` - 分析数据（JSON格式）
+
+**示例输出**：
+```
+阶段5：ML投票系统算法深度分析报告
+======================================================================
+
+一、模型概述
+模型类型: LGB
+训练准确率: 99.65%
+交叉验证准确率: 99.56%
+预测准确率: 97.99%
+
+二、特征重要性分析
+1. fan_votes_normalized: 0.119000 (19.83%)
+2. fan_relative: 0.077000 (12.83%)
+3. fan_rank_normalized: 0.073000 (12.17%)
+4. judge_percent: 0.054000 (9.00%)
+5. fan_percent: 0.042000 (7.00%)
+...
+
+三、关键发现
+1. 最重要的特征类别: 基础特征（评委+粉丝）
+2. 粉丝投票相关特征的总重要性: 0.311000 (51.83%)
+3. 评委评分相关特征的总重要性: 0.289000 (48.17%)
+```
+
 ## 下一步
 
 完成阶段5后，可以：
 
-1. 分析新系统的具体改进案例
-2. 调整系统参数，优化性能
-3. 准备阶段6：报告撰写
+1. **分析模型的内部机制**：
+   ```bash
+   python scripts/analyze_stage5_model.py
+   ```
+
+2. 分析新系统的具体改进案例
+3. 调整系统参数，优化性能
+4. 准备阶段6：报告撰写
 
 ## 参考资料
 
