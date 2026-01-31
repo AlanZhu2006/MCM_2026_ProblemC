@@ -33,6 +33,83 @@ where:
 
 where $P_{\text{judge}}(i)$ and $P_{\text{fan}}(i)$ are the judge and fan percentages, respectively.
 
+\subsubsection{Mathematical Formulation}
+
+\textbf{Problem Definition}: Given judge scores $\mathbf{s} = [s_1, s_2, \ldots, s_n]$ and the eliminated contestant $i_e$, find fan votes $\mathbf{v} = [v_1, v_2, \ldots, v_n]$ such that the elimination result is consistent.
+
+\textbf{For Rank-Based Method} (Seasons 1-2, 28-34):
+\begin{align}
+\min_{\mathbf{v}} \quad & f(\mathbf{v}, \mathbf{s}) = \sum_{i=1}^{n} w_i \left( v_i - \hat{v}_i(\mathbf{s}) \right)^2 \\
+\text{s.t.} \quad & R_{\text{judge}}(i_e) + R_{\text{fan}}(i_e) \geq R_{\text{judge}}(j) + R_{\text{fan}}(j) + \epsilon \quad \forall j \neq i_e \\
+& \sum_{i=1}^{n} v_i > 0 \\
+& v_i \geq 0 \quad \forall i \in \{1, 2, \ldots, n\}
+\end{align}
+
+where:
+\begin{itemize}
+    \item $\hat{v}_i(\mathbf{s})$ is the expected fan vote for contestant $i$ based on features
+    \item $w_i$ are weights based on feature importance
+    \item $\epsilon > 0$ is a margin to ensure strict inequality (default: 0.1)
+    \item $R_{\text{fan}}(i) = \text{rank}(v_i)$ where rank is computed in descending order
+\end{itemize}
+
+\textbf{For Percent-Based Method} (Seasons 3-27):
+\begin{align}
+\min_{\mathbf{v}} \quad & f(\mathbf{v}, \mathbf{s}) = \sum_{i=1}^{n} w_i \left( v_i - \hat{v}_i(\mathbf{s}) \right)^2 \\
+\text{s.t.} \quad & P_{\text{judge}}(i_e) + P_{\text{fan}}(i_e) \leq P_{\text{judge}}(j) + P_{\text{fan}}(j) - \epsilon \quad \forall j \neq i_e \\
+& \sum_{i=1}^{n} v_i > 0 \\
+& v_i \geq 0 \quad \forall i \in \{1, 2, \ldots, n\}
+\end{align}
+
+where:
+\begin{itemize}
+    \item $P_{\text{judge}}(i) = \frac{s_i}{\sum_{j=1}^{n} s_j}$ is the judge percentage
+    \item $P_{\text{fan}}(i) = \frac{v_i}{\sum_{j=1}^{n} v_j}$ is the fan percentage
+    \item $\epsilon > 0$ is a margin (default: 0.1)
+\end{itemize}
+
+\subsubsection{Expected Fan Vote Function}
+
+The expected fan vote $\hat{v}_i(\mathbf{s})$ is computed as:
+\begin{equation}
+\hat{v}_i(\mathbf{s}) = \alpha_0 + \alpha_1 s_i + \alpha_2 H_i + \alpha_3 A_i + \alpha_4 I_i + \alpha_5 P_i
+\end{equation}
+
+where:
+\begin{itemize}
+    \item $s_i$ = judge score for contestant $i$
+    \item $H_i$ = historical performance (average of previous weeks)
+    \item $A_i$ = age factor (normalized)
+    \item $I_i$ = industry factor (encoded)
+    \item $P_i$ = professional dancer factor (encoded)
+    \item $\alpha_j$ are coefficients learned from data
+\end{itemize}
+
+\subsubsection{Optimization Algorithm Properties}
+
+\textbf{Convexity}: The objective function $f(\mathbf{v}, \mathbf{s})$ is convex in $\mathbf{v}$ (sum of squared terms), but the constraints are non-convex due to ranking operations.
+
+\textbf{Feasibility}: The problem is always feasible because:
+\begin{itemize}
+    \item We can always find $\mathbf{v}$ such that the eliminated contestant has the worst combined score
+    \item The non-negativity constraints are always satisfiable
+\end{itemize}
+
+\textbf{Solution Uniqueness}: The problem may have multiple solutions (inverse problem), so we use:
+\begin{itemize}
+    \item Multi-start optimization (8 different initial guesses)
+    \item Selection of the solution closest to expected values
+\end{itemize}
+
+\subsubsection{Convergence Analysis}
+
+The SLSQP algorithm converges to a local minimum. We ensure global optimality by:
+\begin{enumerate}
+    \item Running multiple optimizations from different starting points
+    \item Using differential evolution as a global optimizer if SLSQP fails
+    \item Post-processing to ensure constraint satisfaction
+\end{enumerate}
+
 \subsubsection{Objective Function}
 
 The objective function $f(\mathbf{v}, \mathbf{s})$ minimizes the deviation from expected fan votes based on:
@@ -103,6 +180,77 @@ Key findings:
     \item Early weeks show higher uncertainty due to less historical data
     \item Uncertainty decreases as more information becomes available
 \end{itemize}
+
+\subsubsection{Uncertainty Source Analysis}
+
+We analyzed the sources of uncertainty in our estimates:
+
+\begin{itemize}
+    \item \textbf{Week-to-Week Variation}: Uncertainty varies significantly across different weeks, with some weeks showing standard deviations 2-3 times higher than others
+    \item \textbf{Seasonal Patterns}: Certain seasons (e.g., early seasons with fewer contestants) show higher average uncertainty
+    \item \textbf{Contestant-Specific}: Uncertainty depends on the contestant's characteristics, with extreme performers (very high or very low judge scores) showing higher uncertainty
+    \item \textbf{Data Quality}: Weeks with missing data or extreme values show higher uncertainty, indicating the importance of data completeness
+\end{itemize}
+
+\subsubsection{Uncertainty Visualization}
+
+Comprehensive uncertainty analysis is shown in Figure~\ref{fig:uncertainty}, including:
+\begin{itemize}
+    \item Distribution of uncertainty (standard deviation)
+    \item Confidence interval width distribution
+    \item Uncertainty trends over time
+    \item Seasonal comparison of uncertainty
+    \item Relationship between uncertainty and fan vote magnitude
+    \item Coefficient of variation distribution
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{visualizations/uncertainty_analysis.png}
+\caption{Comprehensive Uncertainty Analysis}
+\label{fig:uncertainty}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{visualizations/confidence_intervals.png}
+\caption{95\% Confidence Intervals for Fan Vote Estimates (Sample Weeks)}
+\label{fig:confidence_intervals}
+\end{figure}
+
+\subsection{Sensitivity Analysis}
+
+\subsubsection{Parameter Sensitivity}
+
+We tested different parameter configurations to assess model robustness:
+\begin{itemize}
+    \item Number of optimization restarts: 4, 8, 12
+    \item Constraint margins: 0.05, 0.1, 0.15, 0.2
+    \item Results show the model is robust to parameter variations, with accuracy remaining above 88\% across all tested configurations
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{visualizations/parameter_sensitivity.png}
+\caption{Parameter Sensitivity Analysis}
+\label{fig:parameter_sensitivity}
+\end{figure}
+
+\subsubsection{Data Sensitivity}
+
+We analyzed the impact of:
+\begin{itemize}
+    \item Missing data: Tested with 0\%, 10\%, 20\%, 30\% missing data
+    \item Outliers: Tested with 0\%, 5\%, 10\%, 15\% outliers (10x multiplier)
+    \item Results show the model is relatively robust to data quality issues, with mean estimates remaining stable even with 20\% missing data
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{visualizations/data_sensitivity.png}
+\caption{Data Sensitivity Analysis}
+\label{fig:data_sensitivity}
+\end{figure}
 
 \subsection{Key Features of the Model}
 

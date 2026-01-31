@@ -26,7 +26,18 @@ C_MCM_C/
 │   ├── run_stage4_factor_analysis.py             # Stage 4 运行脚本
 │   ├── run_stage5_ml_auto.py                     # Stage 5: ML系统（自动测试所有模型）
 │   ├── run_stage5_ml_robust.py                   # Stage 5: ML系统（防过拟合版本）
-│   └── analyze_stage5_model.py                   # Stage 5: 模型深度分析工具
+│   ├── analyze_stage5_model.py                   # Stage 5: 模型深度分析工具
+│   ├── generate_visualizations.py                # 生成所有可视化图表
+│   └── optimization/                             # 已完成的优化脚本（归档）
+│       ├── quality_checker.py                    # 质量检查
+│       ├── enhance_uncertainty_analysis.py       # 增强不确定性分析
+│       ├── sensitivity_analysis.py                # 敏感性分析
+│       ├── enhance_controversial_cases.py         # 争议案例深度分析
+│       ├── enhance_math_formulas.py               # 数学公式增强
+│       ├── additional_analysis.py                 # 额外分析
+│       ├── optimize_visualizations.py             # 优化可视化
+│       ├── integrate_optimizations.py             # 整合优化结果
+│       └── run_all_optimizations.py               # 运行所有优化脚本
 │
 ├── 指南文档
 │   ├── README.md                                  # 项目总体说明

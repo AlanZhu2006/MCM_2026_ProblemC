@@ -1,0 +1,149 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================
+% 专业数学建模报告模板
+% 参考优秀报告格式
+% ============================================
+
+% 基础包
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+% 图表和表格
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{adjustbox}
+
+% 页面和布局
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% 超链接和颜色
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=green,
+    pdfborder={0 0 0}
+}
+
+% 列表和枚举
+\usepackage{enumitem}
+\setlist{nosep}
+
+% 代码和算法
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny
+}
+
+% 其他
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{2026 MCM Problem C: Data With The Stars}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% 标题格式
+\titleformat{\section}
+{\Large\bfseries}
+{\thesection}{1em}{}
+[\titlerule]
+
+\titleformat{\subsection}
+{\large\bfseries}
+{\thesubsection}{1em}{}
+
+% 数学环境
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{proposition}{Proposition}[section]
+
+% 标题信息
+\title{\textbf{2026 MCM Problem C: Data With The Stars}\\
+\large Complete Solution Report}
+\author{Team Control Number: 2603215}
+\date{\today}
+
+\begin{document}
+
+% 摘要表（单独一页）
+\input{sections/summary_sheet}
+
+\newpage
+
+% 目录
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+% 主报告内容
+\section{Introduction}
+\input{sections/introduction}
+
+\section{Data Preprocessing and Analysis}
+\input{sections/stage1_preprocessing}
+
+\section{Fan Vote Estimation Model}
+\input{sections/stage2_fan_vote_estimation}
+
+\section{Voting Method Comparison}
+\input{sections/stage3_voting_comparison}
+
+\section{Factor Impact Analysis}
+\input{sections/stage4_factor_impact}
+
+\section{New Voting System Proposal}
+\input{sections/stage5_new_system}
+
+\section{Conclusions and Recommendations}
+\input{sections/conclusions}
+
+% 备忘录
+\newpage
+\section*{Memo to Producers}
+\addcontentsline{toc}{section}{Memo to Producers}
+\input{sections/memo_to_producers}
+
+% 参考文献
+\newpage
+\section*{References}
+\addcontentsline{toc}{section}{References}
+\input{sections/references}
+
+% AI使用报告
+\newpage
+\section*{AI Use Report}
+\addcontentsline{toc}{section}{AI Use Report}
+\input{sections/ai_use_report}
+
+\end{document}

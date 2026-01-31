@@ -50,7 +50,7 @@ def load_data(path: str | None = None) -> pd.DataFrame:
         if os.path.exists(p):
             try:
                 df = pd.read_csv(p, encoding='utf-8')
-                print(f"✓ 成功从以下路径加载数据: {p}")
+                print(f"[OK] 成功从以下路径加载数据: {p}")
                 return df
             except UnicodeDecodeError:
                 # 如果UTF-8失败，尝试其他编码
@@ -59,7 +59,7 @@ def load_data(path: str | None = None) -> pd.DataFrame:
                     print(f"✓ 成功从以下路径加载数据 (使用latin-1编码): {p}")
                     return df
                 except Exception as e:
-                    print(f"⚠️  尝试加载 {p} 时出错: {e}")
+                    print(f"[WARNING] 尝试加载 {p} 时出错: {e}")
                     continue
             except Exception as e:
                 print(f"⚠️  尝试加载 {p} 时出错: {e}")

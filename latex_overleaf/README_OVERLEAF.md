@@ -27,28 +27,6 @@ latex_overleaf/
 
 ## 导入Overleaf步骤
 
-### 方法1: 上传ZIP文件（推荐）
-
-1. **登录Overleaf**
-   - 访问 https://www.overleaf.com
-   - 登录你的账户
-
-2. **上传ZIP文件**
-   - 点击 "New Project" → "Upload Project"
-   - 选择 `latex_overleaf.zip` 文件（在项目根目录）
-   - Overleaf会自动解压并创建项目
-
-3. **设置主文件**
-   - 在Overleaf中，确保 `main.tex` 被设置为 "Main document"
-   - 点击左侧菜单中的 "Menu" → "Main document" → 选择 `main.tex`
-
-4. **编译**
-   - 点击 "Recompile" 按钮
-   - 等待编译完成
-   - 检查是否有错误
-
-### 方法2: 上传文件夹
-
 1. **登录Overleaf**
    - 访问 https://www.overleaf.com
    - 登录你的账户
@@ -58,9 +36,9 @@ latex_overleaf/
    - 或者创建空白项目后上传文件
 
 3. **上传文件**
-   - 上传整个 `latex_overleaf` 文件夹
+   - 方法1: 上传整个 `latex_overleaf` 文件夹（推荐）
      - 在Overleaf中点击 "Upload" → 选择整个 `latex_overleaf` 文件夹
-   - 或者逐个上传文件
+   - 方法2: 逐个上传文件
      - 先上传 `main.tex`
      - 然后上传 `sections/` 文件夹中的所有 `.tex` 文件
      - 最后上传 `visualizations/` 文件夹中的所有 `.png` 文件
